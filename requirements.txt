@@ -1,0 +1,27 @@
+# Baseline (HF) model
+transformers>=4.44
+accelerate>=0.33
+torch>=2.2
+
+# Embeddings + vector store (shared by KB ingest and both notebooks)
+sentence-transformers>=3.0
+chromadb>=0.5
+
+# Knowledge-base ingestion
+requests>=2.32
+pypdf>=4.0
+beautifulsoup4>=4.12
+
+# RAG generation + LLM-as-judge
+anthropic>=0.34
+
+# Dataset loading (for reddit_questions sampler)
+datasets>=2.20
+
+# Analysis / notebook output
+pandas>=2.2
+numpy>=1.26
+jupyter>=1.0
+
+# Loads ANTHROPIC_API_KEY (etc.) from the repo-root .env at notebook startup
+python-dotenv>=1.0
