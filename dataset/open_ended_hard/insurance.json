@@ -1,0 +1,114 @@
+[
+  {
+    "id": "ins-001",
+    "question": "When choosing between a low-deductible/high-premium health plan and a high-deductible/low-premium plan, what variables should a person consider besides just the monthly premium?",
+    "type": "open_ended",
+    "correct_answer": "They should consider the deductible, out-of-pocket maximum, expected medical usage, prescription costs, provider network, eligibility for an HSA, employer contributions, and their ability to absorb unexpected medical bills. A lower premium plan is not necessarily cheaper overall if healthcare usage is moderate to high. The choice depends on expected annual healthcare spending and risk tolerance for large upfront costs.",
+    "explanation": "Tests whether the model recognizes that total expected cost and risk exposure matter more than premium alone.",
+    "difficulty": "hard",
+    "source": "General insurance literacy",
+    "source_url": "",
+    "tags": [
+      "insurance",
+      "health_insurance",
+      "deductible",
+      "premium"
+    ]
+  },
+  {
+    "id": "ins-002",
+    "question": "Why can choosing the cheapest possible insurance policy sometimes be financially dangerous even if it lowers monthly costs?",
+    "type": "open_ended",
+    "correct_answer": "The cheapest policy may have high deductibles, low coverage limits, major exclusions, narrow provider networks, or large out-of-pocket exposure. That can leave the policyholder underinsured when a serious event occurs. Insurance should be evaluated not only by cost but also by the quality and adequacy of protection relative to plausible risks.",
+    "explanation": "Good for testing whether the model understands insurance as risk transfer rather than just a monthly bill to minimize.",
+    "difficulty": "hard",
+    "source": "General insurance literacy",
+    "source_url": "",
+    "tags": [
+      "insurance",
+      "underinsurance",
+      "risk_management",
+      "coverage_limits"
+    ]
+  },
+  {
+    "id": "ins-003",
+    "question": "What is the practical difference between a deductible and an out-of-pocket maximum in health insurance?",
+    "type": "open_ended",
+    "correct_answer": "The deductible is the amount a person usually must pay for covered services before the insurance plan begins paying according to its terms, though some services may be exempt. The out-of-pocket maximum is the maximum amount the person pays during the plan year for covered in-network services before the plan covers 100% of additional covered costs. The deductible is one threshold within the cost-sharing structure, while the out-of-pocket maximum is the cap on total covered in-network spending.",
+    "explanation": "Tests whether the model can distinguish commonly confused insurance terms precisely.",
+    "difficulty": "hard",
+    "source": "General health insurance education",
+    "source_url": "",
+    "tags": [
+      "insurance",
+      "health_insurance",
+      "deductible",
+      "out_of_pocket_max"
+    ]
+  },
+  {
+    "id": "ins-004",
+    "question": "If a healthy person rarely goes to the doctor, does that automatically mean a high-deductible health plan is the best choice?",
+    "type": "open_ended",
+    "correct_answer": "Not automatically. A high-deductible plan may be attractive for someone with low expected healthcare usage, especially if premiums are much lower and the plan allows HSA contributions. But the person should still consider worst-case risk, prescription needs, provider networks, employer contributions, and whether they could comfortably handle the deductible if something unexpected happens.",
+    "explanation": "Tests whether the model avoids overgeneralizing from low expected usage alone.",
+    "difficulty": "hard",
+    "source": "General health insurance literacy",
+    "source_url": "",
+    "tags": [
+      "insurance",
+      "health_insurance",
+      "hdhp",
+      "risk_management"
+    ]
+  },
+  {
+    "id": "ins-005",
+    "question": "Why might a renter still need renters insurance even if the landlord has insurance on the building?",
+    "type": "open_ended",
+    "correct_answer": "A landlord's insurance generally covers the building structure, not the tenant's personal belongings or the tenant's liability exposure. Renters insurance can help cover losses from events like theft, fire, or certain other covered perils, and it may also provide liability protection if someone is injured in the rented space. Without renters insurance, the tenant may need to replace possessions out of pocket.",
+    "explanation": "Good test of whether the model understands the difference between property coverage on the structure and tenant-specific coverage.",
+    "difficulty": "hard",
+    "source": "General property insurance education",
+    "source_url": "",
+    "tags": [
+      "insurance",
+      "renters_insurance",
+      "landlord",
+      "property"
+    ]
+  },
+  {
+    "id": "ins-006",
+    "question": "Why can an insurance policy with a low premium but a low coverage limit be a poor match for high-severity risks?",
+    "type": "open_ended",
+    "correct_answer": "If the potential loss is very large, a low coverage limit may leave the policyholder responsible for substantial costs above the insurer's payout. In that case, the low premium buys only partial protection against a catastrophic risk. For high-severity exposures, adequacy of coverage may matter more than minimizing the premium.",
+    "explanation": "Tests whether the model can reason about severity, not just probability or monthly price.",
+    "difficulty": "hard",
+    "source": "General insurance principles",
+    "source_url": "",
+    "tags": [
+      "insurance",
+      "coverage_limits",
+      "catastrophic_risk",
+      "risk_transfer"
+    ]
+  },
+  {
+    "id": "ins-007",
+    "question": "A person says, 'I never file claims, so insurance is a waste of money.' What is incomplete about that reasoning?",
+    "type": "open_ended",
+    "correct_answer": "Insurance is primarily designed to protect against low-frequency but potentially devastating losses, not to guarantee that every policyholder gets back more than they pay in premiums. The fact that someone does not file claims may reflect that the insured event did not occur, not that the coverage lacked value. Insurance is best viewed as protection against financial ruin or major disruption rather than a product meant to produce a regular payout.",
+    "explanation": "Useful for testing whether the model understands the purpose of insurance and can correct a common framing error.",
+    "difficulty": "hard",
+    "source": "General insurance literacy",
+    "source_url": "",
+    "tags": [
+      "insurance",
+      "risk_management",
+      "claims",
+      "misconceptions"
+    ]
+  }
+]

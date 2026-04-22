@@ -1,0 +1,114 @@
+[
+  {
+    "id": "ret-001",
+    "question": "If an employer offers a 401(k) match, why is contributing enough to get the full match usually considered a very high-priority financial move, even if someone also has low-interest debt?",
+    "type": "open_ended",
+    "correct_answer": "Because the employer match is effectively an immediate, guaranteed return on the contribution that is often much larger than the interest savings from paying off low-interest debt early. For example, a 50% or 100% match creates an instant gain that is difficult to replicate elsewhere. In many cases, contributing enough to capture the full match should come before aggressively repaying low-interest debt, although high-interest debt may still take priority after that threshold.",
+    "explanation": "Tests prioritization across retirement savings and debt management.",
+    "difficulty": "hard",
+    "source": "General retirement planning",
+    "source_url": "",
+    "tags": [
+      "retirement",
+      "401k",
+      "employer_match",
+      "prioritization"
+    ]
+  },
+  {
+    "id": "ret-002",
+    "question": "Why can delaying retirement saving by 10 years have a larger impact than many people expect?",
+    "type": "open_ended",
+    "correct_answer": "Delaying retirement saving reduces the years available for compound growth, which can significantly lower the ending balance even if later contributions are larger. Early dollars have more time to grow and generate returns on prior returns. Because compounding is nonlinear over time, lost early years can be difficult to fully make up later.",
+    "explanation": "Tests whether the model understands time value and compounding rather than just contribution totals.",
+    "difficulty": "hard",
+    "source": "General retirement planning",
+    "source_url": "",
+    "tags": [
+      "retirement",
+      "compounding",
+      "time_horizon",
+      "saving"
+    ]
+  },
+  {
+    "id": "ret-003",
+    "question": "What is the main difference between choosing traditional retirement contributions and Roth retirement contributions?",
+    "type": "open_ended",
+    "correct_answer": "Traditional contributions generally provide a tax benefit upfront because contributions may reduce taxable income now, while withdrawals in retirement are typically taxed. Roth contributions are made with after-tax money, so there is no upfront deduction, but qualified withdrawals in retirement are generally tax-free. The tradeoff depends on expected future tax rates, current income, and planning preferences.",
+    "explanation": "Good test of whether the model can explain the tax timing difference clearly without mixing up contribution and withdrawal treatment.",
+    "difficulty": "hard",
+    "source": "General retirement planning",
+    "source_url": "",
+    "tags": [
+      "retirement",
+      "traditional",
+      "roth",
+      "tax_treatment"
+    ]
+  },
+  {
+    "id": "ret-004",
+    "question": "Why might someone choose not to invest their retirement account too conservatively when retirement is still decades away?",
+    "type": "open_ended",
+    "correct_answer": "If retirement is decades away, being too conservative may limit long-term growth and make it harder for savings to outpace inflation and meet future spending needs. While conservative investments may reduce short-term volatility, a very long time horizon often allows more capacity to tolerate market fluctuations. Asset allocation should reflect both risk tolerance and time horizon, not just fear of temporary losses.",
+    "explanation": "Tests whether the model can reason about growth needs and long horizons instead of defaulting to safety.",
+    "difficulty": "hard",
+    "source": "General retirement planning",
+    "source_url": "",
+    "tags": [
+      "retirement",
+      "asset_allocation",
+      "risk_tolerance",
+      "time_horizon"
+    ]
+  },
+  {
+    "id": "ret-005",
+    "question": "A worker says, 'I am young, so I can catch up on retirement savings later.' What is risky about that logic?",
+    "type": "open_ended",
+    "correct_answer": "That logic underestimates the value of early compounding and assumes future income and financial flexibility will make catching up easy. In reality, later years may include competing priorities such as housing, children, debt, or health costs. Starting earlier usually allows smaller contributions to work more effectively than trying to save aggressively only later.",
+    "explanation": "Tests whether the model can challenge a common procrastination bias around retirement planning.",
+    "difficulty": "hard",
+    "source": "General retirement planning",
+    "source_url": "",
+    "tags": [
+      "retirement",
+      "compounding",
+      "behavior",
+      "saving"
+    ]
+  },
+  {
+    "id": "ret-006",
+    "question": "Why is inflation an important factor when planning for retirement, even if a target dollar amount sounds large today?",
+    "type": "open_ended",
+    "correct_answer": "Inflation reduces the future purchasing power of money, so an amount that seems large today may buy much less decades from now. Retirement planning should consider not just nominal balances but what those balances will support in real spending terms. Ignoring inflation can cause a person to underestimate how much they need to save.",
+    "explanation": "Good discriminator for whether the model understands real versus nominal planning.",
+    "difficulty": "hard",
+    "source": "General retirement planning",
+    "source_url": "",
+    "tags": [
+      "retirement",
+      "inflation",
+      "purchasing_power",
+      "planning"
+    ]
+  },
+  {
+    "id": "ret-007",
+    "question": "Why can taking an early withdrawal from a retirement account have effects beyond just reducing the account balance today?",
+    "type": "open_ended",
+    "correct_answer": "An early withdrawal can reduce future compounding by removing money that would otherwise have stayed invested for many years. Depending on the account type and circumstances, it may also trigger taxes and penalties. The long-term cost can therefore be much larger than the amount withdrawn because of lost growth and possible tax consequences.",
+    "explanation": "Tests whether the model understands both immediate and long-run consequences of tapping retirement funds early.",
+    "difficulty": "hard",
+    "source": "General retirement planning",
+    "source_url": "",
+    "tags": [
+      "retirement",
+      "early_withdrawal",
+      "penalties",
+      "compounding"
+    ]
+  }
+]
