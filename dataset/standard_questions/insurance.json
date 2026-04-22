@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ins-001",
+    "question": "What is the difference between an HMO and a PPO health insurance plan?",
+    "type": "open_ended",
+    "correct_answer": "An HMO (Health Maintenance Organization) requires you to choose a primary care physician, get referrals for specialists, and generally limits coverage to in-network providers only. A PPO (Preferred Provider Organization) allows you to see any provider without referrals, including out-of-network providers, but typically has higher premiums and some out-of-network cost-sharing.",
+    "explanation": "Common baseline question. Most LLMs get this right. Some miss the referral requirement distinction or incorrectly state PPOs don't cover out-of-network care.",
+    "difficulty": "basic",
+    "source": "Healthcare.gov",
+    "source_url": "https://www.healthcare.gov/choose-a-plan/plan-types/",
+    "tags": ["health_insurance", "hmo", "ppo"]
+  },
+  {
+    "id": "ins-002",
+    "question": "What is the maximum out-of-pocket limit for an individual marketplace health plan in 2025?",
+    "type": "multiple_choice",
+    "options": [
+      "A. $8,700",
+      "B. $9,100",
+      "C. $9,200",
+      "D. $9,450"
+    ],
+    "correct_answer": "C",
+    "explanation": "For 2025, the individual out-of-pocket maximum for marketplace plans is $9,200. This figure changes annually. LLMs often cite older limits.",
+    "difficulty": "advanced",
+    "source": "CMS / Healthcare.gov",
+    "source_url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/",
+    "tags": ["health_insurance", "out_of_pocket", "2025"]
+  },
+  {
+    "id": "ins-003",
+    "question": "What does term life insurance cover that whole life insurance does not, and vice versa?",
+    "type": "open_ended",
+    "correct_answer": "Term life insurance provides coverage for a specific period (e.g., 10, 20, or 30 years) and pays a death benefit only if the insured dies during that term. It has no cash value component and is significantly cheaper. Whole life insurance provides permanent coverage for the insured's entire life, includes a cash value component that grows over time, and has much higher premiums. Term does not build cash value; whole life does not expire.",
+    "explanation": "LLMs generally handle this well but sometimes incorrectly state that term life insurance can build cash value, or that whole life always has higher returns than the cash value growth rate suggests.",
+    "difficulty": "basic",
+    "source": "Insurance Information Institute",
+    "source_url": "https://www.iii.org/article/what-are-the-different-types-of-life-insurance",
+    "tags": ["life_insurance", "term_vs_whole"]
+  },
+  {
+    "id": "ins-004",
+    "question": "Does auto insurance follow the car or the driver?",
+    "type": "multiple_choice",
+    "options": [
+      "A. It always follows the car, regardless of who is driving",
+      "B. It always follows the driver, regardless of which car they're driving",
+      "C. Generally it follows the car first (the car owner's policy is primary), but the driver's policy may act as secondary coverage",
+      "D. It depends entirely on the state and there is no general rule"
+    ],
+    "correct_answer": "C",
+    "explanation": "In most states, auto insurance is primarily tied to the vehicle. If someone borrows your car and gets into an accident, your policy (as the car owner) is typically primary. The driver's own policy may provide secondary or excess coverage. LLMs often oversimplify this to 'follows the car' without mentioning secondary coverage.",
+    "difficulty": "intermediate",
+    "source": "Insurance Information Institute",
+    "source_url": "https://www.iii.org/article/does-my-auto-insurance-follow-me-or-my-car",
+    "tags": ["auto_insurance", "coverage", "primary_secondary"]
+  },
+  {
+    "id": "ins-005",
+    "question": "What is the elimination period in a disability insurance policy?",
+    "type": "multiple_choice",
+    "options": [
+      "A. The period after which the insurance company can cancel your policy",
+      "B. The waiting period between when you become disabled and when benefits begin",
+      "C. The maximum duration for which benefits will be paid",
+      "D. The time it takes for the insurer to process your claim"
+    ],
+    "correct_answer": "B",
+    "explanation": "The elimination period is essentially a waiting period (typically 30, 60, 90, or 180 days) after the onset of disability before benefits start. Longer elimination periods result in lower premiums. LLMs sometimes confuse this with the benefit period or policy cancellation terms.",
+    "difficulty": "intermediate",
+    "source": "Insurance Information Institute",
+    "source_url": "https://www.iii.org/article/what-is-disability-insurance",
+    "tags": ["disability_insurance", "elimination_period"]
+  },
+  {
+    "id": "ins-006",
+    "question": "Is flood damage covered by a standard homeowner's insurance policy?",
+    "type": "multiple_choice",
+    "options": [
+      "A. Yes, all natural disasters are covered under standard homeowner's policies",
+      "B. No, flood damage requires a separate flood insurance policy, typically through the NFIP",
+      "C. Only if the home is in a FEMA-designated flood zone",
+      "D. Yes, but only up to $50,000"
+    ],
+    "correct_answer": "B",
+    "explanation": "Standard homeowner's insurance does NOT cover flood damage. Homeowners need a separate flood insurance policy, most commonly obtained through the National Flood Insurance Program (NFIP) or private insurers. This is a very common misconception that LLMs sometimes reinforce.",
+    "difficulty": "intermediate",
+    "source": "FEMA / NFIP",
+    "source_url": "https://www.floodsmart.gov/",
+    "tags": ["homeowners_insurance", "flood_insurance", "nfip"]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "bud-001",
+    "question": "What is the 50/30/20 budgeting rule?",
+    "type": "open_ended",
+    "correct_answer": "The 50/30/20 rule suggests allocating your after-tax income as follows: 50% to needs (housing, groceries, utilities, insurance, minimum debt payments), 30% to wants (dining out, entertainment, hobbies, subscriptions), and 20% to savings and extra debt repayment (emergency fund, retirement contributions, paying down debt beyond minimums).",
+    "explanation": "Straightforward baseline question. LLMs almost always get this right. Popularized by Sen. Elizabeth Warren in 'All Your Worth.'",
+    "difficulty": "basic",
+    "source": "General financial literacy",
+    "source_url": "https://www.consumerfinance.gov/consumer-tools/",
+    "tags": ["budgeting", "50_30_20"]
+  },
+  {
+    "id": "bud-002",
+    "question": "How many months of expenses should an emergency fund cover?",
+    "type": "multiple_choice",
+    "options": [
+      "A. 1-2 months",
+      "B. 3-6 months",
+      "C. 8-12 months",
+      "D. It depends entirely on your risk tolerance; there is no general guideline"
+    ],
+    "correct_answer": "B",
+    "explanation": "The standard recommendation from most financial advisors is 3-6 months of essential expenses. Some recommend more (6-12 months) for self-employed individuals or those with variable income. LLMs usually get this right but sometimes give overly broad ranges.",
+    "difficulty": "basic",
+    "source": "CFPB",
+    "source_url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/",
+    "tags": ["emergency_fund", "savings"]
+  },
+  {
+    "id": "bud-003",
+    "question": "What is the difference between a need and a want in the context of budgeting?",
+    "type": "open_ended",
+    "correct_answer": "A need is an essential expense required for basic living and obligations: housing, utilities, groceries, transportation to work, insurance, and minimum debt payments. A want is a non-essential expense that improves quality of life but isn't required for survival or fulfilling obligations: dining out, streaming services, vacations, upgrades beyond basic needs. The distinction can be subjective at the margins (e.g., is a gym membership a need or want?).",
+    "explanation": "Simple definitional question. Good control. LLMs handle this well.",
+    "difficulty": "basic",
+    "source": "General financial literacy",
+    "source_url": "https://www.consumerfinance.gov/consumer-tools/",
+    "tags": ["budgeting", "needs_vs_wants"]
+  },
+  {
+    "id": "bud-004",
+    "question": "Should you prioritize paying off high-interest debt or building an emergency fund first?",
+    "type": "open_ended",
+    "correct_answer": "Most financial advisors recommend a balanced approach: first build a small starter emergency fund ($1,000-$2,000) to avoid going further into debt for unexpected expenses, then aggressively pay down high-interest debt (especially credit cards above 15-20% APR), then build the full 3-6 month emergency fund. The mathematical answer favors debt payoff (guaranteed 'return' equal to the interest rate), but having zero emergency savings creates risk of more debt.",
+    "explanation": "This is a nuanced question where LLMs sometimes give overly simplistic advice (e.g., 'always pay debt first' or 'always save first'). The balanced approach is the most widely recommended by financial planners.",
+    "difficulty": "intermediate",
+    "source": "CFPB / Dave Ramsey Baby Steps / general financial planning",
+    "source_url": "https://www.consumerfinance.gov/",
+    "tags": ["debt_payoff", "emergency_fund", "prioritization"]
+  },
+  {
+    "id": "bud-005",
+    "question": "What is the debt avalanche method vs. the debt snowball method?",
+    "type": "open_ended",
+    "correct_answer": "The debt avalanche method prioritizes paying off debts with the highest interest rate first (while making minimum payments on others), minimizing total interest paid. The debt snowball method prioritizes paying off the smallest balance first to build psychological momentum through quick wins. Mathematically, the avalanche method saves more money, but research suggests the snowball method can be more effective behaviorally because the early wins increase motivation to continue.",
+    "explanation": "LLMs usually explain both correctly. A good question to test whether the model provides nuanced advice acknowledging the behavioral vs. mathematical tradeoff, rather than just recommending one.",
+    "difficulty": "intermediate",
+    "source": "CFPB",
+    "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-why-is-the-43-702/",
+    "tags": ["debt_payoff", "avalanche", "snowball"]
+  },
+  {
+    "id": "bud-006",
+    "question": "What percentage of your gross income is generally recommended as a maximum for housing costs (rent or mortgage)?",
+    "type": "multiple_choice",
+    "options": [
+      "A. 20% of gross income",
+      "B. 28-30% of gross income",
+      "C. 36% of gross income",
+      "D. 40% of gross income"
+    ],
+    "correct_answer": "B",
+    "explanation": "The general guideline is that housing costs should not exceed 28-30% of gross monthly income. Lenders often use the 28/36 rule: housing costs ≤28% of gross income, total debt payments ≤36%. LLMs sometimes conflate the housing-specific ratio with the total debt ratio.",
+    "difficulty": "intermediate",
+    "source": "CFPB / HUD",
+    "source_url": "https://www.consumerfinance.gov/owning-a-home/",
+    "tags": ["housing", "affordability", "28_36_rule"]
+  }
+]

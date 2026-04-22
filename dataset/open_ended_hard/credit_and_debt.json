@@ -1,0 +1,113 @@
+[
+  {
+    "id": "cd-001",
+    "question": "Why can carrying a balance on a credit card to 'build credit' be bad advice?",
+    "type": "open_ended",
+    "correct_answer": "Carrying a balance is not necessary to build credit and usually causes the borrower to pay unnecessary interest. Credit scores benefit from on-time payments and low utilization, not from paying interest. A person can build credit by using a card lightly and paying the full statement balance on time each month. The misconception comes from confusing credit usage with interest-bearing revolving debt.",
+    "explanation": "Good myth-correction question. Strong models should explicitly reject the idea that paying interest helps build credit.",
+    "difficulty": "hard",
+    "source": "General credit education",
+    "source_url": "",
+    "tags": [
+      "credit_cards",
+      "credit_score",
+      "misconceptions"
+    ]
+  },
+  {
+    "id": "cd-002",
+    "question": "A borrower has two loan options: a 3-year loan with a higher monthly payment and less total interest, or a 6-year loan with a lower monthly payment and much more total interest. What factors should determine which option is better?",
+    "type": "open_ended",
+    "correct_answer": "The better option depends on cash flow stability, emergency savings, competing financial priorities, and total borrowing cost. The shorter loan is usually better mathematically because it reduces total interest paid, but the higher payment could create budget stress and increase default risk if income is tight. The longer loan improves monthly flexibility but costs more overall. The best choice balances affordability with minimizing long-term interest expense.",
+    "explanation": "Tests whether the model can evaluate affordability versus total cost rather than recommending the mathematically cheapest option without nuance.",
+    "difficulty": "hard",
+    "source": "General lending principles",
+    "source_url": "",
+    "tags": [
+      "debt",
+      "loan_term",
+      "cash_flow",
+      "tradeoffs"
+    ]
+  },
+  {
+    "id": "cd-003",
+    "question": "Why can making only the minimum payment on a high-APR credit card balance be especially costly over time?",
+    "type": "open_ended",
+    "correct_answer": "Making only the minimum payment causes much of each payment to go toward interest rather than principal, especially at high APRs. This stretches repayment over many years and can result in paying far more in total interest than the original amount borrowed. Minimum payments preserve account standing but are a very slow and expensive way to eliminate debt.",
+    "explanation": "Tests whether the model understands amortization-like effects in revolving debt without needing formal math.",
+    "difficulty": "hard",
+    "source": "General credit education",
+    "source_url": "",
+    "tags": [
+      "credit_cards",
+      "minimum_payment",
+      "apr",
+      "interest_cost"
+    ]
+  },
+  {
+    "id": "cd-004",
+    "question": "A borrower consolidates several credit card balances into a personal loan with a lower interest rate. Why might this still fail to improve their financial situation?",
+    "type": "open_ended",
+    "correct_answer": "Debt consolidation can reduce interest costs and simplify payments, but it does not fix overspending or cash flow problems by itself. If the borrower continues using the credit cards after consolidation, they may end up with both the new loan and new card balances. Consolidation is most helpful when paired with behavior change, spending control, and a realistic repayment plan.",
+    "explanation": "Good test of whether the model understands that restructuring debt is not the same as solving the underlying problem.",
+    "difficulty": "hard",
+    "source": "General debt management",
+    "source_url": "",
+    "tags": [
+      "debt_consolidation",
+      "credit_cards",
+      "behavior",
+      "repayment"
+    ]
+  },
+  {
+    "id": "cd-005",
+    "question": "If someone closes an old credit card they no longer use, why could that sometimes lower their credit score rather than improve it?",
+    "type": "open_ended",
+    "correct_answer": "Closing an old credit card can reduce total available credit and may raise the person's credit utilization ratio if balances remain on other cards. It can also reduce the benefit of having longstanding credit accounts on the report over time. While closing a card can be reasonable in some situations, it does not automatically help a credit score and can sometimes hurt it.",
+    "explanation": "Tests whether the model can reason through utilization and credit history length rather than assuming fewer accounts is always better.",
+    "difficulty": "hard",
+    "source": "General credit education",
+    "source_url": "",
+    "tags": [
+      "credit_score",
+      "credit_utilization",
+      "credit_history",
+      "credit_cards"
+    ]
+  },
+  {
+    "id": "cd-006",
+    "question": "What is the difference between being 'prequalified' for a loan and being actually approved for that loan?",
+    "type": "open_ended",
+    "correct_answer": "Prequalification is usually a preliminary estimate based on limited or self-reported information and does not guarantee final approval. Actual approval occurs after the lender reviews credit, income, debts, documentation, and other underwriting criteria. A borrower who is prequalified may still be denied or offered different terms after full review.",
+    "explanation": "Good discriminator for whether the model understands consumer lending terminology precisely.",
+    "difficulty": "hard",
+    "source": "General lending principles",
+    "source_url": "",
+    "tags": [
+      "loans",
+      "prequalification",
+      "underwriting",
+      "approval"
+    ]
+  },
+  {
+    "id": "cd-007",
+    "question": "Why can a 0% APR promotional credit card offer still be risky for someone trying to get out of debt?",
+    "type": "open_ended",
+    "correct_answer": "A 0% APR offer can reduce interest temporarily, but it is risky if the borrower treats the lower rate as permission to carry debt longer or fails to pay the balance before the promotional period ends. Some offers also involve transfer fees, and unpaid balances may later accrue high interest. The strategy works best when paired with a realistic plan to eliminate the balance before the promotion expires.",
+    "explanation": "Tests whether the model can identify the hidden conditions and behavioral risks of promotional financing.",
+    "difficulty": "hard",
+    "source": "General credit education",
+    "source_url": "",
+    "tags": [
+      "credit_cards",
+      "balance_transfer",
+      "0_apr",
+      "debt_management"
+    ]
+  }
+]

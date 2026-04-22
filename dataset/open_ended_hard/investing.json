@@ -1,0 +1,115 @@
+[
+  {
+    "id": "inv-001",
+    "question": "Why is it misleading to compare the return of an index fund to the return of a savings account without discussing risk and time horizon?",
+    "type": "open_ended",
+    "correct_answer": "An index fund and a savings account serve different purposes. Savings accounts are designed for capital preservation and short-term liquidity, while index funds are designed for long-term growth and can lose value in the short run. Comparing returns alone ignores volatility, principal risk, and whether the money may be needed soon. The appropriate choice depends on the goal, time horizon, and risk tolerance.",
+    "explanation": "Tests whether the model avoids simplistic 'higher return is better' reasoning.",
+    "difficulty": "hard",
+    "source": "General investing principles",
+    "source_url": "",
+    "tags": [
+      "investing",
+      "risk",
+      "time_horizon",
+      "index_funds",
+      "savings"
+    ]
+  },
+  {
+    "id": "inv-002",
+    "question": "An investor says, 'This stock is down 40%, so it is definitely a bargain now.' What is wrong with that reasoning?",
+    "type": "open_ended",
+    "correct_answer": "A lower price alone does not make a stock undervalued. The drop may reflect real deterioration in the company's earnings, business outlook, balance sheet, or industry conditions. A stock can fall 40% and still be overvalued, or it can continue falling further. Proper evaluation requires fundamentals, valuation, and risk analysis rather than assuming a price decline guarantees a bargain.",
+    "explanation": "Good test of whether the model avoids naive anchoring to prior prices.",
+    "difficulty": "hard",
+    "source": "General investing principles",
+    "source_url": "",
+    "tags": [
+      "investing",
+      "stocks",
+      "valuation",
+      "behavioral_bias"
+    ]
+  },
+  {
+    "id": "inv-003",
+    "question": "Why can trying to 'wait for the perfect time to invest' be counterproductive for a long-term investor?",
+    "type": "open_ended",
+    "correct_answer": "Trying to identify the perfect market entry point is difficult and often leads investors to stay uninvested for too long, missing time in the market and potential compounding. For a long-term investor, consistently investing over time can reduce the pressure of market timing and help build discipline. Waiting for certainty can become a costly form of inaction.",
+    "explanation": "Tests whether the model understands opportunity cost and long-term compounding behavior.",
+    "difficulty": "hard",
+    "source": "General investing education",
+    "source_url": "",
+    "tags": [
+      "investing",
+      "market_timing",
+      "dollar_cost_averaging",
+      "behavior"
+    ]
+  },
+  {
+    "id": "inv-004",
+    "question": "Why can diversification reduce risk without guaranteeing that an investor will avoid losses?",
+    "type": "open_ended",
+    "correct_answer": "Diversification reduces exposure to any one company, asset, or sector, which can lower unsystematic risk. But diversified portfolios are still exposed to broad market risk, economic downturns, interest rate changes, and other systemic factors. Diversification helps manage risk; it does not eliminate it.",
+    "explanation": "Good for testing whether the model can articulate the limits of diversification clearly.",
+    "difficulty": "hard",
+    "source": "General investing principles",
+    "source_url": "",
+    "tags": [
+      "investing",
+      "diversification",
+      "risk",
+      "portfolio"
+    ]
+  },
+  {
+    "id": "inv-005",
+    "question": "A person plans to use money for a house down payment in 18 months. Why might a broad stock index fund be a poor place to keep all of it?",
+    "type": "open_ended",
+    "correct_answer": "An 18-month horizon is relatively short for equities because stock markets can be volatile over that period. If the market declines just before the down payment is needed, the person may have to delay the purchase or sell at a loss. Money needed in the short term is usually better held in lower-volatility, more liquid vehicles appropriate for capital preservation.",
+    "explanation": "Tests whether the model matches investment choices to time horizon and purpose instead of recommending index funds reflexively.",
+    "difficulty": "hard",
+    "source": "General investing principles",
+    "source_url": "",
+    "tags": [
+      "investing",
+      "time_horizon",
+      "down_payment",
+      "capital_preservation"
+    ]
+  },
+  {
+    "id": "inv-006",
+    "question": "Why can chasing the best-performing fund from the past year be a weak investment strategy?",
+    "type": "open_ended",
+    "correct_answer": "Past short-term outperformance does not guarantee future outperformance, and recent winners may have benefited from conditions that do not persist. Chasing performance can cause investors to buy after prices have already run up and sell after underperformance, which harms long-term returns. A sound strategy should focus on goals, diversification, costs, and appropriate asset allocation rather than recent rankings alone.",
+    "explanation": "Tests whether the model can resist recency bias and explain why backward-looking selection can be misleading.",
+    "difficulty": "hard",
+    "source": "General investing education",
+    "source_url": "",
+    "tags": [
+      "investing",
+      "performance_chasing",
+      "recency_bias",
+      "funds"
+    ]
+  },
+  {
+    "id": "inv-007",
+    "question": "What is the main tradeoff between holding individual stocks and holding a low-cost broad-market index fund?",
+    "type": "open_ended",
+    "correct_answer": "Holding individual stocks offers the possibility of outperforming the market but comes with greater company-specific risk, more research demands, and a higher chance of underperforming. A low-cost broad-market index fund provides diversification, simplicity, and market-level returns with lower fees and less unsystematic risk. The tradeoff is concentrated upside potential versus diversified, lower-maintenance exposure.",
+    "explanation": "Good test of whether the model can compare concentration risk and simplicity without oversimplifying either option.",
+    "difficulty": "hard",
+    "source": "General investing principles",
+    "source_url": "",
+    "tags": [
+      "investing",
+      "stocks",
+      "index_funds",
+      "diversification"
+    ]
+  }
+]

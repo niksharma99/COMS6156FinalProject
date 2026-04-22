@@ -1,0 +1,114 @@
+[
+  {
+    "id": "tax-001",
+    "question": "Why is the statement 'If I move into a higher tax bracket, all my income gets taxed at that higher rate' incorrect?",
+    "type": "open_ended",
+    "correct_answer": "Because the U.S. federal income tax system is marginal, not flat by bracket. Only the portion of income that falls within the higher bracket is taxed at that higher rate; lower portions are still taxed at the lower rates that apply to those brackets. Moving into a higher bracket does not retroactively increase the tax rate on all income.",
+    "explanation": "Classic misconception test. Strong discriminator for whether the model understands marginal taxation clearly.",
+    "difficulty": "hard",
+    "source": "General tax literacy",
+    "source_url": "",
+    "tags": [
+      "tax",
+      "marginal_tax_rate",
+      "tax_brackets",
+      "misconceptions"
+    ]
+  },
+  {
+    "id": "tax-002",
+    "question": "What is the difference between a tax deduction and a tax credit, and why is that distinction important?",
+    "type": "open_ended",
+    "correct_answer": "A tax deduction reduces taxable income, while a tax credit directly reduces the amount of tax owed. Because a credit lowers tax liability dollar for dollar, it is often more valuable than a deduction of the same nominal amount. The distinction matters because two tax benefits with the same face value can produce very different actual savings.",
+    "explanation": "Tests whether the model can distinguish two commonly confused tax concepts and explain the practical consequence.",
+    "difficulty": "hard",
+    "source": "General tax literacy",
+    "source_url": "",
+    "tags": [
+      "tax",
+      "deduction",
+      "credit",
+      "tax_liability"
+    ]
+  },
+  {
+    "id": "tax-003",
+    "question": "Why does receiving a tax refund not necessarily mean someone 'came out ahead' financially?",
+    "type": "open_ended",
+    "correct_answer": "A tax refund often means too much tax was withheld during the year, so the person is receiving their own money back rather than earning extra money. While a refund can feel positive, it may indicate the person provided the government with an interest-free loan. The true question is overall tax liability and cash flow management, not refund size alone.",
+    "explanation": "Good for testing whether the model can correct a very common misunderstanding about refunds.",
+    "difficulty": "hard",
+    "source": "General tax literacy",
+    "source_url": "",
+    "tags": [
+      "tax",
+      "refund",
+      "withholding",
+      "misconceptions"
+    ]
+  },
+  {
+    "id": "tax-004",
+    "question": "Why can a larger paycheck after reducing tax withholding be misleading if someone does not adjust their expectations for tax season?",
+    "type": "open_ended",
+    "correct_answer": "Reducing withholding increases take-home pay during the year, but it does not reduce the actual tax owed unless underlying tax liability changes. If the person spends the extra cash without planning, they may end up with a smaller refund or even a tax bill when they file. Higher current paychecks and final tax liability are related but not the same thing.",
+    "explanation": "Tests whether the model understands the difference between withholding mechanics and actual tax burden.",
+    "difficulty": "hard",
+    "source": "General tax literacy",
+    "source_url": "",
+    "tags": [
+      "tax",
+      "withholding",
+      "refund",
+      "cash_flow"
+    ]
+  },
+  {
+    "id": "tax-005",
+    "question": "A worker earns additional side income and assumes it will be taxed exactly the same way as wages withheld through payroll. What nuance are they missing?",
+    "type": "open_ended",
+    "correct_answer": "Side income may still be part of overall taxable income, but it often does not have taxes automatically withheld the same way wages do. Depending on the type of income, the person may need to plan for taxes separately and may also face additional considerations such as self-employment tax. The key nuance is that how income is earned affects how taxes are paid and reported, even if it contributes to total taxable income.",
+    "explanation": "Good discriminator for whether the model can reason about tax mechanics beyond the simple idea that 'income is income.'",
+    "difficulty": "hard",
+    "source": "General tax literacy",
+    "source_url": "",
+    "tags": [
+      "tax",
+      "side_income",
+      "withholding",
+      "self_employment"
+    ]
+  },
+  {
+    "id": "tax-006",
+    "question": "Why can selling an investment for a gain trigger a tax consequence even if the money is immediately reinvested into another investment?",
+    "type": "open_ended",
+    "correct_answer": "Selling an investment for a gain can create a taxable event because the gain is realized at the time of sale. Reinvesting the proceeds into another investment does not erase the fact that the original asset was sold at a profit. The tax consequence depends on account type, holding period, and applicable rules, but immediate reinvestment alone does not generally avoid realizing the gain.",
+    "explanation": "Tests whether the model understands the concept of realization rather than confusing reinvestment with non-taxability.",
+    "difficulty": "hard",
+    "source": "General tax and investing literacy",
+    "source_url": "",
+    "tags": [
+      "tax",
+      "capital_gains",
+      "investing",
+      "realization"
+    ]
+  },
+  {
+    "id": "tax-007",
+    "question": "Why is the phrase 'tax write-off' often used too loosely in everyday conversation?",
+    "type": "open_ended",
+    "correct_answer": "People often use 'tax write-off' to mean any expense that lowers taxes, but not every expense is deductible, and even deductible expenses do not usually make something free. A deduction lowers taxable income rather than reimbursing the full cost. Using the phrase too loosely can create the mistaken impression that spending money automatically produces equivalent tax savings.",
+    "explanation": "Useful for testing whether the model can correct imprecise but common tax language.",
+    "difficulty": "hard",
+    "source": "General tax literacy",
+    "source_url": "",
+    "tags": [
+      "tax",
+      "deduction",
+      "write_off",
+      "misconceptions"
+    ]
+  }
+]

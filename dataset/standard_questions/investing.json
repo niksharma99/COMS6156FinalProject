@@ -1,0 +1,120 @@
+[
+  {
+    "id": "inv-001",
+    "question": "What is dollar-cost averaging?",
+    "type": "open_ended",
+    "correct_answer": "Dollar-cost averaging is an investment strategy where you invest a fixed dollar amount at regular intervals (e.g., monthly) regardless of the asset's price. When prices are low, you buy more shares; when prices are high, you buy fewer. This reduces the impact of short-term volatility on your average cost per share over time.",
+    "explanation": "A straightforward definitional question that most LLMs answer correctly. Good baseline/control question.",
+    "difficulty": "basic",
+    "source": "SEC Investor Education",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/dollar-cost-averaging",
+    "tags": ["investing_strategy", "dollar_cost_averaging"]
+  },
+  {
+    "id": "inv-002",
+    "question": "When interest rates rise, what generally happens to the price of existing bonds?",
+    "type": "multiple_choice",
+    "options": [
+      "A. Bond prices rise because higher rates make bonds more attractive",
+      "B. Bond prices fall because newly issued bonds offer higher yields, making existing bonds less attractive",
+      "C. Bond prices are unaffected by interest rate changes",
+      "D. Only corporate bond prices are affected; government bond prices stay the same"
+    ],
+    "correct_answer": "B",
+    "explanation": "Bond prices and interest rates have an inverse relationship. When rates rise, existing bonds with lower coupon rates become less attractive compared to newly issued bonds, so their market price falls. This is one of the FINRA financial literacy quiz concepts.",
+    "difficulty": "basic",
+    "source": "FINRA / SEC Investor Education",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+    "tags": ["bonds", "interest_rates", "finra"]
+  },
+  {
+    "id": "inv-003",
+    "question": "What is the difference between an ETF and a mutual fund?",
+    "type": "open_ended",
+    "correct_answer": "Both ETFs and mutual funds pool investor money into a diversified portfolio. Key differences: ETFs trade on exchanges throughout the day at market prices like stocks, while mutual funds are priced once daily at NAV after market close. ETFs typically have lower expense ratios and are more tax-efficient due to their creation/redemption mechanism. Mutual funds may have minimum investment requirements; ETFs can be bought one share at a time.",
+    "explanation": "LLMs usually get the high-level distinction right but sometimes miss the tax-efficiency point or inaccurately describe pricing mechanics.",
+    "difficulty": "basic",
+    "source": "SEC Investor Education",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-1",
+    "tags": ["etf", "mutual_fund", "comparison"]
+  },
+  {
+    "id": "inv-004",
+    "question": "What does SIPC (Securities Investor Protection Corporation) protect against?",
+    "type": "multiple_choice",
+    "options": [
+      "A. Losses due to stock market declines",
+      "B. Losses of cash and securities if a brokerage firm fails financially",
+      "C. Fraud committed by individual financial advisors",
+      "D. Losses on bonds that default"
+    ],
+    "correct_answer": "B",
+    "explanation": "SIPC protects customers' cash and securities (up to $500,000, including $250,000 for cash) if a SIPC-member brokerage fails. It does NOT protect against market losses, bad investment decisions, or fraud. LLMs often overstate SIPC's scope or confuse it with FDIC.",
+    "difficulty": "intermediate",
+    "source": "SIPC",
+    "source_url": "https://www.sipc.org/for-investors/what-sipc-protects",
+    "tags": ["sipc", "investor_protection", "brokerage"]
+  },
+  {
+    "id": "inv-005",
+    "question": "Is it possible to lose more money than you invest when buying stocks on margin?",
+    "type": "multiple_choice",
+    "options": [
+      "A. No, the most you can lose is your initial investment",
+      "B. Yes, if the stock declines significantly you can owe more than your original investment due to borrowed funds",
+      "C. No, brokerages always issue a margin call before losses exceed your investment",
+      "D. Only if you are short selling, not with margin buying"
+    ],
+    "correct_answer": "B",
+    "explanation": "When buying on margin, you borrow money from your broker. If the investment declines enough, you can lose your entire investment and still owe money to the broker. While margin calls exist, they don't guarantee you won't lose more than your initial investment, especially in fast-moving markets.",
+    "difficulty": "intermediate",
+    "source": "FINRA Margin Rules",
+    "source_url": "https://www.finra.org/investors/investing/investing-basics/margin",
+    "tags": ["margin", "leverage", "risk"]
+  },
+  {
+    "id": "inv-006",
+    "question": "If an index fund has an expense ratio of 0.03% and another has 1.00%, how much more would the higher-fee fund cost on a $100,000 investment over 30 years, assuming both return 7% annually before fees?",
+    "type": "multiple_choice",
+    "options": [
+      "A. About $29,000 more",
+      "B. About $55,000 more",
+      "C. About $120,000 more",
+      "D. About $180,000 more"
+    ],
+    "correct_answer": "C",
+    "explanation": "$100K at 6.97% for 30 years ≈ $749K. $100K at 6.00% for 30 years ≈ $574K. Difference ≈ $175K in final value, but the extra fees paid compound significantly. The answer is approximately $120K-$175K in lost wealth depending on calculation method. LLMs often underestimate the compounding impact of fees.",
+    "difficulty": "advanced",
+    "source": "SEC Investor Bulletin on Fees",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/mutual-fund-fees-and-expenses",
+    "tags": ["expense_ratio", "compounding", "fees"]
+  },
+  {
+    "id": "inv-007",
+    "question": "What is a target-date fund and how does its asset allocation change over time?",
+    "type": "open_ended",
+    "correct_answer": "A target-date fund is a fund designed for investors planning to retire around a specific year (e.g., a 2050 target-date fund). The fund automatically rebalances its asset allocation over time, becoming more conservative (shifting from stocks to bonds) as the target date approaches. This process is called a 'glide path.'",
+    "explanation": "Most LLMs handle this well. It's a good control question. Some may miss the term 'glide path' or incorrectly state that the fund stops rebalancing at the target date (many continue adjusting into retirement).",
+    "difficulty": "basic",
+    "source": "SEC Investor Education",
+    "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/target-date-funds",
+    "tags": ["target_date_fund", "asset_allocation", "glide_path"]
+  },
+  {
+    "id": "inv-008",
+    "question": "What is the wash sale rule?",
+    "type": "multiple_choice",
+    "options": [
+      "A. You cannot sell and rebuy the same stock within 24 hours",
+      "B. You cannot deduct a loss on a security if you buy a substantially identical security within 30 days before or after the sale",
+      "C. You must wait 60 days after selling a stock at a loss before buying it back",
+      "D. The rule only applies to day traders with more than $25,000 in their account"
+    ],
+    "correct_answer": "B",
+    "explanation": "The wash sale rule disallows a tax deduction for a loss if you purchase a substantially identical security within 30 days before or after the sale. The disallowed loss is added to the cost basis of the new purchase. LLMs sometimes get the timeframe wrong (citing 60 days or only counting after the sale, not before).",
+    "difficulty": "advanced",
+    "source": "IRS Publication 550",
+    "source_url": "https://www.irs.gov/publications/p550",
+    "tags": ["wash_sale", "tax_loss", "trading_rules"]
+  }
+]

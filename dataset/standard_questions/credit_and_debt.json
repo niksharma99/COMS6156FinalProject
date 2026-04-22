@@ -1,0 +1,98 @@
+[
+  {
+    "id": "crd-001",
+    "question": "Does checking your own credit score lower it?",
+    "type": "multiple_choice",
+    "options": [
+      "A. Yes, any credit check lowers your score",
+      "B. No, checking your own score is a soft inquiry and does not affect it",
+      "C. Only if you check it more than once per month",
+      "D. It depends on which bureau you check"
+    ],
+    "correct_answer": "B",
+    "explanation": "Checking your own credit score is a soft inquiry (soft pull) and has no effect on your credit score. Only hard inquiries — initiated by lenders when you apply for credit — can temporarily lower your score.",
+    "difficulty": "basic",
+    "source": "Consumer Financial Protection Bureau",
+    "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-inquiry-en-319/",
+    "tags": ["credit_score", "soft_inquiry", "hard_inquiry"]
+  },
+  {
+    "id": "crd-002",
+    "question": "How long does a Chapter 7 bankruptcy stay on your credit report?",
+    "type": "multiple_choice",
+    "options": [
+      "A. 5 years from the filing date",
+      "B. 7 years from the filing date",
+      "C. 10 years from the filing date",
+      "D. 7 years from the discharge date"
+    ],
+    "correct_answer": "C",
+    "explanation": "Chapter 7 bankruptcy remains on your credit report for 10 years from the filing date. Chapter 13 bankruptcy stays for 7 years from the filing date. LLMs frequently state '7 years' for all bankruptcies without distinguishing between chapters.",
+    "difficulty": "intermediate",
+    "source": "FTC / Experian",
+    "source_url": "https://www.experian.com/blogs/ask-experian/how-long-does-bankruptcy-stay-on-your-credit-report/",
+    "tags": ["bankruptcy", "credit_report", "chapter_7"]
+  },
+  {
+    "id": "crd-003",
+    "question": "Which factor has the largest impact on your FICO credit score?",
+    "type": "multiple_choice",
+    "options": [
+      "A. Credit utilization ratio (30%)",
+      "B. Payment history (35%)",
+      "C. Length of credit history (15%)",
+      "D. Credit mix (10%)"
+    ],
+    "correct_answer": "B",
+    "explanation": "Payment history accounts for 35% of a FICO score — the single largest factor. Credit utilization is second at 30%. LLMs sometimes swap these two or provide incorrect weightings.",
+    "difficulty": "basic",
+    "source": "myFICO",
+    "source_url": "https://www.myfico.com/credit-education/whats-in-your-credit-score",
+    "tags": ["fico", "credit_score", "factors"]
+  },
+  {
+    "id": "crd-004",
+    "question": "If you only make minimum payments on a $5,000 credit card balance at 22% APR, approximately how long will it take to pay off and how much total interest will you pay?",
+    "type": "multiple_choice",
+    "options": [
+      "A. About 5 years, ~$2,500 in interest",
+      "B. About 11 years, ~$4,500 in interest",
+      "C. About 20 years, ~$8,000 in interest",
+      "D. About 30 years, ~$12,000 in interest"
+    ],
+    "correct_answer": "C",
+    "explanation": "With minimum payments (typically 1-2% of balance or $25, whichever is greater) on a $5,000 balance at 22% APR, payoff can take approximately 20+ years with total interest approaching or exceeding the original balance. LLMs often dramatically underestimate the time and cost of minimum payments.",
+    "difficulty": "advanced",
+    "source": "CFPB Credit Card Payoff Calculator",
+    "source_url": "https://www.consumerfinance.gov/consumer-tools/credit-cards/",
+    "tags": ["credit_card", "minimum_payments", "interest"]
+  },
+  {
+    "id": "crd-005",
+    "question": "Can a debt collector sue you for a debt that is past the statute of limitations?",
+    "type": "multiple_choice",
+    "options": [
+      "A. No, once the statute of limitations expires the debt is legally forgiven",
+      "B. They can sue, but you can use the expired statute as a defense; the debt still exists and can appear on your credit report",
+      "C. No, and they are prohibited from even contacting you about it",
+      "D. Yes, and the statute of limitations has no legal relevance in court"
+    ],
+    "correct_answer": "B",
+    "explanation": "A debt past the statute of limitations ('time-barred debt') still exists — it's not forgiven. Collectors can technically still sue, but the expired statute is an affirmative defense. The debt can also still appear on your credit report for up to 7 years from the date of first delinquency. LLMs often incorrectly state the debt is erased or that collectors cannot sue at all.",
+    "difficulty": "advanced",
+    "source": "FTC / CFPB",
+    "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-statute-of-limitations-on-a-debt-en-1389/",
+    "tags": ["debt_collection", "statute_of_limitations", "time_barred_debt"]
+  },
+  {
+    "id": "crd-006",
+    "question": "What is the difference between a hard inquiry and a soft inquiry on your credit report?",
+    "type": "open_ended",
+    "correct_answer": "A hard inquiry occurs when a lender checks your credit as part of a lending decision (e.g., applying for a mortgage, credit card, or auto loan). Hard inquiries can temporarily lower your score by a few points and remain on your report for 2 years. A soft inquiry occurs when you check your own credit, when a lender pre-approves you, or for background checks. Soft inquiries do not affect your credit score at all.",
+    "explanation": "Good baseline question. Most LLMs get this right at a high level, though some miss the 2-year timeframe for hard inquiries.",
+    "difficulty": "basic",
+    "source": "Experian",
+    "source_url": "https://www.experian.com/blogs/ask-experian/credit-education/report-basics/hard-vs-soft-inquiries-on-your-credit-report/",
+    "tags": ["hard_inquiry", "soft_inquiry", "credit_report"]
+  }
+]
