@@ -1,0 +1,135 @@
+[
+  {
+    "id": "bud-007",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A person takes home $4,800 per month. Their fixed essentials are $2,900, minimum debt payments are $350, and they currently save $200 per month. Under the 50/30/20 framework, are they over budget on needs, under-saving, or both?",
+    "reference": "They are over budget on needs and under-saving. Needs plus minimum debt payments total $3,250, which is about 67.7% of take-home pay, above the 50% guideline. Savings are $200, or about 4.2%, well below the 20% target. This suggests the budget is strained on essentials and does not leave enough room for long-term savings goals.",
+    "candidate": "Under the 50/30/20 budgeting framework, a person should allocate 50% of their income to needs, 30% to wants, and 20% to savings and debt repayment. For this individual, their monthly income is $4,800. Needs would be allocated 50% of that amount, which is $2,400. Given that their fixed essentials are $2,900, they are spending more than the recommended 50% on needs, indicating an overage of $500.\n\nAdditionally, their current savings of $200 per month fall short of the 20% guideline. To meet the 20% savings target, they would need to save $960 per month ($4,800 x 20%). This means they are under-saving by $760 each month.\n\nIn summary, while the individual is over-budgeting on essential expenses, they are also significantly under-saving compared to the 50/30/20 guidelines. They face a tradeoff between reducing unnecessary spending to meet the 50% needs guideline or increasing their savings rate to meet the 20% guideline.",
+    "latency_sec": 10.94,
+    "embed_cosine": 0.8892660140991211,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Correctly identifies both issues with accurate dollar figures, though it omits the $350 minimum debt payments from the needs calculation (which the reference includes), slightly understating the needs overage.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "bud-008",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "If someone gets paid irregularly as a freelancer, is the standard advice of keeping 3-6 months in an emergency fund still sufficient?",
+    "reference": "Not always. For someone with variable or unpredictable income, 6-12 months of essential expenses is often more appropriate than 3-6 months. The right target depends on income stability, number of clients, household obligations, and access to other liquidity. The standard 3-6 month rule is a starting point, but irregular earners usually need a larger buffer.",
+    "candidate": "For freelancers with irregular pay schedules, maintaining a 3-6 months' worth of living expenses in an emergency fund can be challenging but not impossible. Given the variability, it's crucial to adjust your savings strategy. Consider setting up a separate savings account specifically for emergencies that you can contribute to regularly, even if it's just a small amount each payday. This way, you're building a cushion without disrupting your regular income flow. However, this approach requires discipline and possibly some creative budgeting to ensure you don't deplete other essential funds. Additionally, exploring additional income streams or side hustles can provide more stability and help build a larger emergency fund over time.",
+    "latency_sec": 5.77,
+    "embed_cosine": 0.8044648170471191,
+    "judge": {
+      "factuality": 2,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "The candidate never addresses whether 3-6 months is sufficient for freelancers (the core question), instead sidestepping the key recommendation that irregular earners typically need 6-12 months, making it factually incomplete and missing the main point of the reference answer.",
+      "mean": 2.3333333333333335
+    }
+  },
+  {
+    "id": "bud-009",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A person has $8,000 in credit card debt at 24% APR and only $500 in savings. They receive a $3,000 bonus. What is a reasonable allocation strategy between debt repayment and emergency savings, and why?",
+    "reference": "A reasonable strategy is to first bring savings up to a small starter emergency fund, such as roughly $1,500-$2,000 total, and then apply the rest toward the credit card debt. With only $500 in savings, using the entire bonus for debt would leave them vulnerable to new borrowing when an emergency arises. But because 24% APR debt is very expensive, most of the bonus should still go toward debt after establishing a minimal cash cushion.",
+    "candidate": "Given the situation, a reasonable allocation strategy would be to first use part of the bonus to pay down the credit card debt while also building an emergency fund. Specifically, you could allocate $1,000 from the bonus towards paying off the credit card debt, reducing the balance by approximately $267 per month (assuming equal monthly payments). This leaves $2,000 remaining, which should be directed into an emergency fund. The initial $500 in savings can be increased to $2,500 with this bonus, providing a modest cushion against unexpected expenses. However, it's important to note that this strategy prioritizes immediate debt reduction over having a larger emergency fund, which could be beneficial if there were a significant financial setback.",
+    "latency_sec": 6.59,
+    "embed_cosine": 0.9257735013961792,
+    "judge": {
+      "factuality": 2,
+      "completeness": 2,
+      "advice_quality": 2,
+      "rationale": "The candidate reverses the sensible ratio by putting only $1,000 toward high-interest debt and $2,000 toward savings, contradicting the core principle that 24% APR debt demands aggressive repayment; the monthly-payment math is also garbled and nonsensical.",
+      "mean": 2.0
+    }
+  },
+  {
+    "id": "bud-010",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can budgeting based on gross income instead of take-home pay lead to poor spending decisions?",
+    "reference": "Budgeting from gross income can overstate how much cash is actually available to spend because taxes, payroll deductions, insurance premiums, and retirement contributions reduce the amount that reaches the bank account. Using gross income may cause someone to set spending targets that are unrealistic in practice. Budgeting is usually more effective when based on actual take-home pay or well-estimated net cash flow.",
+    "candidate": "Budgeting based on gross income rather than take-home pay can lead to poor spending decisions because it doesn't account for the immediate deductions that occur after taxes and other mandatory payments. This discrepancy can result in overspending, as individuals might allocate funds they don't actually have post-tax. For instance, if someone earns $50,000 gross per year but only expects to receive $35,000 after taxes and other expenses, they might spend more than their actual take-home pay, leading to financial strain or debt accumulation. Additionally, this approach may overlook essential savings goals, such as emergency funds or retirement contributions, which are typically deducted from gross income. Therefore, using take-home pay for budgeting provides a clearer picture of available funds, helping to make more realistic and sustainable financial plans.",
+    "latency_sec": 6.98,
+    "embed_cosine": 0.9167258739471436,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate accurately explains the core issue with a concrete numeric example, covers deductions, overspending risks, and savings goals, and gives clear actionable guidance to use take-home pay instead.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "bud-011",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A household's monthly income is stable, but several large expenses occur only once or twice a year, such as insurance premiums, holiday spending, and car registration. What budgeting mistake might they be making if they feel 'surprised' by these every time?",
+    "reference": "They may be failing to account for sinking funds or non-monthly expenses in the budget. Even if those bills are not due every month, they are predictable and should be prorated across the year. Setting aside money each month for irregular but expected expenses reduces the risk of feeling cash-strapped when they come due.",
+    "candidate": "The household might be making the mistake of not adequately planning for their infrequent but significant expenses. By not setting aside funds specifically for these large expenses, they may feel caught off guard each time they need to allocate money for them. This approach can lead to financial stress and potentially higher interest payments on credit cards or loans used to cover these gaps. Instead, they should consider setting up automatic transfers into a dedicated savings account for these expenses, which would help manage cash flow more smoothly and avoid the surprise factor. This strategy involves a tradeoff between having immediate access to funds for other expenses versus ensuring there's always money available for these larger, less frequent expenditures.",
+    "latency_sec": 5.69,
+    "embed_cosine": 0.838150680065155,
+    "judge": {
+      "factuality": 5,
+      "completeness": 4,
+      "advice_quality": 5,
+      "rationale": "Correctly identifies the sinking fund concept and adds practical advice on automation and credit risk, though doesn't explicitly name 'sinking funds' or 'prorating' the costs monthly.",
+      "mean": 4.666666666666667
+    }
+  },
+  {
+    "id": "bud-012",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A person says, 'I had money left over this month, so my budget is working well.' Why might that conclusion be incomplete?",
+    "reference": "Having money left over is a positive sign, but it does not by itself prove the budget is working optimally. The leftover amount may reflect underfunded categories, neglected future expenses, or delayed obligations. A strong budget should also align with goals such as saving, debt repayment, emergency preparedness, and planning for irregular expenses, not just ending the month with unused cash.",
+    "candidate": "While it's great to have money left over at the end of the month, concluding that your budget is working well can be incomplete because it doesn't account for other financial aspects. For instance, if you spent more on discretionary items like dining out or entertainment, you might not have saved as much as you could have. Additionally, spending extra on one category often means cutting back elsewhere, which could affect your long-term financial goals such as saving for retirement or paying off debt. It's also important to consider whether the leftover funds were used wisely, such as investing in your future or paying down high-interest debts, rather than just being saved without a clear purpose. Therefore, a comprehensive assessment should include tracking all expenses, setting clear financial goals, and regularly reviewing your budget to ensure it aligns with your overall financial health and objectives.",
+    "latency_sec": 7.17,
+    "embed_cosine": 0.8964313864707947,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 4,
+      "rationale": "The candidate covers some valid points (goal alignment, discretionary spending) but misses key reference concepts like underfunded categories, neglected irregular/future expenses, and emergency preparedness, and introduces some muddled reasoning about spending more on discretionary items.",
+      "mean": 3.3333333333333335
+    }
+  },
+  {
+    "id": "bud-013",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "When inflation raises the cost of groceries, rent, and utilities, should a person interpret a higher 'needs' percentage in their budget as a budgeting failure?",
+    "reference": "Not necessarily. A higher needs percentage may reflect external cost pressures rather than poor budgeting behavior. The person may need to adjust discretionary spending, savings goals, or income expectations, but the shift itself is not automatically a failure. A good answer distinguishes between controllable overspending and unavoidable increases in essential costs.",
+    "candidate": "A higher 'needs' percentage in a budget during periods of inflation does not necessarily indicate a budgeting failure. Inflation increases the cost of essential expenses like groceries, rent, and utilities, which naturally push up the proportion of these needs in the budget. This adjustment reflects the reality of rising costs rather than a failure to manage finances effectively. Instead, it highlights the importance of maintaining a flexible budget that can adapt to changing economic conditions. Budgeters might consider strategies such as seeking more affordable housing options, reducing discretionary spending, or exploring ways to increase income to better cope with these increased costs.",
+    "latency_sec": 5.11,
+    "embed_cosine": 0.8621247410774231,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate correctly distinguishes external cost pressure from poor budgeting behavior and offers actionable strategies aligned with the reference.",
+      "mean": 5.0
+    }
+  }
+]

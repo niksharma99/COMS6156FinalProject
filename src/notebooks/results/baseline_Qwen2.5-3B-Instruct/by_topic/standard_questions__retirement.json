@@ -1,0 +1,112 @@
+[
+  {
+    "id": "ret-001",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What is the maximum 401(k) employee elective deferral limit for 2025 for someone under age 50?",
+    "reference": "D",
+    "candidate": "A",
+    "latency_sec": 0.09,
+    "mc_correct": false,
+    "mc_picked": "A"
+  },
+  {
+    "id": "ret-002",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Can a 72-year-old with earned income contribute to a Roth IRA?",
+    "reference": "C",
+    "candidate": "C",
+    "latency_sec": 0.09,
+    "mc_correct": true,
+    "mc_picked": "C"
+  },
+  {
+    "id": "ret-003",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "Is there an income limit for contributing to a traditional IRA?",
+    "reference": "B",
+    "candidate": "C",
+    "latency_sec": 0.09,
+    "mc_correct": false,
+    "mc_picked": "C"
+  },
+  {
+    "id": "ret-004",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "At what age must you begin taking Required Minimum Distributions (RMDs) from a traditional 401(k) if you were born in 1960?",
+    "reference": "D",
+    "candidate": "B",
+    "latency_sec": 0.09,
+    "mc_correct": false,
+    "mc_picked": "B"
+  },
+  {
+    "id": "ret-005",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between a traditional IRA and a Roth IRA in terms of tax treatment?",
+    "reference": "Traditional IRA contributions may be tax-deductible (reducing taxable income in the contribution year), but withdrawals in retirement are taxed as ordinary income. Roth IRA contributions are made with after-tax dollars (no upfront deduction), but qualified withdrawals in retirement are completely tax-free.",
+    "candidate": "A Traditional IRA allows you to contribute pre-tax income, which can lower your taxable income in the year you make contributions. Withdrawals from Traditional IRAs are taxed as ordinary income when you withdraw them during retirement. A Roth IRA, on the other hand, requires you to pay taxes on your contributions upfront, but withdrawals in retirement are tax-free. The key tradeoff is that with a Roth IRA, you don't have to pay taxes on withdrawals later, but you must pay taxes on contributions first. Traditional IRAs offer tax savings now at the expense of potentially higher taxes later.",
+    "latency_sec": 5.0,
+    "embed_cosine": 0.9120492935180664,
+    "judge": {
+      "factuality": 4,
+      "completeness": 5,
+      "advice_quality": 4,
+      "rationale": "Accurate and complete coverage of the key tax treatment differences, though it slightly overstates Traditional IRA contributions as always 'pre-tax' without noting the deductibility depends on income and workplace plan eligibility.",
+      "mean": 4.333333333333333
+    }
+  },
+  {
+    "id": "ret-006",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Can you contribute to both a traditional IRA and a Roth IRA in the same year?",
+    "reference": "B",
+    "candidate": "B",
+    "latency_sec": 0.09,
+    "mc_correct": true,
+    "mc_picked": "B"
+  },
+  {
+    "id": "ret-007",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What is the Social Security full retirement age for someone born in 1965?",
+    "reference": "D",
+    "candidate": "D",
+    "latency_sec": 0.09,
+    "mc_correct": true,
+    "mc_picked": "D"
+  },
+  {
+    "id": "ret-008",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "If you withdraw money from a traditional IRA before age 59\u00bd, what is the early withdrawal penalty?",
+    "reference": "B",
+    "candidate": "B",
+    "latency_sec": 0.09,
+    "mc_correct": true,
+    "mc_picked": "B"
+  }
+]

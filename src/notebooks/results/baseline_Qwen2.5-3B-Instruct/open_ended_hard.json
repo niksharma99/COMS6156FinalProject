@@ -1,0 +1,800 @@
+[
+  {
+    "id": "bud-007",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A person takes home $4,800 per month. Their fixed essentials are $2,900, minimum debt payments are $350, and they currently save $200 per month. Under the 50/30/20 framework, are they over budget on needs, under-saving, or both?",
+    "reference": "They are over budget on needs and under-saving. Needs plus minimum debt payments total $3,250, which is about 67.7% of take-home pay, above the 50% guideline. Savings are $200, or about 4.2%, well below the 20% target. This suggests the budget is strained on essentials and does not leave enough room for long-term savings goals.",
+    "candidate": "Under the 50/30/20 budgeting framework, a person should allocate 50% of their income to needs, 30% to wants, and 20% to savings and debt repayment. For this individual, their monthly income is $4,800. Needs would be allocated 50% of that amount, which is $2,400. Given that their fixed essentials are $2,900, they are spending more than the recommended 50% on needs, indicating an overage of $500.\n\nAdditionally, their current savings of $200 per month fall short of the 20% guideline. To meet the 20% savings target, they would need to save $960 per month ($4,800 x 20%). This means they are under-saving by $760 each month.\n\nIn summary, while the individual is over-budgeting on essential expenses, they are also significantly under-saving compared to the 50/30/20 guidelines. They face a tradeoff between reducing unnecessary spending to meet the 50% needs guideline or increasing their savings rate to meet the 20% guideline.",
+    "latency_sec": 10.94,
+    "embed_cosine": 0.8892660140991211,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Correctly identifies both issues with accurate dollar figures, though it omits the $350 minimum debt payments from the needs calculation (which the reference includes), slightly understating the needs overage.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "bud-008",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "If someone gets paid irregularly as a freelancer, is the standard advice of keeping 3-6 months in an emergency fund still sufficient?",
+    "reference": "Not always. For someone with variable or unpredictable income, 6-12 months of essential expenses is often more appropriate than 3-6 months. The right target depends on income stability, number of clients, household obligations, and access to other liquidity. The standard 3-6 month rule is a starting point, but irregular earners usually need a larger buffer.",
+    "candidate": "For freelancers with irregular pay schedules, maintaining a 3-6 months' worth of living expenses in an emergency fund can be challenging but not impossible. Given the variability, it's crucial to adjust your savings strategy. Consider setting up a separate savings account specifically for emergencies that you can contribute to regularly, even if it's just a small amount each payday. This way, you're building a cushion without disrupting your regular income flow. However, this approach requires discipline and possibly some creative budgeting to ensure you don't deplete other essential funds. Additionally, exploring additional income streams or side hustles can provide more stability and help build a larger emergency fund over time.",
+    "latency_sec": 5.77,
+    "embed_cosine": 0.8044648170471191,
+    "judge": {
+      "factuality": 2,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "The candidate never addresses whether 3-6 months is sufficient for freelancers (the core question), instead sidestepping the key recommendation that irregular earners typically need 6-12 months, making it factually incomplete and missing the main point of the reference answer.",
+      "mean": 2.3333333333333335
+    }
+  },
+  {
+    "id": "bud-009",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A person has $8,000 in credit card debt at 24% APR and only $500 in savings. They receive a $3,000 bonus. What is a reasonable allocation strategy between debt repayment and emergency savings, and why?",
+    "reference": "A reasonable strategy is to first bring savings up to a small starter emergency fund, such as roughly $1,500-$2,000 total, and then apply the rest toward the credit card debt. With only $500 in savings, using the entire bonus for debt would leave them vulnerable to new borrowing when an emergency arises. But because 24% APR debt is very expensive, most of the bonus should still go toward debt after establishing a minimal cash cushion.",
+    "candidate": "Given the situation, a reasonable allocation strategy would be to first use part of the bonus to pay down the credit card debt while also building an emergency fund. Specifically, you could allocate $1,000 from the bonus towards paying off the credit card debt, reducing the balance by approximately $267 per month (assuming equal monthly payments). This leaves $2,000 remaining, which should be directed into an emergency fund. The initial $500 in savings can be increased to $2,500 with this bonus, providing a modest cushion against unexpected expenses. However, it's important to note that this strategy prioritizes immediate debt reduction over having a larger emergency fund, which could be beneficial if there were a significant financial setback.",
+    "latency_sec": 6.59,
+    "embed_cosine": 0.9257735013961792,
+    "judge": {
+      "factuality": 2,
+      "completeness": 2,
+      "advice_quality": 2,
+      "rationale": "The candidate reverses the sensible ratio by putting only $1,000 toward high-interest debt and $2,000 toward savings, contradicting the core principle that 24% APR debt demands aggressive repayment; the monthly-payment math is also garbled and nonsensical.",
+      "mean": 2.0
+    }
+  },
+  {
+    "id": "bud-010",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can budgeting based on gross income instead of take-home pay lead to poor spending decisions?",
+    "reference": "Budgeting from gross income can overstate how much cash is actually available to spend because taxes, payroll deductions, insurance premiums, and retirement contributions reduce the amount that reaches the bank account. Using gross income may cause someone to set spending targets that are unrealistic in practice. Budgeting is usually more effective when based on actual take-home pay or well-estimated net cash flow.",
+    "candidate": "Budgeting based on gross income rather than take-home pay can lead to poor spending decisions because it doesn't account for the immediate deductions that occur after taxes and other mandatory payments. This discrepancy can result in overspending, as individuals might allocate funds they don't actually have post-tax. For instance, if someone earns $50,000 gross per year but only expects to receive $35,000 after taxes and other expenses, they might spend more than their actual take-home pay, leading to financial strain or debt accumulation. Additionally, this approach may overlook essential savings goals, such as emergency funds or retirement contributions, which are typically deducted from gross income. Therefore, using take-home pay for budgeting provides a clearer picture of available funds, helping to make more realistic and sustainable financial plans.",
+    "latency_sec": 6.98,
+    "embed_cosine": 0.9167258739471436,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate accurately explains the core issue with a concrete numeric example, covers deductions, overspending risks, and savings goals, and gives clear actionable guidance to use take-home pay instead.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "bud-011",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A household's monthly income is stable, but several large expenses occur only once or twice a year, such as insurance premiums, holiday spending, and car registration. What budgeting mistake might they be making if they feel 'surprised' by these every time?",
+    "reference": "They may be failing to account for sinking funds or non-monthly expenses in the budget. Even if those bills are not due every month, they are predictable and should be prorated across the year. Setting aside money each month for irregular but expected expenses reduces the risk of feeling cash-strapped when they come due.",
+    "candidate": "The household might be making the mistake of not adequately planning for their infrequent but significant expenses. By not setting aside funds specifically for these large expenses, they may feel caught off guard each time they need to allocate money for them. This approach can lead to financial stress and potentially higher interest payments on credit cards or loans used to cover these gaps. Instead, they should consider setting up automatic transfers into a dedicated savings account for these expenses, which would help manage cash flow more smoothly and avoid the surprise factor. This strategy involves a tradeoff between having immediate access to funds for other expenses versus ensuring there's always money available for these larger, less frequent expenditures.",
+    "latency_sec": 5.69,
+    "embed_cosine": 0.838150680065155,
+    "judge": {
+      "factuality": 5,
+      "completeness": 4,
+      "advice_quality": 5,
+      "rationale": "Correctly identifies the sinking fund concept and adds practical advice on automation and credit risk, though doesn't explicitly name 'sinking funds' or 'prorating' the costs monthly.",
+      "mean": 4.666666666666667
+    }
+  },
+  {
+    "id": "bud-012",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A person says, 'I had money left over this month, so my budget is working well.' Why might that conclusion be incomplete?",
+    "reference": "Having money left over is a positive sign, but it does not by itself prove the budget is working optimally. The leftover amount may reflect underfunded categories, neglected future expenses, or delayed obligations. A strong budget should also align with goals such as saving, debt repayment, emergency preparedness, and planning for irregular expenses, not just ending the month with unused cash.",
+    "candidate": "While it's great to have money left over at the end of the month, concluding that your budget is working well can be incomplete because it doesn't account for other financial aspects. For instance, if you spent more on discretionary items like dining out or entertainment, you might not have saved as much as you could have. Additionally, spending extra on one category often means cutting back elsewhere, which could affect your long-term financial goals such as saving for retirement or paying off debt. It's also important to consider whether the leftover funds were used wisely, such as investing in your future or paying down high-interest debts, rather than just being saved without a clear purpose. Therefore, a comprehensive assessment should include tracking all expenses, setting clear financial goals, and regularly reviewing your budget to ensure it aligns with your overall financial health and objectives.",
+    "latency_sec": 7.17,
+    "embed_cosine": 0.8964313864707947,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 4,
+      "rationale": "The candidate covers some valid points (goal alignment, discretionary spending) but misses key reference concepts like underfunded categories, neglected irregular/future expenses, and emergency preparedness, and introduces some muddled reasoning about spending more on discretionary items.",
+      "mean": 3.3333333333333335
+    }
+  },
+  {
+    "id": "bud-013",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "When inflation raises the cost of groceries, rent, and utilities, should a person interpret a higher 'needs' percentage in their budget as a budgeting failure?",
+    "reference": "Not necessarily. A higher needs percentage may reflect external cost pressures rather than poor budgeting behavior. The person may need to adjust discretionary spending, savings goals, or income expectations, but the shift itself is not automatically a failure. A good answer distinguishes between controllable overspending and unavoidable increases in essential costs.",
+    "candidate": "A higher 'needs' percentage in a budget during periods of inflation does not necessarily indicate a budgeting failure. Inflation increases the cost of essential expenses like groceries, rent, and utilities, which naturally push up the proportion of these needs in the budget. This adjustment reflects the reality of rising costs rather than a failure to manage finances effectively. Instead, it highlights the importance of maintaining a flexible budget that can adapt to changing economic conditions. Budgeters might consider strategies such as seeking more affordable housing options, reducing discretionary spending, or exploring ways to increase income to better cope with these increased costs.",
+    "latency_sec": 5.11,
+    "embed_cosine": 0.8621247410774231,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate correctly distinguishes external cost pressure from poor budgeting behavior and offers actionable strategies aligned with the reference.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "cd-001",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can carrying a balance on a credit card to 'build credit' be bad advice?",
+    "reference": "Carrying a balance is not necessary to build credit and usually causes the borrower to pay unnecessary interest. Credit scores benefit from on-time payments and low utilization, not from paying interest. A person can build credit by using a card lightly and paying the full statement balance on time each month. The misconception comes from confusing credit usage with interest-bearing revolving debt.",
+    "candidate": "Carrying a balance on a credit card primarily to build credit can be considered bad advice because it often leads to high-interest debt accumulation. While paying off the entire balance each month is ideal for building good credit, simply keeping a balance can result in interest charges that eat into your financial resources. This strategy also increases your credit utilization ratio, which can negatively impact your credit score. Instead, consider using your credit card for small purchases you would make anyway, paying off the balance in full each month, and only using it when necessary to avoid unnecessary debt. This approach allows you to build a strong credit history without risking financial strain.",
+    "latency_sec": 5.45,
+    "embed_cosine": 0.9165468215942383,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 5,
+      "rationale": "Correctly identifies unnecessary interest and utilization concerns, gives sound actionable advice, though slightly conflates high utilization as the main problem rather than clarifying that carrying any balance at all is unnecessary for credit building.",
+      "mean": 4.333333333333333
+    }
+  },
+  {
+    "id": "cd-002",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A borrower has two loan options: a 3-year loan with a higher monthly payment and less total interest, or a 6-year loan with a lower monthly payment and much more total interest. What factors should determine which option is better?",
+    "reference": "The better option depends on cash flow stability, emergency savings, competing financial priorities, and total borrowing cost. The shorter loan is usually better mathematically because it reduces total interest paid, but the higher payment could create budget stress and increase default risk if income is tight. The longer loan improves monthly flexibility but costs more overall. The best choice balances affordability with minimizing long-term interest expense.",
+    "candidate": "When deciding between the two loan options, several factors should be considered to determine which is better for the borrower. The 3-year loan with a higher monthly payment but less total interest might be preferable if the borrower can afford the increased monthly cost and wants to pay off the debt sooner. On the other hand, the 6-year loan with a lower monthly payment but significantly more total interest could be more suitable if the borrower needs to maintain their current financial stability and cannot afford the higher monthly payments. Additionally, the borrower's overall financial situation, including their ability to save for emergencies or invest, should be taken into account. If the borrower has other high-interest debts or investments that offer higher returns, they might prefer to allocate more funds towards those to minimize long-term costs. Lastly, the borrower's risk tolerance and willingness to incur higher interest over time versus paying more upfront should also be considered.",
+    "latency_sec": 7.79,
+    "embed_cosine": 0.8920567035675049,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Covers the main tradeoffs well including cash flow, total interest, and opportunity cost of competing investments, though lacks explicit mention of emergency savings and default risk.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "cd-003",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can making only the minimum payment on a high-APR credit card balance be especially costly over time?",
+    "reference": "Making only the minimum payment causes much of each payment to go toward interest rather than principal, especially at high APRs. This stretches repayment over many years and can result in paying far more in total interest than the original amount borrowed. Minimum payments preserve account standing but are a very slow and expensive way to eliminate debt.",
+    "candidate": "Making only the minimum payment on a high-APR credit card can be especially costly over time due to several factors. Firstly, the minimum payment is typically a small fraction of the total balance, meaning that a significant portion of each payment goes towards interest rather than reducing the principal debt. Secondly, with a high APR, even a small balance incurs substantial interest charges. Over time, this compounding effect leads to a rapid increase in the total amount paid, far exceeding the original balance. Additionally, this approach delays the payoff of the debt, potentially leading to a longer period of accumulating interest and possibly late fees. While it's important to manage your finances responsibly, this strategy often represents a tradeoff between immediate affordability and long-term financial health.",
+    "latency_sec": 6.49,
+    "embed_cosine": 0.8772296905517578,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 4,
+      "rationale": "The candidate accurately explains interest compounding, slow principal reduction, and long repayment timelines, covering all reference points with added nuance about tradeoffs.",
+      "mean": 4.666666666666667
+    }
+  },
+  {
+    "id": "cd-004",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A borrower consolidates several credit card balances into a personal loan with a lower interest rate. Why might this still fail to improve their financial situation?",
+    "reference": "Debt consolidation can reduce interest costs and simplify payments, but it does not fix overspending or cash flow problems by itself. If the borrower continues using the credit cards after consolidation, they may end up with both the new loan and new card balances. Consolidation is most helpful when paired with behavior change, spending control, and a realistic repayment plan.",
+    "candidate": "Consolidating multiple credit card balances into a personal loan with a lower interest rate can potentially reduce monthly payments and lower the overall interest paid over time, which is beneficial. However, this consolidation may not always improve a borrower's financial situation if they continue to use credit cards or spend more than they can afford to pay off each month. Additionally, there could be fees associated with the new loan that offset the benefits of the lower interest rate. Furthermore, if the borrower's income remains unchanged, the reduced monthly payments might lead to increased spending elsewhere, negating the savings from the lower interest rate. Lastly, if the borrower has high credit utilization rates, consolidating balances might not significantly impact their credit score unless they also work on reducing their debt levels and improving their credit utilization ratio.",
+    "latency_sec": 6.78,
+    "embed_cosine": 0.8422009348869324,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Candidate correctly identifies the core issue of continued card usage and adds valid points about fees and spending behavior, though the credit score discussion is somewhat tangential to the core financial situation question.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "cd-005",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "If someone closes an old credit card they no longer use, why could that sometimes lower their credit score rather than improve it?",
+    "reference": "Closing an old credit card can reduce total available credit and may raise the person's credit utilization ratio if balances remain on other cards. It can also reduce the benefit of having longstanding credit accounts on the report over time. While closing a card can be reasonable in some situations, it does not automatically help a credit score and can sometimes hurt it.",
+    "candidate": "Closing an old credit card can sometimes lower your credit score because it reduces the average age of your credit history, which is a factor in calculating your credit score. Additionally, closing a card reduces the total amount of available credit you have, which can slightly increase your credit utilization ratio (the percentage of available credit you're using). This higher utilization rate, even if only marginally, can negatively impact your score. However, if the card had high interest rates or fees, closing it might actually improve your financial health by reducing unnecessary charges. Therefore, it's important to weigh the benefits against potential drawbacks before closing any unused credit cards.",
+    "latency_sec": 5.51,
+    "embed_cosine": 0.9602949619293213,
+    "judge": {
+      "factuality": 4,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Covers both key mechanisms (utilization and credit age) accurately and adds practical nuance about fees/interest, though 'average age' framing is slightly imprecise compared to 'longstanding accounts' benefit.",
+      "mean": 4.666666666666667
+    }
+  },
+  {
+    "id": "cd-006",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "What is the difference between being 'prequalified' for a loan and being actually approved for that loan?",
+    "reference": "Prequalification is usually a preliminary estimate based on limited or self-reported information and does not guarantee final approval. Actual approval occurs after the lender reviews credit, income, debts, documentation, and other underwriting criteria. A borrower who is prequalified may still be denied or offered different terms after full review.",
+    "candidate": "Being prequalified for a loan means a lender has assessed your financial situation based on the information you provided and determined a maximum loan amount you could potentially qualify for. This process is typically faster and less detailed than the actual loan approval process. On the other hand, being approved for a loan signifies that you have met all the lender's requirements and have been granted a loan with specific terms and conditions. The main tradeoff is that while prequalification can help you understand your borrowing power and budget accordingly, it doesn't guarantee you'll be able to secure the loan if you decide to apply. Approval, however, confirms that you've met all necessary criteria and can proceed with the loan application.",
+    "latency_sec": 5.95,
+    "embed_cosine": 0.8901772499084473,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "The candidate accurately distinguishes prequalification from approval and notes it doesn't guarantee the loan, though it slightly understates that prequalification is often based on self-reported/unverified info and omits mention of possible different terms post-review.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "cd-007",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can a 0% APR promotional credit card offer still be risky for someone trying to get out of debt?",
+    "reference": "A 0% APR offer can reduce interest temporarily, but it is risky if the borrower treats the lower rate as permission to carry debt longer or fails to pay the balance before the promotional period ends. Some offers also involve transfer fees, and unpaid balances may later accrue high interest. The strategy works best when paired with a realistic plan to eliminate the balance before the promotion expires.",
+    "candidate": "While a 0% APR promotional credit card might seem ideal for consolidating high-interest debts, it comes with several risks and tradeoffs that could make it risky for someone trying to get out of debt. Firstly, the promotional period is typically short, usually ranging from 6 to 18 months, after which the interest rate reverts to its regular, often higher rate. This means that if the individual doesn't pay off the balance before the end of the promotional period, they will incur substantial interest charges, potentially making their debt situation worse. Secondly, carrying a balance during this promotional period can lead to a habit of relying on high-interest credit, which can be difficult to break once established. Lastly, the temptation to use the card for new purchases can divert funds away from paying down existing debt, further complicating the debt repayment process. Therefore, while a 0% APR offer can be a useful tool, it should be used cautiously and strategically as part of a broader financial plan.",
+    "latency_sec": 8.64,
+    "embed_cosine": 0.886792778968811,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 4,
+      "rationale": "Candidate covers the key risks (rate reversion, behavioral traps, new spending) but omits balance transfer fees and doesn't emphasize the need for a concrete payoff plan before expiry as clearly as the reference.",
+      "mean": 3.6666666666666665
+    }
+  },
+  {
+    "id": "ins-001",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "When choosing between a low-deductible/high-premium health plan and a high-deductible/low-premium plan, what variables should a person consider besides just the monthly premium?",
+    "reference": "They should consider the deductible, out-of-pocket maximum, expected medical usage, prescription costs, provider network, eligibility for an HSA, employer contributions, and their ability to absorb unexpected medical bills. A lower premium plan is not necessarily cheaper overall if healthcare usage is moderate to high. The choice depends on expected annual healthcare spending and risk tolerance for large upfront costs.",
+    "candidate": "When deciding between a low-deductible/high-premium health plan and a high-deductible/low-premium plan, several key factors should be considered beyond just the monthly premium. First, the high-deductible plan often comes with a lower monthly cost but requires you to pay out-of-pocket for medical expenses up to the deductible amount before insurance coverage kicks in. This means you might need to save up or have an emergency fund to cover these costs. On the other hand, the low-deductible plan provides more immediate financial protection against unexpected medical bills but at a higher monthly expense. Additionally, the high-deductible plan may offer tax advantages through a Health Savings Account (HSA), which can grow tax-free if used for qualified medical expenses. Lastly, your health status and expected medical needs should also be factored in, as they can significantly impact which plan is more suitable.",
+    "latency_sec": 7.76,
+    "embed_cosine": 0.8809605836868286,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 4,
+      "rationale": "Covers HSA, emergency fund, health status, and deductible mechanics correctly but misses out-of-pocket maximum, provider network, prescription costs, and employer contributions that the reference highlights.",
+      "mean": 3.6666666666666665
+    }
+  },
+  {
+    "id": "ins-002",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can choosing the cheapest possible insurance policy sometimes be financially dangerous even if it lowers monthly costs?",
+    "reference": "The cheapest policy may have high deductibles, low coverage limits, major exclusions, narrow provider networks, or large out-of-pocket exposure. That can leave the policyholder underinsured when a serious event occurs. Insurance should be evaluated not only by cost but also by the quality and adequacy of protection relative to plausible risks.",
+    "candidate": "Choosing the cheapest possible insurance policy can sometimes be financially dangerous because these policies often have higher deductibles, narrower coverage, or lack essential benefits that more expensive plans offer. This means you might end up paying out-of-pocket for medical expenses that would otherwise be covered under a more comprehensive plan. Additionally, cheaper policies may not provide adequate protection against catastrophic events, which could lead to significant financial strain if you need extensive medical care. The tradeoff here is between immediate cost savings and long-term financial security and peace of mind. It's crucial to balance affordability with the need for adequate coverage to avoid unexpected financial burdens.",
+    "latency_sec": 5.26,
+    "embed_cosine": 0.8606870770454407,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Covers key risks (high deductibles, narrow coverage, catastrophic exposure) and the core tradeoff, though omits exclusions, provider networks, and coverage limits explicitly mentioned in the reference.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "ins-003",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "What is the practical difference between a deductible and an out-of-pocket maximum in health insurance?",
+    "reference": "The deductible is the amount a person usually must pay for covered services before the insurance plan begins paying according to its terms, though some services may be exempt. The out-of-pocket maximum is the maximum amount the person pays during the plan year for covered in-network services before the plan covers 100% of additional covered costs. The deductible is one threshold within the cost-sharing structure, while the out-of-pocket maximum is the cap on total covered in-network spending.",
+    "candidate": "A deductible in health insurance is the amount you must pay for covered services out-of-pocket before your insurance starts to pay any costs. An out-of-pocket maximum is the most you will have to pay in a year for all covered benefits, including deductibles, copayments, and coinsurance. The main difference is that the deductible applies each year regardless of how many times you use the insurance, while the out-of-pocket maximum caps the total amount you can spend on covered services within a policy year. Choosing between a high-deductible plan with a lower monthly premium or a low-deductible plan with a higher monthly premium involves balancing the risk of having to pay more out-of-pocket against the financial protection provided by the insurance company.",
+    "latency_sec": 6.44,
+    "embed_cosine": 0.9384080767631531,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Accurately explains both concepts and their relationship, correctly notes OOP max includes deductibles/copays/coinsurance, and adds useful premium tradeoff context, though slightly oversimplifies deductible as blocking all payments before it's met.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "ins-004",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "If a healthy person rarely goes to the doctor, does that automatically mean a high-deductible health plan is the best choice?",
+    "reference": "Not automatically. A high-deductible plan may be attractive for someone with low expected healthcare usage, especially if premiums are much lower and the plan allows HSA contributions. But the person should still consider worst-case risk, prescription needs, provider networks, employer contributions, and whether they could comfortably handle the deductible if something unexpected happens.",
+    "candidate": "While a healthy person who rarely visits the doctor might find a high-deductible health plan more affordable initially due to lower premiums, this approach comes with significant tradeoffs. High-deductible plans typically require higher out-of-pocket costs for medical expenses before insurance coverage kicks in. This means that even small medical issues could become financially burdensome. Additionally, these plans often come with lower cost-sharing for preventive care and routine check-ups, which can be beneficial for maintaining overall health. Therefore, while it may seem economical, a high-deductible plan might not be the best fit if the individual expects to use healthcare services frequently or needs access to preventive care. It's important to consider factors like personal health history, expected healthcare usage, and financial stability when choosing a health insurance plan.",
+    "latency_sec": 6.77,
+    "embed_cosine": 0.8966302275657654,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate correctly notes tradeoffs but contains a factual error (HDHPs typically cover preventive care at 100% before the deductible, not 'lower cost-sharing'), and misses key points like HSA benefits, worst-case deductible scenarios, and employer contributions.",
+      "mean": 3.0
+    }
+  },
+  {
+    "id": "ins-005",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why might a renter still need renters insurance even if the landlord has insurance on the building?",
+    "reference": "A landlord's insurance generally covers the building structure, not the tenant's personal belongings or the tenant's liability exposure. Renters insurance can help cover losses from events like theft, fire, or certain other covered perils, and it may also provide liability protection if someone is injured in the rented space. Without renters insurance, the tenant may need to replace possessions out of pocket.",
+    "candidate": "Renters insurance can provide valuable protection beyond what a landlord's insurance typically covers. While landlords' policies usually cover the structure of the property and its contents against damage or loss from events like fire, theft, or vandalism, renters insurance often extends coverage to personal belongings, liability for accidents involving guests, and additional living expenses if a tenant is temporarily displaced due to a covered event. Renters insurance also offers peace of mind by covering items like furniture, electronics, and clothing that may not be fully covered under a landlord's policy. However, renters insurance comes with premiums, which can be an expense for tenants. Additionally, it's important to note that the limits of coverage under a renters policy may differ from those of a landlord's policy, so understanding both types of coverage is crucial for comprehensive protection.",
+    "latency_sec": 6.92,
+    "embed_cosine": 0.9151709079742432,
+    "judge": {
+      "factuality": 3,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate slightly misstates that landlord policies cover 'its contents,' but otherwise covers all key points well including personal property, liability, and additional living expenses.",
+      "mean": 4.333333333333333
+    }
+  },
+  {
+    "id": "ins-006",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can an insurance policy with a low premium but a low coverage limit be a poor match for high-severity risks?",
+    "reference": "If the potential loss is very large, a low coverage limit may leave the policyholder responsible for substantial costs above the insurer's payout. In that case, the low premium buys only partial protection against a catastrophic risk. For high-severity exposures, adequacy of coverage may matter more than minimizing the premium.",
+    "candidate": "An insurance policy with a low premium but a low coverage limit may not adequately protect against high-severity risks because it lacks the financial capacity to cover significant losses. For instance, if you have a home that is insured for only $20,000 but a fire causes $50,000 worth of damage, the policy would not cover the full extent of the loss. This situation highlights a key tradeoff: while a lower premium might seem attractive due to its affordability, it comes at the cost of insufficient coverage. To mitigate this risk, consumers often need to balance their budget with the importance of having adequate coverage, potentially by purchasing additional insurance or investing in mitigation strategies like home insurance upgrades or property diversification.",
+    "latency_sec": 6.38,
+    "embed_cosine": 0.8930943012237549,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 4,
+      "rationale": "The candidate correctly explains the core mismatch with a concrete numeric example and covers the main tradeoff, though the remedies (property diversification) are slightly off-topic.",
+      "mean": 4.666666666666667
+    }
+  },
+  {
+    "id": "ins-007",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A person says, 'I never file claims, so insurance is a waste of money.' What is incomplete about that reasoning?",
+    "reference": "Insurance is primarily designed to protect against low-frequency but potentially devastating losses, not to guarantee that every policyholder gets back more than they pay in premiums. The fact that someone does not file claims may reflect that the insured event did not occur, not that the coverage lacked value. Insurance is best viewed as protection against financial ruin or major disruption rather than a product meant to produce a regular payout.",
+    "candidate": "The statement \"I never file claims, so insurance is a waste of money\" overlooks several important aspects of insurance and its value. Firstly, insurance is not just about filing claims; it's also about risk management and financial protection. By not filing claims, the individual might be missing out on the benefits of having an insurance policy that can cover unexpected events or losses, which could otherwise provide financial security and peace of mind. Secondly, insurance companies use data from those who do file claims to set premiums more accurately, which means that those who don't file claims might end up paying higher premiums in the long run as the company adjusts their rates based on the average claim history. Lastly, insurance policies often include features like medical coverage, legal assistance, and other services that can be beneficial even if claims aren't filed. Therefore, the decision to never file claims doesn't necessarily make insurance a waste of money for everyone, as there are various ways insurance can provide value beyond just claims payouts.",
+    "latency_sec": 8.58,
+    "embed_cosine": 0.8660632371902466,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate captures the risk-management framing but muddies it with questionable claims (e.g., not filing claims causes higher premiums) and misses the core point that insurance's value lies in protecting against catastrophic low-frequency losses, not in regular payouts.",
+      "mean": 3.0
+    }
+  },
+  {
+    "id": "inv-001",
+    "dataset": "open_ended_hard",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why is it misleading to compare the return of an index fund to the return of a savings account without discussing risk and time horizon?",
+    "reference": "An index fund and a savings account serve different purposes. Savings accounts are designed for capital preservation and short-term liquidity, while index funds are designed for long-term growth and can lose value in the short run. Comparing returns alone ignores volatility, principal risk, and whether the money may be needed soon. The appropriate choice depends on the goal, time horizon, and risk tolerance.",
+    "candidate": "Comparing the return of an index fund to that of a savings account without considering risk and time horizon can be misleading because these two investment vehicles have fundamentally different characteristics. Index funds, designed to track market performance, carry market risks such as volatility and potential losses, which are not present in a savings account. Savings accounts typically offer low returns but provide stability and liquidity. The choice between these should be based on an investor's risk tolerance, financial goals, and time horizon. For instance, if an investor has a long-term time horizon and can tolerate higher volatility for potentially higher returns, an index fund might be more suitable. However, if the investor needs access to their money quickly or prefers a safer, lower-risk option, a savings account would be more appropriate. Thus, understanding these differences and aligning them with personal financial objectives is crucial for making informed decisions.",
+    "latency_sec": 7.41,
+    "embed_cosine": 0.9197630286216736,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key points\u2014volatility, principal risk, liquidity, time horizon, and risk tolerance\u2014with clear, actionable framing that matches the reference well.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "inv-002",
+    "dataset": "open_ended_hard",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "An investor says, 'This stock is down 40%, so it is definitely a bargain now.' What is wrong with that reasoning?",
+    "reference": "A lower price alone does not make a stock undervalued. The drop may reflect real deterioration in the company's earnings, business outlook, balance sheet, or industry conditions. A stock can fall 40% and still be overvalued, or it can continue falling further. Proper evaluation requires fundamentals, valuation, and risk analysis rather than assuming a price decline guarantees a bargain.",
+    "candidate": "The investor's reasoning overlooks several important factors. A significant drop in stock price doesn't necessarily indicate a bargain; it could be due to negative news or market sentiment rather than intrinsic value. Additionally, stocks can continue to decline further, meaning the investment might not recover its value. Furthermore, timing the market is challenging, and there are often better opportunities at different points in time. Lastly, diversification and risk management are crucial; focusing solely on one stock without considering the overall portfolio can lead to poor financial outcomes. Therefore, while a 40% drop might seem attractive, it's essential to consider these broader aspects before making an investment decision.",
+    "latency_sec": 5.61,
+    "embed_cosine": 0.8625656366348267,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate correctly identifies that price drops don't equal value and notes further decline risk, but misses the core point about fundamental deterioration and overvaluation, and dilutes focus with tangential points about diversification and market timing.",
+      "mean": 3.3333333333333335
+    }
+  },
+  {
+    "id": "inv-003",
+    "dataset": "open_ended_hard",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can trying to 'wait for the perfect time to invest' be counterproductive for a long-term investor?",
+    "reference": "Trying to identify the perfect market entry point is difficult and often leads investors to stay uninvested for too long, missing time in the market and potential compounding. For a long-term investor, consistently investing over time can reduce the pressure of market timing and help build discipline. Waiting for certainty can become a costly form of inaction.",
+    "candidate": "Waiting for the perfect time to invest can be counterproductive for a long-term investor due to several reasons. First, market timing is inherently risky because it's impossible to predict with certainty when the best entry or exit points will occur. This unpredictability means that investors might miss out on significant growth opportunities during periods of market expansion. Second, frequent trading incurs transaction costs, such as commissions and fees, which can erode returns over time. Third, patience is crucial in investing; short-term market fluctuations can lead to emotional decisions rather than strategic ones, potentially leading to buying high and selling low. Lastly, markets are dynamic, and even if a perceived \"perfect\" moment arrives, it may not be sustainable or repeatable, making consistent, disciplined investment strategies more effective in achieving long-term financial goals.",
+    "latency_sec": 6.86,
+    "embed_cosine": 0.9037148952484131,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Covers the core points well including market timing difficulty, missed compounding, and emotional decisions, though it adds tangential points about transaction costs and frequent trading that aren't central to the reference's argument.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "inv-004",
+    "dataset": "open_ended_hard",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can diversification reduce risk without guaranteeing that an investor will avoid losses?",
+    "reference": "Diversification reduces exposure to any one company, asset, or sector, which can lower unsystematic risk. But diversified portfolios are still exposed to broad market risk, economic downturns, interest rate changes, and other systemic factors. Diversification helps manage risk; it does not eliminate it.",
+    "candidate": "Diversification reduces risk by spreading investments across various asset classes, sectors, or geographic regions, which helps to mitigate the impact of poor performance in any single investment. This strategy does not eliminate risk entirely because even within diversified portfolios, there is still the possibility of losses due to market downturns or economic shifts. The key tradeoff here is between the potential for higher returns and the certainty of maintaining capital. While diversification can help protect against significant losses, it does not guarantee that an investor will avoid losses altogether. Instead, it aims to balance risk and return more effectively, allowing investors to potentially achieve their financial goals with less volatility.",
+    "latency_sec": 5.45,
+    "embed_cosine": 0.9081692695617676,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Correctly explains unsystematic vs systemic risk concepts and the limits of diversification, though doesn't explicitly name 'unsystematic risk' or list specific systemic factors like interest rate changes.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "inv-005",
+    "dataset": "open_ended_hard",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A person plans to use money for a house down payment in 18 months. Why might a broad stock index fund be a poor place to keep all of it?",
+    "reference": "An 18-month horizon is relatively short for equities because stock markets can be volatile over that period. If the market declines just before the down payment is needed, the person may have to delay the purchase or sell at a loss. Money needed in the short term is usually better held in lower-volatility, more liquid vehicles appropriate for capital preservation.",
+    "candidate": "A broad stock index fund may not be the best choice for a person planning to use the money for a house down payment in 18 months due to several reasons. Firstly, stock market performance is highly volatile and can fluctuate significantly over short periods like 18 months. This means that while the fund could potentially grow substantially, there's also a risk of significant losses if the market declines during this period. Secondly, the liquidity of stocks is generally lower than cash or other liquid assets, which could limit the person's ability to access the funds quickly if needed for other financial obligations or emergencies. Lastly, the down payment typically requires a certain level of stability and predictability in the value of the investment, which broad stock index funds often lack. Therefore, it might be prudent to consider more stable investments such as savings accounts or certificates of deposit (CDs) with higher liquidity and less volatility.",
+    "latency_sec": 7.83,
+    "embed_cosine": 0.8377412557601929,
+    "judge": {
+      "factuality": 3,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "The volatility and timing-risk points are correct and well-explained, but the claim that stocks have 'lower liquidity than cash' is factually inaccurate\u2014broad index ETFs/funds are highly liquid; the real issue is sequence-of-returns risk, not liquidity.",
+      "mean": 3.6666666666666665
+    }
+  },
+  {
+    "id": "inv-006",
+    "dataset": "open_ended_hard",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can chasing the best-performing fund from the past year be a weak investment strategy?",
+    "reference": "Past short-term outperformance does not guarantee future outperformance, and recent winners may have benefited from conditions that do not persist. Chasing performance can cause investors to buy after prices have already run up and sell after underperformance, which harms long-term returns. A sound strategy should focus on goals, diversification, costs, and appropriate asset allocation rather than recent rankings alone.",
+    "candidate": "Chasing the best-performing fund from the past year can be a weak investment strategy due to several reasons. First, past performance is not indicative of future results; what worked well in the past may not necessarily perform similarly in the future. Second, this approach often leads to buying into funds that are already overpriced or have become crowded, potentially increasing risk as more investors seek out these high-performing assets. Third, it can result in missed opportunities for less popular but potentially higher-yielding funds that might underperform in the short term but could offer better long-term returns. Lastly, this strategy can lead to emotional decision-making, such as selling underperforming funds too quickly or holding onto overvalued ones too long, which can further erode returns. Therefore, diversification across various asset classes and time horizons is generally recommended to mitigate these risks.",
+    "latency_sec": 7.58,
+    "embed_cosine": 0.8922620415687561,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Candidate correctly identifies key pitfalls (past performance, overpricing, emotional decisions) and recommends diversification, though it misses the specific 'buy high after run-up, sell low after underperformance' cycle and cost considerations mentioned in the reference.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "inv-007",
+    "dataset": "open_ended_hard",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "What is the main tradeoff between holding individual stocks and holding a low-cost broad-market index fund?",
+    "reference": "Holding individual stocks offers the possibility of outperforming the market but comes with greater company-specific risk, more research demands, and a higher chance of underperforming. A low-cost broad-market index fund provides diversification, simplicity, and market-level returns with lower fees and less unsystematic risk. The tradeoff is concentrated upside potential versus diversified, lower-maintenance exposure.",
+    "candidate": "The main tradeoff between holding individual stocks and a low-cost broad-market index fund lies in risk versus return and active management versus passive investment. With individual stocks, investors can potentially achieve higher returns by selecting companies with strong fundamentals or innovative ideas. However, this comes with significantly higher risk due to the volatility inherent in individual stock performance. On the other hand, a low-cost broad-market index fund offers diversification across many stocks, which can reduce overall portfolio risk. While it may not provide the same level of potential returns as picking individual winners, it typically results in lower fees and more consistent performance over time. Active management requires constant monitoring and decision-making, which can be time-consuming and costly, whereas an index fund requires minimal effort from the investor.",
+    "latency_sec": 6.47,
+    "embed_cosine": 0.9290198087692261,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate accurately covers all key tradeoffs\u2014risk/return, diversification, fees, and management effort\u2014consistent with the reference answer.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "ret-001",
+    "dataset": "open_ended_hard",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "If an employer offers a 401(k) match, why is contributing enough to get the full match usually considered a very high-priority financial move, even if someone also has low-interest debt?",
+    "reference": "Because the employer match is effectively an immediate, guaranteed return on the contribution that is often much larger than the interest savings from paying off low-interest debt early. For example, a 50% or 100% match creates an instant gain that is difficult to replicate elsewhere. In many cases, contributing enough to capture the full match should come before aggressively repaying low-interest debt, although high-interest debt may still take priority after that threshold.",
+    "candidate": "Contributing enough to get the full 401(k) match is often considered a high-priority financial move because it represents free money from your employer, which significantly boosts your retirement savings without any additional cost to you. Even if someone also has low-interest debt, prioritizing the 401(k) match can be beneficial due to the compounding effect of tax-deferred growth over time. While paying off debt might seem more urgent, the interest on debt can be substantial, potentially eroding the value of future contributions to retirement accounts. Therefore, while managing debt is crucial, maximizing the 401(k) match can provide a strong foundation for long-term financial security by ensuring that your retirement savings grow as efficiently as possible.",
+    "latency_sec": 6.58,
+    "embed_cosine": 0.8721312880516052,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate correctly identifies the 'free money' aspect but misses the key point about the immediate guaranteed return rate (e.g., 50-100% instant gain) being the primary reason it beats low-interest debt payoff, and oddly suggests debt interest 'erodes future contributions' which is confused rea",
+      "mean": 3.0
+    }
+  },
+  {
+    "id": "ret-002",
+    "dataset": "open_ended_hard",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can delaying retirement saving by 10 years have a larger impact than many people expect?",
+    "reference": "Delaying retirement saving reduces the years available for compound growth, which can significantly lower the ending balance even if later contributions are larger. Early dollars have more time to grow and generate returns on prior returns. Because compounding is nonlinear over time, lost early years can be difficult to fully make up later.",
+    "candidate": "Delaying retirement savings for 10 years can have a larger impact on your financial security due to the power of compound interest and the time value of money. Over 10 years, your investments will grow at a faster rate because you'll be compounding returns over a longer period. Additionally, this delay means you'll be missing out on potential employer contributions through payroll deductions, which can significantly increase your retirement savings. However, it's important to consider that delaying retirement also means you'll need to work longer, potentially leading to higher healthcare costs and reduced flexibility in your later years. Therefore, while the initial impact might seem significant, the long-term benefits of delayed savings must be balanced against these potential drawbacks.",
+    "latency_sec": 6.22,
+    "embed_cosine": 0.8573503494262695,
+    "judge": {
+      "factuality": 2,
+      "completeness": 2,
+      "advice_quality": 2,
+      "rationale": "The candidate confusingly states 'your investments will grow at a faster rate because you'll be compounding returns over a longer period' when describing a delay (the opposite is true), misframes the core concept, and introduces tangential points about healthcare costs while missing the key explanat",
+      "mean": 2.0
+    }
+  },
+  {
+    "id": "ret-003",
+    "dataset": "open_ended_hard",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "What is the main difference between choosing traditional retirement contributions and Roth retirement contributions?",
+    "reference": "Traditional contributions generally provide a tax benefit upfront because contributions may reduce taxable income now, while withdrawals in retirement are typically taxed. Roth contributions are made with after-tax money, so there is no upfront deduction, but qualified withdrawals in retirement are generally tax-free. The tradeoff depends on expected future tax rates, current income, and planning preferences.",
+    "candidate": "The main difference between traditional and Roth retirement contributions lies in how they affect your taxes now versus later. With traditional contributions, you pay taxes on the money you contribute now, reducing your taxable income for that year. This can lower your tax bill immediately but means you'll pay taxes on the withdrawals during retirement when your tax bracket might be higher. On the other hand, Roth contributions are made with after-tax dollars, meaning you don't get a tax deduction now, but qualified withdrawals in retirement are tax-free. This strategy allows you to grow your savings tax-free and withdraw it without owing taxes, which can be advantageous if you expect to be in a lower tax bracket during retirement. Both options have their tradeoffs, so the choice depends on your current tax situation and future tax expectations.",
+    "latency_sec": 6.78,
+    "embed_cosine": 0.9253441691398621,
+    "judge": {
+      "factuality": 2,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate reverses the key fact about traditional contributions\u2014stating you 'pay taxes now' and reduce taxable income, which is contradictory and backwards; traditional contributions reduce taxable income now (pre-tax), while Roth uses after-tax dollars, and the bracket comparison is also invert",
+      "mean": 2.6666666666666665
+    }
+  },
+  {
+    "id": "ret-004",
+    "dataset": "open_ended_hard",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why might someone choose not to invest their retirement account too conservatively when retirement is still decades away?",
+    "reference": "If retirement is decades away, being too conservative may limit long-term growth and make it harder for savings to outpace inflation and meet future spending needs. While conservative investments may reduce short-term volatility, a very long time horizon often allows more capacity to tolerate market fluctuations. Asset allocation should reflect both risk tolerance and time horizon, not just fear of temporary losses.",
+    "candidate": "Someone might choose not to invest their retirement account too conservatively even if retirement is still decades away because overly conservative investments often offer lower returns relative to the risk taken. This can lead to insufficient growth over time, potentially resulting in a smaller nest egg upon retirement. Additionally, the longer time horizon allows for more flexibility and the potential for higher returns from equities, which historically have provided better long-term growth compared to bonds or cash equivalents. However, this comes with the tradeoff of higher volatility and the risk that the portfolio could lose value during market downturns. Therefore, a balanced approach, considering both the investor's risk tolerance and the time horizon, is often recommended to maximize retirement savings while maintaining some level of growth potential.",
+    "latency_sec": 6.24,
+    "embed_cosine": 0.9438735246658325,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers growth potential, inflation risk, time horizon flexibility, historical equity outperformance, and tradeoffs of volatility, fully aligning with the reference and adding useful nuance.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "ret-005",
+    "dataset": "open_ended_hard",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A worker says, 'I am young, so I can catch up on retirement savings later.' What is risky about that logic?",
+    "reference": "That logic underestimates the value of early compounding and assumes future income and financial flexibility will make catching up easy. In reality, later years may include competing priorities such as housing, children, debt, or health costs. Starting earlier usually allows smaller contributions to work more effectively than trying to save aggressively only later.",
+    "candidate": "While it's true that younger workers have more time to save for retirement, relying solely on the idea that they can \"catch up\" later carries significant risks. Firstly, the longer an individual waits to start saving, the less time there is for compound interest to work in their favor, potentially leading to a smaller overall retirement fund. Secondly, the cost of living increases over time, which means that the same amount saved today will buy less in the future. Thirdly, health issues or other unforeseen circumstances could arise, impacting the ability to continue working and saving. Lastly, market volatility and potential downturns in the stock market could affect the performance of investment portfolios, making it harder to meet savings goals. Therefore, it's crucial for young workers to establish a solid, early retirement savings plan rather than waiting until they feel ready to start.",
+    "latency_sec": 7.23,
+    "embed_cosine": 0.8581860065460205,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Covers compounding, competing priorities, and unforeseen circumstances well, though the inflation point is slightly off-topic and the response could more directly address the catch-up contribution myth.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "ret-006",
+    "dataset": "open_ended_hard",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why is inflation an important factor when planning for retirement, even if a target dollar amount sounds large today?",
+    "reference": "Inflation reduces the future purchasing power of money, so an amount that seems large today may buy much less decades from now. Retirement planning should consider not just nominal balances but what those balances will support in real spending terms. Ignoring inflation can cause a person to underestimate how much they need to save.",
+    "candidate": "Inflation is crucial when planning for retirement because it erodes the purchasing power of money over time. Even if you plan to retire with a large sum of money, inflation will gradually reduce its value. For instance, if you aim to have $1 million in retirement savings, but annual inflation rates are around 2%, your $1 million will only buy as much as $730,000 does today after 25 years. This means that maintaining a diversified portfolio that can grow at least in line with or slightly above inflation is essential. Additionally, while having a large initial retirement fund is beneficial, it's also important to consider how this fund might be affected by market volatility and potential changes in interest rates, which could impact the returns on your investments. Therefore, balancing between securing a substantial initial retirement fund and ensuring it remains valuable through inflation is key to successful retirement planning.",
+    "latency_sec": 7.74,
+    "embed_cosine": 0.888738751411438,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "The candidate correctly explains purchasing power erosion with a reasonable numerical example and actionable advice, though the $730K figure slightly understates the inflation impact and the response adds some tangential points about market volatility not in the reference.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "ret-007",
+    "dataset": "open_ended_hard",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can taking an early withdrawal from a retirement account have effects beyond just reducing the account balance today?",
+    "reference": "An early withdrawal can reduce future compounding by removing money that would otherwise have stayed invested for many years. Depending on the account type and circumstances, it may also trigger taxes and penalties. The long-term cost can therefore be much larger than the amount withdrawn because of lost growth and possible tax consequences.",
+    "candidate": "Taking an early withdrawal from a retirement account can have significant long-term financial effects beyond just reducing the account balance today. Firstly, it incurs a penalty, typically 10% of the withdrawn amount, which is added to the account balance, potentially increasing the overall tax liability. Secondly, it reduces the principal amount available for future growth, which could lead to lower returns over time due to compounding. Additionally, it may affect eligibility for certain retirement benefits or tax credits that depend on maintaining sufficient retirement savings. Lastly, it can impact your ability to save consistently in the future, as you might feel less inclined to save if you've already accessed funds. These factors highlight the importance of carefully considering the consequences before making such withdrawals.",
+    "latency_sec": 6.28,
+    "embed_cosine": 0.9124019742012024,
+    "judge": {
+      "factuality": 3,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "The candidate correctly identifies lost compounding and taxes but contains a factual error stating the 10% penalty is 'added to the account balance' rather than deducted from the withdrawal or owed at tax time; other points about benefit eligibility and savings motivation are reasonable but speculat",
+      "mean": 3.6666666666666665
+    }
+  },
+  {
+    "id": "tax-001",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why is the statement 'If I move into a higher tax bracket, all my income gets taxed at that higher rate' incorrect?",
+    "reference": "Because the U.S. federal income tax system is marginal, not flat by bracket. Only the portion of income that falls within the higher bracket is taxed at that higher rate; lower portions are still taxed at the lower rates that apply to those brackets. Moving into a higher bracket does not retroactively increase the tax rate on all income.",
+    "candidate": "The statement 'If I move into a higher tax bracket, all my income gets taxed at that higher rate' is incorrect because it oversimplifies the progressive nature of most tax systems. In reality, individuals typically pay different rates on different portions of their income within a higher tax bracket. For example, in the United States, the federal income tax system uses graduated brackets, meaning that each additional dollar earned above a certain threshold is taxed at a progressively higher rate. However, within these brackets, there can be deductions, credits, and other adjustments that reduce the taxable income. Additionally, some types of income may be taxed at lower rates or not at all, depending on the specifics of the tax code and individual circumstances. Therefore, while moving into a higher tax bracket does mean more of your income will be subject to higher rates, not all of it necessarily falls into this category.",
+    "latency_sec": 7.64,
+    "embed_cosine": 0.902786374092102,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "The candidate correctly explains marginal taxation but muddies the core point with tangential mentions of deductions and credits, slightly diluting the clarity of the marginal bracket explanation.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "tax-002",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "What is the difference between a tax deduction and a tax credit, and why is that distinction important?",
+    "reference": "A tax deduction reduces taxable income, while a tax credit directly reduces the amount of tax owed. Because a credit lowers tax liability dollar for dollar, it is often more valuable than a deduction of the same nominal amount. The distinction matters because two tax benefits with the same face value can produce very different actual savings.",
+    "candidate": "A tax deduction reduces your taxable income by lowering the amount of money subject to taxes, while a tax credit directly reduces the amount of tax you owe. For example, if you itemize deductions, you might claim mortgage interest or charitable donations, which lower your taxable income. A tax credit, on the other hand, can be applied directly against the total tax owed, meaning it could reduce your tax bill dollar-for-dollar. The distinction is important because some credits, like the Child Tax Credit, can provide more significant savings for taxpayers with children compared to deductions, which may not offer the same dollar-for-dollar reduction. Additionally, certain deductions have limits based on income level, whereas credits are available regardless of income, making them potentially more beneficial for low-income individuals.",
+    "latency_sec": 6.61,
+    "embed_cosine": 0.9390329122543335,
+    "judge": {
+      "factuality": 4,
+      "completeness": 5,
+      "advice_quality": 4,
+      "rationale": "Accurately explains the core distinction with good examples, though the claim that credits are 'available regardless of income' is an overgeneralization since many credits also phase out with income.",
+      "mean": 4.333333333333333
+    }
+  },
+  {
+    "id": "tax-003",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why does receiving a tax refund not necessarily mean someone 'came out ahead' financially?",
+    "reference": "A tax refund often means too much tax was withheld during the year, so the person is receiving their own money back rather than earning extra money. While a refund can feel positive, it may indicate the person provided the government with an interest-free loan. The true question is overall tax liability and cash flow management, not refund size alone.",
+    "candidate": "Receiving a tax refund doesn't always indicate that someone is financially ahead because the refund can be seen as an advance payment on taxes owed to the government. This means that if you receive a refund, it's essentially money that was taken from your paycheck throughout the year without interest or additional benefits. However, this refund could have been invested or used for other financial goals, such as building an emergency fund or paying off debt at potentially higher interest rates. Therefore, while a refund might seem like extra cash, it doesn't provide the same return on investment as savings or investments. Additionally, if the refund is substantial, it might prompt unnecessary spending rather than prudent saving, which could lead to future financial challenges.",
+    "latency_sec": 6.17,
+    "embed_cosine": 0.8663655519485474,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Correctly identifies the interest-free loan concept and opportunity cost, though slightly imprecise calling it an 'advance payment on taxes owed' rather than overwithholding of your own money.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "tax-004",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can a larger paycheck after reducing tax withholding be misleading if someone does not adjust their expectations for tax season?",
+    "reference": "Reducing withholding increases take-home pay during the year, but it does not reduce the actual tax owed unless underlying tax liability changes. If the person spends the extra cash without planning, they may end up with a smaller refund or even a tax bill when they file. Higher current paychecks and final tax liability are related but not the same thing.",
+    "candidate": "A larger paycheck after reducing tax withholding can be misleading because it doesn't account for the fact that you're essentially saving money that would have been paid to the government during the year. This means your actual take-home pay is lower than what you might expect from a higher gross pay. However, this adjustment is typically made at the end of the year when you file your taxes, allowing you to receive a refund or offset any overpayment with a future tax bill. The tradeoff here is that while you may feel like you're getting more money upfront, you're actually saving money throughout the year, which could lead to missed opportunities for investing or spending on immediate needs.",
+    "latency_sec": 5.84,
+    "embed_cosine": 0.9059048295021057,
+    "judge": {
+      "factuality": 2,
+      "completeness": 2,
+      "advice_quality": 2,
+      "rationale": "The candidate answer confuses and contradicts itself\u2014claiming the paycheck is 'lower than expected' and that you're 'saving money' when in fact reducing withholding increases take-home pay but creates a potential tax bill, missing the core risk the question asks about.",
+      "mean": 2.0
+    }
+  },
+  {
+    "id": "tax-005",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A worker earns additional side income and assumes it will be taxed exactly the same way as wages withheld through payroll. What nuance are they missing?",
+    "reference": "Side income may still be part of overall taxable income, but it often does not have taxes automatically withheld the same way wages do. Depending on the type of income, the person may need to plan for taxes separately and may also face additional considerations such as self-employment tax. The key nuance is that how income is earned affects how taxes are paid and reported, even if it contributes to total taxable income.",
+    "candidate": "While it's common for individuals to assume that side income will be taxed similarly to wages withheld through payroll, there are several nuances they might be missing. Firstly, the tax rates and brackets for side income can differ from those applied to regular employment. Secondly, deductions and credits available for side income may not be the same as those for wages. Thirdly, some types of side income, such as capital gains or business income, are subject to different tax rules and may have their own tax rates and schedules. Lastly, self-employment taxes, which include Social Security and Medicare taxes, apply to side income but are not withheld at source like wage taxes. These differences can significantly impact the net amount of money received after taxes, so it's important for individuals to understand these distinctions before assuming their tax treatment will remain consistent.",
+    "latency_sec": 7.04,
+    "embed_cosine": 0.8988761901855469,
+    "judge": {
+      "factuality": 3,
+      "completeness": 4,
+      "advice_quality": 3,
+      "rationale": "The candidate correctly identifies self-employment tax and lack of withholding but introduces some inaccuracies (side income is generally taxed at the same marginal rates as wages, not 'different rates/brackets'), and the advice lacks actionable guidance on estimated quarterly payments.",
+      "mean": 3.3333333333333335
+    }
+  },
+  {
+    "id": "tax-006",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can selling an investment for a gain trigger a tax consequence even if the money is immediately reinvested into another investment?",
+    "reference": "Selling an investment for a gain can create a taxable event because the gain is realized at the time of sale. Reinvesting the proceeds into another investment does not erase the fact that the original asset was sold at a profit. The tax consequence depends on account type, holding period, and applicable rules, but immediate reinvestment alone does not generally avoid realizing the gain.",
+    "candidate": "Selling an investment for a gain triggers a tax consequence because the capital gains tax is levied on the profit realized from the sale, not on the reinvestment itself. Even if you immediately reinvest the proceeds from the sale, the IRS considers the entire amount as income for that year, including the capital gains. This means you must report this income and pay taxes on it, which could affect your overall financial situation by reducing your taxable income or increasing your tax liability. The tradeoff here is that while reinvesting allows you to potentially grow your wealth, it also means you'll have to account for the tax implications of the capital gains, which might require additional savings or adjustments to your budget.",
+    "latency_sec": 6.1,
+    "embed_cosine": 0.9172941446304321,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The core concept is correct but the answer contains a confusing error ('reducing your taxable income') and incorrectly implies the entire sale proceeds are income rather than just the gain; it misses key nuances like holding period, account type, and wash-sale rules.",
+      "mean": 3.0
+    }
+  },
+  {
+    "id": "tax-007",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why is the phrase 'tax write-off' often used too loosely in everyday conversation?",
+    "reference": "People often use 'tax write-off' to mean any expense that lowers taxes, but not every expense is deductible, and even deductible expenses do not usually make something free. A deduction lowers taxable income rather than reimbursing the full cost. Using the phrase too loosely can create the mistaken impression that spending money automatically produces equivalent tax savings.",
+    "candidate": "The phrase 'tax write-off' is often used too loosely in everyday conversation because it can be misunderstood to mean any expense that reduces tax liability without considering the specific rules and limitations set by tax laws. Tax write-offs, or deductions, are limited to certain expenses that are considered necessary for business operations or personal financial management as per IRS guidelines. This includes things like mortgage interest, charitable donations, and business-related expenses. The looseness in its usage can lead to confusion and potentially non-compliance with tax regulations, as not all expenses qualify as write-offs. Additionally, there are tradeoffs involved; while some expenses may reduce taxable income, others might not be deductible at all, or they might have higher thresholds before becoming deductible. Therefore, it's crucial to understand the specifics of what qualifies as a tax write-off to avoid oversimplification and potential legal issues.",
+    "latency_sec": 7.5,
+    "embed_cosine": 0.9333338737487793,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 4,
+      "rationale": "The candidate correctly notes not all expenses qualify and mentions thresholds, but misses the key conceptual point that a deduction reduces taxable income rather than reimbursing the full cost, leading people to think spending money is 'free.'",
+      "mean": 3.6666666666666665
+    }
+  }
+]
