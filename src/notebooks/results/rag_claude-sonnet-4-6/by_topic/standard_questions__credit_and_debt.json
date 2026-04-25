@@ -40,7 +40,7 @@
         "distance": 0.385026216506958
       }
     ],
-    "latency_sec": 1.02,
+    "latency_sec": 1.05,
     "mc_correct": true,
     "mc_picked": "B",
     "n_citations": 0,
@@ -54,7 +54,7 @@
     "difficulty": "intermediate",
     "question": "How long does a Chapter 7 bankruptcy stay on your credit report?",
     "reference": "C",
-    "candidate": "C\n\nThe provided passages do not contain specific information about how long a Chapter 7 bankruptcy remains on a credit report. However, since I must choose from the options given, I want to be transparent: **the passages do not support any of these answers directly**.\n\nThat said, if you require only the letter: **C**\n\nThis reflects the widely known regulatory standard (10 years from filing for Chapter 7), but I cannot cite any of the provided passages [1]\u2013[5] to verify this, as none of them address bankruptcy reporting timelines specifically. Please consult the CFPB directly or a qualified credit counselor for confirmation.",
+    "candidate": "C",
     "retrieved": [
       {
         "title": "Credit reports and scores",
@@ -87,11 +87,11 @@
         "distance": 0.3894520401954651
       }
     ],
-    "latency_sec": 4.17,
+    "latency_sec": 1.31,
     "mc_correct": true,
     "mc_picked": "C",
-    "n_citations": 2,
-    "citation_coverage": 0.4
+    "n_citations": 0,
+    "citation_coverage": 0.0
   },
   {
     "id": "crd-003",
@@ -134,7 +134,7 @@
         "distance": 0.4099413752555847
       }
     ],
-    "latency_sec": 0.58,
+    "latency_sec": 0.75,
     "mc_correct": true,
     "mc_picked": "B",
     "n_citations": 0,
@@ -181,7 +181,7 @@
         "distance": 0.4505169987678528
       }
     ],
-    "latency_sec": 1.09,
+    "latency_sec": 1.01,
     "mc_correct": true,
     "mc_picked": "C",
     "n_citations": 0,
@@ -228,7 +228,7 @@
         "distance": 0.45493507385253906
       }
     ],
-    "latency_sec": 0.6,
+    "latency_sec": 0.76,
     "mc_correct": true,
     "mc_picked": "B",
     "n_citations": 0,
@@ -242,7 +242,7 @@
     "difficulty": "basic",
     "question": "What is the difference between a hard inquiry and a soft inquiry on your credit report?",
     "reference": "A hard inquiry occurs when a lender checks your credit as part of a lending decision (e.g., applying for a mortgage, credit card, or auto loan). Hard inquiries can temporarily lower your score by a few points and remain on your report for 2 years. A soft inquiry occurs when you check your own credit, when a lender pre-approves you, or for background checks. Soft inquiries do not affect your credit score at all.",
-    "candidate": "The provided passages from the CFPB do not contain sufficient information to fully explain the difference between hard and soft inquiries on your credit report. The passages cover general topics such as checking your credit reports, disputing errors, building credit, and submitting complaints [1][2][3][4][5], but they do not specifically address the distinction between hard and soft inquiries.\n\nWhat I can confirm from the passages is that **requesting your own credit reports will not hurt your credit score** [2], which is a detail related to the concept of soft inquiries \u2014 but the passages do not use that terminology or elaborate further. To get a thorough and accurate explanation of hard versus soft inquiries, I would recommend visiting the CFPB's full website directly or using their \"Key Terms\" and \"Basics\" resources, which may cover this topic in sections not included in the provided passages [3][4]. Fabricating details beyond what the passages support would not be appropriate here, so I encourage you to explore those additional CFPB resources for a complete answer.",
+    "candidate": "Hard inquiries occur when a lender or creditor pulls your credit report as part of a formal application for credit, such as applying for a mortgage, auto loan, or credit card. Soft inquiries, by contrast, happen when you check your own credit, when a company pre-screens you for a promotional offer, or when an employer conducts a background check. The key practical difference is that hard inquiries can temporarily lower your credit score, while soft inquiries have no impact on your score whatsoever. It's worth noting that the CFPB confirms that simply requesting your own credit reports will not hurt your credit score [2]. Multiple hard inquiries within a short window for the same type of loan (such as mortgage rate shopping) are often treated as a single inquiry by scoring models, which softens the impact. Hard inquiries typically remain visible on your credit report for two years, though their effect on your score generally fades after a few months. Being mindful of how often you formally apply for new credit is a useful habit, since a cluster of hard inquiries can signal financial stress to potential lenders.",
     "retrieved": [
       {
         "title": "Credit reports and scores",
@@ -275,16 +275,16 @@
         "distance": 0.36626166105270386
       }
     ],
-    "latency_sec": 5.67,
-    "embed_cosine": 0.8857104778289795,
+    "latency_sec": 5.74,
+    "embed_cosine": 0.9692369103431702,
     "judge": {
-      "factuality": 2,
-      "completeness": 1,
-      "advice_quality": 2,
-      "rationale": "The candidate refuses to answer the question directly, only noting that checking your own credit doesn't hurt your score, missing all key distinctions about hard inquiries, score impact, and report duration.",
-      "mean": 1.6666666666666667
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key points from the reference, adds useful nuance about rate-shopping treatment and score impact duration, and provides actionable guidance without any misinformation.",
+      "mean": 5.0
     },
-    "n_citations": 5,
-    "citation_coverage": 1.0
+    "n_citations": 1,
+    "citation_coverage": 0.2
   }
 ]

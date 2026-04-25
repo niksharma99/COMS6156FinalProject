@@ -7,7 +7,7 @@
     "difficulty": "hard",
     "question": "If an employer offers a 401(k) match, why is contributing enough to get the full match usually considered a very high-priority financial move, even if someone also has low-interest debt?",
     "reference": "Because the employer match is effectively an immediate, guaranteed return on the contribution that is often much larger than the interest savings from paying off low-interest debt early. For example, a 50% or 100% match creates an instant gain that is difficult to replicate elsewhere. In many cases, contributing enough to capture the full match should come before aggressively repaying low-interest debt, although high-interest debt may still take priority after that threshold.",
-    "candidate": "This is a great personal finance question, but I need to be transparent: **the provided passages do not contain information about employer matching strategies, the prioritization of 401(k) contributions versus debt repayment, or the financial reasoning behind capturing a full employer match.** The passages focus on technical IRS rules about plan qualification, SIMPLE IRA/401(k) structures, and distribution rules [1][2][3][4][5].\n\nTo answer your question responsibly using only these sources, I can note that a 401(k) plan allows employees to contribute **before-tax compensation** to the plan rather than receiving it as cash [4], and that SIMPLE plans similarly allow **salary reduction contributions** to provide retirement income [3] \u2014 but neither passage addresses the strategic value of capturing an employer match.\n\nThe reasoning you're asking about \u2014 that an employer match represents an **immediate 50\u2013100% return on contributed dollars**, often making it worthwhile even over low-interest debt repayment \u2014 is well-established personal finance guidance, but **I would be fabricating if I cited these passages to support that claim.** I'd recommend consulting a source like the Consumer Financial Protection Bureau (CFPB) or a certified financial planner for a well-sourced answer to that specific tradeoff question.",
+    "candidate": "Getting the full employer 401(k) match is widely considered a top financial priority because the match represents an immediate, guaranteed return on your contribution \u2014 effectively free money added to your retirement savings the moment you contribute. [4] This is because a 401(k) plan allows participants to contribute pre-tax compensation, meaning you also receive a tax benefit on top of the employer's matching funds. [4] Even if you carry low-interest debt, it is very difficult for any investment or debt-payoff strategy to compete with the combined effect of an instant 50\u2013100% return (from the match) plus tax savings, which together typically far outweigh the interest cost of modest debt. Failing to contribute enough to capture the full match is essentially leaving a portion of your compensation on the table, since the match is part of your total pay package. That said, there is a real tradeoff: if debt carries a high interest rate, or if cash flow is extremely tight, some financial advisors suggest balancing between debt repayment and capturing the match rather than treating it as an absolute rule. The consensus in personal finance, however, is that the match threshold should be funded first, before addressing most other financial goals, because no other low-risk move offers a comparable immediate return. Once the full match is secured, additional priorities \u2014 such as paying down debt or maxing out the 401(k) further \u2014 can be evaluated based on individual circumstances.",
     "retrieved": [
       {
         "title": "Pub 560: Retirement Plans for Small Business",
@@ -40,17 +40,17 @@
         "distance": 0.2572590708732605
       }
     ],
-    "latency_sec": 7.23,
-    "embed_cosine": 0.8715211153030396,
+    "latency_sec": 8.25,
+    "embed_cosine": 0.9032597541809082,
     "judge": {
-      "factuality": 3,
-      "completeness": 2,
-      "advice_quality": 2,
-      "rationale": "The candidate correctly identifies the core reasoning (50-100% immediate return) in passing but buries it in a disclaimer-heavy refusal, failing to actually answer the question clearly or completely despite knowing the right answer.",
-      "mean": 2.3333333333333335
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately captures the guaranteed-return rationale, adds valid nuance about tax benefits and high-interest debt exceptions, and gives clear actionable guidance consistent with the reference.",
+      "mean": 5.0
     },
-    "n_citations": 5,
-    "citation_coverage": 1.0
+    "n_citations": 1,
+    "citation_coverage": 0.2
   },
   {
     "id": "ret-002",
@@ -60,7 +60,7 @@
     "difficulty": "hard",
     "question": "Why can delaying retirement saving by 10 years have a larger impact than many people expect?",
     "reference": "Delaying retirement saving reduces the years available for compound growth, which can significantly lower the ending balance even if later contributions are larger. Early dollars have more time to grow and generate returns on prior returns. Because compounding is nonlinear over time, lost early years can be difficult to fully make up later.",
-    "candidate": "The provided passages do not directly address the topic of delaying retirement saving by 10 years or explain its compounding impact in detail. However, some relevant context can be drawn from the sources to partially illuminate the issue.\n\nHigher lifetime earnings, which come from continued work, can increase Social Security benefits when you retire [1]. Additionally, delaying when you *claim* Social Security benefits beyond full retirement age adds 8% to your benefit for each full year of delay, up to age 70 [1]. This means decisions about timing \u2014 both when you save and when you claim \u2014 have compounding financial consequences. On the savings side, tax-advantaged accounts like 401(k)s are subject to required minimum distributions eventually, meaning funds left in a traditional IRA cannot grow indefinitely without being distributed [5]. Those who start saving later also have fewer years to take advantage of catch-up contribution provisions, such as the enhanced catch-up limit of $11,250 for participants aged 60\u201363 under SECURE 2.0 [2].\n\nThat said, the passages do not contain sufficient detail about the mathematics of compound growth or the specific 10-year delay scenario you're asking about. To fully answer your question \u2014 including the dramatic effect of compound interest lost over a decade \u2014 I would need additional sources, and I don't want to fabricate figures not supported by the provided material.",
+    "candidate": "Delaying retirement saving by 10 years has a surprisingly large impact primarily because of compound growth: every dollar invested today earns returns not just on the original principal, but on all previously accumulated gains, and losing a decade of that compounding can cut a final nest egg dramatically. The math is especially punishing early in a career, when those dollars have the longest runway to grow \u2014 a contribution made at 25 has roughly twice as many compounding years as the same contribution made at 35. Beyond the investment side, delaying also means fewer years of contributions overall, so the portfolio starts smaller *and* has less time to multiply. On the Social Security side, lower lifetime earnings and a shorter earnings record can reduce the benefit you ultimately receive [1], compounding the shortfall further. Additionally, catch-up contribution rules \u2014 which allow higher contributions only after you reach certain ages \u2014 exist precisely because the IRS recognizes late starters face a steeper climb; these provisions help but cannot fully replicate decades of early growth [2]. There are also behavioral tradeoffs: people who delay often find it harder to save aggressively later in life, when competing financial demands like mortgages, college costs, or aging-parent care tend to peak. The combined effect of lost compounding, a smaller contribution base, and potential Social Security impacts makes a 10-year delay far more costly than a simple linear calculation would suggest.",
     "retrieved": [
       {
         "title": "Retirement Benefits (SSA Pub 05-10035)",
@@ -87,23 +87,23 @@
         "distance": 0.3162306547164917
       },
       {
-        "title": "Pub 590-B: Distributions from IRAs",
+        "title": "Pub 590-A: Contributions to IRAs",
         "publisher": "IRS",
-        "source_slug": "irs_pub_590b_iras_distributions",
-        "distance": 0.3209441900253296
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.319430947303772
       }
     ],
-    "latency_sec": 8.23,
-    "embed_cosine": 0.8806272745132446,
+    "latency_sec": 8.5,
+    "embed_cosine": 0.8978386521339417,
     "judge": {
-      "factuality": 2,
-      "completeness": 2,
-      "advice_quality": 2,
-      "rationale": "The candidate avoids directly answering the core question about compounding's nonlinear effect, instead discussing tangentially related Social Security and contribution rules, missing the key insight about early dollars having more time for compound growth.",
-      "mean": 2.0
+      "factuality": 4,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate accurately explains nonlinear compounding and covers all reference points plus useful extras; the Social Security claim is tangential and slightly overstated but not seriously misleading.",
+      "mean": 4.666666666666667
     },
-    "n_citations": 3,
-    "citation_coverage": 0.6
+    "n_citations": 2,
+    "citation_coverage": 0.4
   },
   {
     "id": "ret-003",
@@ -113,7 +113,7 @@
     "difficulty": "hard",
     "question": "What is the main difference between choosing traditional retirement contributions and Roth retirement contributions?",
     "reference": "Traditional contributions generally provide a tax benefit upfront because contributions may reduce taxable income now, while withdrawals in retirement are typically taxed. Roth contributions are made with after-tax money, so there is no upfront deduction, but qualified withdrawals in retirement are generally tax-free. The tradeoff depends on expected future tax rates, current income, and planning preferences.",
-    "candidate": "## Traditional vs. Roth IRA: Key Differences\n\nThe fundamental distinction between traditional and Roth IRA contributions comes down to **when you receive your tax benefit**. With a traditional IRA, you may be able to deduct some or all of your contributions depending on your circumstances, meaning you get a potential tax break upfront [4]. In contrast, Roth IRA contributions are **nondeductible** \u2014 you contribute after-tax dollars and do not report contributions on your return [5][2].\n\nThe payoff for Roth contributors comes later: qualified distributions from a Roth IRA are generally **tax-free**, and you are not required to take distributions during your lifetime, allowing the account to grow indefinitely [1]. Traditional IRAs, on the other hand, require you to eventually take distributions, and the earnings in the account are generally **included in income when withdrawn** [4].\n\nThere is also a meaningful **eligibility tradeoff** with Roth IRAs: your ability to contribute phases out based on your modified AGI, so higher earners may be restricted or ineligible [1]. Both account types have **no age limit** for contributions, so that factor does not differentiate them [3]. Ultimately, the choice involves weighing an immediate tax deduction (traditional) against tax-free growth and withdrawals in retirement (Roth) \u2014 a tradeoff that depends heavily on your current versus expected future tax rate.",
+    "candidate": "The core difference between traditional and Roth retirement contributions comes down to **when you pay taxes**. With a traditional IRA, you may be able to deduct your contributions from your taxable income in the year you make them, meaning your money grows tax-deferred but withdrawals in retirement are taxed as ordinary income [4]. With a Roth IRA, contributions are made with after-tax dollars \u2014 you get no upfront deduction \u2014 but qualified distributions are tax-free [1][2]. Notably, Roth IRA contributions are not even reported on your tax return [5]. Another meaningful tradeoff is flexibility: Roth IRAs have no required minimum distributions (RMDs) during your lifetime, meaning you can leave funds untouched as long as you live, whereas traditional IRAs require you to begin taking distributions at a certain age [1]. Generally, a Roth tends to favor those who expect to be in a higher tax bracket in retirement, while a traditional IRA may benefit those who want the tax break now and anticipate a lower bracket later. Both account types have no age limit for contributions, so either can be opened or contributed to at any stage of life [3].",
     "retrieved": [
       {
         "title": "Pub 590-A: Contributions to IRAs",
@@ -146,13 +146,13 @@
         "distance": 0.21164155006408691
       }
     ],
-    "latency_sec": 7.85,
-    "embed_cosine": 0.8638888001441956,
+    "latency_sec": 6.73,
+    "embed_cosine": 0.8929360508918762,
     "judge": {
       "factuality": 5,
       "completeness": 5,
       "advice_quality": 5,
-      "rationale": "Accurate, thorough coverage of all key differences including tax timing, deductibility, RMDs, income limits, and the core tradeoff framework matching the reference answer.",
+      "rationale": "Candidate accurately covers all key points from the reference\u2014timing of taxation, upfront deduction vs. tax-free withdrawals, and tax-rate tradeoff\u2014while adding correct and useful nuances like RMDs and Roth flexibility.",
       "mean": 5.0
     },
     "n_citations": 5,
@@ -166,7 +166,7 @@
     "difficulty": "hard",
     "question": "Why might someone choose not to invest their retirement account too conservatively when retirement is still decades away?",
     "reference": "If retirement is decades away, being too conservative may limit long-term growth and make it harder for savings to outpace inflation and meet future spending needs. While conservative investments may reduce short-term volatility, a very long time horizon often allows more capacity to tolerate market fluctuations. Asset allocation should reflect both risk tolerance and time horizon, not just fear of temporary losses.",
-    "candidate": "The provided passages focus primarily on IRA distribution rules, withdrawal penalties, and contribution guidelines \u2014 they do not contain information about investment allocation strategies, the risks of conservative investing, or the relationship between time horizon and portfolio construction.\n\nBecause the passages are insufficient to answer this question confidently, I cannot provide a properly sourced response without fabricating financial claims. Doing so could give you misleading guidance on an important topic.\n\nWhat I can say is that this question touches on well-established personal finance concepts \u2014 such as inflation risk, opportunity cost, and long-term compounding \u2014 but none of those concepts appear in the provided passages [1][2][3][4][5]. I would recommend consulting a qualified financial advisor or resources specifically addressing investment allocation strategy, such as IRS publications on retirement planning paired with guidance from organizations like FINRA or the SEC's investor education materials.",
+    "candidate": "Investing too conservatively early in your career means your portfolio may fail to keep pace with inflation over decades, gradually eroding the real purchasing power of your savings. Since retirement accounts like traditional IRAs are designed for long-term accumulation and you generally can't access funds without penalty before age 59\u00bd [1], you have a long runway during which your investments can ride out market volatility and recover from downturns. This makes the time horizon itself a key asset: younger investors can tolerate more short-term fluctuation in exchange for higher potential long-term growth, a principle often called \"risk capacity.\" Equities have historically outperformed bonds and cash equivalents over long periods, so an overly bond-heavy or cash-heavy allocation in your 20s or 30s can meaningfully reduce the final value of your nest egg through the power of compounding working against you rather than for you. Dollar-cost averaging into growth-oriented assets over many years also helps smooth out the impact of market swings, reducing the risk of poor timing. That said, there is a real tradeoff: higher-growth investments carry more volatility, so the right allocation depends on your personal risk tolerance, income stability, and specific retirement timeline. As retirement approaches, gradually shifting toward more conservative holdings is a common strategy to protect accumulated gains.",
     "retrieved": [
       {
         "title": "Pub 590-B: Distributions from IRAs",
@@ -199,17 +199,17 @@
         "distance": 0.29097336530685425
       }
     ],
-    "latency_sec": 5.21,
-    "embed_cosine": 0.8399152159690857,
+    "latency_sec": 8.0,
+    "embed_cosine": 0.9232650995254517,
     "judge": {
-      "factuality": 3,
-      "completeness": 1,
-      "advice_quality": 2,
-      "rationale": "The candidate refuses to answer citing lack of source passages, missing all substantive content the reference covers, though it avoids misinformation and correctly names relevant concepts in passing.",
-      "mean": 2.0
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key reference points\u2014inflation erosion, long time horizon, risk capacity, historical equity outperformance, and the importance of gradually shifting allocations\u2014while adding well-framed nuance about tradeoffs and dollar-cost averaging.",
+      "mean": 5.0
     },
-    "n_citations": 5,
-    "citation_coverage": 1.0
+    "n_citations": 1,
+    "citation_coverage": 0.2
   },
   {
     "id": "ret-005",
@@ -219,7 +219,7 @@
     "difficulty": "hard",
     "question": "A worker says, 'I am young, so I can catch up on retirement savings later.' What is risky about that logic?",
     "reference": "That logic underestimates the value of early compounding and assumes future income and financial flexibility will make catching up easy. In reality, later years may include competing priorities such as housing, children, debt, or health costs. Starting earlier usually allows smaller contributions to work more effectively than trying to save aggressively only later.",
-    "candidate": "The \"catch up later\" mindset carries several concrete financial risks worth examining carefully.\n\nFirst, Social Security benefits are based on your **entire lifetime earnings record** \u2014 years with low or no earnings directly reduce your eventual benefit amount, meaning early gaps in saving and earning have lasting consequences [3]. Second, delaying retirement savings means forgoing **years of compounding growth**; money invested early has far more time to grow than the same dollar invested a decade later \u2014 a mathematical disadvantage that is very difficult to overcome simply by contributing more later. Third, life doesn't always cooperate with plans to \"work longer to catch up\" \u2014 health problems can force early retirement, and while Social Security disability benefits exist as a partial safety net, they are not guaranteed to fully replace your intended retirement income [4]. Fourth, early withdrawals from retirement accounts before age 59\u00bd \u2014 which someone in financial distress might resort to \u2014 trigger a **10% additional tax penalty** on top of ordinary income taxes, with only limited exceptions such as unreimbursed medical expenses exceeding 7.5% of AGI or total disability [5]. Finally, even the enhanced **catch-up contribution limits** available to older workers (e.g., higher SIMPLE IRA limits for those aged 60\u201363 under SECURE 2.0) have caps and are tied to your actual compensation, so they cannot fully compensate for decades of missed contributions [2]. The tradeoff is real: starting early, even with small amounts, is generally far more effective than trying to make large contributions in a compressed window later in life.",
+    "candidate": "The core risk in this thinking is forgoing the power of **compound growth**: money invested early has far more time to grow, meaning dollars saved in your 20s are worth dramatically more at retirement than dollars saved in your 40s or 50s \u2014 a well-established principle in personal finance. Delaying savings also means you'll need to contribute a much larger share of your income later to reach the same goal, which can be a serious budget strain. Social Security benefits are based on your *lifetime* earnings record, so years of low or no contributions to your career earnings can reduce your eventual benefit [3]. There's also no guarantee that \"later\" will go as planned \u2014 health problems can force early retirement unexpectedly [4], cutting short the window you assumed you'd have. Early withdrawals from retirement accounts before age 59\u00bd generally trigger a 10% additional tax penalty, limiting your flexibility if you do need funds before then [5]. Participation rules mean employer-sponsored plans are available to you now, so not enrolling may mean leaving employer matching contributions on the table \u2014 which is essentially free money foregone. Waiting is a gamble on future income, health, and market conditions that all carry real uncertainty.",
     "retrieved": [
       {
         "title": "Pub 560: Retirement Plans for Small Business",
@@ -252,17 +252,17 @@
         "distance": 0.3131038546562195
       }
     ],
-    "latency_sec": 9.74,
-    "embed_cosine": 0.8632083535194397,
+    "latency_sec": 7.69,
+    "embed_cosine": 0.8649988770484924,
     "judge": {
       "factuality": 4,
       "completeness": 5,
       "advice_quality": 5,
-      "rationale": "The candidate accurately covers compounding, competing life circumstances, and catch-up limits while adding well-supported details about Social Security, early withdrawal penalties, and SECURE 2.0 provisions, though the Social Security point slightly conflates savings gaps with earnings record gaps.",
+      "rationale": "The candidate accurately covers compounding, catch-up difficulty, employer match loss, and life uncertainty, adding valid points about Social Security and health risks, though the early-withdrawal penalty point is tangential and slightly out of context.",
       "mean": 4.666666666666667
     },
-    "n_citations": 4,
-    "citation_coverage": 0.8
+    "n_citations": 3,
+    "citation_coverage": 0.6
   },
   {
     "id": "ret-006",
@@ -272,7 +272,7 @@
     "difficulty": "hard",
     "question": "Why is inflation an important factor when planning for retirement, even if a target dollar amount sounds large today?",
     "reference": "Inflation reduces the future purchasing power of money, so an amount that seems large today may buy much less decades from now. Retirement planning should consider not just nominal balances but what those balances will support in real spending terms. Ignoring inflation can cause a person to underestimate how much they need to save.",
-    "candidate": "The provided passages do not contain sufficient information to answer this question confidently. None of the passages [1]\u2013[5] address inflation, its effects on purchasing power, or its role in retirement planning. The passages cover topics such as IRA distribution taxation [1], early withdrawal penalties [2], Roth IRA contribution and distribution mechanics [3], defined contribution plan deduction limits [4], and Social Security benefit timing [5], but none discuss inflation as a planning factor.\n\nTo answer your question accurately, I would need sources that address topics such as the Consumer Price Index, real vs. nominal returns, cost-of-living adjustments, or the long-term erosion of purchasing power \u2014 none of which appear in the provided context. Fabricating an answer on this important financial topic would risk giving you misleading guidance, so I'd recommend consulting resources such as the Social Security Administration's cost-of-living adjustment (COLA) publications, the Bureau of Labor Statistics, or a qualified financial planner for a well-sourced explanation of inflation's impact on retirement planning.",
+    "candidate": "Inflation erodes the purchasing power of money over time, meaning a dollar saved today will buy less in the future than it does now. A retirement nest egg that seems substantial in today's dollars may fall significantly short of covering living expenses decades from now, because everyday costs \u2014 groceries, housing, healthcare \u2014 tend to rise steadily over time. This is especially critical for retirees, who may spend 20\u201330 years in retirement, giving inflation a long runway to compound its effect on their savings. Healthcare costs in particular tend to rise faster than general inflation, which can strain a fixed retirement income more than many people anticipate. Social Security benefits do provide some protection through cost-of-living adjustments, though the degree to which benefits replace pre-retirement income varies based on earnings history and the age at which you claim [5]. To counteract inflation, financial planners generally recommend holding a portion of retirement assets in growth-oriented investments, such as equities, rather than keeping everything in cash or low-yield fixed-income instruments. Planning with an inflation-adjusted (real) return assumption, rather than a nominal one, helps ensure your target retirement number is genuinely sufficient when you actually need it.",
     "retrieved": [
       {
         "title": "Pub 590-B: Distributions from IRAs",
@@ -305,17 +305,17 @@
         "distance": 0.3567225933074951
       }
     ],
-    "latency_sec": 5.92,
-    "embed_cosine": 0.8752191066741943,
+    "latency_sec": 7.07,
+    "embed_cosine": 0.8909180164337158,
     "judge": {
-      "factuality": 3,
-      "completeness": 1,
-      "advice_quality": 2,
-      "rationale": "The candidate refuses to answer due to claimed lack of source passages, missing all substantive content the reference covers, though the refusal itself is not factually wrong.",
-      "mean": 2.0
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all reference points and adds well-grounded nuance on healthcare inflation, Social Security COLAs, investment strategy, and the multi-decade compounding effect without any misinformation.",
+      "mean": 5.0
     },
-    "n_citations": 5,
-    "citation_coverage": 1.0
+    "n_citations": 1,
+    "citation_coverage": 0.2
   },
   {
     "id": "ret-007",
@@ -325,7 +325,7 @@
     "difficulty": "hard",
     "question": "Why can taking an early withdrawal from a retirement account have effects beyond just reducing the account balance today?",
     "reference": "An early withdrawal can reduce future compounding by removing money that would otherwise have stayed invested for many years. Depending on the account type and circumstances, it may also trigger taxes and penalties. The long-term cost can therefore be much larger than the amount withdrawn because of lost growth and possible tax consequences.",
-    "candidate": "Taking an early withdrawal from a traditional IRA before age 59\u00bd generally triggers a 10% additional tax on top of any ordinary income taxes owed, meaning you lose a significant portion of the withdrawn funds immediately to penalties and taxes [5]. The withdrawn amount is also typically included in your taxable income for the year, which could push you into a higher tax bracket and compound the financial impact [1]. Beyond the immediate tax hit, you permanently lose the future tax-deferred compounding growth that those funds would have generated had they remained in the account \u2014 a long-term opportunity cost that is difficult to recover. If a prohibited transaction is involved, the consequences can be even more severe: the entire IRA account can lose its tax-advantaged status as of the first day of that year, treating all assets as distributed at fair market value [3]. In that scenario, if the total fair market value exceeds your basis in the IRA, the entire taxable gain becomes includible in your income at once, and additional taxes or penalties may apply on top of that [1][3]. Even withdrawals that avoid the 10% penalty \u2014 such as those made before the tax return due date \u2014 must be handled carefully to ensure they qualify for tax-free treatment [2][5]. Altogether, the combination of immediate penalties, increased taxable income, potential loss of IRA status, and forfeited future growth makes early withdrawals far more costly than the face value of the funds withdrawn would suggest.",
+    "candidate": "Taking an early withdrawal from a traditional IRA generally triggers a 10% additional tax on top of ordinary income taxes owed on the distributed amount, meaning a significant portion of the withdrawal is lost to taxes and penalties rather than going to you [5]. Beyond the immediate tax hit, the withdrawn funds permanently lose their tax-deferred compounding potential \u2014 money that could have grown for decades is removed from that sheltered environment, often resulting in a much larger long-term cost than the nominal withdrawal amount suggests. If the withdrawal causes your IRA to be treated as having distributed all its assets (for example, due to a prohibited transaction), the taxable gain on the entire account becomes includible in your income in that year, potentially pushing you into a higher tax bracket [1][3]. Early withdrawals can also affect your financial aid eligibility, since distributed amounts count as income on applications like the FAFSA. Additionally, once funds are withdrawn they generally cannot simply be \"put back\" \u2014 IRA contribution limits restrict how much you can re-contribute each year, making it difficult to fully recover the lost retirement savings. The combined effect of taxes, penalties, lost compounding, and contribution-limit constraints means the true cost of an early withdrawal is typically far greater than the face value of the amount taken out.",
     "retrieved": [
       {
         "title": "Pub 590-A: Contributions to IRAs",
@@ -358,16 +358,16 @@
         "distance": 0.25253039598464966
       }
     ],
-    "latency_sec": 7.92,
-    "embed_cosine": 0.8820719718933105,
+    "latency_sec": 6.84,
+    "embed_cosine": 0.8688374757766724,
     "judge": {
       "factuality": 4,
       "completeness": 5,
       "advice_quality": 5,
-      "rationale": "The candidate accurately covers taxes, penalties, lost compounding, and bracket effects, and adds nuanced points about prohibited transactions and IRA status loss, all consistent with the reference, though the prohibited-transaction detail goes beyond what was asked.",
+      "rationale": "The candidate accurately covers taxes, penalties, lost compounding, and contribution limits, adding valid nuances like FAFSA impact and prohibited transactions, with only minor risk of overgeneralization on the prohibited-transaction scenario.",
       "mean": 4.666666666666667
     },
-    "n_citations": 4,
-    "citation_coverage": 0.8
+    "n_citations": 3,
+    "citation_coverage": 0.6
   }
 ]

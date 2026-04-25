@@ -7,7 +7,7 @@
     "difficulty": "basic",
     "question": "What is the difference between an HMO and a PPO health insurance plan?",
     "reference": "An HMO (Health Maintenance Organization) requires you to choose a primary care physician, get referrals for specialists, and generally limits coverage to in-network providers only. A PPO (Preferred Provider Organization) allows you to see any provider without referrals, including out-of-network providers, but typically has higher premiums and some out-of-network cost-sharing.",
-    "candidate": "The provided passages do not contain information about HMOs (Health Maintenance Organizations) or PPOs (Preferred Provider Organizations). The context is focused on HSAs, HDHPs, FSAs, HRAs, and related tax-favored health plan topics from IRS Publication 969 and HealthCare.gov [1][2][3][4][5].\n\nBecause I cannot find relevant information about HMOs and PPOs in the supplied passages, I am unable to give you a properly sourced answer on this topic, and I won't fabricate details that aren't supported by the provided material. To get accurate information about the differences between HMO and PPO plans, I would recommend visiting **HealthCare.gov** or consulting your insurance provider directly, as they would have authoritative explanations of how each plan type structures its networks, referral requirements, and cost-sharing arrangements.",
+    "candidate": "HMOs (Health Maintenance Organizations) and PPOs (Preferred Provider Organizations) are two of the most common types of health insurance plan structures, each with distinct tradeoffs. With an HMO, you are generally required to choose a primary care physician (PCP) who acts as a gatekeeper and provides referrals to specialists, and coverage is typically limited to in-network providers except in emergencies. PPOs offer more flexibility, allowing you to see specialists and out-of-network providers without a referral, though you'll usually pay less when staying within the plan's network. In exchange for its flexibility restrictions, an HMO typically comes with lower premiums and out-of-pocket costs, making it a popular choice for those who want predictable, lower-cost coverage and don't mind the referral process. A PPO tends to have higher premiums and potentially higher out-of-pocket costs, but is often preferred by people who want to manage their own care or have specific out-of-network providers they wish to see. Neither plan type is inherently superior \u2014 the right choice depends on your health needs, how often you seek specialist care, and your budget priorities. Note that the passages provided focus on HSAs, FSAs, and HDHPs and do not directly address HMO vs. PPO specifics, so this answer is drawn from general personal-finance knowledge.",
     "retrieved": [
       {
         "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
@@ -40,17 +40,17 @@
         "distance": 0.31724321842193604
       }
     ],
-    "latency_sec": 4.28,
-    "embed_cosine": 0.8632001876831055,
+    "latency_sec": 6.76,
+    "embed_cosine": 0.9314361214637756,
     "judge": {
-      "factuality": 3,
-      "completeness": 1,
-      "advice_quality": 2,
-      "rationale": "The candidate refuses to answer despite the question being a standard personal-finance topic it should handle, providing no substantive content about HMOs or PPOs, though it correctly redirects to authoritative sources.",
-      "mean": 2.0
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key distinctions (PCP/gatekeeper requirement, referrals, network restrictions, premium differences) and adds useful context about when each plan type is preferable, with appropriate nuance about tradeoffs.",
+      "mean": 5.0
     },
-    "n_citations": 5,
-    "citation_coverage": 1.0
+    "n_citations": 0,
+    "citation_coverage": 0.0
   },
   {
     "id": "ins-002",
@@ -93,7 +93,7 @@
         "distance": 0.2653115391731262
       }
     ],
-    "latency_sec": 0.86,
+    "latency_sec": 0.88,
     "mc_correct": true,
     "mc_picked": "C",
     "n_citations": 0,
@@ -107,7 +107,7 @@
     "difficulty": "basic",
     "question": "What does term life insurance cover that whole life insurance does not, and vice versa?",
     "reference": "Term life insurance provides coverage for a specific period (e.g., 10, 20, or 30 years) and pays a death benefit only if the insured dies during that term. It has no cash value component and is significantly cheaper. Whole life insurance provides permanent coverage for the insured's entire life, includes a cash value component that grows over time, and has much higher premiums. Term does not build cash value; whole life does not expire.",
-    "candidate": "The provided passages do not contain information about term life insurance or whole life insurance. The passages are focused on health insurance concepts such as deductibles, Health Savings Accounts (HSAs), and High Deductible Health Plans (HDHPs). I cannot answer your question about the differences between term and whole life insurance based on these sources alone, as fabricating that information would be irresponsible and potentially misleading.\n\nIf you'd like accurate information on life insurance, I'd recommend consulting resources from the Insurance Information Institute (III), your state's department of insurance, or a licensed insurance professional. They can explain the tradeoffs between term and whole life insurance, including coverage duration, cash value accumulation, and premium costs.",
+    "candidate": "The provided passages don't cover life insurance, so I'll draw on general personal-finance knowledge here. Term life insurance provides pure death-benefit protection for a specific period (e.g., 10, 20, or 30 years), meaning it pays out only if the insured dies within that term \u2014 it does not build any cash value. Whole life insurance, by contrast, covers the insured for their entire lifetime as long as premiums are paid, and it includes a cash-value component that grows on a tax-deferred basis and can be borrowed against or surrendered. The tradeoff is cost: term policies are generally much less expensive for the same death benefit, making them attractive for income replacement during working years or while carrying a mortgage. Whole life's cash-value feature doubles as a savings/investment vehicle, but critics note that the returns are often modest compared to investing the premium difference separately \u2014 a concept sometimes called \"buy term and invest the rest.\" Neither product is universally superior; the right choice depends on your budget, how long you need coverage, and whether the forced savings and lifetime guarantee of whole life align with your goals.",
     "retrieved": [
       {
         "title": "Deductible",
@@ -140,14 +140,14 @@
         "distance": 0.31617796421051025
       }
     ],
-    "latency_sec": 3.36,
-    "embed_cosine": 0.8693240880966187,
+    "latency_sec": 6.94,
+    "embed_cosine": 0.9496684670448303,
     "judge": {
-      "factuality": 1,
-      "completeness": 1,
-      "advice_quality": 2,
-      "rationale": "The candidate refused to answer despite the question being straightforward, citing irrelevant passage constraints, providing no actual information about term vs. whole life insurance.",
-      "mean": 1.3333333333333333
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Candidate answer accurately covers all reference points and adds valuable nuance including tax-deferred growth, borrowing against cash value, cost comparison, and the 'buy term and invest the rest' tradeoff without any misinformation.",
+      "mean": 5.0
     },
     "n_citations": 0,
     "citation_coverage": 0.0
@@ -160,7 +160,7 @@
     "difficulty": "intermediate",
     "question": "Does auto insurance follow the car or the driver?",
     "reference": "C",
-    "candidate": "The provided passages are entirely about health savings accounts (HSAs), high-deductible health plans (HDHPs), and health insurance deductibles. They contain no information about auto insurance.\n\nI cannot answer this question based on the provided context.",
+    "candidate": "C",
     "retrieved": [
       {
         "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
@@ -193,9 +193,9 @@
         "distance": 0.38848674297332764
       }
     ],
-    "latency_sec": 1.73,
-    "mc_correct": false,
-    "mc_picked": null,
+    "latency_sec": 0.69,
+    "mc_correct": true,
+    "mc_picked": "C",
     "n_citations": 0,
     "citation_coverage": 0.0
   },
@@ -240,7 +240,7 @@
         "distance": 0.3303515911102295
       }
     ],
-    "latency_sec": 0.69,
+    "latency_sec": 0.78,
     "mc_correct": true,
     "mc_picked": "B",
     "n_citations": 0,
@@ -254,7 +254,7 @@
     "difficulty": "intermediate",
     "question": "Is flood damage covered by a standard homeowner's insurance policy?",
     "reference": "B",
-    "candidate": "The provided passages do not contain any information about homeowner's insurance or flood damage coverage. They focus exclusively on HSAs, MSAs, HDHPs, and related tax-favored health plans.\n\nI cannot answer this question based on the provided context alone, and I will not fabricate an answer.",
+    "candidate": "B",
     "retrieved": [
       {
         "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
@@ -287,9 +287,9 @@
         "distance": 0.3765110373497009
       }
     ],
-    "latency_sec": 1.85,
-    "mc_correct": false,
-    "mc_picked": null,
+    "latency_sec": 0.64,
+    "mc_correct": true,
+    "mc_picked": "B",
     "n_citations": 0,
     "citation_coverage": 0.0
   }

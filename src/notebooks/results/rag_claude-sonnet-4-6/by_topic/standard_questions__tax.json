@@ -40,7 +40,7 @@
         "distance": 0.23506659269332886
       }
     ],
-    "latency_sec": 0.92,
+    "latency_sec": 0.81,
     "mc_correct": true,
     "mc_picked": "C",
     "n_citations": 0,
@@ -54,7 +54,7 @@
     "difficulty": "advanced",
     "question": "What is the capital gains tax rate for someone in the 32% income tax bracket who sells stock held for 14 months?",
     "reference": "B",
-    "candidate": "The provided passages do not contain information about capital gains tax rates for specific income tax brackets. The passages discuss how to calculate the *amount* of capital gain versus ordinary income, but do not specify the applicable tax rates (0%, 15%, 20%) that correspond to particular income brackets.\n\nI cannot confidently answer this question using only the provided passages, and I will not fabricate an answer.",
+    "candidate": "B",
     "retrieved": [
       {
         "title": "Pub 525: Taxable and Nontaxable Income",
@@ -87,9 +87,9 @@
         "distance": 0.29067909717559814
       }
     ],
-    "latency_sec": 2.56,
-    "mc_correct": false,
-    "mc_picked": null,
+    "latency_sec": 0.73,
+    "mc_correct": true,
+    "mc_picked": "B",
     "n_citations": 0,
     "citation_coverage": 0.0
   },
@@ -101,7 +101,7 @@
     "difficulty": "intermediate",
     "question": "What is the annual gift tax exclusion amount per recipient for 2024?",
     "reference": "D",
-    "candidate": "The provided passages do not contain information about the annual gift tax exclusion amount for 2024.\n\nI cannot answer this question based solely on the provided context.",
+    "candidate": "D",
     "retrieved": [
       {
         "title": "Pub 525: Taxable and Nontaxable Income",
@@ -134,9 +134,9 @@
         "distance": 0.29925280809402466
       }
     ],
-    "latency_sec": 1.49,
-    "mc_correct": false,
-    "mc_picked": null,
+    "latency_sec": 0.79,
+    "mc_correct": true,
+    "mc_picked": "D",
     "n_citations": 0,
     "citation_coverage": 0.0
   },
@@ -181,7 +181,7 @@
         "distance": 0.27941274642944336
       }
     ],
-    "latency_sec": 1.14,
+    "latency_sec": 1.67,
     "mc_correct": true,
     "mc_picked": "B",
     "n_citations": 0,
@@ -228,7 +228,7 @@
         "distance": 0.2260533571243286
       }
     ],
-    "latency_sec": 1.19,
+    "latency_sec": 0.69,
     "mc_correct": true,
     "mc_picked": "C",
     "n_citations": 0,
@@ -275,7 +275,7 @@
         "distance": 0.3081396818161011
       }
     ],
-    "latency_sec": 0.72,
+    "latency_sec": 0.77,
     "mc_correct": true,
     "mc_picked": "B",
     "n_citations": 0,
@@ -289,7 +289,7 @@
     "difficulty": "intermediate",
     "question": "Can you claim the Earned Income Tax Credit (EITC) if you have no qualifying children?",
     "reference": "B",
-    "candidate": "The provided passages do not contain sufficient information to answer this question confidently. The passages focus on the American Opportunity Credit, not the Earned Income Tax Credit eligibility rules for childless filers.\n\nI cannot select a answer from the options based solely on the provided context.",
+    "candidate": "B",
     "retrieved": [
       {
         "title": "Pub 970: Tax Benefits for Education",
@@ -322,9 +322,9 @@
         "distance": 0.27754682302474976
       }
     ],
-    "latency_sec": 1.84,
-    "mc_correct": false,
-    "mc_picked": "A",
+    "latency_sec": 0.83,
+    "mc_correct": true,
+    "mc_picked": "B",
     "n_citations": 0,
     "citation_coverage": 0.0
   },
@@ -336,7 +336,7 @@
     "difficulty": "advanced",
     "question": "If you work remotely from New York for a company based in California, which state(s) do you owe income tax to?",
     "reference": "Generally, you owe state income tax to New York (your state of residence and where you physically perform the work). California generally does not tax remote employees who are not physically present in the state. However, New York has a 'convenience of the employer' rule that could create complications if the employer also has a New York presence.",
-    "candidate": "The provided passages do not contain sufficient information to answer this question confidently. The passages focus on topics such as state tax refunds [1], volunteer firefighter tax benefits [2], education tax benefits [3], and self-employment income [5], but none of them address the rules governing multi-state taxation for remote workers.\n\nThis is actually a nuanced and important question that depends on the tax laws of both New York and California specifically, including concepts like \"convenience of the employer\" rules (which New York applies), residency rules, and sourcing rules for wage income. Getting this wrong could result in double taxation or penalties, so I would strongly recommend consulting a licensed tax professional (such as a CPA or enrolled agent) or reviewing official guidance directly from the New York State Department of Taxation and Finance and the California Franchise Tax Board. Since the provided materials do not cover this topic, I cannot provide a reliable answer based solely on these passages.",
+    "candidate": "This is a multi-state taxation question that the provided passages don't directly address, so I'll draw on general knowledge. As a remote worker based in New York, you will almost certainly owe New York State (and potentially New York City) income tax on your wages, since New York taxes residents on all income regardless of where the employer is located. California also has a strong claim to tax your income under its **\"source income\"** rules if the work is considered performed for a California-based employer \u2014 though whether California can actually tax you depends on whether you have a tax nexus there. New York has a notable **\"convenience of the employer\"** rule, which taxes nonresidents (and affects residents) based on where work is performed, but since you *are* working physically in New York, your income is clearly New York-sourced. California generally taxes nonresidents only on income *sourced* to California, so if you are truly performing all your work remotely from New York, California's claim may be limited \u2014 but this is a nuanced area and California can be aggressive in asserting tax jurisdiction. You could potentially face double taxation without a tax credit offset, and both states' rules are complex enough that consulting a tax professional familiar with multi-state taxation is strongly recommended. The provided IRS passages do not cover state-specific residency or sourcing rules, so be sure to check guidance directly from the New York and California tax authorities.",
     "retrieved": [
       {
         "title": "Pub 525: Taxable and Nontaxable Income",
@@ -369,16 +369,16 @@
         "distance": 0.3534931540489197
       }
     ],
-    "latency_sec": 5.23,
-    "embed_cosine": 0.882257878780365,
+    "latency_sec": 9.26,
+    "embed_cosine": 0.9361361265182495,
     "judge": {
       "factuality": 3,
-      "completeness": 2,
-      "advice_quality": 3,
-      "rationale": "The candidate correctly mentions the 'convenience of the employer' rule and advises consulting a tax professional, but refuses to answer the core question despite having general knowledge, missing the key point that NY taxes you as resident and CA generally does not tax remote workers not physically",
-      "mean": 2.6666666666666665
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "The candidate correctly identifies NY tax liability and mentions the convenience of employer rule, but overstates California's claim\u2014California generally does NOT tax remote workers physically working in NY, yet the answer hedges ambiguously suggesting California may have a strong claim, which could",
+      "mean": 3.6666666666666665
     },
-    "n_citations": 4,
-    "citation_coverage": 0.8
+    "n_citations": 0,
+    "citation_coverage": 0.0
   }
 ]

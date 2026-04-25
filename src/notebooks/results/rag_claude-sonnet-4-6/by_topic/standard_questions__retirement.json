@@ -40,7 +40,7 @@
         "distance": 0.17943018674850464
       }
     ],
-    "latency_sec": 0.68,
+    "latency_sec": 1.09,
     "mc_correct": true,
     "mc_picked": "D",
     "n_citations": 0,
@@ -87,7 +87,7 @@
         "distance": 0.23757946491241455
       }
     ],
-    "latency_sec": 0.7,
+    "latency_sec": 0.88,
     "mc_correct": true,
     "mc_picked": "C",
     "n_citations": 0,
@@ -134,7 +134,7 @@
         "distance": 0.15626251697540283
       }
     ],
-    "latency_sec": 0.93,
+    "latency_sec": 1.14,
     "mc_correct": true,
     "mc_picked": "B",
     "n_citations": 0,
@@ -181,7 +181,7 @@
         "distance": 0.21576929092407227
       }
     ],
-    "latency_sec": 0.8,
+    "latency_sec": 1.23,
     "mc_correct": false,
     "mc_picked": "C",
     "n_citations": 0,
@@ -195,7 +195,7 @@
     "difficulty": "basic",
     "question": "What is the difference between a traditional IRA and a Roth IRA in terms of tax treatment?",
     "reference": "Traditional IRA contributions may be tax-deductible (reducing taxable income in the contribution year), but withdrawals in retirement are taxed as ordinary income. Roth IRA contributions are made with after-tax dollars (no upfront deduction), but qualified withdrawals in retirement are completely tax-free.",
-    "candidate": "## Traditional IRA vs. Roth IRA: Tax Treatment\n\nThe two account types differ primarily in *when* your money is taxed. With a traditional IRA, you may be able to deduct some or all of your contributions depending on your circumstances, providing a potential upfront tax benefit [1][3]. Additionally, amounts in a traditional IRA, including earnings and gains, are generally not taxed until they are distributed [3]. This means you defer taxes now but will owe them when you withdraw funds in retirement.\n\nA Roth IRA works in the opposite direction. Contributions to a Roth IRA are made with after-tax dollars, but qualified distributions \u2014 including earnings \u2014 are tax-free [2]. You also do not include in your gross income distributions from a Roth IRA that you roll over tax-free into another Roth IRA [2]. An additional advantage of the Roth IRA is flexibility: if you choose, you can leave amounts in your Roth IRA as long as you live, with no required minimum distributions during your lifetime [5].\n\n**Key tradeoff:** The traditional IRA offers a potential tax deduction today but taxes you on withdrawal, while the Roth IRA offers no upfront deduction but provides tax-free growth and distributions \u2014 making the better choice dependent on your current vs. expected future tax rate.",
+    "candidate": "## Traditional IRA vs. Roth IRA: Tax Treatment\n\nThe two account types essentially offer a **mirror image of each other** when it comes to taxes. With a traditional IRA, you may be able to deduct some or all of your contributions depending on your circumstances, providing a potential upfront tax benefit [1][3]. Additionally, amounts in a traditional IRA \u2014 including earnings and gains \u2014 are generally **not taxed until they are distributed**, meaning you pay taxes on the money when you withdraw it in retirement [3]. A Roth IRA, by contrast, is funded with **after-tax dollars**, so there is no upfront deduction; however, qualified distributions from a Roth IRA are **not included in your gross income**, meaning your growth and withdrawals can be entirely tax-free [2]. Another meaningful difference is flexibility: with a Roth IRA, you can leave your money in the account as long as you live without being forced to take distributions [5], whereas traditional IRAs are subject to required minimum distributions (RMDs) under general tax law. The right choice depends on your current vs. expected future tax rate \u2014 if you anticipate being in a higher bracket in retirement, a Roth's tax-free withdrawals may be more advantageous, while a traditional IRA's upfront deduction may benefit those in a higher bracket today. Both account types have no age limit on contributions for tax years after 2019 [4].",
     "retrieved": [
       {
         "title": "Pub 590-A: Contributions to IRAs",
@@ -228,17 +228,17 @@
         "distance": 0.19248831272125244
       }
     ],
-    "latency_sec": 6.27,
-    "embed_cosine": 0.900332510471344,
+    "latency_sec": 7.27,
+    "embed_cosine": 0.875270426273346,
     "judge": {
       "factuality": 5,
       "completeness": 5,
       "advice_quality": 5,
-      "rationale": "The candidate answer accurately covers all key points from the reference, adds relevant details like RMDs and tax-free growth, and clearly frames the core tradeoff around current vs. future tax rates.",
+      "rationale": "Candidate accurately covers all key points from the reference and adds correct, well-framed bonus details (RMDs, bracket considerations, contribution age limits) without any misinformation.",
       "mean": 5.0
     },
-    "n_citations": 4,
-    "citation_coverage": 0.8
+    "n_citations": 5,
+    "citation_coverage": 1.0
   },
   {
     "id": "ret-006",
@@ -281,7 +281,7 @@
         "distance": 0.19442999362945557
       }
     ],
-    "latency_sec": 0.78,
+    "latency_sec": 0.81,
     "mc_correct": true,
     "mc_picked": "B",
     "n_citations": 0,
@@ -328,7 +328,7 @@
         "distance": 0.272163987159729
       }
     ],
-    "latency_sec": 0.64,
+    "latency_sec": 0.71,
     "mc_correct": true,
     "mc_picked": "D",
     "n_citations": 0,
@@ -375,7 +375,7 @@
         "distance": 0.2158951759338379
       }
     ],
-    "latency_sec": 1.3,
+    "latency_sec": 0.76,
     "mc_correct": true,
     "mc_picked": "B",
     "n_citations": 0,
