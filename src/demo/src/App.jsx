@@ -5,6 +5,9 @@ import {
 import {
   ALL_QUESTIONS, DATASETS, TOPICS, DATASET_LABELS, TOPIC_LABELS,
   countsByDataset, countsByTopic,
+  HAS_RESULTS, BASELINE_MODEL, RAG_MODEL,
+  computeMetrics, metricsByTopic, metricsByDataset,
+  topComparisonWins, topMcFlip,
 } from "./data.js";
 import DemoTab from "./DemoTab.jsx";
 import { KB_PASSAGES } from "./kb.js";
@@ -345,7 +348,18 @@ function highlightCitations(text) {
 }
 
 function ComparisonTab() {
-  const cases = useMemo(() => {
+  const realCases = useMemo(() => {
+    if (!HAS_RESULTS) return [];
+    const oeWins = topComparisonWins(4);
+    const mcFlip = topMcFlip();
+    const out = [];
+    if (mcFlip) out.push(mcFlip);
+    out.push(...oeWins);
+    return out;
+  }, []);
+
+  // Fallback to the curated cases if results haven't been generated yet.
+  const fallbackCases = useMemo(() => {
     return COMPARISON_CASES.map((c) => {
       const q = ALL_QUESTIONS.find(
         (x) => x.dataset === c.lookup.dataset && x.topic === c.lookup.topic && x.id === c.lookup.id
@@ -355,6 +369,7 @@ function ComparisonTab() {
         .filter(Boolean);
       return {
         ...c,
+        kind: "curated",
         question: q?.question || c.fallbackQuestion,
         reference: q?.displayAnswer || c.fallbackReference,
         datasetLabel: DATASET_LABELS[c.lookup.dataset] || c.lookup.dataset,
@@ -365,19 +380,149 @@ function ComparisonTab() {
     });
   }, []);
 
+  const useReal = realCases.length > 0;
+  const cases = useReal ? realCases : fallbackCases;
+
   return (
     <div>
       <div style={{
-        background: palette.accentDim, border: `1px solid ${palette.accent}`,
-        borderRadius: 10, padding: "10px 14px", color: palette.accent, fontSize: 12, fontFamily: mono,
-        marginBottom: 20,
+        background: useReal ? palette.accentDim : palette.warnDim,
+        border: `1px solid ${useReal ? palette.accent : palette.warn}`,
+        borderRadius: 10, padding: "10px 14px",
+        color: useReal ? palette.accent : palette.warn,
+        fontSize: 12, fontFamily: mono, marginBottom: 20,
       }}>
-        ★ Curated side-by-side across 5 dataset items (3 MC, 2 open-ended). Each case shows what the baseline gets wrong, which KB passage FinVerify retrieved, and how the [n] citations carry the grounded claim. For live, unscripted comparisons use the <b>Live Demo</b> tab.
+        {useReal ? (
+          <>
+            ★ Real results from <code>src/notebooks/results/</code>: top {cases.length} items where Claude 4.6 + RAG outperformed the Qwen2.5-3B baseline by the largest LLM-judge margin (one MC flip + open-ended wins). Each card shows the actual generated answers, the actual retrieved KB chunks, and the actual judge scores.
+          </>
+        ) : (
+          <>
+            ⚠ No <code>results/baseline_*</code> or <code>results/rag_*</code> files found yet — falling back to curated examples. Run <code>baseline_eval.ipynb</code> and <code>rag_eval.ipynb</code> to populate this tab with real data.
+          </>
+        )}
       </div>
 
       <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
-        {cases.map((c, i) => <ComparisonCase key={i} c={c} idx={i} />)}
+        {cases.map((c, i) =>
+          useReal
+            ? <RealComparisonCase key={c.id || i} c={c} idx={i} />
+            : <ComparisonCase key={i} c={c} idx={i} />
+        )}
       </div>
+    </div>
+  );
+}
+
+function RealComparisonCase({ c, idx }) {
+  const isMc = c.type === "multiple_choice";
+  return (
+    <div style={{ background: palette.surface, border: `1px solid ${palette.border}`, borderRadius: 12, padding: 18 }}>
+      <div style={{ marginBottom: 14 }}>
+        <div style={{ display: "flex", gap: 6, marginBottom: 8, flexWrap: "wrap" }}>
+          <Badge color={palette.textMuted} bg={palette.surfaceAlt}>#{idx + 1}</Badge>
+          <Badge color={palette.textMuted} bg={palette.surfaceAlt}>{c.id}</Badge>
+          <Badge color={palette.textMuted} bg={palette.surfaceAlt}>{c.datasetLabel}</Badge>
+          <Badge color={palette.blue} bg={palette.blueDim}>{c.topicLabel}</Badge>
+          <Badge color={palette.textMuted} bg={palette.surfaceAlt}>{isMc ? "MC" : "OE"}</Badge>
+          {!isMc && (
+            <Badge color={palette.accent} bg={palette.accentDim}>
+              Δ judge +{c.delta?.toFixed(2) ?? "—"}
+            </Badge>
+          )}
+        </div>
+        <div style={{ fontSize: 15, color: palette.text, fontWeight: 600, lineHeight: 1.5 }}>{c.question}</div>
+        <div style={{ fontSize: 12, color: palette.accent, marginTop: 6, fontFamily: mono, lineHeight: 1.5 }}>
+          Reference: {String(c.reference || "").slice(0, 320)}{(c.reference || "").length > 320 ? "…" : ""}
+        </div>
+      </div>
+
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, marginBottom: 12 }}>
+        {/* Baseline */}
+        <div style={{ background: palette.bg, border: `1px solid ${palette.danger}`, borderRadius: 10, padding: 14 }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
+            <span style={{ fontSize: 11, fontFamily: mono, color: palette.textMuted, textTransform: "uppercase", letterSpacing: "0.08em" }}>
+              Baseline · {BASELINE_MODEL || "Qwen-3B"}
+            </span>
+            {isMc ? (
+              <Badge color={palette.danger} bg={palette.dangerDim}>
+                picked {c.baselinePicked || "—"} · INCORRECT
+              </Badge>
+            ) : (
+              <Badge color={palette.danger} bg={palette.dangerDim}>
+                judge {c.baselineJudge?.mean?.toFixed(2) ?? "—"}
+              </Badge>
+            )}
+          </div>
+          <div style={{ fontSize: 13, color: palette.text, lineHeight: 1.6, marginBottom: 10, whiteSpace: "pre-wrap" }}>
+            {c.baselineCandidate}
+          </div>
+          {!isMc && c.baselineJudge?.rationale && (
+            <div style={{
+              background: palette.dangerDim, borderLeft: `3px solid ${palette.danger}`,
+              borderRadius: 6, padding: "8px 10px", fontSize: 11, color: palette.danger, fontFamily: mono, lineHeight: 1.55,
+            }}>
+              ⚠ Judge: {c.baselineJudge.rationale}
+            </div>
+          )}
+        </div>
+
+        {/* FinVerify */}
+        <div style={{ background: palette.bg, border: `1px solid ${palette.accent}`, borderRadius: 10, padding: 14 }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
+            <span style={{ fontSize: 11, fontFamily: mono, color: palette.accent, textTransform: "uppercase", letterSpacing: "0.08em" }}>
+              FinVerify · {RAG_MODEL || "Claude 4.6"} + RAG
+            </span>
+            {isMc ? (
+              <Badge color={palette.accent} bg={palette.accentDim}>
+                picked {c.ragPicked || "—"} · CORRECT
+              </Badge>
+            ) : (
+              <Badge color={palette.accent} bg={palette.accentDim}>
+                judge {c.ragJudge?.mean?.toFixed(2) ?? "—"}
+              </Badge>
+            )}
+          </div>
+          <div style={{ fontSize: 13, color: palette.text, lineHeight: 1.65, marginBottom: 10, whiteSpace: "pre-wrap" }}>
+            {highlightCitations(c.ragCandidate)}
+          </div>
+          {!isMc && c.ragJudge?.rationale && (
+            <div style={{
+              background: palette.accentDim, borderLeft: `3px solid ${palette.accent}`,
+              borderRadius: 6, padding: "8px 10px", fontSize: 11, color: palette.accent, fontFamily: mono, lineHeight: 1.55,
+            }}>
+              🔍 Judge: {c.ragJudge.rationale}
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Retrieved KB chunks (real, from results) */}
+      {c.retrieved && c.retrieved.length > 0 && (
+        <div style={{
+          background: palette.surfaceAlt, borderRadius: 10, padding: "12px 14px",
+          border: `1px dashed ${palette.borderLight}`,
+        }}>
+          <div style={{ fontSize: 10, fontFamily: mono, color: palette.textMuted, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 8 }}>
+            Retrieved from KB ({c.retrieved.length} chunks · {c.nCitations} cited · coverage {(c.citationCoverage * 100).toFixed(0)}%)
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+            {c.retrieved.map((p, i) => (
+              <div key={i} style={{
+                background: palette.surface, borderLeft: `3px solid ${palette.accent}`,
+                borderRadius: 6, padding: "6px 12px",
+              }}>
+                <div style={{ fontSize: 11, fontFamily: mono, color: palette.accent }}>
+                  [{i + 1}] {p.publisher} — {p.title}
+                </div>
+                <div style={{ fontSize: 10, fontFamily: mono, color: palette.textMuted }}>
+                  source: {p.source_slug || "?"} · distance {p.distance?.toFixed?.(3) ?? "—"}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -386,7 +531,6 @@ function ComparisonCase({ c, idx }) {
   const baselineBad = c.baseline.verdict !== "CORRECT";
   return (
     <div style={{ background: palette.surface, border: `1px solid ${palette.border}`, borderRadius: 12, padding: 18 }}>
-      {/* Question header */}
       <div style={{ marginBottom: 14 }}>
         <div style={{ display: "flex", gap: 6, marginBottom: 8, flexWrap: "wrap" }}>
           <Badge color={palette.textMuted} bg={palette.surfaceAlt}>#{idx + 1}</Badge>
@@ -401,9 +545,7 @@ function ComparisonCase({ c, idx }) {
         </div>
       </div>
 
-      {/* Baseline column + Retrieval column + FinVerify column */}
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, marginBottom: 12 }}>
-        {/* Baseline */}
         <div style={{
           background: palette.bg, border: `1px solid ${baselineBad ? palette.danger : palette.accent}`,
           borderRadius: 10, padding: 14,
@@ -421,7 +563,6 @@ function ComparisonCase({ c, idx }) {
           </div>
         </div>
 
-        {/* FinVerify */}
         <div style={{
           background: palette.bg, border: `1px solid ${palette.accent}`,
           borderRadius: 10, padding: 14,
@@ -442,7 +583,6 @@ function ComparisonCase({ c, idx }) {
         </div>
       </div>
 
-      {/* Retrieved KB passages that produced the [n] citations */}
       <div style={{
         background: palette.surfaceAlt, borderRadius: 10, padding: "12px 14px",
         border: `1px dashed ${palette.borderLight}`,
@@ -468,60 +608,63 @@ function ComparisonCase({ c, idx }) {
   );
 }
 
-// ── Tab: Metrics — initial numbers from this week's runs ─────────────────────
-const INITIAL_METRICS = {
-  baselineAccuracy: 53,
-  hybridAccuracy: 87,
-  judgeBaseline: 2.9,
-  judgeHybrid: 4.3,
-  cosineBaseline: 0.61,
-  cosineHybrid: 0.78,
-  citationCoverage: 0.82,
-};
-
-const TOPIC_RESULTS = {
-  budgeting: { "Qwen Baseline": 60, "Claude + RAG": 88 },
-  credit_and_debt: { "Qwen Baseline": 50, "Claude + RAG": 85 },
-  insurance: { "Qwen Baseline": 55, "Claude + RAG": 90 },
-  investing: { "Qwen Baseline": 45, "Claude + RAG": 82 },
-  retirement: { "Qwen Baseline": 40, "Claude + RAG": 92 },
-  tax: { "Qwen Baseline": 35, "Claude + RAG": 86 },
-};
-
+// ── Tab: Metrics — real numbers computed from src/notebooks/results/ ─────────
 function MetricsTab() {
-  const byTopic = useMemo(() => {
-    return TOPICS.map((t) => ({
-      topic: TOPIC_LABELS[t] || t,
-      ...(TOPIC_RESULTS[t] || { "Qwen Baseline": 50, "Claude + RAG": 85 }),
-    }));
-  }, []);
+  const m = useMemo(() => computeMetrics(), []);
+  const topicRows = useMemo(() => metricsByTopic(), []);
+  const datasetRows = useMemo(() => metricsByDataset(), []);
 
-  const m = INITIAL_METRICS;
+  if (!m) {
+    return (
+      <div style={{
+        background: palette.warnDim, border: `1px solid ${palette.warn}`, borderRadius: 10,
+        padding: "12px 16px", color: palette.warn, fontSize: 13, fontFamily: mono,
+      }}>
+        ⚠ No eval results found at <code>src/notebooks/results/</code>. Run <code>baseline_eval.ipynb</code> and <code>rag_eval.ipynb</code> to populate this tab.
+      </div>
+    );
+  }
+
+  const pct = (x) => (x == null ? "—" : `${(x * 100).toFixed(0)}%`);
+  const num2 = (x) => (x == null ? "—" : x.toFixed(2));
+
+  const judgeChartData = topicRows.map((r) => ({
+    topic: r.topicLabel,
+    "Qwen Baseline": r.baselineJudge,
+    "Claude + RAG": r.ragJudge,
+  }));
+
+  const datasetChartData = datasetRows.map((r) => ({
+    dataset: r.datasetLabel,
+    "Qwen Baseline": r.baselineJudge,
+    "Claude + RAG": r.ragJudge,
+  }));
 
   return (
     <div>
       <div style={{
-        background: palette.blueDim, border: `1px solid ${palette.blue}`, borderRadius: 10,
-        padding: "10px 14px", color: palette.blue, fontSize: 12, fontFamily: mono, marginBottom: 20,
+        background: palette.accentDim, border: `1px solid ${palette.accent}`, borderRadius: 10,
+        padding: "10px 14px", color: palette.accent, fontSize: 12, fontFamily: mono, marginBottom: 20,
       }}>
-        ◆ Initial experiments from this week (n=15 — 5 items × 3 dataset subsets, seed=7). A larger eval run across the full dataset is scheduled for this weekend; numbers below will be refreshed from <code>src/notebooks/results/</code> after it completes.
+        ★ Live from <code>src/notebooks/results/</code> · n={m.n} questions ·
+        baseline = <b>{BASELINE_MODEL || "?"}</b> · RAG = <b>{RAG_MODEL || "?"}</b>
       </div>
 
       <div style={{ display: "flex", gap: 14, flexWrap: "wrap", marginBottom: 24 }}>
-        <MetricCard label="Dataset" value={ALL_QUESTIONS.length} sub={`${DATASETS.length} subsets`} />
-        <MetricCard label="Baseline Accuracy" value={`${m.baselineAccuracy}%`} sub="Qwen2.5-3B, MC items" color={palette.danger} />
-        <MetricCard label="FinVerify Accuracy" value={`${m.hybridAccuracy}%`} sub="Claude + RAG, MC items" color={palette.accent} />
-        <MetricCard label="Citation Coverage" value={m.citationCoverage.toFixed(2)} sub="mean [n] citations / retrieved" color={palette.blue} />
+        <MetricCard label="Dataset" value={m.n} sub={`${DATASETS.length} subsets`} />
+        <MetricCard label="Baseline MC" value={pct(m.mc.baseline)} sub="Qwen2.5-3B" color={palette.danger} />
+        <MetricCard label="FinVerify MC" value={pct(m.mc.rag)} sub="Claude + RAG" color={palette.accent} />
+        <MetricCard label="Citation Coverage" value={num2(m.citationCoverage.rag)} sub="cited / retrieved (RAG)" color={palette.blue} />
       </div>
 
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 18, marginBottom: 18 }}>
-        <ChartCard title="Accuracy by Topic">
+        <ChartCard title="LLM Judge Mean by Topic (1–5)">
           <ResponsiveContainer width="100%" height={260}>
-            <BarChart data={byTopic} barGap={4}>
+            <BarChart data={judgeChartData} barGap={4}>
               <CartesianGrid strokeDasharray="3 3" stroke={palette.border} />
               <XAxis dataKey="topic" tick={{ fill: palette.textMuted, fontSize: 11 }} axisLine={{ stroke: palette.border }} tickLine={false} />
-              <YAxis domain={[0, 100]} tick={{ fill: palette.textMuted, fontSize: 11 }} axisLine={{ stroke: palette.border }} tickLine={false} unit="%" />
-              <Tooltip contentStyle={{ background: palette.surfaceAlt, border: `1px solid ${palette.border}`, borderRadius: 8, color: palette.text, fontSize: 12 }} />
+              <YAxis domain={[0, 5]} tick={{ fill: palette.textMuted, fontSize: 11 }} axisLine={{ stroke: palette.border }} tickLine={false} />
+              <Tooltip contentStyle={{ background: palette.surfaceAlt, border: `1px solid ${palette.border}`, borderRadius: 8, color: palette.text, fontSize: 12 }} formatter={(v) => v?.toFixed?.(2) ?? v} />
               <Legend wrapperStyle={{ fontSize: 11, color: palette.textMuted }} />
               <Bar dataKey="Qwen Baseline" fill={palette.danger} radius={[4, 4, 0, 0]} barSize={20} />
               <Bar dataKey="Claude + RAG" fill={palette.accent} radius={[4, 4, 0, 0]} barSize={20} />
@@ -529,22 +672,26 @@ function MetricsTab() {
           </ResponsiveContainer>
         </ChartCard>
 
-        <ChartCard title="Judge Rubric & Cosine">
+        <ChartCard title="LLM Judge Mean by Dataset (1–5)">
           <ResponsiveContainer width="100%" height={260}>
-            <BarChart data={[
-              { metric: "LLM judge mean", "Qwen Baseline": m.judgeBaseline, "Claude + RAG": m.judgeHybrid },
-              { metric: "Cosine vs reference", "Qwen Baseline": m.cosineBaseline * 5, "Claude + RAG": m.cosineHybrid * 5 },
-            ]} barGap={4}>
+            <BarChart data={datasetChartData} barGap={4}>
               <CartesianGrid strokeDasharray="3 3" stroke={palette.border} />
-              <XAxis dataKey="metric" tick={{ fill: palette.textMuted, fontSize: 11 }} axisLine={{ stroke: palette.border }} tickLine={false} />
+              <XAxis dataKey="dataset" tick={{ fill: palette.textMuted, fontSize: 11 }} axisLine={{ stroke: palette.border }} tickLine={false} />
               <YAxis domain={[0, 5]} tick={{ fill: palette.textMuted, fontSize: 11 }} axisLine={{ stroke: palette.border }} tickLine={false} />
-              <Tooltip contentStyle={{ background: palette.surfaceAlt, border: `1px solid ${palette.border}`, borderRadius: 8, color: palette.text, fontSize: 12 }} />
+              <Tooltip contentStyle={{ background: palette.surfaceAlt, border: `1px solid ${palette.border}`, borderRadius: 8, color: palette.text, fontSize: 12 }} formatter={(v) => v?.toFixed?.(2) ?? v} />
               <Legend wrapperStyle={{ fontSize: 11, color: palette.textMuted }} />
               <Bar dataKey="Qwen Baseline" fill={palette.danger} radius={[4, 4, 0, 0]} barSize={24} />
               <Bar dataKey="Claude + RAG" fill={palette.accent} radius={[4, 4, 0, 0]} barSize={24} />
             </BarChart>
           </ResponsiveContainer>
         </ChartCard>
+      </div>
+
+      <div style={{ display: "flex", gap: 14, flexWrap: "wrap", marginBottom: 18 }}>
+        <MetricCard label="Judge mean — base" value={num2(m.judge.baseline)} sub="all OE items, 1–5" color={palette.danger} />
+        <MetricCard label="Judge mean — RAG" value={num2(m.judge.rag)} sub="all OE items, 1–5" color={palette.accent} />
+        <MetricCard label="Cosine — base" value={num2(m.cosine.baseline)} sub="BGE-small vs reference" color={palette.danger} />
+        <MetricCard label="Cosine — RAG" value={num2(m.cosine.rag)} sub="BGE-small vs reference" color={palette.accent} />
       </div>
 
       <div style={{ background: palette.surface, border: `1px solid ${palette.border}`, borderRadius: 12, padding: "16px 20px" }}>
