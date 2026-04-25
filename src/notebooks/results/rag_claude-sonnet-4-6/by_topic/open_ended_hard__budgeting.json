@@ -1,0 +1,373 @@
+[
+  {
+    "id": "bud-007",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A person takes home $4,800 per month. Their fixed essentials are $2,900, minimum debt payments are $350, and they currently save $200 per month. Under the 50/30/20 framework, are they over budget on needs, under-saving, or both?",
+    "reference": "They are over budget on needs and under-saving. Needs plus minimum debt payments total $3,250, which is about 67.7% of take-home pay, above the 50% guideline. Savings are $200, or about 4.2%, well below the 20% target. This suggests the budget is strained on essentials and does not leave enough room for long-term savings goals.",
+    "candidate": "## Analyzing the Budget Under the 50/30/20 Framework\n\nI need to be transparent upfront: **the provided passages do not describe or mention the 50/30/20 budgeting framework**, so I cannot cite a source for that methodology here. The 50/30/20 rule (50% needs, 30% wants, 20% savings/debt) is a widely referenced guideline, but applying it goes beyond what these passages cover.\n\nThat said, I can apply the framework using the numbers provided and connect it to relevant passage content where appropriate.\n\nWith $4,800 monthly take-home pay, the 50/30/20 targets would be: **$2,400 for needs, $1,440 for wants, and $960 for savings/debt repayment.** The person's fixed essentials alone are $2,900 \u2014 **$500 over the needs target** \u2014 meaning they are over budget on needs by roughly 10 percentage points. On the savings side, they contribute only $200/month against a $960 target, a significant shortfall. The passages emphasize that even small savings provide financial security, but consistently under-saving leaves people vulnerable to financial shocks that can cascade into debt [4]. Relying on credit cards to cover unexpected expenses can make costs grow substantially due to interest and fees [2]. Automating savings contributions is one practical strategy to build consistency over time [3], but this person may first need to address their elevated fixed costs before meaningful savings growth is realistic. Both problems exist simultaneously, and the tradeoff between reducing expenses and increasing savings deserves careful attention.",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2833307981491089
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.30607497692108154
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3071417212486267
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3106406331062317
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.32707834243774414
+      }
+    ],
+    "latency_sec": 9.59,
+    "embed_cosine": 0.8693718314170837,
+    "judge": {
+      "factuality": 4,
+      "completeness": 5,
+      "advice_quality": 4,
+      "rationale": "The candidate correctly identifies both problems and gives accurate numbers, but includes an unnecessary disclaimer about source passages and slightly muddles the debt payment categorization (minimum debt payments should be counted with needs, not separately), though the conclusion matches the refer",
+      "mean": 4.333333333333333
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "bud-008",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "If someone gets paid irregularly as a freelancer, is the standard advice of keeping 3-6 months in an emergency fund still sufficient?",
+    "reference": "Not always. For someone with variable or unpredictable income, 6-12 months of essential expenses is often more appropriate than 3-6 months. The right target depends on income stability, number of clients, household obligations, and access to other liquidity. The standard 3-6 month rule is a starting point, but irregular earners usually need a larger buffer.",
+    "candidate": "The provided passages do not specifically mention the 3-6 months guideline, so I cannot confirm or challenge that standard recommendation based solely on these sources. What the CFPB guidance does emphasize is that the right amount depends heavily on your individual situation, including your income pattern [3]. For freelancers with irregular income, this is particularly relevant \u2014 the passages acknowledge that \"if you're living paycheck to paycheck or don't get paid the same amount each week or month, putting any money aside can feel difficult,\" suggesting that variable-income earners face unique savings challenges [3]. The core goal remains building *some* level of financial cushion to avoid turning emergency expenses into debt through credit cards or loans [1]. For those with irregular income, the CFPB specifically recommends taking advantage of one-time windfalls \u2014 like tax refunds or large client payments \u2014 to rapidly build up emergency savings [5]. The passages do not, however, provide a definitive answer on whether 3-6 months is sufficient, more, or less than what a freelancer specifically needs. Given the limitations of these passages, I'd recommend consulting additional resources \u2014 such as a financial advisor \u2014 to determine a target amount that accounts for the variability and unpredictability of freelance income, which may warrant a larger cushion than the standard advice suggests.",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.24763107299804688
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2535709738731384
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.27857762575149536
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2813459634780884
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2864443063735962
+      }
+    ],
+    "latency_sec": 7.07,
+    "embed_cosine": 0.8722314238548279,
+    "judge": {
+      "factuality": 3,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "The candidate hedges heavily due to source limitations, partially arrives at the right conclusion (larger cushion may be needed) but never directly states the 6-12 month recommendation or clearly affirms the standard rule is insufficient for freelancers.",
+      "mean": 2.6666666666666665
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "bud-009",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A person has $8,000 in credit card debt at 24% APR and only $500 in savings. They receive a $3,000 bonus. What is a reasonable allocation strategy between debt repayment and emergency savings, and why?",
+    "reference": "A reasonable strategy is to first bring savings up to a small starter emergency fund, such as roughly $1,500-$2,000 total, and then apply the rest toward the credit card debt. With only $500 in savings, using the entire bonus for debt would leave them vulnerable to new borrowing when an emergency arises. But because 24% APR debt is very expensive, most of the bonus should still go toward debt after establishing a minimal cash cushion.",
+    "candidate": "This is a genuinely difficult tradeoff, and the passages don't provide specific guidance on debt-versus-savings allocation percentages, so I'll reason carefully from what they do say while being transparent about that limitation.\n\nThe core tension here is real: your $500 savings buffer is dangerously thin, since virtually any unexpected expense \u2014 a car repair, a medical bill, a broken appliance \u2014 could force you back onto credit cards [2][3]. At the same time, carrying $8,000 at 24% APR means debt is compounding against you rapidly, and every dollar unpaid costs you significantly more over time. The CFPB warns explicitly that using credit for emergencies causes \"one-time emergency expense[s] to grow significantly larger than your original bill because of interest and fees\" [1] \u2014 which is exactly the cycle you risk repeating if you have no savings cushion. A reasonable middle-ground approach might be to allocate roughly $1,500\u2013$2,000 of the bonus toward building a small but meaningful emergency fund, since even a small amount \"can provide some financial security\" [4], and direct the remaining $1,000\u2013$1,500 aggressively toward the high-interest debt. This avoids the trap of paying down debt only to immediately re-accumulate it the moment an emergency strikes [1]. The passages do suggest that if you deplete emergency savings, you should \"work to build it up again\" [5], reinforcing that maintaining *some* buffer is an ongoing priority. I'd recommend consulting a certified financial counselor for a personalized payoff strategy given the specific interest rate involved.",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.27725130319595337
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.27857089042663574
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.28434979915618896
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2875983715057373
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2928417921066284
+      }
+    ],
+    "latency_sec": 8.65,
+    "embed_cosine": 0.8747198581695557,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Candidate correctly identifies the same allocation range as the reference ($1,500\u2013$2,000 for emergency fund, rest to debt), explains the reasoning well, and addresses the cyclical debt trap risk with appropriate nuance.",
+      "mean": 5.0
+    },
+    "n_citations": 5,
+    "citation_coverage": 1.0
+  },
+  {
+    "id": "bud-010",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can budgeting based on gross income instead of take-home pay lead to poor spending decisions?",
+    "reference": "Budgeting from gross income can overstate how much cash is actually available to spend because taxes, payroll deductions, insurance premiums, and retirement contributions reduce the amount that reaches the bank account. Using gross income may cause someone to set spending targets that are unrealistic in practice. Budgeting is usually more effective when based on actual take-home pay or well-estimated net cash flow.",
+    "candidate": "The provided passages do not directly address the specific topic of budgeting based on gross income versus take-home pay, so I cannot fully answer this question using only the given sources without risking fabrication.\n\nHowever, the passages do touch on related concepts worth noting. The CFPB guide emphasizes the importance of actively tracking when money is coming in and going out, as a mismatch in timing can leave you running short at the end of the week or month [3]. This suggests that having an accurate picture of your actual available funds \u2014 not an inflated estimate \u2014 is critical to sound financial management [3]. If you overestimate your available income (as budgeting on gross rather than take-home pay would cause), you could find yourself spending more than you actually have, which is a pattern the guide explicitly flags as problematic [3].\n\nThe guide also warns that without adequate savings, even a minor financial shock can set you back, and relying on credit cards or loans to cover gaps can lead to debt that is harder to pay off [4]. Budgeting on incorrect income figures could contribute to exactly this kind of vulnerability. To fully and accurately explain **why** gross-income budgeting specifically leads to poor decisions, I would need additional source material beyond what has been provided here.",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3245581388473511
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3511766791343689
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.353776216506958
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3562277555465698
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.37040841579437256
+      }
+    ],
+    "latency_sec": 6.72,
+    "embed_cosine": 0.877933144569397,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate correctly identifies the core issue (overestimating available funds) but hedges excessively and fails to explicitly mention taxes, payroll deductions, and other specific reductions that explain the gross-vs-net gap.",
+      "mean": 3.3333333333333335
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "bud-011",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A household's monthly income is stable, but several large expenses occur only once or twice a year, such as insurance premiums, holiday spending, and car registration. What budgeting mistake might they be making if they feel 'surprised' by these every time?",
+    "reference": "They may be failing to account for sinking funds or non-monthly expenses in the budget. Even if those bills are not due every month, they are predictable and should be prorated across the year. Setting aside money each month for irregular but expected expenses reduces the risk of feeling cash-strapped when they come due.",
+    "candidate": "## The \"Predictable Surprise\" Budgeting Mistake\n\nIf this household feels surprised by expenses like insurance premiums, holiday spending, and car registration, the core mistake is likely that they are **not treating these predictable, recurring costs as planned expenses** \u2014 even though they occur on a known schedule every year. Although these costs feel infrequent, they are not truly unexpected; they simply aren't being accounted for in the household's regular budget planning. The household may be living in a reactive financial mindset, waiting until the bill arrives rather than setting money aside in advance throughout the year [1]. A smarter approach would be to divide these annual or semi-annual costs by 12 and set aside that proportional amount each month, so the money is ready when needed [3].\n\nOne highly effective method is to **automate transfers** into a dedicated savings account on a regular schedule, which removes the temptation to spend the money and ensures consistent contributions build up over time [3][4]. Additionally, windfalls like tax refunds represent a perfect opportunity to pre-fund these known upcoming expenses rather than spending the extra money [2]. Failing to plan for these costs often leads households toward credit cards or loans to cover the gap, which can cause the original expense to grow significantly larger due to interest and fees [1]. Ultimately, the \"surprise\" these households feel is less about the expenses themselves and more about the **absence of a forward-looking savings strategy**.",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2482864260673523
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.25995320081710815
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2901725769042969
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2999091148376465
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.30051493644714355
+      }
+    ],
+    "latency_sec": 8.53,
+    "embed_cosine": 0.8415812253952026,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Correctly identifies the sinking fund / prorating concept, adds actionable steps like automation and windfall allocation, and explains downstream consequences like credit card debt without any misinformation.",
+      "mean": 5.0
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "bud-012",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A person says, 'I had money left over this month, so my budget is working well.' Why might that conclusion be incomplete?",
+    "reference": "Having money left over is a positive sign, but it does not by itself prove the budget is working optimally. The leftover amount may reflect underfunded categories, neglected future expenses, or delayed obligations. A strong budget should also align with goals such as saving, debt repayment, emergency preparedness, and planning for irregular expenses, not just ending the month with unused cash.",
+    "candidate": "Having money left over at the end of a month is a positive sign, but it doesn't necessarily mean your budget is fully optimized or resilient. One key issue is **timing**: even if your monthly totals look balanced, you may still be running short during certain weeks if the timing of your income and expenses doesn't align well [4]. For example, if several bills are due before your paycheck arrives, you could face cash shortfalls mid-month even though the end-of-month balance looks fine [4].\n\nAdditionally, leftover money only reflects your *typical* month \u2014 it doesn't account for **financial shocks** like an unexpected medical bill or other unplanned expenses [2]. Without an emergency fund to absorb those shocks, a single surprise expense could force you to rely on credit cards or loans, causing that one-time cost to grow significantly larger due to interest and fees [2]. A truly healthy budget should also include a **deliberate savings strategy**, such as automatic transfers to a savings account, so that surplus money is consistently captured rather than casually spent [5]. You might also consider whether windfalls \u2014 like a tax refund \u2014 are being put to work building a financial cushion [3].\n\nIn short, a leftover balance is a good starting point, but a complete picture requires examining cash-flow timing, emergency preparedness, and intentional saving habits [4][2][5].",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3065418004989624
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3172706365585327
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.32322317361831665
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.32558929920196533
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3424694538116455
+      }
+    ],
+    "latency_sec": 7.64,
+    "embed_cosine": 0.9042342305183411,
+    "judge": {
+      "factuality": 5,
+      "completeness": 4,
+      "advice_quality": 5,
+      "rationale": "Candidate covers cash-flow timing, emergency preparedness, and intentional saving well, but slightly underemphasizes underfunded categories, debt repayment, and irregular/future expenses that the reference highlights.",
+      "mean": 4.666666666666667
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "bud-013",
+    "dataset": "open_ended_hard",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "When inflation raises the cost of groceries, rent, and utilities, should a person interpret a higher 'needs' percentage in their budget as a budgeting failure?",
+    "reference": "Not necessarily. A higher needs percentage may reflect external cost pressures rather than poor budgeting behavior. The person may need to adjust discretionary spending, savings goals, or income expectations, but the shift itself is not automatically a failure. A good answer distinguishes between controllable overspending and unavoidable increases in essential costs.",
+    "candidate": "The provided passages focus specifically on emergency fund guidance and do not directly address budgeting frameworks like percentage-based \"needs\" allocations or how inflation affects them. I cannot responsibly answer this question using only the provided context without risking fabrication of financial advice not supported by the sources.\n\nWhat the passages **do** suggest, however, is that financial pressure \u2014 such as living paycheck to paycheck or having irregular income \u2014 is a recognized challenge, not a personal failing [5]. The CFPB acknowledges that struggling to save is a common situation many people face, and even setting aside a **small** amount is considered meaningful progress [5]. The passages also note that financial shocks can compound existing strain, particularly when people lack savings buffers [1]. To fully and accurately address how inflation should be interpreted within a percentage-based budgeting system, I would recommend consulting additional sources, such as CFPB guidance specifically on budgeting under inflationary conditions, as that topic goes beyond what these passages cover.",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3185523748397827
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3302175998687744
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.347834050655365
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.34930193424224854
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3560349941253662
+      }
+    ],
+    "latency_sec": 6.14,
+    "embed_cosine": 0.8562098741531372,
+    "judge": {
+      "factuality": 3,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "The candidate partially aligns with the reference by noting financial pressure isn't a personal failing, but declines to directly answer the question due to source limitations, missing the key distinction between controllable overspending and unavoidable cost increases.",
+      "mean": 2.6666666666666665
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  }
+]

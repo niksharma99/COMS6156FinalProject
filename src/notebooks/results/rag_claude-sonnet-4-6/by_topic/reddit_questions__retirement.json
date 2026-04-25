@@ -1,0 +1,638 @@
+[
+  {
+    "id": "ret-r-001",
+    "dataset": "reddit_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "How might I locate an IRA that was opened with Washington Mutual?\n\nHi,\n\nWhen I was in my 20s, my parents opened Traditional IRAs for my brother and me with Washington Mutual. At some point later, I rolled my account out was I was consolidated my retirement accounts, but my brother's was left there and now we're not quite sure how to find the account (if it even exists now. One thought is that it may have lost money then ultimately closed due to account fees).",
+    "reference": "Here\u2019s a clear, empathetic, and actionable response to your query:  \n\n---  \n\n**Finding a Lost Washington Mutual IRA**  \n\nIt\u2019s completely understandable to feel uncertain about your brother\u2019s old IRA\u2014especially after Washington Mutual\u2019s closure. The good news is there are systematic steps to track it down. Here\u2019s what to do:  \n\n### **Step 1: Contact JPMorgan Chase**  \nWhen Washington Mutual failed in 2008, most accounts were transferred to **JPMorgan Chase**. Start by calling Chase\u2019s dedicated IRA customer service at **1-800-935-9935**. Have your brother ready with:  \n- His full name (as it appeared on the account)  \n- Social Security number  \n- Approximate account opening year  \n- Any old statements or correspondence (if available)  \n\n### **Step 2: Check for Account Closure**  \nIf the account had low funds, it\u2019s possible fees depleted it over time. Ask Chase:  \n- Was the account closed due to inactivity or fees?  \n- If so, request a final statement showing the balance at closure.  \n\n### **Step 3: Search Unclaimed Property**  \nIf Chase has no record, the funds might have been sent to your brother\u2019s state as **unclaimed property**. Search for free at [MissingMoney.com](https://www.missingmoney.com/) (a national database) or your state\u2019s treasury website.  \n\n### **What to Expect**  \n- *If the account is found*: Chase can help reinstate or transfer it.  \n- *If it\u2019s closed*: You\u2019ll at least have clarity.  \n- *If records are lost*: Unclaimed property databases are the next best option.  \n\n**Pro Tip**: Even if the balance was small, it\u2019s worth checking\u2014old IRAs sometimes hold forgotten contributions or gains.  \n\nLet me know if you\u2019d like help drafting a script for the Chase call or navigating your state\u2019s unclaimed property site!  \n\n---  \n\nThis response balances practicality with reassurance, addresses the user\u2019s implied concerns, and provides a clear path forward.",
+    "candidate": "This is a great question to help your brother with, but I want to be upfront: the provided passages cover IRS rules about IRA contributions and distributions [1][2][3], and don't contain information about locating lost or dormant IRA accounts. I can, however, offer some general guidance based on common knowledge about this situation.\n\nWashington Mutual (WaMu) famously failed in 2008 and was acquired by JPMorgan Chase, so your brother's first step would likely be to contact JPMorgan Chase directly, as they took over many WaMu accounts. If the account was transferred or escheated (turned over to the state as unclaimed property), your brother could search his state's unclaimed property database \u2014 most states have a free online search tool at their official treasury or comptroller website. The National Association of Unclaimed Property Administrators (NAUPA) also maintains a multi-state search tool at missingmoney.com. It's worth noting that IRAs generally must meet IRS requirements [4], and custodians are required to follow specific rules about abandoned accounts, so there may be a paper trail even if the account was closed due to fees. Your brother should also gather any old statements, Social Security number records, or correspondence from that period to help verify ownership if the account is found.",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.22516334056854248
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.239304780960083
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.24176007509231567
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.24371570348739624
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2512791156768799
+      }
+    ],
+    "latency_sec": 7.59,
+    "embed_cosine": 0.9464133381843567,
+    "judge": {
+      "factuality": 5,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Correctly identifies Chase as WaMu's acquirer, mentions unclaimed property and missingmoney.com, and suggests gathering old documents, covering the main bases though lacks the specific Chase phone number and some structured detail of the reference.",
+      "mean": 4.333333333333333
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "ret-r-002",
+    "dataset": "reddit_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "401K, does price of shares matter?\n\nFirst time having a 401k. Been adding to it for a year, and I've started to diversify.  I picked out 3 Other options that do well, One still has shares in the sub $50 range while the other two are like $200 ish a share.  Would I be better off purring more into the one that I can get more shares of? Or does it really make a difference as long as it performs well.",
+    "reference": "Great question! It's fantastic that you're diversifying your 401(k) and thinking carefully about your investment choices.  \n\nThe short answer is: **No, the price per share doesn\u2019t matter** when evaluating your 401(k) options. What really counts is the *performance* of the investment (its growth over time) and how well it fits into your overall diversified portfolio.  \n\nHere\u2019s why:  \n- **Share price alone doesn\u2019t tell you anything about value or potential**. A $50 share isn\u2019t \"cheaper\" or better than a $200 share\u2014it\u2019s just priced differently. What matters is the *percentage return* (e.g., if the $50 share grows 5% or the $200 share grows 5%, you earn the same rate).  \n- **More shares \u2260 better investment**. Think of it like pizza: Whether you get 4 small slices or 1 large slice, what matters is the total amount of pizza (or in this case, the total value of your investment).  \n- **Focus on diversification and long-term growth**. You\u2019re already on the right track by picking multiple funds that perform well. Keep prioritizing a mix that spreads risk and aligns with your goals.  \n\nOne extra tip: Check the *fees* (sometimes called expense ratios) of the funds you\u2019ve chosen. Lower fees mean more of your money stays invested and grows over time.  \n\nYou\u2019re asking the right questions\u2014keep up the great work! The key is to stay diversified, ignore share prices, and let your investments grow steadily.  \n\n*Want to go deeper?* If you\u2019d like, I can help you review how these funds fit into your overall asset allocation. Just say the word!",
+    "candidate": "The provided passages are about IRA contributions and rollovers, and don't directly address 401(k) investment strategy or share price dynamics. However, I can answer your question using well-established financial principles.\n\nThe price per share of a fund does **not** matter in terms of which is a better investment \u2014 what matters is the **percentage return** on your investment. Whether a fund costs $5 or $500 per share, if both grow by 10%, your money grows by 10% regardless. Buying more \"cheap\" shares doesn't inherently give you more value, because a lower share price simply reflects how the fund has divided up its total value, not how well it will perform. What you should focus on instead is the **performance history, expense ratios, and diversification** of each fund option. Since most 401(k) plans allow fractional dollar investments rather than whole-share purchases, the per-share price is largely irrelevant to how your contributions are allocated. The most important factor is, as you correctly intuited, **how well the fund performs over time**, along with keeping costs (expense ratios) low.\n\nSince the passages provided don't cover 401(k) investment mechanics, I'd recommend consulting resources like **IRS Publication 560** or a fee-only financial advisor for more tailored guidance. None of the provided passages [1][2][3][4][5] are sufficient to directly support claims about 401(k) share price strategy.",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2578665018081665
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2756274938583374
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2835547924041748
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.284157931804657
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2846841812133789
+      }
+    ],
+    "latency_sec": 8.57,
+    "embed_cosine": 0.9194676280021667,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 4,
+      "rationale": "Accurate and complete answer covering the key point that share price is irrelevant and percentage return matters, plus bonus mention of expense ratios and fractional shares; slightly weakened by unnecessary hedging about 'passages' which is confusing context for a straightforward answer.",
+      "mean": 4.666666666666667
+    },
+    "n_citations": 5,
+    "citation_coverage": 1.0
+  },
+  {
+    "id": "ret-r-003",
+    "dataset": "reddit_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "Looking for assistance with my pension plan and leaving my employer.\n\nI was working for a municipality. I received a pension plan. I am no longer working for this municipality and would like to transfer the pension money I developed into an IRA, however, I only have a Roth IRA that I recently created.\n\nMy understanding is that you can only put up to 6k a year into an IRA. I have accrued more than that in my pension. Am I misunderstanding something? What am I supposed to do with this pension money?",
+    "reference": "Here\u2019s a clear and reassuring way to address your pension transfer question:\n\n**You\u2019re on the right track!** The key thing to know is that rolling over your pension to an IRA is *not* the same as making an annual contribution\u2014so the $6,000 limit doesn\u2019t apply here. You can transfer the full amount from your pension without worrying about over-contributing.  \n\n### Here\u2019s what you need to do:  \n1. **Choose the right IRA type**:  \n   - Since your pension was likely funded with *pre-tax* money (like a Traditional 401(k)), moving it to your *Roth IRA* would trigger taxes upfront (you\u2019d owe income tax on the amount rolled over).  \n   - If you\u2019d rather avoid taxes now, you could open a **Traditional IRA** for the rollover (taxes are deferred until retirement).  \n\n2. **Use a direct rollover**:  \n   - Contact your pension administrator and ask for a **trustee-to-trustee transfer** (this moves the money directly to your IRA provider without you handling it). This avoids tax penalties.  \n   - *Avoid* taking a check made out to you\u2014this creates a 60-day deadline and risks taxes/penalties if missed.  \n\n3. **Alternatives to consider**:  \n   - You could leave the funds in the pension if it offers lifetime payouts (though you\u2019d lose control over investments).  \n   - If you have a new employer\u2019s 401(k), you might roll it there instead.  \n\n**Next steps**:  \n- Reach out to your pension plan to confirm the rollover process.  \n- If you\u2019re unsure about Roth vs. Traditional IRA for the rollover, a quick chat with a tax pro can help (since the tax impact depends on your current income and future plans).  \n\nThis might feel overwhelming, but you\u2019re asking all the right questions! The process is straightforward once you know these rules. Let me know if you\u2019d like help breaking down any part further.  \n\n*P.S. If your pension has any after-tax contributions (less common), those could go tax-free into your Roth IRA\u2014just ask your administrator for a breakdown of pre-tax vs. after-tax funds.*",
+    "candidate": "Your concern about the $6,000 annual contribution limit is understandable, but that limit applies to **regular contributions**, not to rollovers or transfers from other retirement plans. Based on the provided passages, you can transfer or roll over assets from other retirement programs into a traditional IRA tax-free [5], which would not be subject to the standard annual contribution cap. However, there is an important complication with your specific situation: you mentioned you only have a **Roth IRA**, and the passages indicate that moving assets into a Roth IRA from a traditional retirement plan involves additional conditions and complexity compared to moving into a traditional IRA [5].\n\nA practical option worth exploring would be opening a **traditional IRA** to receive the pension rollover, since the passages more clearly support tax-free transfers into traditional IRAs from other retirement programs [5]. Keep in mind that contributions to an IRA generally must be in the form of money \u2014 cash, check, or money order \u2014 and property cannot be directly contributed [3]. Because municipal pension plans can have specific rules governing rollovers, and the provided passages do not fully cover governmental pension plan details, **I would strongly recommend consulting a tax professional or financial advisor** to ensure the rollover is handled correctly and to avoid any unintended tax consequences or early distribution penalties [4].",
+    "retrieved": [
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.2032555341720581
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.206839919090271
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.2211320400238037
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.22455620765686035
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.22517430782318115
+      }
+    ],
+    "latency_sec": 7.25,
+    "embed_cosine": 0.8900145888328552,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate correctly clarifies the contribution limit doesn't apply to rollovers and suggests a traditional IRA, but misses key details like the direct/trustee-to-trustee rollover mechanism, the Roth conversion tax implication, and the 60-day rule; the mysterious citation numbers add noise withou",
+      "mean": 3.0
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "ret-r-004",
+    "dataset": "reddit_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Traditional vs Roth IRA when I already have a Roth 401k\n\nI have a Roth 401k set up through my employer that I'm putting money into up to the point where they no longer match. I was thinking of setting up an IRA for additional retirement investing. I'm not planning on touching it for the next 25+ years if at all possible. Should I go with a traditional or Roth IRA in that instance? Or should I be looking elsewhere? Are there any rules about this?",
+    "reference": "Here\u2019s a clear breakdown to help you decide between a Traditional and Roth IRA, especially since you\u2019re already contributing to a Roth 401(k) and planning for the long term:\n\n### **Key Differences: Traditional vs. Roth IRA**  \n- **Traditional IRA:** Contributions *may* be tax-deductible now (lowering your current taxable income), but withdrawals in retirement are taxed as ordinary income.  \n- **Roth IRA:** Contributions are made with after-tax dollars (no upfront tax break), but withdrawals in retirement are tax-free, including all growth.  \n\n### **Factors to Consider**  \n1. **Current vs. Future Tax Rates**  \n   - If you expect to be in a *higher* tax bracket in retirement, the Roth IRA\u2019s tax-free withdrawals become more valuable.  \n   - If you expect to be in a *lower* tax bracket later, the Traditional IRA\u2019s upfront tax deduction might save you more.  \n\n2. **Tax Diversification**  \n   - Since you already have a Roth 401(k), adding a Traditional IRA could balance your tax exposure in retirement (some taxable income, some tax-free).  \n\n3. **Income Limits & Rules**  \n   - Roth IRAs have income limits for direct contributions (in 2024, phase-outs start at $146k for single filers, $230k for married joint filers).  \n   - Traditional IRA deductions may be limited if you\u2019re covered by a workplace retirement plan (like your 401(k)) and earn above certain thresholds.  \n\n4. **Required Minimum Distributions (RMDs)**  \n   - Traditional IRAs require withdrawals starting at age 73, while Roth IRAs have no RMDs during your lifetime.  \n\n5. **Alternatives**  \n   - If you max out IRA options or are ineligible for deductions, a taxable brokerage account offers flexibility (though without tax advantages).  \n\n### **Suggested Next Steps**  \n- Estimate your future tax situation (e.g., will your income rise significantly?).  \n- Check if your income qualifies you for direct Roth IRA contributions or Traditional IRA deductions.  \n- Consider consulting a tax advisor if your situation is complex (e.g., high income, early retirement plans).  \n\nSince you\u2019re investing for 25+ years, both options are solid\u2014it\u2019s about optimizing for taxes. If unsure, splitting contributions between both account types can hedge your bets.  \n\nLet me know if you\u2019d like help estimating tax implications or comparing providers!",
+    "candidate": "Great question, but I need to be upfront: the provided passages cover some basics about IRA eligibility and structure, but **don't contain enough information to fully answer your question** \u2014 particularly around tax-bracket strategy, income limits in detail, or how a Roth 401(k) interacts with IRA choice. Here's what the passages *do* support:\n\nBoth traditional and Roth IRAs have **no age limit** for contributions, so you can open and contribute to either at any time [1][2]. A traditional IRA offers the potential advantage of **deducting contributions**, and earnings generally aren't taxed until distributed [4][5] \u2014 meaning you get a tax break now but pay taxes later. A Roth IRA, by contrast, offers **tax-free distributions**, and notably you can leave money in it as long as you live with no required minimum distributions implied [2] \u2014 which aligns well with your 25+ year horizon. To contribute to a Roth IRA, you must have **taxable compensation and your modified AGI must fall below certain thresholds** [2], so your income level is a critical factor the passages don't fully detail.\n\nBeyond what the passages cover, the Traditional vs. Roth decision heavily depends on your **current vs. expected future tax bracket** \u2014 a tradeoff the passages don't address. Since you already have a Roth 401(k), some advisors suggest diversifying with a Traditional IRA for tax flexibility, but I'd recommend consulting a tax professional or financial advisor for personalized guidance.",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.1568017601966858
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.16343992948532104
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.17535650730133057
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.18155229091644287
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.18583333492279053
+      }
+    ],
+    "latency_sec": 8.61,
+    "embed_cosine": 0.9296800494194031,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "Candidate covers basic Roth vs Traditional differences and mentions income limits and RMDs (implicitly), but is notably incomplete on tax diversification strategy, specific income thresholds, RMDs explicitly, and the backdoor Roth option; the meta-commentary about 'passages' is distracting and reduc",
+      "mean": 3.3333333333333335
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "ret-r-005",
+    "dataset": "reddit_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "New to this, how to find a reputable Financial Planner.\n\nHello all, I am new to this (early thirties) and living in Massachusetts. I am looking to better plan for my financial future and thought a Financial Planner would be a good idea to speak to. \n\nAs I do not have extensive knowledge in this area, I was wondering if the experts here would have tips/suggestions on how to research and help pick a reputable one. For example, what to look for, their success with clients (place to read trusted reviews/ratings), and is it true there are planners out there that only take on individuals with a certain level of wealth?\n\nWhat are some of the real important things to take into account when choosing?\n\nThanks for your time, everyone!",
+    "reference": "Here\u2019s a clear, step-by-step guide to help you find a reputable financial planner\u2014tailored to your situation as someone just starting out in Massachusetts:\n\n**1. Start with Credentials**  \nLook for planners with certifications like:  \n- **CFP\u00ae (Certified Financial Planner)**: Requires rigorous training and a fiduciary duty (meaning they must act in your best interest).  \n- **Fee-Only Planners**: These professionals are paid directly by you, not through commissions, reducing conflicts of interest. You can find them through organizations like [NAPFA](https://www.napfa.org) or the [CFP Board](https://www.cfp.net).  \n\n**2. Check Reviews and Backgrounds**  \n- **SEC\u2019s AdvisorInfo**: Verify licenses and disciplinary history [here](https://adviserinfo.sec.gov).  \n- **Google/Yelp Reviews**: Look for consistent feedback about responsiveness, clarity, and trustworthiness.  \n\n**3. Understand Fee Structures**  \nPlanners work with clients at all wealth levels, but their pricing varies:  \n- **Hourly or Flat-Fee**: Great for one-time advice (e.g., $200\u2013$400/hour).  \n- **Assets Under Management (AUM)**: Typically 1% of your investments yearly (common for ongoing management).  \n- **Avoid commission-based planners** if possible\u2014they may prioritize products that earn them kickbacks.  \n\n**4. Ask the Right Questions**  \nWhen interviewing planners, ask:  \n- \"Are you a fiduciary?\" (Must answer *yes*.)  \n- \"How do you charge?\" (Fee-only is safest.)  \n- \"What\u2019s your experience with clients like me?\" (E.g., young professionals, debt management, etc.)  \n\n**5. Don\u2019t Worry About Wealth Minimums**  \nMany planners serve middle-income clients! Hourly or flat-fee options make advice accessible. Some even specialize in \"early-career\" financial planning.  \n\n**Next Steps**  \n1. Shortlist 3 planners from NAPFA or CFP Board.  \n2. Schedule free intro calls to compare their approaches.  \n3. Pick someone who explains things clearly *and* makes you feel comfortable.  \n\nYou\u2019re already on the right track by asking these questions\u2014kudos! A good planner will meet you where you are and grow with you.  \n\n*P.S. If you\u2019d like local Massachusetts recommendations, I\u2019m happy to help you refine your search further.*",
+    "candidate": "The provided passages are focused on IRS retirement plan rules for small businesses and don't contain specific guidance on how to find or evaluate a personal financial planner. I don't want to fabricate advice by going beyond what the sources say, so I'll be transparent about that limitation.\n\nThat said, the passages do hint at some relevant professionals worth knowing about: they mention that **banks, trade/professional organizations, insurance companies, mutual funds, law firms, and third-party administrators** can all provide retirement plan services [5], which gives you a sense of the landscape of financial professionals available to you. The passages also note that for more complex plans like defined benefit plans, **continuing professional help is generally needed** [3], suggesting that for sophisticated planning, professional guidance has real value. They further note that setting up a trust or legal instrument may require **professional assistance** [1], reinforcing that complexity often warrants expert support.\n\nFor your broader question \u2014 how to vet a financial planner, understand fee structures, find fiduciary advisors, or locate advisors who work with clients at all wealth levels \u2014 **the provided passages are insufficient to answer confidently**. I'd recommend consulting resources like FINRA's BrokerCheck, the CFP Board's advisor search tool, or NAPFA (National Association of Personal Financial Advisors), which are outside the scope of these documents but widely trusted for exactly your situation.",
+    "retrieved": [
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.2787466049194336
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.29395461082458496
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.3007478713989258
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.31360942125320435
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.319166898727417
+      }
+    ],
+    "latency_sec": 8.45,
+    "embed_cosine": 0.8450500965118408,
+    "judge": {
+      "factuality": 2,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate refuses to answer the question citing irrelevant source limitations, providing almost no useful guidance, though the brief mentions of FINRA BrokerCheck, CFP Board, and NAPFA at the end are accurate but woefully underdeveloped.",
+      "mean": 1.6666666666666667
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "ret-r-006",
+    "dataset": "reddit_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Are there taxes or penalties for Roth IRA early contribution withdrawals in my case?\n\nI accidentally transferred $500 into my Vanguard that I meant to transfer to a different bank so I want to transfer it out. What I read on Investopedia says \"You can withdraw Roth IRA contributions at any time with no tax or penalty. If you withdraw earnings from a Roth IRA, you may owe income tax and a 10% penalty. If you take an early withdrawal from a traditional IRA\u2014whether it's your contributions or earnings\u2014it may trigger income taxes and a 10% penalty.\" What's confusing to me is how it first says I can withdraw contributions at any time with no taxes or penalties and then says early withdrawals including contributions may trigger income taxes and a penalty. Does this mean I can't withdraw it? It's just sitting in my settlement fund, never invested. In fact all of the money in my settlement fund is just what I've contributed, no profit. Too many moving parts to get a good answer on google, I sure would appreciate any insight into my situation. Thank you.",
+    "reference": "Here\u2019s a clear breakdown of your situation to put your mind at ease:\n\n1. **You can withdraw the $500 without taxes or penalties.** Since this is a Roth IRA, you\u2019ve already paid taxes on the money you contributed. The rule you read is correct: *Contributions* (the money you put in) can always be withdrawn tax- and penalty-free at any time. The confusion arises because *earnings* (investment gains) *could* be taxed/penalized if withdrawn early\u2014but your $500 was never invested, so there are no earnings involved here.\n\n2. **Your specific case is straightforward.** The money is sitting uninvested in your settlement fund (essentially cash), meaning it\u2019s purely your contribution. You\u2019re not touching any earnings, so no rules are being triggered. Think of it like withdrawing from a savings account\u2014you\u2019re just taking back what you put in.\n\n**Next steps:**  \n- Contact Vanguard\u2019s customer service to request a withdrawal of the $500. They\u2019ll guide you through the process (it\u2019s usually simple for uninvested funds).  \n- If you\u2019d like extra reassurance, you can ask them to confirm that this won\u2019t be reported as a taxable event.  \n\nI totally get why this felt confusing\u2014financial rules often mix general cases with exceptions, and it\u2019s easy to second-guess. But in your case, you\u2019re all clear! Let me know if you\u2019d like help phrasing your request to Vanguard.",
+    "candidate": "The Investopedia text is actually talking about **two different account types**, which is the source of your confusion. The first statement (\"withdraw Roth IRA contributions at any time with no tax or penalty\") applies specifically to **Roth IRA contributions**, while the second statement about early withdrawals triggering taxes and penalties refers to **traditional IRAs** [3][4]. For a Roth IRA, since you contribute after-tax dollars, the IRS allows you to withdraw your **contributions** (not earnings) at any time without taxes or penalties \u2014 this is a key distinction of the Roth IRA structure.\n\nIn your specific situation, you have an additional layer of protection: the IRS explicitly states that you can generally make a **tax-free withdrawal of contributions before the due date of your tax return** for the year in which you made them, and the 10% additional tax will not apply [3][2]. Since the $500 is sitting in a settlement fund and was never invested, it represents only contributions with **no earnings**, which further simplifies your situation. Based on the IRS passages provided, withdrawing that $500 contribution \u2014 especially before your tax return due date \u2014 should not trigger income taxes or the 10% early withdrawal penalty [3][5]. That said, I'd recommend confirming directly with Vanguard or a tax professional, as individual circumstances can vary.",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.16158688068389893
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.17093658447265625
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.17620182037353516
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.18017208576202393
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.1899067759513855
+      }
+    ],
+    "latency_sec": 7.34,
+    "embed_cosine": 0.9399940371513367,
+    "judge": {
+      "factuality": 3,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "The core advice is correct but the candidate incorrectly implies the second Investopedia statement refers only to traditional IRAs when it actually also covers Roth IRA earnings; the 'before tax return due date' framing adds unnecessary complexity since Roth contributions can be withdrawn anytime, n",
+      "mean": 3.6666666666666665
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "ret-r-007",
+    "dataset": "reddit_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What should I do when I turn 18 to maximize my finances?\n\nI'm 17 and turn 18 in September. I plan on opening a credit card immediately to begin building credit, and opening and adding to a Roth IRA once I get a full-time job (currently a pizza delivery driver and ice cream scooper). I already have a bank account. What else should I do immediately that will help in the future?",
+    "reference": "**Great question\u2014you\u2019re already setting yourself up for long-term success by planning ahead!** Here\u2019s a streamlined action plan to maximize your finances when you turn 18, building on what you\u2019re already doing:  \n\n### **Immediate Steps to Take**  \n1. **Credit Card Strategy**  \n   - Open a **starter credit card** (e.g., secured or student card) to build credit.  \n   - Use it for small, regular purchases (like gas or subscriptions) and **pay the balance in full every month** to avoid interest.  \n   - Tip: Set up autopay to never miss a payment\u2014this is the #1 factor for good credit.  \n\n2. **Roth IRA**  \n   - Once you have earned income (even from part-time jobs), prioritize contributions.  \n   - Start small\u2014even $50/month grows significantly over time thanks to **compound interest**.  \n   - Invest in low-cost index funds (e.g., S&P 500 ETFs) for long-term growth.  \n\n3. **Emergency Fund**  \n   - Aim for **$500\u2013$1,000** initially, then build to 3\u20136 months\u2019 expenses.  \n   - Keep this in a **high-yield savings account** (HYSA) for easy access and modest growth.  \n\n4. **Budgeting**  \n   - Track income/expenses with a free app (like Mint or You Need a Budget).  \n   - Allocate a percentage of each paycheck to savings, investing, and fun money.  \n\n### **Next-Level Moves (When You\u2019re Ready)**  \n- **Learn the Basics of Investing**: Explore resources like *The Simple Path to Wealth* (book) or *The Compound Effect* (podcast).  \n- **Optimize Your Bank Accounts**: Switch to a bank with no fees and high-yield savings.  \n- **Future-Proofing**: Once you\u2019re full-time, look into employer benefits like 401(k) matches and health insurance.  \n\n### **Avoid Common Pitfalls**  \n- Don\u2019t carry credit card balances (interest kills growth).  \n- Don\u2019t skip the emergency fund\u2014it prevents debt when surprises happen.  \n\n**You\u2019re way ahead of most people your age!** Focus on these steps one at a time, and you\u2019ll build a rock-solid financial foundation. Let me know if you\u2019d like specific recommendations for credit cards or investing platforms\u2014happy to help!  \n\n*Optional next step:* Check out [Bogleheads\u2019 Beginner Guide](https://www.bogleheads.org/wiki/Getting_started) for a deep dive on investing.",
+    "candidate": "The provided passages don't cover credit cards, general financial planning for young adults, or most of the topics relevant to your question, so I want to be careful not to fabricate guidance by pretending they do. What I **can** confirm from the sources is that a Roth IRA is a legitimate retirement savings vehicle [3], and since you'll have earned income from your delivery and scooping jobs, you'll be eligible to contribute \u2014 which is a genuinely smart move at your age given the decades of tax-free growth ahead of you. The passages also confirm that distributions from a Roth IRA come with age-related rules, including a 10% early withdrawal penalty before age 59\u00bd with certain exceptions [2], so it's worth treating contributions as truly long-term money you won't touch. Beyond what the sources cover, I'd recommend consulting a certified financial planner or trusted resources like the Consumer Financial Protection Bureau (CFPB) for guidance on credit cards, emergency funds, and budgeting \u2014 those topics are simply outside what these IRS and SSA documents address, and you deserve accurate, well-sourced advice rather than guesswork on decisions this important.",
+    "retrieved": [
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.2795877456665039
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.29210299253463745
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.29800260066986084
+      },
+      {
+        "title": "Retirement Benefits (SSA Pub 05-10035)",
+        "publisher": "SSA",
+        "source_slug": "ssa_retirement_benefits",
+        "distance": 0.2998439073562622
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.3003878593444824
+      }
+    ],
+    "latency_sec": 7.47,
+    "embed_cosine": 0.8461546301841736,
+    "judge": {
+      "factuality": 3,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate is overly restrictive due to a RAG framing, confirming only basic Roth IRA facts and deflecting nearly all advice, leaving the question largely unanswered despite the information being widely available common knowledge.",
+      "mean": 2.0
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "ret-r-008",
+    "dataset": "reddit_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "I can\u2019t contribute to a pension plan from a prior employer - what is the best way to maximize the funds that are in this account?\n\nEarly in my career I was a public employee for about two years and had a pension plan through CalPers (California\u2019s public employee retirement system). \nAfter I left I decided to leave the funds in there because they gain interest at roughly 6% annually. However, since I have now separated from public employment there\u2019s no way for me to contribute more funds to that account. Since I was younger and not making as much I didn\u2019t contribute as much as I\u2019d like - maybe about $9,000 total. This account has grown to $10,300 today, over the course of two years from my separation from that job. \n\nLately I\u2019ve been considering if I should take out the money that\u2019s in there and reinvest it somewhere else. Here were a few options that I was contemplating: \n\n - Pull the money out and roll to my IRA or 401k. \n\n- Pull the money out and put in my down payment savings account, but face 20% federal tax penalty plus state tax penalty.  \n\n- Continue to leave it in there and accrue interest until there is no longer a tax penalty (age 59 and a half.. 30 years left lol).\n\nI\u2019m still learning the ropes when it comes to planning for retirement so any advice is greatly appreciated.",
+    "reference": "Here\u2019s a breakdown of your options to help you make an informed decision, keeping in mind your long-term retirement goals and the fact that you can\u2019t add more to this account:\n\n### Option 1: Roll Over to an IRA or 401(k)  \n**Pros:**  \n- **Tax-deferred growth:** Your money continues growing without annual taxes, just like in CalPERS.  \n- **More investment choices:** Unlike CalPERS\u2019 fixed 6%, you could potentially earn higher returns (though with more risk) by investing in stocks, bonds, or funds.  \n- **Consolidation:** Easier to manage if combined with other retirement accounts.  \n\n**Cons:**  \n- **No guaranteed return:** Investments in an IRA/401(k) depend on market performance, so returns could be higher or lower than 6%.  \n- **Fees:** Some IRAs/401(k)s have management or fund fees (check your plan details).  \n\n### Option 2: Withdraw for a Down Payment  \n**Pros:**  \n- Immediate access to cash if you\u2019re prioritizing homeownership.  \n\n**Cons:**  \n- **Heavy penalties:** You\u2019d lose 20% + state taxes upfront, shrinking your $10,300 significantly.  \n- **Lost growth:** That $10,300 could grow to ~$59,000 in 30 years at 6%\u2014withdrawing sacrifices this compounding.  \n\n### Option 3: Leave It in CalPERS  \n**Pros:**  \n- **Guaranteed 6% return:** No market risk, and it\u2019s tax-deferred.  \n- **Hands-off:** No need to manage investments.  \n\n**Cons:**  \n- **Illiquidity:** Funds are locked until retirement age (59\u00bd).  \n- **No flexibility:** Stuck with CalPERS\u2019 terms (e.g., no investment choices).  \n\n### Suggested Next Steps:  \n1. **Lean toward tax-advantaged growth:** Rolling to an IRA/401(k) or leaving the funds in CalPERS are likely better for retirement. The down-payment option is costly unless you *urgently* need the cash.  \n2. **Compare your current retirement accounts:** If your IRA/401(k) has low fees and solid investment options, a rollover could make sense. If not, CalPERS\u2019 6% guarantee is attractive.  \n3. **Consult a fiduciary advisor:** They can help weigh this against your other goals (e.g., homebuying timeline, risk tolerance).  \n\nYou\u2019re asking the right questions\u2014even small amounts can grow significantly over 30 years! Let me know if you\u2019d like help comparing specific IRA investments or understanding rollover paperwork.",
+    "candidate": "Great question, and it's smart that you're thinking critically about this early in your career! The most financially sound option among your three is likely the **rollover to an IRA or 401(k)**, as this would allow you to avoid early withdrawal penalties while keeping the funds growing tax-advantaged. The provided IRS sources confirm that certain property and funds can be transferred or rolled over from one retirement plan to another [1], which would preserve the tax-deferred status of your $10,300. Taking the money out for a down payment would be the most costly option, as early withdrawals before age 59\u00bd trigger penalty taxes on top of ordinary income tax [2], which in your case could eat up a significant portion of that $10,300.\n\nThat said, there are real **tradeoffs to consider** with the rollover option: CalPERS's guaranteed ~6% annual interest rate is a relatively secure and predictable return, whereas an IRA or 401(k) invested in the market carries more volatility, though potentially higher long-term returns. Leaving the money in CalPERS for 30 years at 6% compounded would grow $10,300 to roughly **$59,000**, which is not trivial. However, the provided passages don't specifically address CalPERS rollover rules or tax treatment, so I'd **strongly recommend consulting a financial advisor or tax professional** and contacting CalPERS directly to understand any specific terms, restrictions, or fees before making a decision.",
+    "retrieved": [
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.21890640258789062
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.22234463691711426
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.23367905616760254
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.239044189453125
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.2403419017791748
+      }
+    ],
+    "latency_sec": 8.3,
+    "embed_cosine": 0.8922215104103088,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Accurate on key points including the 30-year compounding estimate (~$59k) and penalty warnings, covers the main tradeoffs well, but slightly less structured than the reference and the '20% federal tax penalty' framing (it's a 10% early withdrawal penalty plus income tax, not 20%) goes uncorrected.",
+      "mean": 4.0
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "ret-r-009",
+    "dataset": "reddit_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "General Advice on Retirement - ROTH IRA??\n\nLong time lurker/researcher - first post! \nI\u2019ve gotten multiple conflicting verdicts on my situation and which direction to take it: \n1) 23 yrs old \n2) Debt free \n3) Renting (guess I\u2019m not 100% debt free)\n4) ~$70k annual salary \n5) ~$140k investments \n6) Company 401k matching is 1% (contributing 1% myself) \n\n\nIs it worth opening a Roth IRA and contributing the max simply for the tax benefit while I meet the income threshold? \n\nShould I stick with my personal investment account and roll with that? (Generally conservative mix stocks/bonds). \n\nThanks in advance!",
+    "reference": "Here\u2019s a clear, actionable, and encouraging response tailored to your situation:\n\n---\n\n**You're in an incredible position for 23\u2014debt-free, with a strong salary and a solid investment portfolio!** It\u2019s no surprise you\u2019ve gotten conflicting advice, but let\u2019s simplify things:  \n\n### **Why a Roth IRA Makes Sense for You Right Now**  \n1. **Tax-Free Growth**: With your current $70k salary, you\u2019re likely in a lower tax bracket than you will be in retirement. A Roth IRA lets you pay taxes now (at today\u2019s rates) and withdraw contributions *and earnings* tax-free later. This is a *huge* advantage over a taxable account, where you\u2019d owe capital gains taxes.  \n2. **Income Threshold**: Roth IRA eligibility phases out at higher incomes (~$146k for 2024). Locking in this benefit now while you qualify is smart.  \n3. **Flexibility**: Unlike your 401(k), you can choose any investments in a Roth IRA (e.g., stocks, bonds, ETFs) and withdraw contributions (not earnings) penalty-free if needed.  \n\n### **Roth IRA vs. Taxable Account**  \n- **Stick with your taxable account for short-term goals**, but prioritize the Roth for retirement savings. The tax savings over 30+ years will far outweigh any gains in a taxable account.  \n- Your conservative mix (stocks/bonds) could work well in the Roth, too\u2014just ensure you\u2019re not *overly* conservative for your age (e.g., 10\u201320% bonds is typical for a 23-year-old).  \n\n### **Quick Action Steps**  \n1. **Open a Roth IRA** with a low-cost provider (e.g., Vanguard, Fidelity, or Schwab).  \n2. **Maximize your 2024 contribution** ($7,000). Set up automatic transfers to make it effortless.  \n3. **Consider upping your 401(k) contribution** beyond the 1% match if you can\u2014even a small increase (e.g., 3\u20135%) will compound significantly over time.  \n\n### **The Bottom Line**  \nYou\u2019re already ahead of the game. Adding a Roth IRA is the logical next step to optimize your tax-free growth while you\u2019re eligible. Keep doing what you\u2019re doing\u2014just with this one powerful addition!  \n\nLet me know if you\u2019d like help picking investments for the Roth or balancing your overall portfolio. Happy to dive deeper!  \n\n--- \n\nThis response validates your progress, cuts through the noise, and gives you a clear path forward\u2014exactly what you asked for. Well done on taking charge of your finances so early!",
+    "candidate": "Great first post! Based on the IRS guidelines, for 2025 you can contribute up to **$7,000 per year** to a Roth IRA since you're under age 50 [2], and at ~$70k annual salary you are well within the income thresholds to make direct Roth IRA contributions [5]. A Roth IRA offers a meaningful tax advantage over a standard taxable brokerage account \u2014 contributions are made with after-tax dollars, but qualified withdrawals in retirement are **tax-free**, which is particularly valuable at your age given the decades of tax-free compounding ahead. At 23 and debt-free, you're in an excellent position to take advantage of this. One important tradeoff to acknowledge: unlike your personal investment/brokerage account, Roth IRA funds have some restrictions on early withdrawal of earnings (though contributions themselves can be withdrawn penalty-free), so it's worth keeping some accessible savings outside of retirement accounts too. The provided passages don't cover 401k strategy in detail, but a general best practice worth noting is to at least capture your **full employer match** (your current 1%) before directing additional dollars elsewhere, as that is essentially free money. After securing that match, maxing your Roth IRA at $7,000/year [2] before adding more to a taxable brokerage is generally considered tax-efficient at your income level. However, for personalized advice on your full financial picture, consider consulting a fee-only financial advisor, as the passages provided here don't cover all relevant factors like your state taxes or specific investment goals.",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2002776861190796
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.20680272579193115
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2086348533630371
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.20941799879074097
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.21263724565505981
+      }
+    ],
+    "latency_sec": 9.46,
+    "embed_cosine": 0.9062950015068054,
+    "judge": {
+      "factuality": 5,
+      "completeness": 4,
+      "advice_quality": 5,
+      "rationale": "Accurate on contribution limits, income thresholds, and tax mechanics; covers the key Roth vs. taxable tradeoff and 401k match priority, though slightly less detailed on asset allocation and next steps than the reference.",
+      "mean": 4.666666666666667
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "ret-r-010",
+    "dataset": "reddit_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Northwestern Mutual or Primerica IRA?\n\nI was recently approached by a friend who is beginning to work with Primerica. I have had some money in an IRA with Northwestern Mutual for about 10 years that I have been thinking that I need to do something with. Would moving it to Primerica, to help a friend, be of any benefit? Or am I screwing myself over? Not very investment savvy, but open to learning.",
+    "reference": "Here\u2019s a thoughtful and balanced response to your question about moving your IRA from Northwestern Mutual to Primerica:\n\n---\n\n**First off, it\u2019s great that you\u2019re thinking carefully about this decision\u2014asking questions is the smartest first step when it comes to your money.** I\u2019ll break this down simply so you can weigh the pros and cons.\n\n### Key Things to Consider:\n1. **Fees and Costs:**  \n   - Both Northwestern Mutual and Primerica are known for offering insurance-based investment products (like whole life insurance or annuities), which often come with higher fees compared to low-cost IRAs at providers like Vanguard or Fidelity.  \n   - High fees can eat into your long-term growth. For example, a 1% higher fee could cost you tens of thousands over decades. Ask both providers for a clear breakdown of all fees (management fees, surrender charges, etc.).  \n\n2. **Investment Options:**  \n   - Check what your current IRA is invested in at Northwestern Mutual. Is it in low-cost index funds, or is it tied to insurance products with limited growth potential?  \n   - Primerica\u2019s investment options may be similar. Ideally, you\u2019d want an IRA with access to diversified, low-cost funds (like S&P 500 index funds).  \n\n3. **Helping Your Friend vs. Your Financial Future:**  \n   - It\u2019s kind of you to want to support your friend, but your retirement savings should come first. If Primerica\u2019s IRA has high fees or restrictive investments, it might not be the best move for you\u2014even as a favor.  \n   - Instead, you could offer to support your friend in other ways (e.g., referring others if you\u2019re comfortable).  \n\n4. **Potential Hassles of Moving:**  \n   - If your Northwestern Mutual IRA has surrender charges (fees for leaving early), those could outweigh any benefit of moving. Check your paperwork or call them to ask.  \n   - There\u2019s also a small risk of paperwork errors during transfers, which can cause temporary headaches.  \n\n### Next Steps:  \n- **Compare the specifics:** Ask both providers for a fee schedule and a list of investment options. Look for low-cost, diversified choices.  \n- **Consider a third option:** If you\u2019re unhappy with Northwestern Mutual but Primerica isn\u2019t ideal, you could explore IRAs at low-cost providers like Schwab or Fidelity.  \n- **Take your time:** There\u2019s no rush. The fact that you\u2019re researching now shows you\u2019re on the right track.  \n\n**Bottom line:** Don\u2019t move your IRA just to help a friend unless it\u2019s also a clear win for your financial future. If you\u2019re unsure, a fee-only financial advisor (who doesn\u2019t work for either company) could give unbiased advice for a one-time cost.  \n\nLet me know if you\u2019d like help decoding any of the details\u2014I\u2019m happy to simplify further!  \n\n---\n\nThis response addresses the user\u2019s financial concerns, validates their emotional conflict, and provides actionable steps without overwhelming them with jargon. It also subtly steers them toward a more optimal solution (e.g., considering low-cost providers) while leaving room for their personal priorities.",
+    "candidate": "The provided passages cover IRS rules about IRAs \u2014 such as contribution rules, required minimum distributions, and permitted investments [1][2][3][4][5] \u2014 but they do not contain any information about Northwestern Mutual, Primerica, or how to compare specific financial providers. I cannot responsibly recommend one company over the other based solely on these sources, and fabricating a comparison would be doing you a disservice.\n\nWhat I can tell you from the passages is that any IRA must meet Internal Revenue Code requirements and be set up for your exclusive benefit [3], so whichever provider you use must satisfy those standards. A rollover between providers is generally permissible, but the rules around it matter \u2014 improper handling can trigger taxes or penalties [4][5].\n\nBefore making any move, I'd strongly encourage you to consult an independent, fee-only financial advisor who has no commission interest in your decision. Helping a friend is admirable, but your retirement security should be the primary consideration \u2014 and that deserves objective, expert guidance that goes beyond what these IRS publications alone can provide.",
+    "retrieved": [
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.2886406183242798
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.2890380620956421
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2902131676673889
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.290866494178772
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.29179811477661133
+      }
+    ],
+    "latency_sec": 6.32,
+    "embed_cosine": 0.8957886695861816,
+    "judge": {
+      "factuality": 3,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "The candidate appropriately avoids fabricating comparisons and correctly recommends a fee-only advisor, but it fails to cover key relevant points like fees, surrender charges, investment options, or the MLM/commission-based nature of Primerica that the reference answer addresses.",
+      "mean": 2.6666666666666665
+    },
+    "n_citations": 5,
+    "citation_coverage": 1.0
+  },
+  {
+    "id": "ret-r-011",
+    "dataset": "reddit_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "Roth 401k vs hassle of back door Roth?\n\nMy husband and I will be close for the new limits for Roth IRA in 2023. With his sales job and my potential for bonuses, I won\u2019t know what we will make until the end of 2023. We have good fund options through our Roth 401ks but do not max the Roth 401ks out . Is there any reason we shouldn\u2019t just do the roth 401ks so we aren\u2019t hassling with the back door roth? Thank you for the advice.",
+    "reference": "Here\u2019s a thoughtful and empathetic response tailored to your situation:\n\n---\n\n**Your preference for simplicity makes complete sense**, especially with unpredictable income from bonuses and commissions. Since you\u2019re close to the Roth IRA income limits and already have good Roth 401(k) options, focusing on the Roth 401(k) is a perfectly reasonable strategy. Here\u2019s why:  \n\n### **Roth 401(k) Advantages for Your Situation:**  \n1. **No Income Limits:** Unlike Roth IRAs, Roth 401(k)s don\u2019t restrict contributions based on income, so you won\u2019t need to worry about year-end surprises.  \n2. **Higher Contribution Limits:** You can contribute up to $22,500 each in 2023 (vs. $6,500 for IRAs), so prioritizing these accounts could have a bigger impact.  \n3. **Simplicity:** No extra steps or paperwork\u2014just automate contributions and let it grow tax-free.  \n\n### **When a Backdoor Roth IRA *Might* Be Worth It:**  \n- If you **max out your Roth 401(k)s** and still want more tax-free growth, the backdoor Roth IRA (a workaround for high earners) could help. But it requires:  \n  - Opening a Traditional IRA, converting it to Roth, and tracking nondeductible contributions (IRS Form 8606).  \n  - Extra hassle if you have existing pre-tax IRA money (due to the \"pro-rata rule\").  \n\n### **Recommendation:**  \nSince you\u2019re not maxing your Roth 401(k)s yet and value convenience, **start there**. You\u2019re already getting great tax-free growth without the complexity. If your income ends up below the Roth IRA limit, you could still contribute directly. Otherwise, revisit the backdoor Roth later if you want to diversify further.  \n\n**Bottom line:** Your Roth 401(k) is a powerful, hassle-free tool\u2014focusing on it now is a smart move.  \n\nLet me know if you\u2019d like to dive deeper into any part of this!  \n\n---\n\nThis response validates your concerns, simplifies the trade-offs, and gives actionable next steps\u2014all while keeping it conversational and jargon-free.",
+    "candidate": "Great question, and it's a common dilemma for higher earners. The provided passages do confirm that Roth IRA contributions are subject to income limits, and that a 6% excise tax applies to any excess contribution to a Roth IRA [3] \u2014 which is exactly the risk you'd face if your income ends up exceeding the limit after you've already contributed directly. Given that uncertainty around your final income, the Roth 401(k) route has a real practical advantage: **Roth 401(k)s do not have income limits**, so you can contribute regardless of how high your combined income ends up being.\n\nHowever, I want to be transparent that **the provided passages do not cover Roth 401(k) rules, backdoor Roth mechanics, or the comparative tradeoffs between these strategies** in detail, so I cannot fully answer this from the sources alone. What I can say from the passages is that you cannot make up missed Roth IRA contributions after the tax filing deadline [2], so if you wait to see your income and then miss the window, that contribution opportunity is gone. The passages also note that contributions to a Roth IRA for a given year can be made up until the tax return due date, generally April 15 of the following year [3], which does give you some time to assess your income before deciding on a direct Roth IRA contribution. For a full comparison of Roth 401(k) vs. backdoor Roth tradeoffs \u2014 including pro-rata rules and plan-specific considerations \u2014 I'd strongly recommend consulting a financial advisor or tax professional.",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.21638447046279907
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.22038531303405762
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.22248691320419312
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.23118102550506592
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.23334693908691406
+      }
+    ],
+    "latency_sec": 8.81,
+    "embed_cosine": 0.8906182646751404,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "Candidate is factually accurate on key points (no income limits for Roth 401k, April 15 deadline, excise tax) but lacks the reference's depth on contribution limits comparison and actionable recommendation, and hedges excessively due to source limitations.",
+      "mean": 3.3333333333333335
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "ret-r-012",
+    "dataset": "reddit_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "Can I retire on base salary of 40k per year if I'm already 29yrs old?\n\nNot taking into account overtime, I make make around 40k per year. With overtime I can push 50-70k. I currently have $10,000 in an employer match account that I vest @ 8 yrs (3 yrs in so far)\n\nI like my job, and I'm just about debt free. I've been following the Dave Ramsey stuff for a while and I'm beginning to feel his investment advice isn't all that great since both people for and against him all agree his investing advice is not obtainable.\n\nI'm about...$4600.. from being debt free. Car + phone. After that, I will move towards saving 6 months emergency fund. Not sure how long that will take, but I'm sure I'll have more motivation to work harder for that since I'll see the money go into my pocket rather than someone elses.\n\nI made a post a year or two ago about loving my job and wanting to stay in this field, and it is still the same. I could see myself doing some small freelance work for budgeting for a few bucks here and there and maybe dip into more financial advice freelancing, but I don't really count on that being a big income.\n\nMy wife is currently a stay at home mom and loves it (as do I) but we may explore a work from home thing for her in the future.",
+    "reference": "Here\u2019s a thoughtful and actionable response tailored to your situation:\n\n---\n\n**Short Answer:** Yes, it\u2019s possible to retire on a $40k salary, but it will require consistent saving, smart investing, and likely some flexibility in your retirement timeline or lifestyle. At 29, you\u2019re in a great position to build wealth over time\u2014especially since you\u2019re nearly debt-free and enjoy your job (which makes saving easier!). Let\u2019s break it down:\n\n### **1. Where You Stand Now**  \n- **Strengths:**  \n  - Low debt ($4,600 left is manageable).  \n  - Employer retirement match (even if vested later, it\u2019s \"free money\").  \n  - High job satisfaction (working longer = more savings).  \n- **Opportunities:**  \n  - Your overtime potential ($50\u201370k) could turbocharge savings.  \n  - Freelance/WFH income for your wife would add safety margins.  \n\n### **2. The Math Behind Retirement on $40k**  \nA common rule is to aim for **25x your annual expenses** saved by retirement. For a $40k lifestyle:  \n- **Target:** ~$1 million (assuming $40k/year withdrawals using the 4% rule).  \n- **How to get there:**  \n  - If you save **$500/month** from age 29\u201365 with a 7% return (historically, stock market average), you\u2019d hit ~$1.1M.  \n  - Saving **$1,000/month** could let you retire earlier (e.g., ~$1.6M by 55).  \n\n*Note:* This ignores inflation, so adjust savings over time.  \n\n### **3. Action Steps**  \n- **Finish your debt payoff** (you\u2019re almost there!).  \n- **Build the emergency fund** (6 months is smart\u2014aim for ~$15\u201320k).  \n- **Maximize retirement accounts next:**  \n  - After vesting, contribute enough to get the full employer match.  \n  - Open a Roth IRA for tax-free growth (you\u2019re likely in a low tax bracket now).  \n- **Invest simply:** Low-cost index funds (e.g., S&P 500) are a hands-off way to grow wealth. Dave Ramsey\u2019s investing advice (e.g., high-fee mutual funds) is debated for good reason\u2014you can do better with lower fees.  \n\n### **4. Flexibility Is Key**  \n- **Option 1:** Work a few extra years to boost savings.  \n- **Option 2:** Lean on overtime/freelance income to save more now.  \n- **Option 3:** Reduce future expenses (e.g., paid-off home, frugal hobbies).  \n\n### **Encouragement**  \nYou\u2019re already ahead of most by tackling debt early and liking your work. Retirement isn\u2019t just about a number\u2014it\u2019s about designing a life you don\u2019t *need* to retire from. Keep going!  \n\n**Next steps:**  \n1. Crunch your exact numbers using a [retirement calculator](https://www.nerdwallet.com/article/investing/retirement-calculator).  \n2. When debt-free, automate retirement savings (even $200/month is a start).  \n\nLet me know if you\u2019d like help estimating specific goals!  \n\n---  \n\nThis response balances realism with optimism, gives clear steps, and avoids jargon while addressing your skepticism about Ramsey\u2019s advice. Would you like to dive deeper into any part?",
+    "candidate": "The provided passages don't contain enough information to give you a complete, confident retirement projection based on your specific situation \u2014 that would require retirement calculators, projected investment returns, and expense modeling beyond what's covered here. However, a few relevant points can be drawn from the sources. Once you're debt-free and building savings, contributing to an IRA is a strong next step \u2014 for 2025 you can contribute up to **$7,000 per year** (or $8,000 if you're 50+) to a traditional IRA, and depending on your income and whether you're covered by an employer plan, that contribution may be **fully tax-deductible** [1][3]. Your employer match account is a valuable asset, and staying through your **8-year vesting period** to protect that benefit is worth factoring into your timeline [your own details, not from passages]. Your **Social Security benefit will be based on your lifetime earnings**, so years of lower income now will modestly reduce your eventual benefit, but consistent work history still builds toward eligibility [2]. On a $40K base salary, maxing an IRA and capturing your full employer match are the highest-priority moves available to you based on the sources here [1][3]. For a full retirement plan at your age and income level, I'd recommend consulting a fee-only financial planner, as the passages provided don't cover broader retirement modeling or withdrawal strategies.",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2243337631225586
+      },
+      {
+        "title": "Retirement Benefits (SSA Pub 05-10035)",
+        "publisher": "SSA",
+        "source_slug": "ssa_retirement_benefits",
+        "distance": 0.23704242706298828
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2452661395072937
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.24572992324829102
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.24725204706192017
+      }
+    ],
+    "latency_sec": 8.7,
+    "embed_cosine": 0.8693686127662659,
+    "judge": {
+      "factuality": 4,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "Factually accurate on IRA limits and vesting, but the candidate answer is overly narrow and hedged, missing the core retirement math (25x rule, 4% withdrawal, savings rate targets) and actionable steps that directly answer whether $40k salary can support retirement.",
+      "mean": 3.0
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  }
+]

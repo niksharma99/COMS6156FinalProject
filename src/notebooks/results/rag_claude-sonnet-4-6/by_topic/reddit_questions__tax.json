@@ -1,0 +1,638 @@
+[
+  {
+    "id": "tax-r-001",
+    "dataset": "reddit_questions",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "Overfunded My ROTH IRA In 2020\n\nI maxed out my ROTH IRA in April 2020 and had an unexpected increase in pay due to bonuses, which resulted in my income limiting my ability to fully fund my ROTH IRA. I ran through my taxes, but haven't filed yet. I was told on my taxes that I had overfunded, so I notified my financial advisor who distributed a check for overfunding+ earnings, which is another $4k.\n\nDo I need to pay capital gains on the short term earnings? Or on my taxes, do I need to claim that I took an early withdrawal from my ROTH IRA? Or do I just claim that I put $2k into my ROTH for 2020?\n\nNever had to do this before but wanted to ask. I'm assuming I need to claim the early withdrawal but wanted to get some reassurance.",
+    "reference": "Here\u2019s a clear, reassuring breakdown of your situation and the steps you\u2019ll need to take:\n\n**1. You\u2019ve Handled the Overfunding Correctly**  \nFirst, great job catching this before filing and working with your advisor to return the excess funds ($2k overcontribution + $4k earnings). This avoids the 6% annual penalty for leaving excess contributions in the account.  \n\n**2. Tax Treatment of the $4k Earnings**  \n- **Yes, the earnings are taxable** for 2020 (the year you contributed). They\u2019ll be taxed as ordinary income (not capital gains) since they grew inside the Roth IRA.  \n- **No early withdrawal penalty** applies here. The 10% penalty is waived because this was a corrective distribution (removing excess funds by the tax deadline).  \n\n**3. What to Report on Your Taxes**  \n- **Contribution:** Only claim the *allowed* amount you were eligible to contribute (e.g., $2k instead of the full $6k).  \n- **Earnings:** The $4k will be added to your 2020 taxable income. Your 1099-R (which you\u2019ll receive from your IRA provider) should show this in Box 2a (taxable amount) with a distribution code \"J\" (early distribution, but penalty exception applies).  \n\n**4. Next Steps**  \n- Double-check your 1099-R when you receive it to ensure the coding is correct.  \n- If you use tax software, it will guide you through entering the 1099-R details. Otherwise, you may need to file **Form 5329** (with Part IV, Exception 2 checked) to confirm the penalty exception.  \n\n**Key Reassurance:** This is a common fix\u2014you won\u2019t face long-term penalties since you corrected it on time. If you\u2019re unsure about forms, a quick review with a tax pro can give you peace of mind.  \n\nLet me know if you\u2019d like help decoding your 1099-R once it arrives!",
+    "candidate": "## Roth IRA Excess Contribution Situation\n\nThe provided passages don't contain specific enough detail about the **excess contribution correction process** for Roth IRAs to give you a fully confident, cited answer on every point. However, here is what I can and cannot confirm from the sources:\n\nThe passages do confirm that early IRA distributions (before age 59\u00bd) generally trigger a **10% additional tax**, though exceptions exist for qualified education expenses [1][3]. The passages also note that if an excess deferral amount is distributed to you **after the year of the deferral**, and you receive the corrective distribution by April 15 of the following year, you generally don't include it in income again in the year you receive it [5]. However, if received **later than April 15**, you must include it in income in both the year of the deferral and the year you receive the distribution [5].\n\nBecause your situation involves nuances \u2014 specifically the earnings on the excess contribution and potential early withdrawal penalties \u2014 **I would strongly recommend consulting a tax professional or the IRS directly (Form 5329 instructions)**, as the provided passages are insufficient to fully address the earnings taxation and penalty specifics of a Roth IRA excess contribution correction. The tradeoff here is that acting without complete guidance could result in either underpaying or overpaying taxes.",
+    "retrieved": [
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.2325018048286438
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.23482835292816162
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.24597936868667603
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.24738377332687378
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.24785244464874268
+      }
+    ],
+    "latency_sec": 7.46,
+    "embed_cosine": 0.844688892364502,
+    "judge": {
+      "factuality": 2,
+      "completeness": 2,
+      "advice_quality": 2,
+      "rationale": "The candidate answer is overly hedged and fails to deliver key correct information: it doesn't clarify that earnings are taxed as ordinary income (not capital gains), doesn't confirm no 10% penalty applies for timely corrective distributions, misapplies excess deferral rules to an IRA context, and l",
+      "mean": 2.0
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "tax-r-002",
+    "dataset": "reddit_questions",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "File taxes based on 1099 alone?\n\nI worked in the U.S. under an H1B for a few years before returning to Canada. I left some money in my HISA in the U.S., as well as some investments in Vanguard. I did not earn any income in the United States last year, except for the interest produced by those accounts, which is reported in my 1099INT. I assume I need to report those earnings, correct? Do I also need to report my Canadian income for that year even though I had no other U.S. income? Any guidance would be greatly appreciated.",
+    "reference": "Here\u2019s a clear breakdown of your U.S. tax obligations based on your situation:\n\n1. **Reporting 1099-INT Income**:  \n   Yes, you\u2019ll need to report the interest income from your U.S. HISA and Vanguard investments (shown on your 1099-INT) to the IRS, even though you\u2019re now living in Canada. As a non-resident alien (someone who no longer lives in the U.S.), you\u2019d typically file **Form 1040-NR** for this purpose. The good news? If your interest income is relatively small, you may owe little or no U.S. tax after applying any allowable deductions.  \n\n2. **Canadian Income**:  \n   You generally *do not* need to report your Canadian income to the IRS unless you meet specific criteria (like electing to be treated as a U.S. resident for tax purposes). Since you didn\u2019t earn other U.S. income, this likely doesn\u2019t apply to you.  \n\n3. **Avoiding Double Taxation**:  \n   The U.S.-Canada tax treaty may help prevent you from being taxed twice on the same interest income. You might be able to claim a **foreign tax credit** on your U.S. return for any Canadian taxes paid on that income, or the treaty may exempt it entirely.  \n\n**Next Steps**:  \n- Review **IRS Publication 519** (U.S. Tax Guide for Aliens) for specifics on filing as a non-resident.  \n- If your accounts meet certain thresholds ($10,000+ in aggregate), you may also need to file **FBAR (FinCEN Form 114)** for foreign asset reporting\u2014though this is separate from your tax return.  \n- For peace of mind, consider consulting a cross-border tax specialist, especially if your investments are substantial.  \n\nThis might feel overwhelming, but the process is straightforward for most cases like yours. Let me know if you\u2019d like help decoding any forms or treaty details!",
+    "candidate": "Your situation involves some important nuances that the provided passages only partially address. Regarding your U.S.-sourced interest income reported on your 1099-INT, this would generally need to be reported \u2014 the passages confirm that income reported on forms like 1099-INT represents gross income that must be accounted for [4]. However, your specific filing obligations depend critically on your **residency status** for U.S. tax purposes (resident alien vs. non-resident alien), which the passages do not fully address.\n\nFor U.S. citizens and **resident aliens**, foreign income (including your Canadian income) must be reported on a U.S. tax return regardless of where you reside [1]. However, if you are now classified as a **non-resident alien** after returning to Canada, different rules may apply \u2014 and the provided passages are insufficient to definitively answer this aspect of your question.\n\nI want to be transparent: the passages here do not cover non-resident alien filing rules, tax treaties (such as the U.S.-Canada tax treaty, which could affect your obligations), or the specific thresholds that would trigger a filing requirement for someone in your situation. **I strongly recommend consulting a cross-border tax professional or a CPA familiar with U.S.-Canada tax treaty provisions**, as filing incorrectly \u2014 or failing to file when required \u2014 could have meaningful consequences. The IRS also publishes Publication 519 (U.S. Tax Guide for Aliens), which would be directly relevant to your situation.",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.23582273721694946
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.24048107862472534
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2405261993408203
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.24328482151031494
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.24569272994995117
+      }
+    ],
+    "latency_sec": 8.26,
+    "embed_cosine": 0.9275593757629395,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 4,
+      "rationale": "Correctly identifies non-resident alien status and key resources like Pub 519, but omits Form 1040-NR, the FBAR requirement, and the U.S.-Canada treaty's foreign tax credit provisions that the reference covers.",
+      "mean": 3.6666666666666665
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "tax-r-003",
+    "dataset": "reddit_questions",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "Retirement account tax question\n\n1) Since withdrawals from a Roth IRA are tax free if I\u2019m over 59 1/2 and held for 5 years, holding mutual funds thats distribute lots of capital gains and dividends would be ideal? Since it will be reinvested and grow tax free\n\n2) Are there any long term/short term capital gains in a 401k? Or is whatever i withdraw just taxed as regular income?",
+    "reference": "Here\u2019s a clear breakdown of your retirement account tax questions:\n\n### 1) Roth IRA and Mutual Funds with Dividends/Capital Gains  \nYou\u2019re absolutely right\u2014holding mutual funds that generate dividends or capital gains in a **Roth IRA** can be a smart tax strategy. Here\u2019s why:  \n- **Tax-free growth**: Any dividends or capital gains distributed by the fund are reinvested *without* triggering taxes, and they grow tax-free inside the account.  \n- **Tax-free withdrawals**: Once you\u2019re over 59\u00bd *and* the account has been open for 5+ years, all withdrawals (contributions + earnings) are tax-free.  \n\n**Example**: If your Roth IRA holds a fund that pays $1,000 in dividends annually, reinvesting those dividends won\u2019t create a tax bill, and the full amount compounds tax-free for future withdrawals.  \n\n*Note*: While this approach is tax-efficient, also consider the fund\u2019s underlying risks and fees\u2014tax benefits shouldn\u2019t override investment fundamentals.  \n\n### 2) 401(k) and Capital Gains Taxes  \nIn a **traditional 401(k)**, there\u2019s no distinction between short-term and long-term capital gains. Here\u2019s how it works:  \n- **No taxes during growth**: Gains (whether from dividends, interest, or asset appreciation) aren\u2019t taxed annually.  \n- **Taxed as income upon withdrawal**: Every dollar you withdraw (contributions + earnings) is taxed as **ordinary income** at your current tax rate.  \n\n**Example**: If your 401(k) grows by $50,000 from investments, withdrawing $20,000 later would add $20,000 to your taxable income that year.  \n\n### Key Takeaways  \n- **Roth IRA**: Ideal for tax-free growth of high-dividend/gains investments.  \n- **401(k)**: All withdrawals are taxed as income, regardless of how the gains were generated.  \n\n**Next Step**: If optimizing for taxes, consider placing investments with higher expected growth (or high dividends) in your Roth IRA, and more conservative holdings in your 401(k). Always review fund details (like turnover ratios) to minimize unnecessary distributions.  \n\nLet me know if you'd like to dive deeper into fund selection or other tax strategies!",
+    "candidate": "## Retirement Account Tax Questions\n\n**Roth IRA Strategy:** Your intuition about holding high-distribution assets (capital gains, dividends) in a Roth IRA is sound from a tax-efficiency standpoint. Qualified distributions from a Roth account are not included in income [2], meaning that all the reinvested dividends and capital gains that compound over time would be withdrawn tax-free. The 5-tax-year rule is important here \u2014 a distribution made before the end of the 5-tax-year period beginning with the first year a Roth contribution was made is **not** a qualified distribution [2], so both conditions (age 59\u00bd AND the 5-year rule) must be satisfied.\n\n**401(k) and Capital Gains:** The provided passages do not contain specific information about how 401(k) withdrawals are taxed (i.e., whether capital gains rates apply vs. ordinary income rates). However, I can tell you that the passages confirm Roth account qualified distributions avoid income inclusion [2], implying the contrast with traditional pre-tax accounts \u2014 but I would not want to fabricate specifics about 401(k) ordinary income treatment without a sourced passage confirming it. **For a definitive answer on 401(k) taxation, I'd recommend consulting IRS Publication 575 or a tax professional directly**, as that detail falls outside what the provided passages cover confidently.",
+    "retrieved": [
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.2357533574104309
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2419164776802063
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.25112950801849365
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2548099756240845
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.25566136837005615
+      }
+    ],
+    "latency_sec": 7.98,
+    "embed_cosine": 0.8926027417182922,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "Roth IRA explanation is accurate, but the candidate refuses to confirm the well-established fact that 401(k) withdrawals are taxed as ordinary income, citing lack of sourced passages\u2014this is a known, uncontroversial rule that leaves the answer incomplete and less useful.",
+      "mean": 3.0
+    },
+    "n_citations": 1,
+    "citation_coverage": 0.2
+  },
+  {
+    "id": "tax-r-004",
+    "dataset": "reddit_questions",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "College student accidentally added too much to Roth IRA\n\nWhen I turned 18 a while ago, I got excited and put $1000 into my Roth IRA through Fidelity. However, tax season has come and while filing I've realized that my maximum is $300 (wages from part-time work), so I could be penalized for the excess roth ira contributions. I've also gotten a full scholarship, $16,000 of which I included as taxable income. Will this in any way affect my Roth IRA maximum contributions?\n\nIf it is in fact an excess contribution, what would be the best course of action for me to take? I am reluctant to withdraw the $700 and take a 10% penalty for early withdrawal, but from what I've read online that seems like my only option.\n\nAlso, when I withdraw the excess amount, do I still need to report $1000 as my contributions or just the remaining?\n\nUPDATE: Thanks everyone for the information, I was able to find the Fidelity excess contributions IRA form online and am planning on mailing it in ASAP so I can file my taxes quickly!",
+    "reference": "Here\u2019s a clear and supportive response tailored to your situation:\n\n**First off, great job catching this early and taking action with Fidelity\u2019s form!** That\u2019s the most important step to fix the overcontribution. Let me clarify a few things to ease your mind:\n\n1. **Scholarship Income vs. Roth IRA Limits**:  \n   Your $16,000 scholarship doesn\u2019t affect your Roth IRA contribution limit\u2014only *earned income* (like your part-time wages) counts. Since you earned $300, your max contribution for the year was indeed $300.  \n\n2. **The Penalty (and Good News)**:  \n   - The IRS charges a **6% annual penalty** on excess contributions ($700 in your case) until corrected.  \n   - This is *not* the same as the 10% early withdrawal penalty (which only applies if you withdraw earnings *and* are under age 59\u00bd).  \n   - By submitting Fidelity\u2019s form to remove the $700, you\u2019ll stop the 6% penalty and avoid future issues.  \n\n3. **Reporting After Correction**:  \n   Once the excess is withdrawn, you\u2019ll only report **$300** (the remaining amount) as your Roth IRA contribution on your taxes.  \n\n**Key Next Steps**:  \n- Mail the Fidelity form ASAP (as you\u2019re doing!)\u2014this resolves the problem.  \n- If you\u2019ve already filed your taxes, you may need to file an amended return (Form 1040-X) to reflect the correction. Fidelity should send you a Form 1099-R next year for the withdrawal.  \n\n**Final Thought**: This is a common hiccup, especially when you\u2019re new to IRAs. The fix is straightforward, and your scholarship won\u2019t impact future contributions. You\u2019re already on top of it\u2014keep up the great work!  \n\nLet me know if you\u2019d like help understanding the Form 1099-R when it arrives.",
+    "candidate": "Great news on finding the Fidelity form! Here's a summary of the key points based on the IRS guidance available:\n\nRegarding your scholarship income, the provided passages don't contain enough detail about what counts as \"compensation\" for Roth IRA contribution purposes to confirm whether taxable scholarship income raises your contribution limit \u2014 you should verify this directly with a tax professional or IRS Publication 590-A, as this could potentially increase your allowable contribution beyond $300.\n\nOn the excess contribution itself, if you take out the excess amount by April 15 of the following tax year (i.e., as a corrective distribution), you generally will **not** have to include it in income again in the year you receive it [1]. This is the cleanest path forward, and critically, it is **not** subject to the standard 10% early withdrawal penalty when done as a corrective distribution of excess contributions \u2014 that penalty typically applies to other early distributions, not properly processed excess contribution withdrawals [4]. If you *don't* withdraw the excess, you'd face a 6% excise tax on the excess amount each year it remains in the account [3].\n\nAfter the corrective withdrawal is processed, you would report only your remaining valid contributions (e.g., $300) as your Roth IRA contribution, not the full $1,000. Act quickly to ensure Fidelity processes this before the April 15 deadline [1].",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.22280240058898926
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.22758322954177856
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.22932755947113037
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.23107576370239258
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.23955917358398438
+      }
+    ],
+    "latency_sec": 8.29,
+    "embed_cosine": 0.9254396557807922,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate correctly explains the 6% excise tax and corrective distribution mechanics, but incorrectly hedges on whether scholarship income counts as compensation (it does not, per IRS rules), which introduces unnecessary uncertainty on a settled point, slightly undermining factual accuracy and a",
+      "mean": 3.0
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "tax-r-005",
+    "dataset": "reddit_questions",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Question about EIP (Economic Impact Payment) while filing for 2020 Taxes\n\nI didn't receive the $1200 during the first round of stimulus checks, but received the $600 in the second round.\n\nI filled in the EIP in FreeTaxUSA and apparently, I'm eligible for just $493 dollars of recovery rebate.\n\nFrom what I understand, stimulus checks are not taxable income, so I don't understand why I'm only eligible for $1093 of the stimulus package when many others in my income bracket are eligible for $1800? \n\nCan somebody please help me understand this?",
+    "reference": "I completely understand why this is confusing\u2014stimulus payments and tax credits can be tricky, especially when the amounts don\u2019t match what you expected. Let\u2019s break this down step by step to clarify what might be happening.  \n\n### **1. How Stimulus Payments (EIPs) and the Recovery Rebate Credit Work**  \n- The **first stimulus ($1,200)** and **second stimulus ($600)** were based on your **2018 or 2019 tax returns** (whichever the IRS had on file). If your income in those years was above a certain threshold, you may not have qualified for the full amount or any of it.  \n- The **Recovery Rebate Credit (RRC)** on your **2020 tax return** is a \"catch-up\" for any stimulus money you were eligible for but didn\u2019t receive, based on your **2020 income**.  \n\n### **2. Why You Might See $493 Instead of the Full $1,200**  \nHere are a few possible reasons:  \n- **Your 2020 income was higher than the phase-out range.** The stimulus phased out for single filers earning over $75,000 and married couples over $150,000 (based on adjusted gross income). If your 2020 income was in this range, your credit could be reduced.  \n- **You received part of the first stimulus.** Sometimes payments were sent in error or as partial amounts. Check your bank records or IRS account to confirm.  \n- **Dependents or filing status changed.** If you claimed dependents in 2020 but not in 2019 (or vice versa), this could affect the calculation.  \n- **FreeTaxUSA may need a double-check.** Ensure you entered your 2020 income, dependents, and filing status correctly\u2014small errors can impact the credit.  \n\n### **3. Next Steps**  \n- **Review your IRS account** ([IRS.gov/account](https://www.irs.gov/account)) to see if any stimulus payments were issued to you that you might have missed.  \n- **Verify your entries in FreeTaxUSA**, especially income and dependents.  \n- **Consult the IRS guidelines** or a tax pro if the discrepancy persists\u2014they can help trace the exact reason.  \n\nIt\u2019s frustrating when the numbers don\u2019t add up, but hopefully this sheds some light. Let me know if you\u2019d like help digging deeper!",
+    "candidate": "Thank you for your question. Unfortunately, the passages provided to me do not contain specific information about Economic Impact Payments (EIPs), the Recovery Rebate Credit, or the eligibility rules that determine partial versus full stimulus payment amounts. I cannot fabricate an answer on this topic without risking giving you inaccurate guidance.\n\nWhat I can suggest is that you consult **IRS Publication 536** or the dedicated EIP/Recovery Rebate Credit pages on IRS.gov (irs.gov/rebate-recovery-credit) for authoritative details. Common reasons why someone might receive a reduced Recovery Rebate Credit \u2014 such as income phaseouts, filing status, or prior partial payments \u2014 are well-documented there. You may also want to contact the IRS directly or consult a tax professional who can review your specific return. FreeTaxUSA also has a support team that can walk you through exactly how the $493 figure was calculated based on your inputs.",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.25116991996765137
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2545362114906311
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2564399838447571
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2566159963607788
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.25912904739379883
+      }
+    ],
+    "latency_sec": 5.41,
+    "embed_cosine": 0.9015778303146362,
+    "judge": {
+      "factuality": 2,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "The candidate refuses to answer substantively despite the question being well within general tax knowledge, missing all key explanations (phase-outs, RRC mechanics, income thresholds), though it correctly avoids misinformation and points to legitimate resources.",
+      "mean": 2.3333333333333335
+    },
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "tax-r-006",
+    "dataset": "reddit_questions",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "CPA Vs. Tax Service Provider?\n\nTrying to determine if I need a full blown CPA or if your run of the mill, reputable tax preparer will suffice. I have done my wife and I's taxes for a few years and I want a second set of eyes to double check things. We have student loans, W-2s, and 1099s and want to make sure we're getting the most out of our returns. Would a tax preparer be appropriate (private preparer, not HR Block), or would something like this require the expertise (and cost) of a CPA?",
+    "reference": "Here\u2019s a clear, empathetic breakdown to help you decide between a CPA and a tax preparer for your situation:  \n\n**First, kudos to you** for handling your taxes solo so far and wanting a second look\u2014that\u2019s a smart move, especially with mixed income sources like W-2s and 1099s.  \n\n### **Key Differences: CPA vs. Tax Preparer**  \n- **Tax Preparer (Reputable Private One):**  \n  - **Best for:** Double-checking accuracy, claiming common deductions (e.g., student loan interest), and straightforward filings.  \n  - **Cost:** Typically less expensive ($150\u2013$400).  \n  - **Your fit:** Likely sufficient if you mainly need a review and your 1099 income is simple (e.g., no major business expenses or complex deductions).  \n\n- **CPA:**  \n  - **Best for:** Strategic advice, self-employment tax optimization (since you have 1099 income), and future planning (e.g., estimated tax payments).  \n  - **Cost:** Higher ($200\u2013$600+), but could pay for itself if they uncover overlooked deductions or credits.  \n  - **Your fit:** Worth considering if your 1099 work involves significant expenses, or you\u2019d value long-term tax planning.  \n\n### **Your Situation Specifically:**  \n- **Student loans:** Any preparer can handle the interest deduction\u2014it\u2019s straightforward.  \n- **1099 income:** This adds complexity (self-employment taxes, deductions like home office/mileage). If you\u2019re unsure you\u2019ve maximized these, a CPA might dig deeper.  \n- **W-2s:** Routine for either professional.  \n\n### **Next Steps:**  \n1. **If cost is a priority** and your 1099 work is simple, start with a tax preparer\u2014ask if they\u2019re comfortable with 1099s and student loan deductions.  \n2. **If you expect your 1099 income to grow** or have questions about deductions, schedule a CPA consult (many offer free intro calls).  \n\n**Bottom line:** You\u2019re *probably* fine with a skilled tax preparer, but a CPA could be a worthwhile investment if your 1099 work has nuance. Either way, you\u2019re on the right track by seeking a pro\u2019s eyes!  \n\nLet me know if you\u2019d like help framing questions to ask either type of professional.",
+    "candidate": "Based on the provided passages, both CPAs and other tax preparers are recognized as legitimate options for preparing tax returns. The IRS acknowledges \"various types of tax return preparers, including enrolled agents, certified public accountants (CPAs), accountants, and many others who don't have professional credentials\" [1][3]. For your situation \u2014 W-2s, 1099s, and student loans \u2014 a knowledgeable non-CPA preparer could reasonably handle the work, as the IRS simply states that \"anyone paid to prepare tax returns for others should have a thorough understanding of tax matters\" [2][4], without requiring a CPA credential specifically.\n\nOne important tradeoff to keep in mind: regardless of who prepares your return, **you remain ultimately responsible** for providing accurate information and for every item reported on the return [2][4]. This means vetting your preparer carefully is essential regardless of their credential level. The IRS does offer guidance on selecting a preparer through their \"Tips for Choosing a Tax Preparer\" resource on IRS.gov [4][5], which would be worth reviewing before making your decision.\n\nHowever, **I want to be transparent**: the provided passages don't go into enough detail about the specific complexity of your tax situation (student loan interest deductions, multiple income sources) to definitively recommend one over the other. For a more tailored recommendation, consulting IRS.gov's Interactive Tax Assistant [3] or speaking directly with both a CPA and an enrolled agent for quotes would help you weigh expertise against cost.",
+    "retrieved": [
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.1938924789428711
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.21178507804870605
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2347545027732849
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.2373943328857422
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.25457674264907837
+      }
+    ],
+    "latency_sec": 7.4,
+    "embed_cosine": 0.8930302858352661,
+    "judge": {
+      "factuality": 4,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "Factually accurate but overly hedged and sparse on actionable specifics\u2014misses cost ranges, the 1099 complexity angle, and concrete next steps that the reference covers well.",
+      "mean": 3.0
+    },
+    "n_citations": 5,
+    "citation_coverage": 1.0
+  },
+  {
+    "id": "tax-r-007",
+    "dataset": "reddit_questions",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "(US-CA) PayPal got my address wrong and sent me a 1099K\n\nI live in California but PayPal made an error and thought I lived in Illinois, where the threshold for getting sent a 1099K is much lower.\n\nI already sent in a support ticket letting them know and attached evidence of my California residence through energy bills and whatnot, so hopefully I'll get it corrected soon?\n\n**Do I still have to file the corrected 1099K information with the rest of my taxes?** I'm a bit concerned that PayPal won't send the IRS the corrected 1099K from my experiences in the past dealing with PayPal issues.\n\nThanks for any insight you might have.",
+    "reference": "Here\u2019s a clear, step-by-step guide to handle this situation, along with some reassurance\u2014because dealing with tax document errors can definitely be stressful!  \n\n### **1. What to Do Now:**  \n- **File based on your actual income** (California\u2019s 1099-K threshold is $600+ for goods/services, not Illinois\u2019 lower threshold). Even if PayPal\u2019s form is wrong, you only need to report what you *actually* earned.  \n- **Keep all documentation** (energy bills, support ticket confirmations) in case the IRS questions the discrepancy. This proves you\u2019re a CA resident and acted in good faith.  \n\n### **2. If PayPal Corrects the 1099-K (Likely):**  \n- Once PayPal updates your address, they *should* send a corrected 1099-K to the IRS. You don\u2019t need to amend your return unless you already filed with the wrong form.  \n- **Check your PayPal account periodically** for updates\u2014their resolution time can vary.  \n\n### **3. If PayPal Doesn\u2019t Correct It (Backup Plan):**  \n- **Still file accurately** (report your actual income). If the IRS notices the mismatch, you can explain it with your documentation.  \n- If you\u2019re worried, you can **call the IRS (800-829-1040)** after filing to flag the issue proactively.  \n\n### **Key Reassurance:**  \n- This is a fixable problem! The IRS sees paperwork errors often, and your evidence (bills, etc.) makes this straightforward to resolve.  \n- You\u2019ve already done the hardest part by contacting PayPal with proof. Now it\u2019s mostly waiting and staying organized.  \n\n**Next Step:**  \nMark your calendar to follow up with PayPal in 2\u20133 weeks if you haven\u2019t heard back. If it drags on, consider reaching out to the IRS for peace of mind. You\u2019ve got this!  \n\nLet me know if you\u2019d like help wording a follow-up to PayPal or the IRS\u2014happy to help.",
+    "candidate": "The provided passages don't contain specific information about 1099-K reporting requirements, state thresholds, or the process for handling corrected 1099s from payment processors like PayPal, so I cannot give you a fully sourced answer on those specifics. That said, I can offer some general guidance based on common tax principles: the 1099-K address error is a **state reporting threshold issue**, not necessarily a federal one, so your federal tax obligation depends on your actual income received, not the form PayPal generated. You should report your actual income accurately regardless of what any 1099 form says, since the IRS matches reported income to what you actually received.\n\nRegarding your concern about PayPal not sending a corrected form to the IRS \u2014 this is a legitimate worry. If PayPal issues a corrected 1099-K, they are generally required to send both you and the IRS the corrected version. If they fail to do so, you may want to document your correspondence with PayPal carefully and consider consulting a tax professional or contacting the IRS directly if a discrepancy arises. For California-specific guidance on state 1099-K thresholds and how to handle the discrepancy with the California Franchise Tax Board (FTB), I'd strongly recommend reaching out to the FTB or a California-licensed tax professional, as the passages provided here don't cover that ground.",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.27132678031921387
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.27145814895629883
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.271831750869751
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2734689712524414
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2734694480895996
+      }
+    ],
+    "latency_sec": 7.78,
+    "embed_cosine": 0.9309091567993164,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate correctly notes that actual income should be reported regardless of form errors and flags the IRS mismatch concern, but it hedges excessively with 'passages don't contain' disclaimers, misses the CA $600 threshold detail, and lacks the concrete actionable steps (IRS phone number, follo",
+      "mean": 3.0
+    },
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "tax-r-008",
+    "dataset": "reddit_questions",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "Started an HSA plan this year, but did not realize I was still on my parents insurance. Advice?\n\nAny advice is appreciated.\n\nBackground: I recently started a new job, and starting in the new year, I became eligible for my employer's insurance. Since I am getting married this year, I thought it was a good time to roll off my parent's plan. What I did not realize is that I was still technically on my parent's plan because based on my research, it seems like you need to submit some type of documentation to formally be pulled off the insurance plan.\n\nI am now confused on what this means for my HSA. Based on the research I did, I could not find much, but it seems like the contributions I already made are ineligible. Can I submit to be removed from my parent's plan and be fine? Am I ineligible to contribute to an HSA for 2021? Do I need to contact my HR? A lot of questions are running through my head on how to reconcile this, and any advice on how to properly handle this would be greatly appreciated.",
+    "reference": "Here\u2019s a clear, step-by-step guide to help you navigate this situation\u2014with reassurance that it\u2019s fixable:  \n\n### **1. Understand the Issue**  \nTo contribute to an HSA, you must **only** have a High-Deductible Health Plan (HDHP). Being covered under your parents\u2019 plan (even unintentionally) makes you ineligible for HSA contributions during that time.  \n\n### **2. Immediate Next Steps**  \n- **Contact your parents\u2019 insurance provider**: Ask how to formally remove yourself from their plan. Some insurers allow retroactive removal, but this varies.  \n- **Reach out to your HR/benefits team**: Explain the situation. They can:  \n  - Help adjust your HSA contributions going forward.  \n  - Guide you on withdrawing any ineligible 2021 contributions (if needed) to avoid IRS penalties.  \n\n### **3. Handling Past Contributions**  \n- If you made contributions while ineligible, the IRS may impose a 6% penalty on the excess amount each year until corrected.  \n- **Option to fix**: You can withdraw the ineligible funds (plus any earnings) before filing your 2021 taxes to avoid penalties. Your HSA provider can assist with this process.  \n\n### **4. Future Eligibility**  \nOnce you\u2019re *officially* off your parents\u2019 plan and enrolled *only* in your HDHP, you can resume HSA contributions without issues.  \n\n### **5. Reassurance**  \nThis is a common oversight, and the key is acting now. You\u2019re already ahead by catching it early!  \n\n**Action Items**:  \n1. Call your parents\u2019 insurer today to confirm removal.  \n2. Email HR to discuss contribution corrections.  \n3. If needed, consult a tax pro for personalized advice on penalties.  \n\nYou\u2019ve got this\u2014let me know if any part needs clarification!",
+    "candidate": "This is a genuinely tricky situation, and I want to be upfront that the provided passages don't fully cover the specific rules around HSA eligibility when someone is simultaneously covered by a parent's plan. That said, I can share what the passages do confirm and flag what you'll need to research further.\n\nThe passages confirm that HSA contributions (other than employer contributions) are deductible on your return, but critically, distributions used for **non-qualified** medical expenses **are** included in your income [2]. This matters because if your contributions were made during a period of ineligibility, they could be treated as excess contributions with tax consequences. The passages do not, however, spell out the exact eligibility rules around dual coverage or how to correct excess contributions \u2014 for that, you'd want to consult **IRS Publication 969**, which is specifically referenced for HSA requirements [2].\n\nPractically speaking, you should absolutely contact your HR department as soon as possible, as they can clarify the exact date your employer coverage became effective and help you formally disenroll from your parents' plan [this is general guidance, not sourced from the passages]. Given the complexity \u2014 overlapping coverage, a life event (marriage), and potential excess contributions \u2014 consulting a tax professional would be strongly advisable before filing your return. The stakes of getting this wrong (income inclusion plus a potential 20% penalty on excess distributions) make professional guidance worth the cost.",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.23558861017227173
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.23758339881896973
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.23768723011016846
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.24060046672821045
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.24246692657470703
+      }
+    ],
+    "latency_sec": 8.07,
+    "embed_cosine": 0.9060363173484802,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate correctly flags HSA ineligibility risk and recommends HR/tax professional consultation, but misstates the penalty as 20% (it's 6% excise tax on excess contributions) and is vague on the key corrective action (withdrawing excess contributions before tax filing), making it less actionabl",
+      "mean": 3.0
+    },
+    "n_citations": 1,
+    "citation_coverage": 0.2
+  },
+  {
+    "id": "tax-r-009",
+    "dataset": "reddit_questions",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "Help with tax loss harvest on 2 brokerages\n\nSay I made 25k profit on one brokerage account in short term gains, and lost 25k realized on a different platform/broker. Assume my salary is 200k. Would the +25k and -25k cancel out or would I still pay tax on the short term gain?",
+    "reference": "Here\u2019s the good news: **your $25k loss will fully cancel out your $25k short-term gain**, so you won\u2019t owe taxes on that gain for the year. Let me break it down simply:  \n\n- **Short-term gains and losses** (from investments held <1 year) offset each other dollar-for-dollar.  \n- In your case, the $25k loss on one platform neutralizes the $25k gain on the other, resulting in **$0 net capital gains** for the year.  \n- Since your salary is $200k, this cancellation is especially helpful\u2014short-term gains would otherwise be taxed at your higher income tax rate (likely 32% or more).  \n\n**Two quick notes:**  \n1. If your losses *exceeded* your gains (e.g., a $30k loss), you could deduct up to $3k against ordinary income and carry forward the rest.  \n2. Always keep records of your trades for tax filing, especially across multiple brokerages.  \n\nYou\u2019ve got this handled! No further action is needed unless you have other gains/losses to report. Let me know if you\u2019d like help optimizing future tax strategies.",
+    "candidate": "The provided passages do not directly address tax-loss harvesting or the netting of capital gains and losses across multiple brokerage accounts. However, I can share general tax knowledge on this topic, while noting the passages do offer some relevant framing.\n\nGenerally speaking, capital gains and losses from **all** brokerage accounts are reported together on **Schedule D (Form 1040)**, regardless of which broker they came from \u2014 the IRS looks at your total net position, not each account in isolation. Your +$25,000 short-term gain and -$25,000 short-term loss would **net to zero**, meaning you would owe **no federal income tax** on those combined positions. The passages confirm that gains and losses are reported via Schedule D [1][5], implying a consolidated reporting framework. Since your salary of $200,000 is ordinary income and not capital gain income, it is treated separately and is **not affected** by the netting of your capital gains and losses.\n\n**Important caveats to be aware of:**\n- **Wash-sale rules** could disallow your loss if you repurchased the same or substantially identical securities within 30 days before or after the sale.\n- **State taxes** may treat gains and losses differently.\n- Since the passages here are insufficient to fully confirm every detail of this scenario, I'd strongly recommend consulting a tax professional or reviewing IRS Schedule D instructions directly.",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.21687346696853638
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.22259724140167236
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2249632477760315
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2266952395439148
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.23048430681228638
+      }
+    ],
+    "latency_sec": 8.16,
+    "embed_cosine": 0.9167259931564331,
+    "judge": {
+      "factuality": 5,
+      "completeness": 4,
+      "advice_quality": 5,
+      "rationale": "Correctly states gains/losses net to zero across brokers via Schedule D, adds valuable wash-sale warning absent from reference, though slightly less detailed on the $3k carryforward rule.",
+      "mean": 4.666666666666667
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "tax-r-010",
+    "dataset": "reddit_questions",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "Was awarded RSUs - didn\u2019t file 83b\n\nI\u2019ve been working for a startup for eight years. I was awarded a bunch of RSUs when I started that have since vested. The company is being acquired and I since found out I was supposed to have filed an 83b when I was awarded my RSUs. (Within 30 days). I was never told this. Am now concerned I may end up actually owing money for something that never realized any value for me. Could this be the case ?",
+    "reference": "First, I want to reassure you\u2014this is a common area of confusion, and your situation may not be as concerning as you fear. Let me break this down clearly:\n\n1. **Key Clarification**:  \n   - RSUs (Restricted Stock Units) are *typically taxed when they vest*, not when they're granted. This means you likely owe taxes only on the shares that have already vested, based on their fair market value at the time of vesting.  \n   - Form 83(b) is usually for **restricted stock** (not RSUs), where you elect to pay taxes upfront at grant. If your equity was truly RSUs, you probably didn\u2019t need to file this form.  \n\n2. **Your Specific Situation**:  \n   - Since your RSUs have vested over time, taxes were likely withheld at each vesting event (check your pay stubs or W-2s for \"RSU income\").  \n   - The acquisition might trigger additional tax implications (e.g., if you\u2019re receiving cash or new stock for your vested shares), but this isn\u2019t tied to missing an 83(b) deadline.  \n\n3. **Action Steps**:  \n   - **Review your grant paperwork**: Confirm whether you received RSUs or restricted stock (some startups use the terms loosely).  \n   - **Consult a tax professional**: A CPA can review your equity agreement and the acquisition terms to clarify:  \n     - Whether your RSUs had unusual terms requiring an 83(b).  \n     - Any taxes due on vested shares or the acquisition payout.  \n\n4. **Reassurance**:  \n   - If these were standard RSUs, you\u2019re unlikely to face penalties for not filing an 83(b).  \n   - Even if taxes are owed, they\u2019d be based on the value at vesting (not the original grant), so you wouldn\u2019t owe money on \"valueless\" shares.  \n\nI know it\u2019s stressful to uncover these details late, but a short consultation with a tax expert should give you clarity and peace of mind. You\u2019re right to address this now\u2014let me know if you\u2019d like help finding resources to navigate the next steps.",
+    "candidate": "This is an understandable concern, but there's an important clarification to make: **Section 83(b) elections generally apply to restricted stock (property transfers subject to forfeiture risk), not RSUs**. RSUs are unfunded promises to deliver stock in the future, and the IRS does not permit an 83(b) election for RSUs because there is no actual property transferred at grant time [2]. So you likely did not miss a filing deadline that was ever available to you in the first place.\n\nFor RSUs, the taxable event generally occurs at **vesting**, when the stock is actually delivered to you and its fair market value becomes includable in your income [5]. This means you would owe ordinary income tax on the value of the shares at the time they vested, not at grant. If the company was acquired and your shares had value at vesting, that vested value would be taxable income regardless of whether you've sold the shares yet.\n\nThere is a separate provision \u2014 **Section 83(i)** \u2014 that allows certain employees of private corporations to defer income recognition for up to 5 years from vesting on qualified stock, but this requires the employer to have a written plan covering at least 80% of U.S. employees, and there are specific eligibility rules [1][2]. If your employer offered this and you didn't elect it, that deferral window may have passed.\n\nGiven the complexity of your situation, especially with an acquisition involved, consulting a qualified tax professional is strongly advisable, as the provided passages alone are insufficient to fully resolve your specific circumstances.",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2480335235595703
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2662299871444702
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.27826136350631714
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.279995322227478
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.282709002494812
+      }
+    ],
+    "latency_sec": 9.3,
+    "embed_cosine": 0.943498432636261,
+    "judge": {
+      "factuality": 5,
+      "completeness": 4,
+      "advice_quality": 5,
+      "rationale": "Candidate correctly identifies that 83(b) doesn't apply to RSUs, explains RSU taxation at vesting accurately, and adds useful 83(i) nuance not in the reference, though it slightly under-emphasizes the reassurance that taxes would only be owed on value actually received.",
+      "mean": 4.666666666666667
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "tax-r-011",
+    "dataset": "reddit_questions",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "Question about ira contributions and W4?\n\nJust to keep short and simple. I was wondering is there a way or should I include my IRA contributions on my W4 to get taxed less and use the extra money to fund my IRA. This way I could just get a small check back or owe a small amount or finally get the unicorn # of zero owed and zero due. If there isn't a way or it's a bad idea. It's fine, was just a thought I had and no answer I could find. Thank ya in advance for the knowledge and advice. Stay safe \ud83d\ude4f and have a good day",
+    "reference": "**Great question!** It\u2019s smart to think about adjusting your tax withholding to match your IRA contributions\u2014it\u2019s a common goal to aim for that \"unicorn\" balance of zero owed/zero due. Here\u2019s how it works and how to make it happen:  \n\n### **1. Traditional IRA Deductions vs. W-4 Withholding**  \n- **IRA tax benefit:** Contributions to a *Traditional* IRA reduce your taxable income when you file your return (Form 1040). For example, if you contribute $6,000, your taxable income drops by $6,000, which lowers your tax bill.  \n- **W-4\u2019s role:** The W-4 tells your employer how much tax to withhold from each paycheck. While you can\u2019t directly \"list\" IRA contributions on the W-4, you *can* adjust your withholding to account for the tax savings you\u2019ll get from those contributions later.  \n\n### **2. How to Adjust Your W-4 for IRA Contributions**  \nTo free up cash for IRA contributions during the year (instead of waiting for a refund):  \n- **Use the IRS Tax Withholding Calculator** ([linked here](https://www.irs.gov/individuals/tax-withholding-estimator)). Input your expected IRA contribution, income, and other deductions. It\u2019ll suggest how to update your W-4 (e.g., adding a dollar amount to Step 4(b) for \"other deductions\").  \n- **Pro tip:** Re-run the calculator after making IRA contributions or if your income changes.  \n\n### **3. Your Goal: Zero Balance**  \nThis is totally doable! The key is accuracy:  \n- Estimate your annual IRA contribution and other deductions (like student loan interest).  \n- Adjust your W-4 withholding accordingly.  \n- Check in mid-year to tweak if needed.  \n\n### **4. If It Feels Overwhelming\u2026**  \nStart small! Even a rough adjustment (e.g., adding $500 to W-4 deductions if you plan to contribute $6,000) gets you closer to that sweet spot.  \n\n**Next Step:** Try the IRS calculator\u2014it\u2019s the easiest way to dial in your withholding. You\u2019ve got the right idea, and with a little fine-tuning, you can make it work!  \n\nStay safe, and happy planning! \ud83d\ude4c",
+    "candidate": "Great question, and I appreciate the creative thinking! However, the provided passages don't directly address W-4 withholding adjustments, so I want to be upfront about that limitation. What I can share is that **traditional IRA contributions are generally not excluded from your wages on your W-2** the way employer retirement plan contributions are \u2014 employer contributions to qualified plans aren't included in your income at the time contributed [4], but your *own* IRA contributions work differently. Because your IRA contributions come from after-tax dollars (already reflected in your paycheck), you can't instruct your employer via the W-4 to withhold less based on them the same way you might for a 401(k) deferral.\n\nThat said, your instinct about the *tax benefit* is valid \u2014 traditional IRA contributions **may** be deductible on your tax return, which would reduce your taxable income for the year [1]. The strategic workaround many people use is to **adjust their W-4 withholding** (using the IRS's own Tax Withholding Estimator) to account for that expected deduction, essentially withholding slightly less throughout the year. This is a reasonable approach but carries a tradeoff: if your IRA contribution ends up being non-deductible (due to income limits), you could end up under-withheld and owing at filing. I'd recommend consulting a tax professional to dial in the right withholding amount safely. \ud83d\ude4f",
+    "retrieved": [
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.22676503658294678
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.23882067203521729
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.243414044380188
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2460707426071167
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.24819529056549072
+      }
+    ],
+    "latency_sec": 7.92,
+    "embed_cosine": 0.9054467082023621,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 4,
+      "rationale": "Factually sound and correctly distinguishes traditional IRA from employer plan deferrals, mentions the IRS estimator and deductibility income limits, but less actionable than the reference (no step-by-step W-4 guidance) and somewhat hedged by irrelevant caveats about source passages.",
+      "mean": 3.6666666666666665
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "tax-r-012",
+    "dataset": "reddit_questions",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "Accidental 401k contribution\n\nIn January of 2020 I maxed out an IRA for wife and me. In December of 2020 I accidentally contributed to my employers 401k, meaning for the contributions to start January 2021. My employer was able to fix it, but the refund was issued in January 2021 as an excess contribution, and the \"retirement plan\" box was checked on my W2. Is there any chance of my IRA contributions being deductible or working around this mistake? I've found plenty of things describing excess contributions, and paying tax on the refund as necessary, but nothing about refunding the entire contribution.",
+    "reference": "Here\u2019s a clear, empathetic, and actionable response to your situation:\n\n---\n\n**First, I want to acknowledge how frustrating this must be.** Accidentally contributing to your 401(k) and dealing with the tax implications is a headache, especially when it affects your IRA deductions. Let\u2019s break this down step by step to clarify your options.\n\n### **Key Takeaways for Your Situation:**\n1. **The W-2 \"Retirement Plan\" Box:**  \n   - This box being checked typically means the IRS assumes you were covered by an employer retirement plan *for the entire year* (2020 in this case). Even though your contribution was refunded in 2021, the W-2 reporting could still impact your 2020 IRA deductibility.  \n   - **Why it matters:** If you (or your spouse) are covered by a retirement plan at work, your ability to deduct Traditional IRA contributions phases out at certain income levels. The IRS relies on the W-2 to determine this.  \n\n2. **The Refund Timing:**  \n   - Since the refund occurred in January 2021, it technically applies to the 2021 tax year. However, the 2020 W-2 already reflects the retirement plan participation, which might limit your 2020 IRA deduction.  \n\n3. **Potential Workarounds:**  \n   - **Request a Corrected W-2:** Ask your employer if they can issue a corrected W-2 for 2020 *without* the retirement plan box checked, since the contribution was reversed and shouldn\u2019t count for 2020.  \n   - **File an Explanatory Statement:** If a corrected W-2 isn\u2019t possible, you could include a statement with your tax return explaining the error and refund. The IRS *might* allow your IRA deduction, but this isn\u2019t guaranteed.  \n   - **Roth IRA Consideration:** If your Traditional IRA deduction is denied, you could recharacterize the contribution as a Roth IRA (if eligible) to avoid double taxation.  \n\n### **Next Steps:**\n1. **Contact Your Employer:** Ask if they can amend your 2020 W-2 to uncheck the retirement plan box.  \n2. **Consult a Tax Pro:** Given the complexity, a CPA or tax advisor can help you navigate this efficiently\u2014especially if amending your return becomes necessary.  \n3. **Review IRS Pub 590-A:** This covers IRA deductibility rules in detail ([link here](https://www.irs.gov/publications/p590a)).  \n\n**Bottom Line:** There\u2019s a chance to preserve your IRA deduction, but it may require proactive steps like a corrected W-2 or professional guidance. You\u2019re not stuck\u2014just a few hurdles to clear.  \n\nLet me know if you\u2019d like help refining any of these steps!",
+    "candidate": "This is a nuanced situation that the provided passages don't fully resolve, so I want to be transparent about the limits of what I can confirm from these sources alone. What the passages do confirm is that if you receive a corrective distribution of excess contributions, it is included in your income in the year of the distribution [4], which would mean your January 2021 refund would be reported as income on your 2021 return. The passages also confirm that your employer should mark the \"Retirement plan\" checkbox in box 13 of your W-2 when amounts are deferred [5], which is what you observed \u2014 and that checkbox being checked can affect the deductibility of a traditional IRA contribution depending on your income level. The core question of whether a fully refunded/corrected 401(k) contribution that was never actually active should still trigger the \"retirement plan\" participant status for IRA deductibility purposes is **not definitively answered by these passages**, and this is a meaningful distinction your situation hinges on. Given the complexity \u2014 the checkbox being checked, the cross-year timing of the refund, and the IRA deductibility implications \u2014 I would strongly recommend consulting a CPA or tax professional, or contacting the IRS directly, as fabricating an answer here could lead to a costly mistake. The tradeoff is clear: filing incorrectly in either direction (claiming the deduction or not) without proper guidance carries real risk.",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.23835140466690063
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.24146181344985962
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.24644064903259277
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.24944496154785156
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2514141798019409
+      }
+    ],
+    "latency_sec": 8.06,
+    "embed_cosine": 0.9069198966026306,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "Accurate on the facts it states, but the candidate declines to give concrete actionable steps (like requesting a corrected W-2 or recharacterizing to Roth) that the reference covers, making it less complete and actionable despite being transparent about its limitations.",
+      "mean": 3.3333333333333335
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  }
+]

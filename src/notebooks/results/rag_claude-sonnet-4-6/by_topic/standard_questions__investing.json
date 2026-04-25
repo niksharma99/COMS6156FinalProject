@@ -1,0 +1,396 @@
+[
+  {
+    "id": "inv-001",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is dollar-cost averaging?",
+    "reference": "Dollar-cost averaging is an investment strategy where you invest a fixed dollar amount at regular intervals (e.g., monthly) regardless of the asset's price. When prices are low, you buy more shares; when prices are high, you buy fewer. This reduces the impact of short-term volatility on your average cost per share over time.",
+    "candidate": "The provided passages do not contain information about dollar-cost averaging. The passages cover topics such as Series EE/HH bond interest reporting [1][2], digital asset gain/loss calculations [3], average basis methods for covered securities [4], and gift property basis calculations [5] \u2014 none of which address dollar-cost averaging as an investment strategy.\n\nI can share that dollar-cost averaging is a widely recognized personal finance concept involving investing fixed amounts at regular intervals regardless of price, but **I cannot cite any of the provided passages to support that explanation**, and fabricating citations would be irresponsible. I'd recommend consulting a trusted financial education resource such as the SEC's Investor.gov or a certified financial planner for an accurate and fully sourced explanation of this strategy.",
+    "retrieved": [
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3276745080947876
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3338867425918579
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.34923166036605835
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.35382771492004395
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.35433804988861084
+      }
+    ],
+    "latency_sec": 8.78,
+    "embed_cosine": 0.8876990079879761,
+    "judge": {
+      "factuality": 3,
+      "completeness": 2,
+      "advice_quality": 2,
+      "rationale": "The candidate correctly defines DCA in passing but buries it in a disclaimer-heavy response that fails to clearly explain the mechanics (buying more shares when prices are low, fewer when high) and adds unhelpful hedging about lacking citations.",
+      "mean": 2.3333333333333335
+    },
+    "n_citations": 5,
+    "citation_coverage": 1.0
+  },
+  {
+    "id": "inv-002",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "When interest rates rise, what generally happens to the price of existing bonds?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.24244540929794312
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.24362891912460327
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2513575553894043
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2533193826675415
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2567763328552246
+      }
+    ],
+    "latency_sec": 0.62,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "inv-003",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between an ETF and a mutual fund?",
+    "reference": "Both ETFs and mutual funds pool investor money into a diversified portfolio. Key differences: ETFs trade on exchanges throughout the day at market prices like stocks, while mutual funds are priced once daily at NAV after market close. ETFs typically have lower expense ratios and are more tax-efficient due to their creation/redemption mechanism. Mutual funds may have minimum investment requirements; ETFs can be bought one share at a time.",
+    "candidate": "The provided passages do not contain sufficient information to fully explain the differences between ETFs (Exchange-Traded Funds) and mutual funds. The passages do offer some description of mutual funds: a mutual fund pools money from many investors to invest in stocks, bonds, and other financial instruments [1], and is generally created to allow investors to take advantage of diversity of investments and professional management [2]. A key benefit of mutual funds is that they make it easy for investors to own a small portion of many investments, such as a total stock market index fund that owns stock in thousands of companies [1]. However, the passages do not describe ETFs at all, nor do they compare the two vehicles in terms of key distinguishing features such as intraday trading, tax efficiency, or minimum investment requirements.\n\nBecause the passages are insufficient to fully address this question, I would rather acknowledge that gap than fabricate details. To get an accurate and complete comparison of ETFs and mutual funds, I'd recommend consulting resources such as SEC Investor.gov or FINRA.org, which provide detailed, reliable explanations of both investment vehicles.",
+    "retrieved": [
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.19962763786315918
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2320927381515503
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.2531982660293579
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.26207882165908813
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.26638782024383545
+      }
+    ],
+    "latency_sec": 4.9,
+    "embed_cosine": 0.9066148996353149,
+    "judge": {
+      "factuality": 2,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate refuses to answer substantively, citing missing source passages, and covers almost none of the key distinctions in the reference answer, making it nearly useless despite the safe referral suggestion.",
+      "mean": 1.6666666666666667
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "inv-004",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What does SIPC (Securities Investor Protection Corporation) protect against?",
+    "reference": "B",
+    "candidate": "The provided passages do not contain any information about SIPC (Securities Investor Protection Corporation).\n\nHowever, based on well-established financial knowledge, the correct answer is:\n\n**B**",
+    "retrieved": [
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.34079980850219727
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3442409038543701
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.34609633684158325
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3526872396469116
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.35403913259506226
+      }
+    ],
+    "latency_sec": 1.7,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "inv-005",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Is it possible to lose more money than you invest when buying stocks on margin?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2587238550186157
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2608764171600342
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2682965397834778
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.27186405658721924
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.278007447719574
+      }
+    ],
+    "latency_sec": 0.73,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "inv-006",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "If an index fund has an expense ratio of 0.03% and another has 1.00%, how much more would the higher-fee fund cost on a $100,000 investment over 30 years, assuming both return 7% annually before fees?",
+    "reference": "C",
+    "candidate": "I cannot answer this confidently using only the provided passages.\n\nThe passages do confirm that \"fees and expenses reduce the value of your investment return\" and that lower-cost funds \"generally will generate higher returns\" [1][2], but they do not contain the specific compound-growth calculations needed to determine the 30-year dollar difference between a 0.03% and 1.00% expense ratio on a $100,000 investment.\n\nProviding a multiple-choice answer here would require me to perform or recall calculations not supported by the provided sources, which risks fabricating a precise figure. I recommend using the SEC's fee calculator at Investor.gov or a compound interest calculator to model this scenario directly.",
+    "retrieved": [
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.24170678853988647
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.25582075119018555
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2797064185142517
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.29016977548599243
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.29751014709472656
+      }
+    ],
+    "latency_sec": 4.45,
+    "mc_correct": false,
+    "mc_picked": "A",
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "inv-007",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is a target-date fund and how does its asset allocation change over time?",
+    "reference": "A target-date fund is a fund designed for investors planning to retire around a specific year (e.g., a 2050 target-date fund). The fund automatically rebalances its asset allocation over time, becoming more conservative (shifting from stocks to bonds) as the target date approaches. This process is called a 'glide path.'",
+    "candidate": "A target-date fund, also referred to as a \"lifecycle fund,\" is a diversified mutual fund designed to serve as a one-stop investment solution for investors saving toward a specific financial goal, such as retirement [2]. The fund is named after its \"target date,\" which is the approximate year the investor expects to need the money, and funds often carry names like \"Portfolio 2015,\" \"Retirement Fund 2030,\" or \"Target 2045\" [1]. Once an investor selects a fund with the appropriate target date, the fund's managers take over all decisions regarding asset allocation, diversification, and rebalancing on the investor's behalf [2]. Over time, the fund automatically shifts toward a more conservative mix of investments as it approaches its target date [2]. This reflects the general principle that investors with shorter time horizons typically hold less stock and more bonds and cash equivalents, since they have less time to recover from market downturns [1][3]. Investors with longer time horizons, by contrast, may be more comfortable holding riskier, more volatile investments because they can wait out slow economic cycles and market fluctuations [4]. The lifecycle fund structure essentially automates this gradual shift, making it a convenient option for investors who prefer not to actively manage their own asset allocation adjustments over time [2].",
+    "retrieved": [
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.14799565076828003
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.20298689603805542
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2259032130241394
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2270340919494629
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.23703324794769287
+      }
+    ],
+    "latency_sec": 5.78,
+    "embed_cosine": 0.9039389491081238,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key concepts including the glide path mechanism, naming conventions, automatic rebalancing, and the rationale for shifting to conservative allocations, while adding helpful context about time horizons without introducing any misinformation.",
+      "mean": 5.0
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "inv-008",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "What is the wash sale rule?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2050294280052185
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.20542818307876587
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.20840072631835938
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2103021740913391
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.22363853454589844
+      }
+    ],
+    "latency_sec": 0.68,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  }
+]

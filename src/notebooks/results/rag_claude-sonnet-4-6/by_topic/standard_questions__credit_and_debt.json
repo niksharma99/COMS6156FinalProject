@@ -1,0 +1,290 @@
+[
+  {
+    "id": "crd-001",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "Does checking your own credit score lower it?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.2834341526031494
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.30824100971221924
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3365374207496643
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.35568058490753174
+      },
+      {
+        "title": "What is a debt-to-income ratio?",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_debt_to_income_ratio",
+        "distance": 0.385026216506958
+      }
+    ],
+    "latency_sec": 1.02,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "crd-002",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "How long does a Chapter 7 bankruptcy stay on your credit report?",
+    "reference": "C",
+    "candidate": "C\n\nThe provided passages do not contain specific information about how long a Chapter 7 bankruptcy remains on a credit report. However, since I must choose from the options given, I want to be transparent: **the passages do not support any of these answers directly**.\n\nThat said, if you require only the letter: **C**\n\nThis reflects the widely known regulatory standard (10 years from filing for Chapter 7), but I cannot cite any of the provided passages [1]\u2013[5] to verify this, as none of them address bankruptcy reporting timelines specifically. Please consult the CFPB directly or a qualified credit counselor for confirmation.",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3530591130256653
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.35442137718200684
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3736764192581177
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3798922300338745
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3894520401954651
+      }
+    ],
+    "latency_sec": 4.17,
+    "mc_correct": true,
+    "mc_picked": "C",
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "crd-003",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "Which factor has the largest impact on your FICO credit score?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.29037392139434814
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3149513006210327
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.35752058029174805
+      },
+      {
+        "title": "What is a debt-to-income ratio?",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_debt_to_income_ratio",
+        "distance": 0.3872145414352417
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.4099413752555847
+      }
+    ],
+    "latency_sec": 0.58,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "crd-004",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "If you only make minimum payments on a $5,000 credit card balance at 22% APR, approximately how long will it take to pay off and how much total interest will you pay?",
+    "reference": "C",
+    "candidate": "C",
+    "retrieved": [
+      {
+        "title": "What is a debt-to-income ratio?",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_debt_to_income_ratio",
+        "distance": 0.35912346839904785
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.4124847650527954
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.42061370611190796
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.43329983949661255
+      },
+      {
+        "title": "What is a debt-to-income ratio?",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_debt_to_income_ratio",
+        "distance": 0.4505169987678528
+      }
+    ],
+    "latency_sec": 1.09,
+    "mc_correct": true,
+    "mc_picked": "C",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "crd-005",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "Can a debt collector sue you for a debt that is past the statute of limitations?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.38415777683258057
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.43331849575042725
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.4335458278656006
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.44049763679504395
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.45493507385253906
+      }
+    ],
+    "latency_sec": 0.6,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "crd-006",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between a hard inquiry and a soft inquiry on your credit report?",
+    "reference": "A hard inquiry occurs when a lender checks your credit as part of a lending decision (e.g., applying for a mortgage, credit card, or auto loan). Hard inquiries can temporarily lower your score by a few points and remain on your report for 2 years. A soft inquiry occurs when you check your own credit, when a lender pre-approves you, or for background checks. Soft inquiries do not affect your credit score at all.",
+    "candidate": "The provided passages from the CFPB do not contain sufficient information to fully explain the difference between hard and soft inquiries on your credit report. The passages cover general topics such as checking your credit reports, disputing errors, building credit, and submitting complaints [1][2][3][4][5], but they do not specifically address the distinction between hard and soft inquiries.\n\nWhat I can confirm from the passages is that **requesting your own credit reports will not hurt your credit score** [2], which is a detail related to the concept of soft inquiries \u2014 but the passages do not use that terminology or elaborate further. To get a thorough and accurate explanation of hard versus soft inquiries, I would recommend visiting the CFPB's full website directly or using their \"Key Terms\" and \"Basics\" resources, which may cover this topic in sections not included in the provided passages [3][4]. Fabricating details beyond what the passages support would not be appropriate here, so I encourage you to explore those additional CFPB resources for a complete answer.",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3202109932899475
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.32910680770874023
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3383510112762451
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3599510192871094
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.36626166105270386
+      }
+    ],
+    "latency_sec": 5.67,
+    "embed_cosine": 0.8857104778289795,
+    "judge": {
+      "factuality": 2,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate refuses to answer the question directly, only noting that checking your own credit doesn't hurt your score, missing all key distinctions about hard inquiries, score impact, and report duration.",
+      "mean": 1.6666666666666667
+    },
+    "n_citations": 5,
+    "citation_coverage": 1.0
+  }
+]

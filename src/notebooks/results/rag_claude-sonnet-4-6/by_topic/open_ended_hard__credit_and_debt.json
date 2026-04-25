@@ -1,0 +1,373 @@
+[
+  {
+    "id": "cd-001",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can carrying a balance on a credit card to 'build credit' be bad advice?",
+    "reference": "Carrying a balance is not necessary to build credit and usually causes the borrower to pay unnecessary interest. Credit scores benefit from on-time payments and low utilization, not from paying interest. A person can build credit by using a card lightly and paying the full statement balance on time each month. The misconception comes from confusing credit usage with interest-bearing revolving debt.",
+    "candidate": "## Why \"Carrying a Balance Builds Credit\" Is a Myth\n\nThe provided passages do not contain sufficient detail to fully explain the mechanics of why carrying a credit card balance is bad advice for building credit. The passages do reference resources like \"Tips for building and keeping a good credit score\" [1] and general credit-building guidance [2], but they do not spell out the specific reasoning needed to answer this question thoroughly.\n\n**Because I cannot fabricate details not found in the passages, I want to be transparent:** A complete answer would require information about how credit utilization ratios work, how interest charges accumulate on carried balances, and how payment history is actually what drives credit score improvement \u2014 none of which are explicitly detailed in the provided text [4].\n\nIf you'd like an accurate, well-sourced answer, I'd recommend:\n- Visiting the CFPB's how-to guide on **\"Tips for building and keeping a good credit score\"** [1]\n- Reviewing their credit score **key terms and basics** [2]\n- Possibly submitting a question through their consumer resources [4]\n\nThese CFPB resources would give you authoritative guidance on this topic rather than me speculating beyond what the passages support [1][4].",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3111203908920288
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.34227263927459717
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.3747578263282776
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3767331838607788
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3918040990829468
+      }
+    ],
+    "latency_sec": 7.17,
+    "embed_cosine": 0.858249306678772,
+    "judge": {
+      "factuality": 2,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate refuses to answer substantively, citing missing passages, and fails to convey any of the core points (interest cost, payment history vs. interest, utilization) found in the reference answer.",
+      "mean": 1.6666666666666667
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "cd-002",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A borrower has two loan options: a 3-year loan with a higher monthly payment and less total interest, or a 6-year loan with a lower monthly payment and much more total interest. What factors should determine which option is better?",
+    "reference": "The better option depends on cash flow stability, emergency savings, competing financial priorities, and total borrowing cost. The shorter loan is usually better mathematically because it reduces total interest paid, but the higher payment could create budget stress and increase default risk if income is tight. The longer loan improves monthly flexibility but costs more overall. The best choice balances affordability with minimizing long-term interest expense.",
+    "candidate": "## Choosing Between a 3-Year and 6-Year Loan\n\nThe right choice between these two options depends on several interconnected personal and financial factors. A key consideration is your **debt-to-income ratio (DTI)**: if the higher monthly payment on the 3-year loan would push your DTI too high relative to your income, it may strain your budget significantly [1]. Conversely, if your gross monthly income comfortably absorbs the larger payment, the 3-year loan's lower total interest cost makes it financially advantageous over time [1]. You should also consider your broader financial priorities \u2014 the provided sources suggest preparing carefully and tracking spending before committing to loan terms [5], which implies that understanding your monthly cash flow is essential before choosing the higher-payment option.\n\nThe 6-year loan's lower monthly payment preserves more monthly cash flow, which could be valuable if you have other financial obligations or need a liquidity cushion, but this comes at the real cost of significantly more total interest paid over time \u2014 a genuine tradeoff with no universally correct answer [1]. Additionally, when comparing loan offers, you should review official Loan Estimates from lenders carefully to understand all terms before deciding [2]. Ultimately, **neither option is objectively superior** \u2014 the better choice depends on your income stability, existing debts, and how you value short-term affordability versus long-term savings.",
+    "retrieved": [
+      {
+        "title": "What is a debt-to-income ratio?",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_debt_to_income_ratio",
+        "distance": 0.27210545539855957
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.2990306615829468
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.36083996295928955
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.36220312118530273
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.3623288869857788
+      }
+    ],
+    "latency_sec": 7.43,
+    "embed_cosine": 0.8642963767051697,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Covers the core tradeoffs well including cash flow, DTI, total interest, and liquidity, though the citation references are odd artifacts and it slightly underemphasizes emergency savings and default risk from budget stress.",
+      "mean": 4.0
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "cd-003",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can making only the minimum payment on a high-APR credit card balance be especially costly over time?",
+    "reference": "Making only the minimum payment causes much of each payment to go toward interest rather than principal, especially at high APRs. This stretches repayment over many years and can result in paying far more in total interest than the original amount borrowed. Minimum payments preserve account standing but are a very slow and expensive way to eliminate debt.",
+    "candidate": "The provided passages do not contain sufficient information to fully answer this question. The passages cover topics such as debt-to-income ratios [2][4], credit reports and scores [1][3], and general homebuying resources [5], but none of them specifically address the mechanics of minimum credit card payments or how high APRs compound interest costs over time.\n\nTo answer your question responsibly without fabricating: making only minimum payments on a high-APR credit card is costly because interest accrues on the remaining balance each billing cycle, meaning most of your minimum payment goes toward interest rather than reducing the principal. However, I cannot cite any of the provided passages [1][2][3][4][5] to support the specifics of this claim, as none of them address credit card interest mechanics directly.\n\nI would recommend consulting the CFPB's dedicated credit card resources or their consumer complaint database [1][3] for more detailed guidance on this topic, as the CFPB does publish materials specifically about credit card costs that are not included in the passages provided here.",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.37292760610580444
+      },
+      {
+        "title": "What is a debt-to-income ratio?",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_debt_to_income_ratio",
+        "distance": 0.39942169189453125
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.4023699164390564
+      },
+      {
+        "title": "What is a debt-to-income ratio?",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_debt_to_income_ratio",
+        "distance": 0.41765910387039185
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.42585480213165283
+      }
+    ],
+    "latency_sec": 5.82,
+    "embed_cosine": 0.8451025485992432,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 2,
+      "rationale": "The candidate correctly explains the core mechanics (interest accruing on remaining balance, payments going mostly to interest) but buries the answer in unnecessary hedging about missing passages, omits the multi-year repayment timeline detail, and deflects to external resources rather than giving d",
+      "mean": 3.0
+    },
+    "n_citations": 5,
+    "citation_coverage": 1.0
+  },
+  {
+    "id": "cd-004",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A borrower consolidates several credit card balances into a personal loan with a lower interest rate. Why might this still fail to improve their financial situation?",
+    "reference": "Debt consolidation can reduce interest costs and simplify payments, but it does not fix overspending or cash flow problems by itself. If the borrower continues using the credit cards after consolidation, they may end up with both the new loan and new card balances. Consolidation is most helpful when paired with behavior change, spending control, and a realistic repayment plan.",
+    "candidate": "The passages provided do not contain specific information about debt consolidation strategies or their potential pitfalls. However, I can draw on what is available to offer a partial, honest answer.\n\nA borrower's overall **debt-to-income (DTI) ratio** is a key measure of financial health, calculated by dividing total monthly debt payments by gross monthly income [3]. If consolidating credit card balances into a personal loan results in a similar or even higher monthly payment \u2014 due to a shorter repayment term, for instance \u2014 the DTI ratio may not meaningfully improve, leaving the borrower still financially strained [3]. Additionally, if the borrower continues to accumulate new credit card charges after consolidating, their total debt load could actually **increase**, worsening their situation rather than improving it. Their **credit report and score** could also be affected depending on how the new loan and the closed or open accounts are reflected in their credit history [1][5].\n\nThat said, I want to be transparent: the provided passages do not fully address consolidation tradeoffs, behavioral risks, or the nuanced impact on credit scores in this specific scenario [1][2][5]. For a complete and authoritative answer, I would recommend consulting a **reputable credit counselor**, and the CFPB offers guidance on distinguishing legitimate counselors from fraudulent credit repair companies [1].",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3390003442764282
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.35593318939208984
+      },
+      {
+        "title": "What is a debt-to-income ratio?",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_debt_to_income_ratio",
+        "distance": 0.3716543912887573
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.372458815574646
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.400577187538147
+      }
+    ],
+    "latency_sec": 7.87,
+    "embed_cosine": 0.8335921764373779,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate correctly identifies the key risk of continued credit card use and mentions DTI, but spends too much space on meta-commentary about source limitations rather than fully covering behavioral/spending control points from the reference.",
+      "mean": 3.3333333333333335
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "cd-005",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "If someone closes an old credit card they no longer use, why could that sometimes lower their credit score rather than improve it?",
+    "reference": "Closing an old credit card can reduce total available credit and may raise the person's credit utilization ratio if balances remain on other cards. It can also reduce the benefit of having longstanding credit accounts on the report over time. While closing a card can be reasonable in some situations, it does not automatically help a credit score and can sometimes hurt it.",
+    "candidate": "This is a great personal finance question, but I need to be transparent: **the provided passages do not contain enough detail to fully answer it.** The passages cover general topics like credit reports, credit scores, and how to dispute errors [1][3], but they do not explain the specific mechanics of how closing a credit card affects your score [2][4].\n\nThat said, I can acknowledge what the passages *do* confirm: credit reports and scores are both critical to your financial health and play distinct roles [4], and understanding the factors behind them matters for getting the best available terms on a loan [4]. Beyond that, explaining *why* closing an old card can lower your score \u2014 such as its effects on credit utilization ratio or the length of your credit history \u2014 would require me to go beyond the provided sources, which I will not do to avoid fabricating information [1][5].\n\nI'd recommend visiting the CFPB's credit basics resources directly, including their how-to guides on building and keeping a good credit score [1], or browsing their key terms section which covers concepts like \"thin credit file\" that touch on related issues [2]. The CFPB's full website likely has more detailed explanations than the excerpts provided here [3].",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.30716484785079956
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.32863175868988037
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.34348249435424805
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3891850709915161
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.421414852142334
+      }
+    ],
+    "latency_sec": 6.71,
+    "embed_cosine": 0.890613853931427,
+    "judge": {
+      "factuality": 2,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate refuses to answer the question substantively, citing missing sources, and never explains credit utilization or account age effects that the reference answer covers.",
+      "mean": 1.6666666666666667
+    },
+    "n_citations": 5,
+    "citation_coverage": 1.0
+  },
+  {
+    "id": "cd-006",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "What is the difference between being 'prequalified' for a loan and being actually approved for that loan?",
+    "reference": "Prequalification is usually a preliminary estimate based on limited or self-reported information and does not guarantee final approval. Actual approval occurs after the lender reviews credit, income, debts, documentation, and other underwriting criteria. A borrower who is prequalified may still be denied or offered different terms after full review.",
+    "candidate": "The provided passages do not contain a direct explanation of the difference between prequalification and formal loan approval. However, based on the context available, the home-buying process involves multiple distinct stages, suggesting these are separate steps [2]. The passages do reference a stage called \"Prepare to shop\" before making an offer, and a later stage of choosing and finalizing a loan offer, implying that preliminary steps like prequalification come before official loan commitment [5][2].\n\nBecause the passages are insufficient to fully and accurately explain the distinction between prequalification and actual loan approval, I cannot fabricate the specific details of how they differ \u2014 such as the documentation requirements, binding nature, or credit check depth involved in each. I would recommend visiting the CFPB's full homebuying roadmap at consumerfinance.gov for a thorough, authoritative explanation [5]. It's worth noting that your credit report and score play a role in the loan process, so checking them in advance is advisable [4]. Understanding this distinction is important, as prequalification and approval carry very different levels of certainty and commitment from a lender.",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3211100101470947
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.3441239595413208
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.34930312633514404
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.35274505615234375
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.3591417074203491
+      }
+    ],
+    "latency_sec": 6.32,
+    "embed_cosine": 0.8231785297393799,
+    "judge": {
+      "factuality": 2,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate largely refuses to answer, citing insufficient source passages, and fails to explain the key distinction between prequalification and approval that is common financial knowledge.",
+      "mean": 1.6666666666666667
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "cd-007",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can a 0% APR promotional credit card offer still be risky for someone trying to get out of debt?",
+    "reference": "A 0% APR offer can reduce interest temporarily, but it is risky if the borrower treats the lower rate as permission to carry debt longer or fails to pay the balance before the promotional period ends. Some offers also involve transfer fees, and unpaid balances may later accrue high interest. The strategy works best when paired with a realistic plan to eliminate the balance before the promotion expires.",
+    "candidate": "The provided passages do not contain information about 0% APR promotional credit card offers or their associated risks. The passages cover topics such as credit reports and scores [1][2], mortgage basics [3][5], and debt-to-income ratios [4], but none of them address promotional credit card financing strategies or their potential pitfalls for someone trying to eliminate debt.\n\nTo answer your question responsibly, I would need source material specifically covering this topic. I can say that based on the debt-to-income ratio information provided, carrying any debt \u2014 even temporarily interest-free \u2014 still contributes to your monthly debt obligations and could affect your financial ratios [4], but I cannot confidently elaborate on the specific risks of 0% APR offers without relevant passages to draw from. I'd recommend consulting the CFPB's credit card resources directly, as they maintain extensive consumer guidance beyond what was provided here [1][2].",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3451540470123291
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3712537884712219
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.3712560534477234
+      },
+      {
+        "title": "What is a debt-to-income ratio?",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_debt_to_income_ratio",
+        "distance": 0.38351690769195557
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.3861967921257019
+      }
+    ],
+    "latency_sec": 5.22,
+    "embed_cosine": 0.8602330684661865,
+    "judge": {
+      "factuality": 1,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate refuses to answer the question, citing lack of source material, missing all key risks outlined in the reference answer.",
+      "mean": 1.3333333333333333
+    },
+    "n_citations": 5,
+    "citation_coverage": 1.0
+  }
+]

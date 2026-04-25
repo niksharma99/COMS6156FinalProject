@@ -1,0 +1,638 @@
+[
+  {
+    "id": "inv-r-001",
+    "dataset": "reddit_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Purchasing a House (Any State in the US)\n\nI live in NY but I have friends spread out throughout the country. Many of them are in the process of buying a house and are constantly being forced into an unwinnable bidding war. And we're not talking about 400k big houses, in some cases it's a 90k house in Indiana with bids up to 120k. \n\nHow is everyone else dealing with their local housing markets ? I have been reading up on articles and newsletters about housing market booms in many cities around the country and would love to hear actual people's experience. Any guidance about purchasing a house in this environment? Should anyone ever get into a bidding war for a house ? \n\nThanks in advance.",
+    "reference": "It sounds like you and your friends are facing a really tough housing market\u2014one where even modest homes are sparking bidding wars that drive prices way above asking. That\u2019s incredibly frustrating, especially when you\u2019re trying to make a smart financial decision. You\u2019re not alone in feeling this way; many buyers across the country are grappling with the same challenges. Here\u2019s how some are navigating it, along with a few strategies to consider:\n\n### **Why Bidding Wars Happen (and When to Walk Away)**  \nBidding wars often flare up in markets with low inventory and high demand, which is the case in many areas right now. While competing might feel unavoidable, it\u2019s important to set a *personal max budget*\u2014factoring in not just the purchase price but also property taxes, maintenance, and closing costs (typically 3\u20136% of the price). Overpaying can strain your finances, especially if the home doesn\u2019t appraise for the bid amount, leaving you to cover the gap.  \n\n**Alternatives to jumping into a bidding war:**  \n- **Look for homes that have been listed for 30+ days.** These might have less competition.  \n- **Use an escalation clause.** This automatically raises your bid by a set amount (e.g., $2K) over other offers, up to your max.  \n- **Consider less trendy neighborhoods** or suburbs where prices may be more stable.  \n\n### **Affordability Checks**  \nBefore making any offer, run the numbers:  \n1. **Housing costs should ideally stay below 28% of your gross income** (e.g., if you earn $70K/year, aim for a monthly payment under ~$1,630 including taxes/insurance).  \n2. **Total debt (including mortgage) should stay under 36% of income.**  \n3. **Save a 20% down payment if possible** to avoid private mortgage insurance (PMI).  \n\n### **Resources to Explore**  \n- **First-time buyer programs:** FHA loans (3.5% down), VA loans (0% down for veterans), or USDA loans (rural areas) can help.  \n- **Local real estate agents** often know about off-market listings or upcoming properties before they\u2019re public.  \n\n### **Long-Term Perspective**  \nRemember: A home is a long-term investment. If you *must* overbid, ensure you plan to stay put for 5+ years to ride out market swings. Renting isn\u2019t a failure\u2014it can free you to wait for a better opportunity.  \n\n**Next steps:**  \n- Try a mortgage calculator (like NerdWallet\u2019s) to test your budget.  \n- Interview a few agents in your target areas\u2014ask how they\u2019ve helped clients avoid overpaying.  \n\nThe market is tough, but with patience and clear limits, you can avoid getting swept into a decision you\u2019ll regret. Hang in there!",
+    "candidate": "I appreciate you sharing your situation, but I want to be transparent: **the provided passages are primarily from IRS Publication 550 on Investment Income and Expenses**, and they do not contain information relevant to navigating competitive housing markets, bidding war strategies, or general home-buying advice in heated real estate environments. The passages do touch on some tangentially related concepts, such as the fact that property basis is typically the cost you pay [5], and that like-kind real property exchanges have specific tax implications [1], but neither of these directly addresses your bidding war question.\n\nRather than fabricate guidance on housing market strategy that isn't supported by the provided materials, I'd recommend consulting resources specifically focused on real estate purchasing, such as a licensed real estate agent familiar with your target market, the Consumer Financial Protection Bureau (CFPB), or HUD-approved housing counselors. What I can say from the passages is that if you do ultimately purchase a home above asking price, understanding your **cost basis** will matter for future tax purposes [5]. For any seller-financing arrangements that might arise as creative alternatives to competitive bidding, there are also specific IRS reporting requirements worth knowing about [2].",
+    "retrieved": [
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.29976046085357666
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3229822516441345
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.327587366104126
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3290656805038452
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3304111957550049
+      }
+    ],
+    "latency_sec": 7.63,
+    "embed_cosine": 0.8683364391326904,
+    "judge": {
+      "factuality": 2,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate refuses to answer the actual question, citing irrelevant IRS passages as if they were constraints, missing virtually all the substantive housing-market guidance the reference provides.",
+      "mean": 1.6666666666666667
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "inv-r-002",
+    "dataset": "reddit_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Employed again after nearly 1.5 years. Want to invest my savings now that I can. Where should I start?\n\nHello,\n\nI recently got a job and am making a little over 100k. I want to invest everything right now so I can save up for a house as quickly as possible. \n\nI have already hit max IRA contributions, and I used to invest in government bonds through the treasury. \n\nWhat should I be doing to be as safe as possible and produce extra income quickly?\n\nI currently have 15k in savings not doing anything. \n\nAny advice is appreciated.",
+    "reference": "**Congratulations on your new job and on maxing out your IRA\u2014that\u2019s a fantastic start!** It\u2019s great to see you thinking ahead about your house-saving goals while prioritizing safety. Here\u2019s how you can make the most of your $15k savings while keeping risk low:  \n\n### **1. Park Your Savings Somewhere Safe (But Higher-Yielding)**  \nSince you need this money for a house in the near future, safety and liquidity are key. Consider:  \n- **High-yield savings account (HYSA):** Earn ~4-5% APY with zero risk. Your money stays accessible for when you\u2019re ready to buy. Examples: Ally, Marcus, or Discover Bank.  \n- **Short-term Treasury bills or CDs:** These pay slightly more than HYSAs (currently ~5% for 3-12 month terms) but lock up funds temporarily. Great if you won\u2019t need the cash for 6+ months.  \n\n### **2. A Small Step Up: Conservative Bonds**  \nIf you\u2019re comfortable with *very slight* risk for marginally higher returns:  \n- **Short-term bond ETFs (e.g., SGOV, BIL):** These invest in ultra-short-term government bonds and are highly stable. They pay monthly dividends (extra income) with minimal price fluctuation.  \n\n### **3. Avoid These (For Now)**  \n- **Stocks or long-term investments:** Too volatile for your short timeline. A market dip could delay your house plans.  \n- **Locking up all funds in long-term CDs/bonds:** You\u2019ll want flexibility to access cash when you find the right home.  \n\n### **Next Steps**  \n1. Move your $15k to a HYSA *today* (this takes minutes online).  \n2. If you won\u2019t need some of the cash for 6+ months, consider splitting it (e.g., $10k in HYSA, $5k in a 6-month CD or Treasury bill).  \n3. Keep adding to this fund with your paychecks\u2014automate transfers if possible!  \n\n**A quick note on \u201cextra income\u201d:** Safe options won\u2019t make you rich fast, but they\u2019ll grow your savings predictably. For example, $15k in a HYSA at 4.5% earns ~$56/month risk-free.  \n\nYou\u2019re already ahead by being thoughtful about this. Let me know if you\u2019d like help picking specific accounts or fine-tuning the strategy!  \n\n---  \n*P.S. Since you didn\u2019t mention debt, I\u2019m assuming you\u2019re all set there\u2014but if you have any high-interest debt, tackling that first would be my top suggestion.*",
+    "candidate": "Congratulations on your new job! Since you're saving for a house, your **time horizon is critically important** \u2014 if you plan to buy relatively soon (within a few years), investing in lower-risk assets like cash equivalents or short-term bonds may be more appropriate than stocks, even though those offer higher potential returns [2]. However, be aware that cash equivalents carry **inflation risk**, meaning inflation could erode your returns over time if your timeline stretches longer [4]. Since you've already maxed your IRA, it's worth exploring other **tax-advantaged accounts** like an HSA (if eligible) or a 401(k) through your new employer, which could help your money grow more efficiently [1]. Your existing experience with **U.S. savings bonds** (like Series EE or Series I bonds through TreasuryDirect) could remain a reasonable option, as they are government-backed and relatively safe [5]. For the $15k sitting idle, the right move depends heavily on your **house-buying timeline** \u2014 a short horizon favors capital preservation, while a longer horizon could tolerate more risk for greater returns [2]. I'd strongly recommend consulting a fee-only financial advisor for personalized guidance, as the provided sources don't contain enough detail to fully tailor a strategy to your specific goals and risk tolerance. The SEC also notes that a **vast array of investment products** exists, so understanding each one's risks before committing is essential [2][4].",
+    "retrieved": [
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.24560081958770752
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2501718997955322
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.25414085388183594
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2633652687072754
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.26530659198760986
+      }
+    ],
+    "latency_sec": 8.43,
+    "embed_cosine": 0.8938919901847839,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate gives generally sound framing around time horizon and risk, but lacks the concrete actionable steps (HYSA rates, T-bill specifics, splitting strategy) that make the reference answer practical, and the repeated deferral to a financial advisor weakens actionability.",
+      "mean": 3.3333333333333335
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "inv-r-003",
+    "dataset": "reddit_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "My grandfather just left me $1 Million. I am just out of high school (19M) and I don't know what to do!\n\nI've been mostly living in around-poverty, sharing a house with a couple other housemates for $600ish mo, trying very hard not to buy good clothes or anything which I don't need and I just found that out.\n\nWhat I'd personally like is to improve at least some of my living/eating standards, but rest, I don't know! I'm kinda scared of having so much money and I don't want to just waste it.  \nHelp?\n\nEdit : I do not have a job, atm, just around $4000 saved from previous jobs/other things.",
+    "reference": "**First, take a deep breath.** It\u2019s completely normal to feel overwhelmed\u2014this is a huge change, especially after living frugally. The fact that you\u2019re asking for help and don\u2019t want to waste the money shows you\u2019re already thinking responsibly. Let\u2019s break this down into simple, manageable steps so you can feel secure and make the most of this gift.\n\n### **Step 1: Don\u2019t Rush Anything**  \n- Park the $1 million in a **high-yield savings account** (like those from Ally or Marcus) for now. This keeps it safe and earns some interest while you plan.  \n- Avoid big purchases or lifestyle changes immediately. It\u2019s okay to wait a few months to process this.  \n\n### **Step 2: Build a Financial Safety Net**  \n1. **Emergency Fund**: Set aside 3\u20136 months of living expenses (based on your current costs, ~$3,600\u2013$7,200). Keep this in your high-yield savings account.  \n2. **Debts**: If you have any (student loans, credit cards), pay them off\u2014this frees up future cash flow.  \n\n### **Step 3: Invest for the Long Term**  \n- Open a **Roth IRA** (a retirement account where growth is tax-free) and max it out ($6,500/year for 2023). Invest in low-cost index funds (like VTI or VOO).  \n- For the rest, consider a **brokerage account** with diversified index funds (e.g., VTSAX or similar). At 19, time is your superpower\u2014even modest investments now can grow massively.  \n\n### **Step 4: Allow *Some* Lifestyle Upgrades**  \nIt\u2019s okay to use a small portion (e.g., 5% or $50,000) for things that improve your daily life, like:  \n- A better apartment (but avoid long-term leases or buying property until you\u2019re sure).  \n- Quality groceries or a reliable used car if needed.  \n- A budget for clothes or hobbies\u2014you\u2019ve earned it!  \n\n### **Step 5: Protect and Learn**  \n- **Keep it private**: Only share details with trusted people to avoid pressure or scams.  \n- **Educate yourself**: Read books like *The Simple Path to Wealth* (JL Collins) or *I Will Teach You to Be Rich* (Ramit Sethi).  \n- **Consider a fee-only financial advisor** (they don\u2019t sell products) to help create a personalized plan.  \n\n### **Final Thought**  \nThis money isn\u2019t just for today\u2014it\u2019s a tool to build security for your *entire life*. You don\u2019t need to figure it all out now. Start with these steps, go slow, and revisit your plan as you learn more. You\u2019ve got this!  \n\nIf you\u2019d like, I can share more details on any of these steps\u2014just ask.",
+    "candidate": "This is a life-changing situation, and your cautious instincts are actually a real strength here. The most important first step I'd recommend \u2014 which goes beyond what my provided passages can fully address \u2014 is to consult a fee-only fiduciary financial advisor and a tax professional before making any major moves, since $1 million inherited can have complex tax implications. On the investing side, the passages I have do support that **diversification** is a core principle \u2014 spreading money across different assets so that losses in one area can be offset by gains in others [1], and **index funds** are one vehicle worth researching as part of a broader strategy [5]. Tax-advantaged accounts like **401(k)s, IRAs, HSAs, and 529 plans** are worth learning about, as they offer meaningful tax benefits that could help your money grow more efficiently over time [1][5]. Regarding your living standards \u2014 it's completely reasonable to modestly improve your quality of life, but financial advisors typically caution against dramatic lifestyle inflation early on. Your $4,000 in savings and your habit of frugality are genuinely valuable mindsets to preserve. However, the full scope of what you should do with $1 million \u2014 investment allocation, estate planning, tax strategy \u2014 goes well beyond what these passages alone can responsibly guide, so **please seek qualified professional advice before acting**.",
+    "retrieved": [
+      {
+        "title": "Diversification",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_diversification_basics",
+        "distance": 0.33758819103240967
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3619917035102844
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.36429500579833984
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.36528146266937256
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.3726252317428589
+      }
+    ],
+    "latency_sec": 8.66,
+    "embed_cosine": 0.8134967088699341,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 4,
+      "rationale": "Correct on key points (fiduciary advisor, index funds, tax-advantaged accounts, diversification) but less actionable and complete than the reference\u2014missing concrete steps like HYSA parking, Roth IRA specifics, emergency fund sizing, and the 'allow some lifestyle upgrades' framing that balances the ",
+      "mean": 3.6666666666666665
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "inv-r-004",
+    "dataset": "reddit_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "Hiring a financial advisor vs. investing financial advisor fees in an index fund?\n\nI am neither a financial noob nor a fiduciary.  For the purposes of this post, I will lean more towards \"noob.\".  What value does a financial advisor bring that I am missing?\n\nAs the basis of my question, I am using a publicly available fee schedule based on assets under management.  The actual schedule and fiduciary are irrelevant for the purposes of my question; I am not evaluating fiduciaries.\n\nTake a hypothetical $2M - $3M of assets under management (AUM).  This would result in yearly fees of (all number rounded liberally)\n\n* $2M AUM - $14K/yr ($1.2K/month)\n* $3M AUM - $29K/yr ($2.4K/month)\n\nWhy am I better off paying a financial advisor to management my assets (and charge me a fee) vs. managing my own assets (and investing the forgone financial advisor's fees)?\n\nAssuming an 8% return on an index fund, the cost of the fiduciary over a 15 year period ranges between $375K - $800K.  This analysis does not factor in an increase in AUM over time, it simply assumes a fixed fee schedule to manage between $2M and $3M.\n\nWhat am I missing?",
+    "reference": "Here\u2019s a thoughtful breakdown of the advisor-vs-DIY decision, tailored to your analytical approach and the specifics of your hypothetical scenario:\n\n### **1. Validating Your Perspective**  \nYour calculations are spot-on: advisor fees compounded over time represent a significant opportunity cost (e.g., $375K\u2013$800K over 15 years). For a disciplined investor comfortable with index funds, self-management is often the mathematically optimal choice.  \n\n### **2. The Advisor\u2019s Potential Value-Add (Beyond Returns)**  \nAdvisors *can* justify their fees in certain scenarios\u2014not by outperforming markets, but by addressing complexities you might not be accounting for:  \n- **Tax Optimization:** Strategies like tax-loss harvesting, asset location (e.g., bonds in tax-deferred accounts), and managing capital gains could save you more than the advisor\u2019s fee, especially with $2M\u2013$3M AUM.  \n- **Behavioral Guardrails:** Preventing emotional decisions (e.g., panic-selling in downturns) can *indirectly* boost returns. Studies show the average investor underperforms funds by ~2% annually due to poor timing.  \n- **Estate/Retirement Planning:** Coordinating trusts, RMDs, or Roth conversions for heirs adds value if your situation is complex.  \n- **Time Savings:** Delegating rebalancing, paperwork, or research might be worth the cost if your time is high-value.  \n\n### **3. When Advisors Make Less Sense**  \nIf your finances are straightforward (e.g., no complicated tax situations, high emotional discipline), and you\u2019re comfortable with a simple index-fund portfolio, the fees may not be justified. Many DIY investors succeed with a three-fund portfolio and occasional tax advice from a CPA.  \n\n### **4. Nuances in Your Assumptions**  \n- **The 8% Return:** Index funds average ~7\u201310% long-term, but sequence-of-returns risk (e.g., a crash early in retirement) can derail plans. Advisors may mitigate this with withdrawal strategies.  \n- **Fixed AUM:** If your portfolio grows, fees scale up. Some advisors offer flat-fee or hourly options for cost-conscious clients.  \n\n### **5. A Middle Ground**  \nConsider a **fee-only advisor for a one-time review** (~$1K\u2013$3K) to identify blind spots (e.g., insurance gaps, tax inefficiencies), then DIY with confidence.  \n\n### **Action Steps**  \n- **If DIY:** Automate investments in low-cost index funds (e.g., VTI/VXUS/BND) and schedule annual check-ins with a tax professional.  \n- **If Considering an Advisor:** Interview fee-only fiduciaries. Ask: *\u201cHow will you save me more than your fee?\u201d* Focus on tax/estate services, not stock picks.  \n\nYour skepticism is healthy\u2014this decision hinges on whether your specific needs align with the advisor\u2019s services. For many, the answer is a hybrid approach. Would you like to explore how tax savings might offset fees in your hypothetical scenario?  \n\n*(Note: Numbers assume US-based investing; fees/tax laws vary by country.)*",
+    "candidate": "Your core intuition is well-supported: fees directly reduce your investment returns, and if two portfolios have identical performance, the lower-cost option will generate higher returns for you [2]. The SEC explicitly notes that index funds are often less expensive than actively managed funds precisely because they don't require the research and security-selection services that advisors provide [1]. That said, there are legitimate tradeoffs to consider. A financial professional can help determine your initial asset allocation and suggest future adjustments \u2014 decisions the SEC describes as \"enormously important\" [4] \u2014 and getting asset allocation wrong can seriously undermine your financial goals, whether by taking on too little risk (insufficient growth) or too much (catastrophic loss at the wrong time) [5]. The value proposition of an advisor therefore hinges on whether their guidance on allocation, behavioral coaching during market downturns, tax optimization, and estate planning generates enough additional return or risk reduction to outpace their fees \u2014 something the provided passages don't quantify. Your math on the opportunity cost ($375K\u2013$800K over 15 years) is a reasonable framework, and the SEC would likely agree it deserves serious weight [2]. One caution: online tools that suggest asset allocations may be biased toward financial products sold by the companies offering them, so independent evaluation matters [3]. Ultimately, the passages here are insufficient to fully answer whether an advisor's holistic value exceeds those fees in your specific situation, and you may want to consult multiple independent sources before deciding.",
+    "retrieved": [
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.18818151950836182
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.21267175674438477
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.25790101289749146
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2581651210784912
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.25947296619415283
+      }
+    ],
+    "latency_sec": 8.68,
+    "embed_cosine": 0.891859769821167,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "Candidate correctly validates the opportunity-cost math and touches on allocation, behavioral coaching, and tax/estate planning, but is noticeably less thorough than the reference\u2014missing concrete middle-ground options (fee-only one-time review), specific DIY strategies, and quantified behavioral-un",
+      "mean": 3.3333333333333335
+    },
+    "n_citations": 5,
+    "citation_coverage": 1.0
+  },
+  {
+    "id": "inv-r-005",
+    "dataset": "reddit_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Im a 15 Year old with 150.000$ to my name. What do I do with it?\n\nI am using a throwaway to tell this story as I am kind of ashamed of it. Im a 15 year old male, with two parents who worked 9-5 jobs, each earning about 55k a year. According to my dad, my moms mental health was never that great, and she already had a couple of suicide attempts when I was about 3 years old. A couple of months ago, she had another unsuccessful attempt at it. Since then she has not been living with me or my dad, and I have barely even seen her. My parents got a divorce shortly after the attempt. My dad got to keep most of the assets he owned, like the house we live in and the car he drives. This however, meant that my dad had to pay my mom about $300.000. Shortly after everything was settled with her and her lawyers, she was found dead in her apartment. This means that half of that unspend $300,000 would go to me, and the other $150,000 would go to my 23 year old sister who does not live with us. I now have $150,000 to my name, and no clue how to invest any of it. Also excuse any writing mistakes I have made or if any parts of this story dont make sense, english isnt my mothertongue and I am writing this on mobile.",
+    "reference": "I\u2019m so sorry for everything you\u2019ve been through. Losing a parent and dealing with such a heavy situation at your age is incredibly tough, and it\u2019s okay to feel overwhelmed. You\u2019re showing a lot of maturity by thinking carefully about what to do with this money, and there\u2019s no need to feel ashamed\u2014this is a lot to handle, and you\u2019re not alone.  \n\nSince you\u2019re 15, you\u2019ll need an adult (like your dad) to help you manage the money until you turn 18. Here\u2019s a simple, step-by-step way to think about it:  \n\n### **Short-Term (Right Now): Keep the Money Safe**  \n- Put the $150,000 in a **high-yield savings account** (these earn more interest than regular accounts) or a **money market account** (safe and easy to access). This gives you time to learn and plan without rushing.  \n- Avoid making big purchases or decisions until you\u2019ve had time to process and research.  \n\n### **Medium-Term (Next Few Years): Start Investing for the Future**  \n- Open a **custodial brokerage account** (an investment account where an adult manages it with you until you\u2019re 18). You can work with your dad to set this up.  \n- Focus on **long-term growth**. A simple, low-risk strategy is to invest in:  \n  - **Index funds** (like the S&P 500\u2014they spread your money across many companies, reducing risk).  \n  - Some **bonds** (for stability) and a small portion in **stocks** (for growth).  \n- Consider a **Roth IRA** (a retirement account for minors with parental help). You can contribute some of the money here\u2014it grows tax-free, which is a huge advantage over time.  \n\n### **Long-Term (Years from Now): Let the Money Grow**  \n- The biggest advantage you have is **time**. Even modest investments now could grow significantly by the time you\u2019re older. For example, $150,000 invested wisely could grow to over $1 million by the time you\u2019re 40, thanks to compound interest (earning money on your earnings).  \n- As you get closer to needing the money (for college, a house, etc.), you can adjust your investments to be safer.  \n\n### **Next Steps:**  \n1. **Talk to your dad** about helping you set up the right accounts.  \n2. **Consider meeting with a fiduciary financial advisor** (they\u2019re legally required to act in your best interest). Many offer free initial consultations.  \n3. **Take your time**. You don\u2019t have to figure everything out today.  \n\nThis is a lot to process, both emotionally and financially. It\u2019s okay to ask for help, and you\u2019re already doing great by seeking guidance. If you\u2019d like, I can also share some free resources to learn more about investing at your own pace. Just let me know. You\u2019ve got this.",
+    "candidate": "I'm truly sorry for the loss of your mother and everything your family has been through \u2014 that's an enormous amount to carry at 15.\n\nRegarding your $150,000, I want to be straightforward with you: **the passages I've been provided cover specific IRS tax rules** (like cost basis calculations [1], interest income reporting [3], and investment interest allocation [5]), but they are not sufficient to give you a complete, confident investment roadmap for your specific situation. What I can say responsibly is that because you are a minor, your ability to legally control and invest these funds will depend on your state's laws \u2014 assets may need to be held in a custodial account (like a CUSTODIAN/UTMA account) until you reach adulthood. One important tax note: any investment income this money generates could be subject to the \"kiddie tax,\" meaning it may be taxed at your parent's rate rather than yours [2]. The passages also note that if assets are placed in accounts in your name under a parent/guardian as trustee, the income is taxable to you only under specific state-law conditions [2].\n\n**My strong recommendation:** please have your father consult a **fee-only financial advisor and a CPA** before doing anything with this money. This situation involves inheritance tax questions, minor's legal rights, and long-term planning that genuinely requires a licensed professional \u2014 not just an AI assistant.",
+    "retrieved": [
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.294187068939209
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3088757395744324
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.30974113941192627
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3148208260536194
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3152124285697937
+      }
+    ],
+    "latency_sec": 8.68,
+    "embed_cosine": 0.9095991253852844,
+    "judge": {
+      "factuality": 3,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "Correctly mentions custodial accounts and kiddie tax but is overly hedged and incomplete, missing key actionable steps like high-yield savings, index funds, Roth IRA, and the emotional acknowledgment the reference provides.",
+      "mean": 2.6666666666666665
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "inv-r-006",
+    "dataset": "reddit_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "Need some ideas - should we buy property?\n\nMy wife and I have about $200k in savings. Avg house price around here is about $600k.\n\nWe save about $50k a year while living in our apartment, but home prices keep increasing quickly and it feels like our savings are getting devalued... We've been trying to figure out what the best financial move is here. Should be buy a house? Buy rental property? Buy vacation property and Airbnb it? Something else? We have about 1/3 of our savings in retirement accounts or S&P500 index funds right now, the rest is in the bank. \n\nAny ideas are appreciated. We're not in a rush to buy but we would if we thought it was the best thing to do.",
+    "reference": "Here\u2019s a thoughtful breakdown to help you weigh your options, given your strong financial position and the current market:\n\n### **1. Buying a Primary Residence**  \n**Pros:**  \n- Builds equity over time (historically, real estate appreciates ~3\u20134% annually).  \n- Stabilizes housing costs (fixed-rate mortgage vs. rising rents).  \n- Potential tax benefits (mortgage interest deduction).  \n\n**Cons:**  \n- High upfront costs (20% down = $120k for a $600k home, plus closing costs/maintenance).  \n- Less liquidity\u2014your savings would be tied up in the property.  \n- Risk of short-term market fluctuations (though less concerning if you stay 5+ years).  \n\n**Consider:** Could you comfortably afford the mortgage (likely ~$3k/month at current rates) plus property taxes/insurance on top of your $50k annual savings?  \n\n---\n\n### **2. Rental Property**  \n**Pros:**  \n- Generates passive income (if cash-flow positive).  \n- Diversifies your assets beyond stocks.  \n- Tax advantages (depreciation, expense deductions).  \n\n**Cons:**  \n- Requires active management (or costs for a property manager).  \n- Risk of vacancies/repairs\u2014could strain your cash reserves.  \n- Less liquid than stocks; selling takes time.  \n\n**Consider:** Are you prepared to handle tenant issues or hire help? Research local rental demand and crunch numbers\u2014aim for rents to cover 125% of expenses.  \n\n---\n\n### **3. Vacation Property/Airbnb**  \n**Pros:**  \n- Higher income potential (short-term rentals often yield more than long-term).  \n- Personal use option (if you\u2019d enjoy the property).  \n\n**Cons:**  \n- Seasonal income variability (may not cover costs year-round).  \n- Intensive management (cleaning, marketing, guest communication).  \n\n**Consider:** Is your area a tourist hotspot? Run projections assuming 60% occupancy to stress-test profitability.  \n\n---\n\n### **4. Continue Saving/Investing**  \n**Pros:**  \n- Preserves liquidity (you\u2019re not locked into one asset).  \n- Your $50k/year savings rate is powerful\u2014invested in low-cost index funds, it could grow significantly over time.  \n- Avoids property-related hassles.  \n\n**Cons:**  \n- Doesn\u2019t hedge against rising home prices (though stocks historically outpace real estate long-term).  \n\n---\n\n### **Key Takeaways**  \n- **Your savings aren\u2019t \"losing value\"**\u2014they\u2019re just in cash, which misses growth opportunities. Consider moving some to investments (e.g., more into your S&P 500 funds) for better returns.  \n- **No rush to decide**. With your savings rate, you could wait a year, reevaluate the market, and have a larger down payment.  \n- **Action Step:** Use a mortgage calculator to test payments, or research local rental yields. Ask yourselves: \"Do we want to be landlords, or prioritize simplicity?\"  \n\nYou\u2019re in a great position\u2014this is about aligning your choice with lifestyle preferences and risk tolerance. Happy to dive deeper into any option!",
+    "candidate": "This is a genuinely complex decision, and the passages I have available don't contain specific guidance on home-buying, rental property, or Airbnb strategies, so I want to be careful not to fabricate advice. What I can share from the sources is that **asset allocation is considered by some financial experts to be the most important investment decision you'll make \u2014 even more important than the individual investments you choose** [2], which suggests your broader portfolio mix deserves careful thought before committing $200k to any single asset class. There is also **no single asset allocation model that is right for every financial goal**, and the right choice depends heavily on your personal time horizon and risk tolerance [5] [2]. Regarding any leveraged investment strategy (like taking on a large mortgage or financing a rental property), it's worth being cautious and asking whether **any debt you're taking on is real and whether the underlying economics of the transaction genuinely make sense** [1] \u2014 this applies to evaluating rental or Airbnb deals promoted as easy income generators. \n\nBeyond what these sources cover, I'd strongly recommend consulting a fee-only financial advisor who can model out scenarios like renting vs. buying, rental property cash flow, and tax implications \u2014 topics that go well beyond what I can responsibly address with the materials provided here.",
+    "retrieved": [
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.27060234546661377
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2795059084892273
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.2816830277442932
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.28958773612976074
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2919933795928955
+      }
+    ],
+    "latency_sec": 8.17,
+    "embed_cosine": 0.8844491839408875,
+    "judge": {
+      "factuality": 3,
+      "completeness": 2,
+      "advice_quality": 2,
+      "rationale": "The candidate hedges excessively, citing 'sources' in a way that adds no real content, and fails to address the specific options (primary home, rental, Airbnb, continued investing) that the reference answer covers thoroughly, making it largely unhelpful despite being technically non-misleading.",
+      "mean": 2.3333333333333335
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "inv-r-007",
+    "dataset": "reddit_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Would it be dumb to buy a house in my situation?\n\nHey everyone\n\nI live in St Louis with a roommate. We both make a little over 50k a year and have been talking about buying a house together instead of feeling like we are wasting our money each month on rent. We both plan to live here for 3-5 years minimum, and are currently single. We\u2019ve seen good deals on 2-3 bedroom houses for sub 100k. With the housing market the way it is, would it be a good time to do this? We\u2019re both young and have little to no experience with this kinda thing but have good credit (700+). I\u2019ve tried asking my dad but he says it\u2019s a stupid idea , mostly because he would like me to move home before 5 years lmao. Any tips would be appreciated.",
+    "reference": "Here\u2019s a thoughtful and balanced response to your question:\n\n---\n\n**Hey there!**  \nFirst off, it\u2019s great that you\u2019re thinking ahead about this\u2014your credit scores and planning mindset are solid starting points. Buying a house *can* be a smart move, but it\u2019s not just about escaping \"wasted rent.\" Let\u2019s break it down for your situation:\n\n### **Key Considerations**  \n1. **Affordability**:  \n   - With a combined income of ~$100k, a sub-$100k house is likely affordable (mortgage payments should stay well under 28% of your income).  \n   - *But*: Don\u2019t forget extra costs like property taxes, insurance, maintenance (~1% of the home\u2019s value yearly), and repairs. Rent has predictable costs; homeownership doesn\u2019t.  \n\n2. **Rent vs. Buy Math**:  \n   - **Buying Pros**: Build equity, potential tax benefits, and fixed payments (if you get a fixed-rate mortgage\u2014highly recommended for stability).  \n   - **Buying Cons**: Closing costs (~2\u20135% of the price), selling costs later (realtor fees, etc.), and risk of market dips if you sell in 3\u20135 years.  \n   - **Renting Pros**: Flexibility, no surprise costs, and you could invest your down payment elsewhere (e.g., stocks).  \n\n3. **Timing & Market Risks**:  \n   - If you\u2019re sure about staying 5+ years, buying *might* pay off. But if life changes (job, relationship, etc.), selling quickly could cost you.  \n   - St. Louis has relatively low prices, but no one can predict the market. Focus on what you can control (e.g., buying a well-maintained home in a decent location).  \n\n4. **The Roommate Factor**:  \n   - Co-owning with a non-partner is risky. What if one of you wants to leave early? Draft a legal agreement upfront covering exit strategies, payment splits, and how to handle disagreements.  \n\n### **Next Steps**  \n- **Crunch the numbers**: Use a [mortgage calculator](https://www.nerdwallet.com/mortgages/mortgage-calculator) to estimate monthly payments (include taxes/insurance). Compare this to your rent.  \n- **Save aggressively**: Aim for a 20% down payment to avoid PMI (extra mortgage insurance), but explore FHA loans if needed.  \n- **Talk to a local realtor or lender**: They can give St. Louis-specific advice on neighborhoods and costs.  \n\n### **Final Thought**  \nYour dad\u2019s concern isn\u2019t totally off\u2014homeownership ties you down, and life changes fast in your 20s. But if you\u2019re committed to the area and prepared for the responsibility, it\u2019s not a \"stupid idea.\" Just go in with eyes wide open!  \n\nLet me know if you want help running specific numbers. Happy to dig deeper!  \n\n--- \n\nThis response balances empathy with practical advice, avoids jargon, and leaves room for their autonomy while flagging key risks.",
+    "candidate": "I appreciate you sharing your situation, but I have to be upfront: **the provided passages don't directly address home-buying decisions**, so I can't responsibly give you a confident answer based solely on them. The passages cover topics like investment income, tax shelters, asset basis, and general asset allocation [1][2][3][5] \u2014 none of which speak directly to your specific question about co-buying a home in St. Louis.\n\nWhat I *can* note from the passages is that your time horizon (3-5 years) is a relevant factor when thinking about any major financial commitment, and the SEC guidance suggests that understanding your time horizon and risk tolerance is fundamental before making significant financial decisions [5]. The passage also implies that short-term goals carry different risk profiles than long-term ones [5].\n\nFor a decision this significant \u2014 involving co-ownership with a friend, a mortgage, and potential appreciation or depreciation \u2014 I'd strongly recommend consulting a **HUD-approved housing counselor**, a **real estate attorney**, and a **financial advisor** who can review your full financial picture. Key considerations they'd explore include how you'd handle the co-ownership agreement, what happens if one person wants to leave, and whether your combined income comfortably supports mortgage payments plus maintenance costs. The passages provided simply aren't sufficient to answer your question with the care it deserves.",
+    "retrieved": [
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.30490338802337646
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.31287717819213867
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3129168748855591
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.31631892919540405
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.32154780626296997
+      }
+    ],
+    "latency_sec": 8.17,
+    "embed_cosine": 0.8848304748535156,
+    "judge": {
+      "factuality": 2,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate largely refuses to engage with the question, citing irrelevant source passages, missing nearly all the substantive points the reference covers about affordability, co-ownership risks, rent vs. buy math, and St. Louis market context.",
+      "mean": 1.6666666666666667
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "inv-r-008",
+    "dataset": "reddit_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "(SWE) Investing money in US\n\nHi all.\n\nThrough a acquaintance i got introduced to a US company that buys up, develops and rents condo complexes, houses, etc, with a 10 year or longer time perspective.\n\nThe company is legit, have a good track record, and comes with great recommendations.\n\nNow, i am pretty sure i cant just come to the US, put bunch of cash on the table and expect ROI. I am trying to inform myself through the web, but US tax code o_0. In parallell, I've red PF for a while now, and realize the amount of knowledge that exists here.\n\nThere is a private limited partnership structure per property, and there is a minimum investment amount. I guess i have to open some kind of a company in US, for tax purposes, and invest the money through there. Expected return averages between 7 and 10% yearly. Tax on profit for US companies is 21%? I don't see myself engaging in any kind of business in US beyond this.\n\nAny information, pointers, hints, links etc are greatly appreciated.",
+    "reference": "Here\u2019s a structured and empathetic response to your query:\n\n---\n\n**Hi there,**  \n\nIt\u2019s great that you\u2019re exploring this opportunity\u2014investing in U.S. real estate through a private partnership can be a solid way to diversify, especially with a company that has a strong track record. Let\u2019s break down the key considerations to help you navigate the complexities, particularly around taxes and structure.  \n\n### **1. Investment Structure & Basics**  \n- **Limited Partnership (LP):** This typically means you\u2019re a passive investor (no day-to-day management) with liability limited to your investment. However, profits/losses flow through to your personal tax filings, even if you\u2019re abroad.  \n- **Minimums and Illiquidity:** Confirm the minimum investment and lock-up period (10+ years is common for real estate). Unlike stocks, exiting early may be difficult.  \n\n### **2. Tax Implications for Non-U.S. Investors**  \nThe U.S. tax code *is* daunting, but here\u2019s the high-level framework for foreign investors:  \n- **Corporate Tax (21%):** This applies to U.S. corporations, but as an individual/LP investor, your tax treatment may differ.  \n- **FIRPTA:** Foreign investors in U.S. real estate often face withholding taxes (15\u201330% of sale proceeds or rental income). An LLC or other structure *might* reduce this, but rules are complex.  \n- **State Taxes:** Some states tax real estate income separately (e.g., California, New York).  \n- **Sweden-U.S. Tax Treaty:** Check if it reduces double taxation on rental income/capital gains.  \n\n**Key Takeaway:** You likely don\u2019t need a U.S. entity (like an LLC) just to invest, but structuring incorrectly could trigger higher taxes. *Consult a cross-border tax expert* before committing.  \n\n### **3. Risks & Due Diligence**  \n- **Market Risks:** Real estate is cyclical\u2014vacancies, interest rate hikes, or downturns could impact returns.  \n- **Partnership Terms:** Review the Private Placement Memorandum (PPM) for fees, profit splits, and exit clauses. Example: Who covers unexpected repair costs?  \n- **Alternatives:** For simpler exposure to U.S. real estate, consider publicly traded REITs (liquidity, diversification) or index funds (lower hassle).  \n\n### **Next Steps**  \n1. **Talk to Professionals:**  \n   - A *U.S. tax attorney* or *CPA with expat expertise* to clarify FIRPTA, treaties, and filing requirements.  \n   - Ask the company for past investors\u2019 contact info (to verify their experience).  \n2. **Review the PPM:** Pay special attention to fees, distributions, and worst-case scenarios.  \n3. **Compare Opportunities:** Weigh this against REITs or other passive investments for diversification.  \n\n**Resources:**  \n- IRS Guide for Foreign Investors: [IRS FIRPTA Overview](https://www.irs.gov/individuals/international-taxpayers/foreign-investment-in-u-s-real-property)  \n- Expat Investor Forums: [Bogleheads Non-US Investing](https://www.bogleheads.org/forum/viewforum.php?f=22)  \n\nThis sounds like a promising opportunity, but the tax and legal nuances are critical to get right upfront. Feel free to circle back with follow-up questions!  \n\n---\n\n**Why this works:**  \n- **Balances empathy and facts** (validates effort, normalizes confusion).  \n- **Prioritizes actionability** (expert consultation, PPM review).  \n- **Simplifies complexity** (avoids jargon, uses bullet points).  \n- **Encourages due diligence** without discouraging the opportunity.  \n\nLet me know if you'd like to dive deeper into any area!",
+    "candidate": "Thank you for your question! Unfortunately, the provided passages from IRS Pub 550 do not contain sufficient detail to fully address your specific situation as a Swedish investor in a US limited partnership structure. However, I can share a few relevant points and flag important considerations.\n\nThe passages do confirm that **U.S. tax rules apply broadly**, including to foreign-source income for U.S. persons, and that foreign investors in U.S. structures face complex reporting obligations [3]. When evaluating any private partnership investment, the IRS specifically flags red flags worth scrutinizing, such as whether debt obligations are real, whether profit/loss allocations have legitimate economic justification, and whether the overall structure reflects genuine economic reality rather than a tax-driven \"gimmick or sham\" [1]. The passages also note that capital gains treatment (potentially favorable long-term rates) applies when equity interests are held for more than one year [4], which could be relevant given your 10+ year horizon.\n\n**Beyond what the passages cover**, your situation \u2014 a non-U.S. resident investing in a U.S. limited partnership \u2014 will almost certainly involve **FIRPTA withholding rules, a U.S. tax filing obligation, and potential tax treaty considerations between Sweden and the U.S.** I strongly recommend consulting both a U.S. CPA or tax attorney familiar with international investors *and* a Swedish tax advisor, as this cross-border structure carries meaningful complexity that these passages alone cannot resolve.",
+    "retrieved": [
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.21316784620285034
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2533237934112549
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.26724696159362793
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.26801955699920654
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.270049512386322
+      }
+    ],
+    "latency_sec": 8.8,
+    "embed_cosine": 0.8763952255249023,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "Candidate correctly flags FIRPTA, cross-border complexity, and professional consultation needs, but is vague/hedged throughout, misses key specifics like LP pass-through treatment, the Sweden-US tax treaty, state taxes, and PPM review, and adds low-value IRS pub citations that don't strengthen the r",
+      "mean": 3.0
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "inv-r-009",
+    "dataset": "reddit_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "Is investing in the S&P 500 the best option?\n\nSo my Mum is deciding whether or not to buy a house. She has $70,000 in the bank just sitting there. Recently, she decided that she might put off on buying a house for now. I made the suggestion to put all of the money into the S&P 500 but she thinks it would be too risky.\n\nEven though she won't be investing that money at all, do you believe that my idea was beneficial, risky, or just plain stupid? An explanation would help out with my understanding.\n\nThanks!",
+    "reference": "Here\u2019s a thoughtful breakdown to help you and your mum evaluate the options:\n\n**Your suggestion wasn\u2019t \"stupid\" at all**\u2014it\u2019s a common strategy for long-term growth. But let\u2019s weigh the pros and cons so you both can decide what\u2019s best for her situation:\n\n### *Investing in the S&P 500:*\n- **Pros:**  \n  - Historically, the S&P 500 has averaged ~10% annual returns over decades (though past performance doesn\u2019t guarantee future results).  \n  - It\u2019s instantly diversified (500 top U.S. companies), so you\u2019re not betting on just one stock.  \n  - Great for long-term goals (5+ years), as short-term dips tend to smooth out over time.  \n\n- **Cons:**  \n  - **Volatility:** The value could drop 20% or more in a bad year. If your mum might panic and sell during a downturn, this isn\u2019t ideal.  \n  - **Timing risk:** If she needs the money within a few years (e.g., for a house), a market crash could force her to sell at a loss.  \n\n### *Keeping it in cash:*\n- **Pros:** Safe and liquid if she might buy a house soon.  \n- **Cons:** Inflation erodes its value over time (e.g., $70K today will buy less in 10 years).  \n\n### *Middle-ground options:*  \n1. **Split the difference:** Invest a portion (e.g., $50K) in the S&P 500 and keep $20K in a high-yield savings account (HYSA) for flexibility.  \n2. **Dollar-cost averaging:** Invest gradually (e.g., $5K/month) to reduce timing risk.  \n\n**Key questions for your mum:**  \n- How soon might she want the money? (Stocks favor 5+ years.)  \n- Could she sleep well if the balance dropped temporarily?  \n\n**Next steps:**  \n- If she\u2019s open to learning, resources like *The Simple Path to Wealth* (JL Collins) explain S&P 500 investing in beginner-friendly terms.  \n- A fee-only financial advisor could help tailor the decision to her goals.  \n\nThis isn\u2019t about \"right\" or \"wrong\"\u2014it\u2019s about matching the strategy to her comfort and timeline. You\u2019re being proactive by exploring options, which is already a win!  \n\nWould she be open to a trial run (e.g., investing a small amount to get comfortable)?",
+    "candidate": "This is a genuinely nuanced situation with real tradeoffs to consider. The key factor here is **time horizon** \u2014 since your Mum may want to use this money to buy a house in the relatively near future, investing entirely in stocks like the S&P 500 carries significant risk [1]. The SEC guidance specifically notes that \"investing solely in cash investments may be appropriate for short-term financial goals,\" which a house down payment clearly qualifies as [1]. Putting all $70,000 into stocks means she could face a major market downturn right before she needs the money, potentially losing a significant portion of her down payment.\n\nOn the other hand, leaving the money entirely in cash carries its own risk \u2014 **inflation risk** \u2014 which can erode the purchasing power of her savings over time [3]. Some financial experts actually consider asset allocation the **most important investment decision** someone can make, even more important than which specific investments are chosen [2]. There is no single asset allocation model that fits every goal, and the right approach depends heavily on her personal timeline and risk tolerance [2]. A balanced middle path \u2014 such as keeping most of the money in safer instruments while investing a smaller portion \u2014 might be worth exploring with a qualified financial advisor, as the passages provided aren't sufficient to recommend a specific strategy for her situation.",
+    "retrieved": [
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.25500643253326416
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2602648138999939
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.26522213220596313
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.27473485469818115
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2757641077041626
+      }
+    ],
+    "latency_sec": 7.21,
+    "embed_cosine": 0.9164467453956604,
+    "judge": {
+      "factuality": 5,
+      "completeness": 3,
+      "advice_quality": 4,
+      "rationale": "Factually sound and well-framed around time horizon and inflation risk, but misses concrete middle-ground options (HYSA, dollar-cost averaging, split strategy) and actionable next steps that the reference covers.",
+      "mean": 4.0
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "inv-r-010",
+    "dataset": "reddit_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Preferred Investing Platform: Wealthfront, Ally, or M1?\n\nMy primary goal is a creating an investment account. I've signed up for Wealthfront, Ally, and M1 because I've heard good things. They also have managed portfolios (robo-advisers).\n\nI've searched for a comparison between the three but was unable to find what I'm looking for. Does anyone have experience with these three platforms? I'm really interested in learning the tradeoffs and your experience on the platforms.\n\nI'm unsure if I'll use the robo-advisers due to cost, plus I have some experience with investing, and I don't mind actively managing. But, if anyone speaks highly of the managed portfolios, I'd love to hear your thoughts.\n\nTLDR: Creating an investment account, and I'd like to know your experience with Wealthfront, Ally, and/or M1. Thanks!",
+    "reference": "Here\u2019s a clear comparison of Wealthfront, Ally, and M1 to help you decide based on your goals and preferences:\n\n### **Key Comparisons:**\n| Feature               | **Wealthfront**                          | **Ally Invest**                     | **M1 Finance**                     |\n|-----------------------|------------------------------------------|--------------------------------------|-------------------------------------|\n| **Robo-Advisor Fees** | 0.25% AUM                                | 0% (self-directed), 0.30% (managed) | 0% (basic), $10/month (M1 Plus)    |\n| **Best For**          | Hands-off, tax optimization              | Low-cost hybrid (self/managed)       | Customization + automation          |\n| **Min. Deposit**      | $500                                     | $0                                   | $100 ($500 for retirement)          |\n| **Tax Features**      | Advanced tax-loss harvesting             | Basic tax tools                      | Limited (unless M1 Plus)            |\n| **Active Management** | Limited (robo-only)                      | Yes (self-directed trading)          | Yes (\"Pies\" system for customization) |\n| **User Experience**   | Simple, set-and-forget                   | Clean interface, good customer support | Flexible but steeper learning curve |\n\n### **Tradeoffs to Consider:**\n1. **Cost vs. Convenience:**  \n   - Wealthfront\u2019s 0.25% fee buys automation and tax efficiency, but you pay for features you might not need.  \n   - Ally offers free self-directed investing, while M1\u2019s free tier is robust (paid tier unlocks margin/other perks).  \n\n2. **Control vs. Automation:**  \n   - If you enjoy hands-on management, **M1\u2019s \"Pies\"** let you design your portfolio (great for DIYers).  \n   - **Ally** strikes a balance with both robo and self-directed options.  \n   - **Wealthfront** is fully automated\u2014ideal if you\u2019d rather not tweak allocations.  \n\n3. **Tax Efficiency:**  \n   Wealthfront excels here with automatic tax-loss harvesting, which could offset the fee if you\u2019re in a higher tax bracket. Ally and M1 offer fewer automated tax tools.  \n\n### **Robo-Advisor vs. Active Management:**  \nSince you have investing experience and cost concerns, you might prefer:  \n- **M1 or Ally\u2019s self-directed options** to avoid fees while keeping flexibility.  \n- **Wealthfront\u2019s robo** only if you value \"set it and forget it\" enough to justify the cost.  \n\n### **Next Steps:**  \n1. **Test the platforms**: All three offer demo modes or low minimums\u2014try their interfaces to see which feels intuitive.  \n2. **Start small**: Fund one account initially (e.g., M1 for active management or Wealthfront for automation) and expand later.  \n\nLet me know if you\u2019d like deeper details on any feature! Happy to help refine your choice.  \n\n*(Note: Fees/features accurate as of 2023; always check for updates.)*",
+    "candidate": "I appreciate your question, but I have to be transparent: the provided passages don't contain any specific information about Wealthfront, Ally, or M1, so I can't make a reliable platform comparison without risking fabricating details that could mislead your financial decisions.\n\nWhat the passages *can* offer is some relevant framing for your decision. First, be cautious about platform-specific allocation tools or questionnaires, as their suggestions \"may be biased towards financial products or services sold by companies or individuals maintaining the websites\" [2]. Second, regarding robo-advisers and cost, it's worth noting that managed or algorithm-driven approaches can involve \"complicated mathematical calculations\" and typically carry \"higher expenses than traditional index funds,\" so you should \"always be sure you understand the actual cost of any fund before investing\" [5]. Third, since you mention having investing experience and comfort with active management, the passages note that \"determining your asset allocation is the most important decision that you'll make with respect to your investments \u2014 even more important than the individual investments you buy,\" so focusing on your overall allocation strategy may matter more than which platform you choose [1].\n\nFor a reliable platform comparison of Wealthfront, Ally, and M1, I'd recommend checking resources like **NerdWallet**, **Investopedia**, or the **SEC's Investor.gov** directly, as those sources would give you verified, up-to-date information [4].",
+    "retrieved": [
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.23348844051361084
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.24987322092056274
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2610105276107788
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.26364898681640625
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.26865720748901367
+      }
+    ],
+    "latency_sec": 6.63,
+    "embed_cosine": 0.9008173942565918,
+    "judge": {
+      "factuality": 2,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate refuses to compare the platforms citing lack of source data, providing almost none of the useful comparison the reference answer delivers, though its general cautions about costs and asset allocation are valid if vague.",
+      "mean": 1.6666666666666667
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "inv-r-011",
+    "dataset": "reddit_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "Received 50k from international pension plan... what to do? Help!\n\nI received money from an international pension plan. My overseas employer does not report 1099 or w2s to the IRS, therefore, I am considered self employed (consultant). The company is generous, however,  and provided a pension plan.  \n\nHere is where I\u2019m stuck, I recently took on a higher paying consulting position within the same company, so they can no longer contribute to this pension plan. They gave me two options 1. continue contributing a % of my salary to the plan or 2. withdraw the money. I choose to withdraw and they basically deposited 55k to my bank account \ud83d\ude05 and now I literally have no clue what to do with this money. It\u2019s the first time I have ever had this much money!\n\nI already have a Roth IRA and started talking to a financial planner to help manage the money. The fees they charged are standard  1% of assets + fees for trading etc. For some reason I am so hesitant to hand this money over. I know is not a lot but it is for me.\n\nI\u2019m not sure as self employed if I should invest the money in a brokerage account with betterment or Charles Schwab intelligent portfolio, go with the personal advisor or open a solo 401k etc. I\u2019m also trying to be mindful the tax implications.\n\nWhat would you do in my shoes ?",
+    "reference": "**Congratulations on your pension payout!** It\u2019s completely normal to feel both excited and a little overwhelmed\u2014this is a big opportunity, and it\u2019s great that you\u2019re thinking carefully about how to handle it. Here\u2019s how I\u2019d approach your situation step by step:\n\n### 1. **Address Tax Implications First**  \nSince this was an international pension withdrawal and your employer doesn\u2019t report to the IRS, the $55k will likely be taxed as ordinary income (similar to self-employment earnings). To avoid surprises:  \n- **Set aside 25\u201330% for taxes** (unless you\u2019ve already accounted for this).  \n- **Consult a tax professional** familiar with international income. They can clarify reporting requirements and potential deductions (e.g., if any foreign tax credits apply).  \n\n### 2. **Explore Self-Employed Retirement Options**  \nAs a consultant, you have great tax-advantaged choices to grow this money long-term:  \n- **Solo 401(k):** Lets you contribute *both* as employer (up to ~20% of income) and employee ($23k in 2024). Great if you want to maximize savings and reduce taxable income now.  \n- **SEP IRA:** Simpler but lower contribution limits (~20% of income).  \n- **Brokerage account:** Flexible for shorter-term goals, but no tax benefits.  \n\nSince you already have a Roth IRA, a Solo 401(k) could complement it well. You could roll part of the $55k into it (if allowed\u2014check with your plan provider).  \n\n### 3. **Decide on Management: Advisor vs. DIY**  \nYour hesitation about the 1% fee is valid\u2014that\u2019s $550/year for your $55k. Alternatives:  \n- **Robo-advisor (Betterment/Schwab):** Low-cost (0.25% or less), diversified portfolios. Good middle ground if you want hands-off investing.  \n- **Self-managed brokerage:** Invest in low-cost index funds (e.g., VTI/VXUS for stocks, BND for bonds). Requires more research but saves fees.  \n- **Keep the advisor** if you value personalized guidance\u2014just ask them to justify their value (e.g., tax-loss harvesting, comprehensive planning).  \n\n### 4. **Next Steps**  \n- **Short term:** Park the money in a high-yield savings account (earning ~4\u20135%) while you research options.  \n- **Mid term:** Meet with a tax pro, then decide between a Solo 401(k)/SEP IRA (for retirement) or a brokerage account (for flexibility).  \n- **Long term:** Automate investments once you pick a path. Even small, consistent contributions add up!  \n\n**Remember:** There\u2019s no single \u201cright\u201d answer. What matters is choosing a plan that aligns with your comfort level and goals. You\u2019re already ahead by asking these questions\u2014take it one step at a time.  \n\nWould you like help comparing Solo 401(k) providers or robo-advisors in more detail?",
+    "candidate": "This is a genuinely complex situation with several important dimensions to consider. First, on the tax side, since you're classified as self-employed, the $55k you received likely constitutes taxable income \u2014 and as a self-employed individual, you should be aware that virtual currency or other compensation received for services is measured at fair market value and subject to self-employment tax [3]. Additionally, if this pension originated from a foreign source, you are required to report that income on your U.S. tax return regardless of whether you received a Form 1099, since U.S. citizens must report all foreign-source investment or income on their returns [2]. This makes consulting a **tax professional** a critical first step before making any investment decisions, as the tax treatment of a foreign pension withdrawal can be quite nuanced.\n\nOn the investment side, your hesitation about handing money to a financial planner is understandable \u2014 1% of assets plus trading fees can meaningfully erode returns over time, and it's worth comparing that against lower-cost options. Index funds, for example, offer transparency through quarterly portfolio disclosures and are generally lower cost, and you should always ask what fees and expenses you'll pay for buying, owning, and selling any fund [5]. A Solo 401(k) could be worth exploring given your self-employment status, as it allows potentially significant tax-advantaged contributions [3]. Ultimately, getting clear on your tax liability first, then choosing low-cost investment vehicles aligned with your goals, would be a prudent path forward.",
+    "retrieved": [
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2570357322692871
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2707023620605469
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.27217352390289307
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2723960876464844
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.27289944887161255
+      }
+    ],
+    "latency_sec": 8.55,
+    "embed_cosine": 0.9088987112045288,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "Covers tax and investment basics accurately but lacks the reference's practical structure (set aside 25-30%, park in HYSA, compare robo-advisors vs DIY) and has an odd tangential mention of virtual currency that doesn't apply here.",
+      "mean": 3.3333333333333335
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "inv-r-012",
+    "dataset": "reddit_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "Fidelity Roth IRA opened. Where should I invest the money?\n\nI opened and Roth IRA with Fidelity and initiated a transfer of $6k. Once it gets in there, what fund/index should I invest it in?\n\nI\u2019m 33, earn 75k pre-tax and have limited debt. Just my car and Student Loans. My wife and I save about $2k/month when all bills are paid. We have 401ks that total about $100k. \n\nOur primary retirement plan is Real Estate. We are far away from our goal with only 2 multi-unit properties but those alone pay for both mortgages and nearly cover the mortgage of our primary residence. \n\nIn the spirit of diversification, I want to invest this $6k and all other contributions smartly. What fund do you think would be best for me?",
+    "reference": "Here\u2019s a straightforward and actionable plan for your Roth IRA investment, tailored to your goals and situation:\n\n**You\u2019re off to a great start!** With your real estate focus and $100k in 401(k)s, adding a diversified Roth IRA is a smart move for long-term growth. Since you\u2019re 33 and already have real estate for income generation, I\u2019d recommend keeping this IRA simple and growth-oriented. Here are two excellent options:\n\n### **Option 1: The \"Set-and-Forget\" Approach**  \n- **Fidelity Freedom\u00ae Index 2060 Fund (FDKLX)**  \n  - A target-date fund that automatically adjusts from stocks to bonds as you near retirement.  \n  - Holds U.S./international stocks and bonds in one low-cost package (expense ratio: 0.12%).  \n  - Perfect if you prefer hands-off investing.  \n\n### **Option 2: The DIY Diversified Portfolio**  \nIf you\u2019d like more control, split your $6k across:  \n- **FZROX (Fidelity ZERO Total Market Index Fund, 60%)**: U.S. stocks.  \n- **FTIHX (Fidelity Total International Index Fund, 30%)**: Global stocks.  \n- **FXNAX (Fidelity U.S. Bond Index Fund, 10%)**: Stability.  \n*(Adjust percentages slightly if you\u2019re more/less risk-tolerant.)*  \n\n### **Why This Works for You**  \n- **Diversification**: Balances your real estate investments with broad market exposure.  \n- **Tax-Free Growth**: Roth IRA gains won\u2019t be taxed in retirement\u2014ideal for aggressive growth funds.  \n- **Low Cost**: All funds above have expense ratios \u22640.12%.  \n\n### **Next Steps**  \n1. Pick one option (or a mix) when your $6k lands in the account.  \n2. Set up automatic contributions to keep building\u2014you\u2019re in a great position to max this annually.  \n\nLet me know if you\u2019d like help fine-tuning the allocations!",
+    "candidate": "As a 33-year-old with a long time horizon, real estate holdings, and existing 401(k)s, diversification across asset categories is an important consideration for your Roth IRA [1]. Since you already have significant real estate exposure, you may want to focus your Roth IRA on stock and bond funds to balance your overall portfolio [5]. Many investors in your situation consider broad-market index funds, and before choosing one you should carefully evaluate its fees and expenses, specific risks, how its index is constructed, and how it fits your overall investment goals [3]. Adding more investments can increase fees and expenses, which will lower your investment returns, so cost efficiency matters when selecting funds [2]. A single broad-market index fund (such as a total stock market or S&P 500 fund) can provide wide diversification within equities, though you may also want to consider adding some bond exposure as you approach retirement [2]. Some financial experts believe that determining your overall asset allocation is actually the most important decision you'll make \u2014 even more important than the specific investments you select [4]. Since there is no single asset allocation model that is right for every financial goal, this is a very personal decision [4]. Given the complexity of your situation \u2014 balancing real estate, 401(k)s, and a Roth IRA \u2014 consulting a credentialed financial professional who has been thoroughly vetted may be worthwhile [1].",
+    "retrieved": [
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2518307566642761
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2541924715042114
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.2597917318344116
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.25979769229888916
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2599206566810608
+      }
+    ],
+    "latency_sec": 7.73,
+    "embed_cosine": 0.851679265499115,
+    "judge": {
+      "factuality": 3,
+      "completeness": 2,
+      "advice_quality": 2,
+      "rationale": "The candidate gives generic, hedged guidance without naming specific Fidelity funds or concrete allocations, making it far less actionable than the reference, though the general principles stated are not incorrect.",
+      "mean": 2.3333333333333335
+    },
+    "n_citations": 5,
+    "citation_coverage": 1.0
+  }
+]

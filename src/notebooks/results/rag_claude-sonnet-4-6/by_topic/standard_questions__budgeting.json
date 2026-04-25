@@ -1,0 +1,308 @@
+[
+  {
+    "id": "bud-001",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the 50/30/20 budgeting rule?",
+    "reference": "The 50/30/20 rule suggests allocating your after-tax income as follows: 50% to needs (housing, groceries, utilities, insurance, minimum debt payments), 30% to wants (dining out, entertainment, hobbies, subscriptions), and 20% to savings and extra debt repayment (emergency fund, retirement contributions, paying down debt beyond minimums).",
+    "candidate": "The provided passages do not contain information about the 50/30/20 budgeting rule. The passages focus specifically on strategies for building an emergency fund, such as saving windfalls like tax refunds [1], tracking cash flow timing [2], automating savings through recurring transfers [5], and splitting paychecks via direct deposit [4]. I cannot explain the 50/30/20 rule accurately using only these sources, and I would rather acknowledge that gap than risk providing fabricated or inaccurate information.\n\nIf you're interested in budgeting strategies, I can speak to what the passages do cover \u2014 for instance, adjusting bill due dates to better align with your income schedule [2], or setting up automatic transfers to build savings consistently over time [5]. For a reliable explanation of the 50/30/20 rule, I'd recommend visiting the CFPB's website directly, as they offer a wide range of personal finance guidance beyond what is included in these excerpts.",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3329176902770996
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3351020812988281
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.33853816986083984
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.35013246536254883
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.35027897357940674
+      }
+    ],
+    "latency_sec": 5.1,
+    "embed_cosine": 0.8085977435112,
+    "judge": {
+      "factuality": 3,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate refuses to answer a well-known financial concept it clearly knows about, citing missing source passages, resulting in near-zero completeness despite technically avoiding misinformation.",
+      "mean": 2.0
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "bud-002",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "How many months of expenses should an emergency fund cover?",
+    "reference": "B",
+    "candidate": "D\n\nThe provided passages do not specify a particular number of months that an emergency fund should cover. They only state that \"the amount you need to have in an emergency savings fund depends on your situation\" [1], without offering a general months-based guideline. Therefore, I cannot confirm the commonly cited \"3-6 months\" figure from these passages alone.",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.20615124702453613
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.20709818601608276
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2344803810119629
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2423906922340393
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2608182430267334
+      }
+    ],
+    "latency_sec": 2.34,
+    "mc_correct": false,
+    "mc_picked": "D",
+    "n_citations": 1,
+    "citation_coverage": 0.2
+  },
+  {
+    "id": "bud-003",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between a need and a want in the context of budgeting?",
+    "reference": "A need is an essential expense required for basic living and obligations: housing, utilities, groceries, transportation to work, insurance, and minimum debt payments. A want is a non-essential expense that improves quality of life but isn't required for survival or fulfilling obligations: dining out, streaming services, vacations, upgrades beyond basic needs. The distinction can be subjective at the margins (e.g., is a gym membership a need or want?).",
+    "candidate": "The provided passages focus specifically on emergency funds and do not directly address the distinction between \"needs\" and \"wants\" in the context of budgeting. I cannot fabricate an answer to this question based on the available context, as doing so would risk providing inaccurate or unsupported information.\n\nWhat the passages **do** touch on related to spending is the importance of tracking when money comes in and goes out [5], and recognizing opportunities to adjust your spending and savings habits [5]. They also mention working with creditors to adjust bill due dates or moving extra money into savings during higher-income weeks [5]. However, this falls short of a thorough explanation of needs versus wants.\n\nTo get a reliable answer on distinguishing needs from wants in budgeting, I'd recommend consulting a dedicated budgeting resource, such as the CFPB's broader budgeting guides, which go beyond the scope of the emergency fund passages provided here.",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.35565489530563354
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3561427593231201
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.35614752769470215
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3867305517196655
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.39327937364578247
+      }
+    ],
+    "latency_sec": 4.89,
+    "embed_cosine": 0.8087911605834961,
+    "judge": {
+      "factuality": 1,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate refused to answer a basic, well-known personal finance concept, providing no substantive content on needs vs. wants despite this being general financial knowledge requiring no specific source documents.",
+      "mean": 1.3333333333333333
+    },
+    "n_citations": 1,
+    "citation_coverage": 0.2
+  },
+  {
+    "id": "bud-004",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "Should you prioritize paying off high-interest debt or building an emergency fund first?",
+    "reference": "Most financial advisors recommend a balanced approach: first build a small starter emergency fund ($1,000-$2,000) to avoid going further into debt for unexpected expenses, then aggressively pay down high-interest debt (especially credit cards above 15-20% APR), then build the full 3-6 month emergency fund. The mathematical answer favors debt payoff (guaranteed 'return' equal to the interest rate), but having zero emergency savings creates risk of more debt.",
+    "candidate": "This is an important financial tradeoff, and the provided passages don't directly address the question of whether to prioritize high-interest debt repayment versus building an emergency fund first. However, the passages do offer some relevant context worth considering. Having an emergency fund helps you avoid turning to credit cards or loans when unexpected expenses arise, which can cause \"one-time emergency expense may grow significantly larger than your original bill because of interest and fees\" [3]. This suggests that having *some* emergency savings acts as a buffer that prevents you from accumulating *additional* high-interest debt during a financial shock [3]. The CFPB also notes that even putting aside **a small amount** can help you recover quicker and stay on track toward larger goals, implying that starting small is better than nothing [1]. Because the passages don't explicitly weigh in on the debt-versus-savings prioritization debate, I cannot give you a fully sourced recommendation \u2014 a financial advisor or a more comprehensive resource would be better suited to address that specific tradeoff. What the passages do make clear is that an emergency fund should be kept **safe and accessible** so you can use it when genuinely needed, and then rebuild it afterward [2] [4].",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.23631811141967773
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.24824047088623047
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2504464387893677
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.25988954305648804
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2662571668624878
+      }
+    ],
+    "latency_sec": 7.41,
+    "embed_cosine": 0.8655851483345032,
+    "judge": {
+      "factuality": 3,
+      "completeness": 2,
+      "advice_quality": 2,
+      "rationale": "The candidate avoids giving a clear recommendation due to sourcing constraints, missing the key balanced approach (starter fund \u2192 debt payoff \u2192 full fund) and the mathematical rationale, though it correctly notes the circular debt-risk argument.",
+      "mean": 2.3333333333333335
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "bud-005",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "What is the debt avalanche method vs. the debt snowball method?",
+    "reference": "The debt avalanche method prioritizes paying off debts with the highest interest rate first (while making minimum payments on others), minimizing total interest paid. The debt snowball method prioritizes paying off the smallest balance first to build psychological momentum through quick wins. Mathematically, the avalanche method saves more money, but research suggests the snowball method can be more effective behaviorally because the early wins increase motivation to continue.",
+    "candidate": "The provided passages do not contain information about the debt avalanche method or the debt snowball method. These are debt repayment strategies, and the passages focus exclusively on building an emergency fund \u2014 covering topics like why emergency funds are important [4], strategies for saving consistently [2], and how to automate savings [5].\n\nI would not want to fabricate definitions of these methods without a reliable source to cite. To get accurate information on the debt avalanche versus debt snowball approaches, I'd recommend consulting resources from the CFPB (consumerfinance.gov) or other reputable personal finance sources, which provide detailed, vetted explanations of debt repayment strategies.",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.38807016611099243
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3941161632537842
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3954477906227112
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3970104455947876
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.40293991565704346
+      }
+    ],
+    "latency_sec": 3.91,
+    "embed_cosine": 0.8649413585662842,
+    "judge": {
+      "factuality": 1,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate refused to answer despite both methods being well-established financial concepts, providing no substantive information about either method.",
+      "mean": 1.3333333333333333
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "bud-006",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What percentage of your gross income is generally recommended as a maximum for housing costs (rent or mortgage)?",
+    "reference": "B",
+    "candidate": "The provided passages do not contain information about recommended percentages of gross income for housing costs. I cannot answer this question based solely on the provided context.",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3942517638206482
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.4099540710449219
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.4159333109855652
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.42392224073410034
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.4259824752807617
+      }
+    ],
+    "latency_sec": 1.12,
+    "mc_correct": false,
+    "mc_picked": null,
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  }
+]

@@ -1,0 +1,384 @@
+[
+  {
+    "id": "ret-001",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What is the maximum 401(k) employee elective deferral limit for 2025 for someone under age 50?",
+    "reference": "D",
+    "candidate": "D",
+    "retrieved": [
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.1572650671005249
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.1734270453453064
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.17535561323165894
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.1790452003479004
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.17943018674850464
+      }
+    ],
+    "latency_sec": 0.68,
+    "mc_correct": true,
+    "mc_picked": "D",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ret-002",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Can a 72-year-old with earned income contribute to a Roth IRA?",
+    "reference": "C",
+    "candidate": "C",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2087119221687317
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2132892608642578
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.23021036386489868
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2327638864517212
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.23757946491241455
+      }
+    ],
+    "latency_sec": 0.7,
+    "mc_correct": true,
+    "mc_picked": "C",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ret-003",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "Is there an income limit for contributing to a traditional IRA?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.13908684253692627
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.14381670951843262
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.1528846025466919
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.15485000610351562
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.15626251697540283
+      }
+    ],
+    "latency_sec": 0.93,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ret-004",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "At what age must you begin taking Required Minimum Distributions (RMDs) from a traditional 401(k) if you were born in 1960?",
+    "reference": "D",
+    "candidate": "C",
+    "retrieved": [
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.19354665279388428
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.19762027263641357
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.20875906944274902
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.21324598789215088
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.21576929092407227
+      }
+    ],
+    "latency_sec": 0.8,
+    "mc_correct": false,
+    "mc_picked": "C",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ret-005",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between a traditional IRA and a Roth IRA in terms of tax treatment?",
+    "reference": "Traditional IRA contributions may be tax-deductible (reducing taxable income in the contribution year), but withdrawals in retirement are taxed as ordinary income. Roth IRA contributions are made with after-tax dollars (no upfront deduction), but qualified withdrawals in retirement are completely tax-free.",
+    "candidate": "## Traditional IRA vs. Roth IRA: Tax Treatment\n\nThe two account types differ primarily in *when* your money is taxed. With a traditional IRA, you may be able to deduct some or all of your contributions depending on your circumstances, providing a potential upfront tax benefit [1][3]. Additionally, amounts in a traditional IRA, including earnings and gains, are generally not taxed until they are distributed [3]. This means you defer taxes now but will owe them when you withdraw funds in retirement.\n\nA Roth IRA works in the opposite direction. Contributions to a Roth IRA are made with after-tax dollars, but qualified distributions \u2014 including earnings \u2014 are tax-free [2]. You also do not include in your gross income distributions from a Roth IRA that you roll over tax-free into another Roth IRA [2]. An additional advantage of the Roth IRA is flexibility: if you choose, you can leave amounts in your Roth IRA as long as you live, with no required minimum distributions during your lifetime [5].\n\n**Key tradeoff:** The traditional IRA offers a potential tax deduction today but taxes you on withdrawal, while the Roth IRA offers no upfront deduction but provides tax-free growth and distributions \u2014 making the better choice dependent on your current vs. expected future tax rate.",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.17295300960540771
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.18875956535339355
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.18908250331878662
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.19116640090942383
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.19248831272125244
+      }
+    ],
+    "latency_sec": 6.27,
+    "embed_cosine": 0.900332510471344,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key points from the reference, adds relevant details like RMDs and tax-free growth, and clearly frames the core tradeoff around current vs. future tax rates.",
+      "mean": 5.0
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "ret-006",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Can you contribute to both a traditional IRA and a Roth IRA in the same year?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.1751810908317566
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.1784963607788086
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.19164645671844482
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.1929473876953125
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.19442999362945557
+      }
+    ],
+    "latency_sec": 0.78,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ret-007",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What is the Social Security full retirement age for someone born in 1965?",
+    "reference": "D",
+    "candidate": "D",
+    "retrieved": [
+      {
+        "title": "Retirement Benefits (SSA Pub 05-10035)",
+        "publisher": "SSA",
+        "source_slug": "ssa_retirement_benefits",
+        "distance": 0.1798509955406189
+      },
+      {
+        "title": "Retirement Benefits (SSA Pub 05-10035)",
+        "publisher": "SSA",
+        "source_slug": "ssa_retirement_benefits",
+        "distance": 0.23527657985687256
+      },
+      {
+        "title": "Retirement Benefits (SSA Pub 05-10035)",
+        "publisher": "SSA",
+        "source_slug": "ssa_retirement_benefits",
+        "distance": 0.24073576927185059
+      },
+      {
+        "title": "Retirement Benefits (SSA Pub 05-10035)",
+        "publisher": "SSA",
+        "source_slug": "ssa_retirement_benefits",
+        "distance": 0.27141374349594116
+      },
+      {
+        "title": "Retirement Benefits (SSA Pub 05-10035)",
+        "publisher": "SSA",
+        "source_slug": "ssa_retirement_benefits",
+        "distance": 0.272163987159729
+      }
+    ],
+    "latency_sec": 0.64,
+    "mc_correct": true,
+    "mc_picked": "D",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ret-008",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "If you withdraw money from a traditional IRA before age 59\u00bd, what is the early withdrawal penalty?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.16445863246917725
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.17256319522857666
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.19251418113708496
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.21558654308319092
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.2158951759338379
+      }
+    ],
+    "latency_sec": 1.3,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  }
+]

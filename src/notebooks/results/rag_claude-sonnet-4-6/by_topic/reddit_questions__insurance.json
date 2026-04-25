@@ -1,0 +1,638 @@
+[
+  {
+    "id": "ins-r-001",
+    "dataset": "reddit_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Had a panic attack while driving. Had the EMTs called on me. EMTs did nothing but check my pulse and blood pressure. Got hit with a bill for $461 that my insurance is rejecting. How do I go about contesting this?\n\nTitle pretty much explains it all.\n\nI was driving through Pennsylvania and had a panic attack. I pulled over and walked into a hotel lobby to try to settle down. The guy behind the counter saw me and called emergency services. The EMTs showed up for a half hour and all they did was check my blood pressure and pulse.\n\nA month later I get hit with a bill for $461 which my insurance is rejecting. The bill is itemized as follows:\n\nControl gloves - qty 2 - unit price $1 - amount $2\nBls treatment no transport - qty 1 - unit price $459 - amount $459.\n\nI didn't even call the EMTs, they didn't do anything other than check my pulse and bp, and they want almost $500 for this. That is ridiculous in my book. Are the EMTs making $500 an hour?\n\nI'd just like to know they best way to go about handling this bill as I'm very tempted just not to pay it. I don't want the hit to my credit though.",
+    "reference": "I\u2019m really sorry you\u2019re dealing with this\u2014it\u2019s incredibly frustrating to get hit with a hefty bill for services you didn\u2019t request and that seemed unnecessary. You\u2019re right to question it, and there are steps you can take to contest this without risking your credit. Here\u2019s how to proceed:\n\n### **1. Dispute the Bill Directly with the EMS Provider**  \n- **Call their billing department** (number should be on the bill) and ask for a detailed explanation of the $459 \"BLS treatment\" charge. Since all they did was check your vitals, this fee seems excessive. Politely but firmly say something like:  \n  *\u201cI\u2019m calling to dispute this charge. I didn\u2019t request EMS services, and the care provided was minimal. Can you explain why this was coded as BLS treatment, and is there any flexibility to reduce or waive this fee?\u201d*  \n- **Request a written adjustment** if they agree to lower the bill. Follow up with an email summarizing the conversation for documentation.\n\n### **2. Appeal the Insurance Denial**  \n- Check your insurance\u2019s explanation of benefits (EOB) to see why they rejected the claim. Sometimes bills are denied due to coding errors (e.g., the EMS provider might have used an incorrect code for the service).  \n- Call your insurer and ask:  \n  *\u201cCan you clarify why this claim was denied? If the EMS provider submits a corrected claim or appeals, could this be covered?\u201d*  \n\n### **3. Escalate if Necessary**  \n- If the EMS provider won\u2019t budge, consider filing a complaint with:  \n  - The **Pennsylvania Department of Health** (oversees EMS billing practices).  \n  - Your state\u2019s **Attorney General\u2019s office** (for unfair billing).  \n- Mention that the service was unsolicited and the charge is disproportionate to the care given.\n\n### **4. Protect Your Credit**  \n- Don\u2019t ignore the bill\u2014it could go to collections and hurt your credit. If you\u2019re stuck paying, negotiate a payment plan or a one-time reduced settlement (e.g., *\u201cI can pay $200 to close this today\u2014will you accept that?\u201d*).  \n- If it\u2019s already in collections, send a **debt validation letter** (sample templates are available online) to ensure they can legally collect.\n\n### **Key Takeaways**  \n1. Push back on the EMS provider first\u2014many fees are negotiable.  \n2. Challenge the insurance denial if there\u2019s a coding error.  \n3. Document everything (calls, emails, etc.).  \n4. As a last resort, consider a formal complaint or negotiated settlement.  \n\nThis situation is unfair, but you\u2019re not powerless. Many people successfully dispute charges like these. Let me know if you\u2019d like help drafting a dispute letter or need more specifics on any step!",
+    "candidate": "I want to be upfront with you: the provided passages don't contain specific guidance on contesting emergency medical service bills or disputing insurance rejections for ambulance-related services, so I cannot give you a fully sourced answer on the procedural steps. However, I can note that federal \"surprise billing\" protections may be relevant here, as laws like Public Law 116-260 specifically extended protections to **emergency medical services and air ambulance services** [2][5]. These anti-surprise billing laws are designed to protect individuals from unexpected charges for emergency services, which could potentially apply to your situation [5]. Because your insurance is rejecting the claim, your first step should be to contact your insurer in writing and ask them to explain the specific reason for the denial, referencing applicable surprise billing protections. You should also file a complaint with your state's insurance commissioner in Pennsylvania, as state-level surprise billing laws may provide additional protections [5]. Do **not** simply ignore the bill, as that risks collections and credit damage. I'd strongly recommend consulting a patient billing advocate or your state's insurance department directly, as the passages I have are insufficient to fully address the procedural specifics of your dispute.",
+    "retrieved": [
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.3376798629760742
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3521367311477661
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3642846345901489
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3679932951927185
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3695024251937866
+      }
+    ],
+    "latency_sec": 6.97,
+    "embed_cosine": 0.8979427814483643,
+    "judge": {
+      "factuality": 3,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "The candidate correctly warns against ignoring the bill and mentions relevant surprise billing protections and state insurance commissioner, but misses key steps like disputing directly with EMS billing, appealing the insurance denial, negotiating a reduced payment, and filing complaints with PA Dep",
+      "mean": 2.6666666666666665
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "ins-r-002",
+    "dataset": "reddit_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Health insurance online account shows blood test billed 3 times (taken once) - I have no co-pay etc so not out of pocket - do I need to point out the error to my insurance provider?\n\nNew to the USA so still learning to navigate the system.  Any help welcomed. \n\nThe bills all refer to the same test on the same day - each for c$750.  As it was preventative my insurer covered the full amount - its obviously vastly inflated my 'billed amount' number.  \n\nThe insurer has no email or chat way to contact and I really can't be bothered to hang out on the phone. \n\nSo, does it matter to me?  Should I make the effort to tell them?  Will they just work it out themselves?\n\nThanks for the help.\n\n(as an aside - the bill was $750 but the provider paid only $37 because of negotiated rates which seems crazy - the high level claims summary doesn't summarize that - I guess I should be happy it doesn't mean higher premiums).",
+    "reference": "Here\u2019s a clear, empathetic response tailored to your situation:\n\n---\n\n**It\u2019s totally understandable to feel frustrated by this\u2014billing errors like this are common in the U.S. healthcare system, and it\u2019s great you caught it!** Let\u2019s break this down so you can decide what to do next:\n\n### 1. **The $750 vs. $37 discrepancy is normal (and not a problem)**  \n- The inflated \"$750\" is the provider\u2019s \"sticker price,\" but insurers negotiate much lower rates (in your case, $37). This is standard practice, though it\u2019s confusing that your summary doesn\u2019t show the adjusted amount.  \n- Since this was preventive care, you\u2019re correct that you shouldn\u2019t owe anything. No action is needed here.  \n\n### 2. **The triple billing is likely an error\u2014here\u2019s why it\u2019s worth reporting**  \n- While it\u2019s not costing you money now, errors like this can cause hiccups later (e.g., incorrect records or future claim delays). Insurers rarely catch these mistakes on their own.  \n- **Your options to report it:**  \n  - **Quick call script**: *\"Hi, I see [Test Name] billed 3 times for [date]. Can you correct this?\"* (Often takes <5 minutes.)  \n  - **Check for online tools**: Some insurers let you dispute claims via their website (look for a \"claims\" or \"messages\" section).  \n\n### 3. **Good news: No urgency or financial risk**  \nThis isn\u2019t urgent since it\u2019s not affecting your wallet, but fixing it now could save you time later if the error pops up again.  \n\n---\n\n**A note on U.S. healthcare quirks:** The system is notoriously convoluted\u2014even Americans struggle with it! You\u2019re already ahead by reviewing your statements. If you\u2019d rather not call, you could wait and see if the insurer corrects it (but they might not). Either way, you\u2019re in good shape.  \n\nLet me know if you\u2019d help finding your insurer\u2019s contact details or online portal!",
+    "candidate": "Great question, and welcome to the US healthcare system \u2014 it can indeed be confusing! Based on the passages provided, I can speak to some of the underlying mechanics, but I want to be upfront that the passages don't directly address billing error resolution procedures, so I'll supplement with general practical reasoning.\n\nSince the test was preventive, your insurer covered it fully before your deductible, which aligns with how Marketplace plans work [1]. Because you had no cost-sharing (no copay, coinsurance, or deductible applied), you're correct that you personally owe nothing out-of-pocket right now [3]. However, **it may still matter to you indirectly** \u2014 if the triple-billing inflates your \"billed amount\" history, it could theoretically affect how your spending tracks toward your out-of-pocket maximum over the plan year [3], though in this case it was covered 100% so the direct impact may be minimal.\n\nMore importantly, insurance fraud and billing errors \u2014 even unintentional ones \u2014 cost the system money, and insurers typically have their own claims review processes that may catch duplicate claims automatically. That said, if your out-of-pocket maximum is never at risk of being reached, the practical urgency for *you personally* is low. The tradeoff is real: the effort of a phone call versus a marginal personal benefit. You're under no documented obligation to report it, but if the duplicate billings could ever affect your cost-sharing calculations, flagging it protects you [3].",
+    "retrieved": [
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.27069270610809326
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3009657859802246
+      },
+      {
+        "title": "Out-of-pocket maximum / limit",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_out_of_pocket_max",
+        "distance": 0.30447977781295776
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.30853497982025146
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.30880165100097656
+      }
+    ],
+    "latency_sec": 8.99,
+    "embed_cosine": 0.9031190872192383,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate raises a dubious point about out-of-pocket maximum impact (preventive claims covered 100% don't count toward OOP max in the same way), misses the practical suggestion to check for online dispute tools, and is overly hedged without giving clear actionable guidance, though it correctly n",
+      "mean": 3.0
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "ins-r-003",
+    "dataset": "reddit_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Panda Express Got Hacked\n\nMy Panda Express account got hacked 3-4 weeks ago with someone ordering $70 of food in Orlando, I live in Virginia. I called Panda Express customer service, they didn\u2019t claim to \u201cstart an investigation\u201d but they supposed put my account on hold while not taking any other actions. \n\nToday my Panda Express account got hacked again and used by someone in Orlando while my account was SUPPOSED TO BE FROZEN. I called customer service immediately to ask them to delete my account and my payment information since I couldn\u2019t do it on my end. 15 minutes later, I got 2 more emails confirming more orders from people in Orlando. \n\nIs there anything I can do about this other than keep on refuting the charges? Seems like this is happening to tons of other people as well.",
+    "reference": "I\u2019m so sorry this is happening to you\u2014it\u2019s incredibly frustrating and unfair to deal with repeated breaches, especially when Panda Express\u2019s safeguards clearly aren\u2019t working. You\u2019re right to be upset, and it\u2019s alarming that this seems to be a widespread issue. Here\u2019s how you can take control of the situation and protect yourself moving forward:  \n\n### **Immediate Steps to Stop the Bleeding**  \n1. **Contact Your Bank/Credit Card Company**  \n   - Report the fraudulent charges *immediately* as unauthorized transactions. Ask them to:  \n     - Reverse the charges (you may need to dispute them formally).  \n     - Issue you a new card number if your payment method was saved in the Panda Express account.  \n\n2. **Escalate with Panda Express**  \n   - Demand written confirmation that your account and payment details are fully deleted (not just \"frozen\"). If phone reps aren\u2019t helping:  \n     - Email their support team (create a paper trail).  \n     - Threaten to file complaints with the FTC and BBB if they don\u2019t act\u2014this often gets companies\u2019 attention.  \n\n3. **Secure Your Email Account**  \n   - Change your email password *now* (hackers often target email first to reset other accounts). Enable **two-factor authentication (2FA)** if you haven\u2019t already.  \n\n### **Long-Term Protections**  \n- **Never Save Payment Info on Food Apps**  \n  - Use a virtual credit card (like Privacy.com) or prepaid card for online orders to limit exposure.  \n- **Check for Broader Leaks**  \n  - Use [Have I Been Pwned](https://haveibeenpwned.com/) to see if your email was compromised in other breaches. If so, update those passwords too.  \n- **Leave a Public Review**  \n  - Post about your experience on Panda Express\u2019s social media or Trustpilot\u2014companies often respond faster to public pressure.  \n\n### **If Panda Express Still Won\u2019t Help**  \n- File formal complaints with:  \n  - The [FTC](https://reportfraud.ftc.gov/) (for fraud).  \n  - Your state\u2019s attorney general (for consumer protection).  \n- If losses exceed $100+, consider small claims court\u2014their negligence (failing to freeze your account) may make them liable.  \n\nThis isn\u2019t your fault, and you shouldn\u2019t have to fight this hard to protect your money. I hope these steps help you shut this down for good. Let me know if you hit any roadblocks!",
+    "candidate": "I'm sorry this is happening to you \u2014 it's a frustrating and stressful situation. Unfortunately, the provided passages are specifically about IRS tax-favored health plans (HSAs, FSAs, etc.) and do not contain information relevant to resolving a restaurant account hack or disputing unauthorized charges with a private company like Panda Express. I can offer some general guidance based on common financial security knowledge, but I cannot cite the provided passages to support it since they are not applicable here.\n\nThat said, here are some practical steps to consider: Contact your bank or credit card company immediately to dispute the unauthorized charges and request a new card number, as this stops the fraudulent payment method at the source. You should also file a complaint with the FTC at ReportFraud.ftc.gov and consider filing a local police report to create a paper trail. Change your passwords on any other accounts that share the same email or password as your Panda Express account, since credential stuffing (reusing stolen login info) is a common attack method. If your Social Security Number or broader identity feels at risk, the IRS does recommend obtaining an Identity Protection PIN to prevent fraudulent tax filings in your name [2][5], though that addresses tax fraud specifically, not restaurant account fraud. Finally, consider placing a fraud alert or credit freeze with the major credit bureaus as a precautionary measure.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.40843653678894043
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.4335237741470337
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.4340035319328308
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.44062817096710205
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.4442984461784363
+      }
+    ],
+    "latency_sec": 7.86,
+    "embed_cosine": 0.8640400767326355,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate gives reasonable core advice (dispute charges, FTC complaint, change passwords) but is incomplete compared to the reference (misses virtual cards, Have I Been Pwned, public reviews, escalating with Panda Express, small claims), and the irrelevant IRS/IP-PIN detour adds noise and slight",
+      "mean": 3.0
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "ins-r-004",
+    "dataset": "reddit_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Is it worth fixing damage to my car if it is just cosmetic?\n\nI have some damage to the front bumper of my car; a hole from where I ran into a truck and the trailer hitch punched through the bumper cover. \n\nI don't plan on selling the car anytime soon. Actually planning on paying it off in the next month or so. It's only 5 years old and has >25k miles on it. \n\nMy dad says I shouldn't fix it because I won't get that money back when I eventually sell it. I'm 50/50 on whether to fix it or not. The 2 estimates I've gotten were $800(from a place 2.5 hours away from where I'm currently living, since this happened when I was there for school) and $1200 to fix it. \n\nWorth it, or don't bother?\n\nTIA.",
+    "reference": "Here\u2019s a thoughtful way to approach your decision:\n\nFirst off, it\u2019s totally understandable to be torn here\u2014this is a common dilemma with cosmetic damage. Your dad\u2019s point about not recouping the cost when selling is valid, but since you\u2019re planning to keep the car for a while, the decision really comes down to your personal preferences and budget. Let\u2019s break it down:\n\n**Financial perspective:**  \n- The repairs ($800\u2013$1,200) are unlikely to increase the car\u2019s resale value later, especially since the damage is purely cosmetic.  \n- If you\u2019re about to pay off the car, that $1,200 could instead go toward savings, investments, or other financial goals.  \n\n**Non-financial factors:**  \n- Would fixing the bumper make you *happier* driving the car every day? If the damage bugs you whenever you see it, that\u2019s worth considering.  \n- On the flip side, cars naturally pick up wear and tear over time\u2014this might feel less noticeable as the years go by.  \n\n**A simple way to decide:**  \n- If the cost feels manageable *and* the repair would significantly improve your daily experience, go for it.  \n- If you\u2019re comfortable ignoring the damage and would rather keep the cash, skipping the repair is perfectly reasonable.  \n\nSince you\u2019re not selling soon, there\u2019s no rush. You could even wait a few months to see if the annoyance fades. Either choice makes sense\u2014it\u2019s about what works best for you!  \n\n(And congrats on almost paying off your car\u2014that\u2019s a big win!)",
+    "candidate": "I appreciate you sharing your situation, but I have to be straightforward with you: the provided passages cover topics like HSA tax plans [1][4], health insurance marketplace categories [2][3], and health insurance deductibles [5] \u2014 none of them are relevant to your question about car cosmetic repair decisions. I cannot responsibly use these sources to answer your question, and I won't fabricate financial guidance that isn't supported by the provided material.\n\nThat said, I can acknowledge that your question involves real tradeoffs worth thinking through carefully: the cost of repair vs. resale value impact, whether the damage could worsen over time (e.g., structural or weather exposure issues), and your personal satisfaction with the vehicle's appearance. For personalized advice on this, I'd recommend consulting an automotive forum, a trusted mechanic, or a personal finance resource that specifically addresses vehicle maintenance decisions. Your dad's point about recouping repair costs at resale is a commonly cited consideration, but whether it applies to your specific situation depends on factors I'm not equipped to evaluate with the materials provided here.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.41561412811279297
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.4172983169555664
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.4198666214942932
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.42042088508605957
+      },
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.42581063508987427
+      }
+    ],
+    "latency_sec": 7.2,
+    "embed_cosine": 0.9016229510307312,
+    "judge": {
+      "factuality": 2,
+      "completeness": 2,
+      "advice_quality": 2,
+      "rationale": "The candidate refuses to answer substantively due to irrelevant source documents, missing the key tradeoffs (resale value, personal satisfaction, budget) that the reference covers well, though it vaguely acknowledges some considerations exist.",
+      "mean": 2.0
+    },
+    "n_citations": 5,
+    "citation_coverage": 1.0
+  },
+  {
+    "id": "ins-r-005",
+    "dataset": "reddit_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "Should I quit my bad job to stay home with the kids?\n\nFactory life. Slow season=20-30 hours a week. Busy season =50-60 hours a week. The benefits are decent but the hours and pay are so unreliable. Years ago I worked for a non-profit that assisted adults with disabilities and I really enjoyed the work there. They have a new program where you \"adopt\" someone with special needs and they pretty much live with you in your home. The pay is excellent and I would be able to stay home with my kids (6 and 4) who are both in school. We would save a TON of money on daycare and after school programs just by me taking this new role. My wife is on board and I'm just waiting on my licensure and paper work then a few tweeks to the home. (New windows and a fireproof door). We have plenty of space in our home and an extra bedroom in the basement. My biggest hangups is there is no insurance, retirement etc. I can sign up through my wife's work but it's an outrageous cost. Can I get benefits from the state seeing how this new position is a tax-free position?? (As in the state offers a stipend for this work and is not taxed). Theres just a lot going through my head along with all these other things and any advice is sure welcome!",
+    "reference": "This sounds like a really meaningful opportunity\u2014not only would you get to do work you truly enjoy, but you\u2019d also save significantly on childcare and have more time with your kids. It\u2019s completely understandable to feel excited about the change but also anxious about the logistics, especially around benefits. Let\u2019s break this down so you can weigh the pros and cons clearly.\n\n### **Key Financial Considerations:**  \n1. **Healthcare Options:**  \n   - Since the new role doesn\u2019t offer insurance, you\u2019ll need to explore:  \n     - **Your wife\u2019s plan:** Even if the cost seems high, compare it to other options. Sometimes employer plans are still cheaper than the marketplace.  \n     - **ACA (Obamacare) Marketplace:** Depending on your household income (including the stipend), you might qualify for subsidies to lower premiums. Since the stipend is tax-free, it *might* not count toward your income for ACA eligibility\u2014this is worth verifying with a Marketplace advisor or your state\u2019s Medicaid office.  \n     - **Medicaid:** Some states expand Medicaid for low-income households. The tax-free stipend could work in your favor here, but rules vary by state.  \n\n2. **Retirement Savings:**  \n   - Without an employer-sponsored plan, you\u2019ll need to open your own (e.g., a **Solo 401(k)** or **IRA**). The good news? You can deduct contributions, lowering your taxable income.  \n\n3. **Tax Implications:**  \n   - Even though the stipend is tax-free, you\u2019ll likely owe **self-employment taxes** (Social Security/Medicare) unless the program classifies you differently.  \n   - You *may* be able to deduct home modifications (like the fireproof door) as business expenses\u2014a tax pro can help clarify.  \n\n### **Next Steps:**  \n- **Contact your state Medicaid/SNAP office** to ask if the stipend affects eligibility for benefits.  \n- **Compare insurance costs** (wife\u2019s plan vs. ACA plans) using Healthcare.gov.  \n- **Talk to a tax advisor** about deductions and self-employment taxes.  \n\n### **Final Thought:**  \nThe financial upside (higher pay, no daycare costs) is compelling, and your passion for the work shines through. The biggest hurdle is bridging the benefits gap, but with some research, you might find solutions. Would it help to estimate a side-by-side comparison of your current vs. potential take-home pay, including insurance costs?  \n\nYou\u2019re clearly thinking this through carefully\u2014that\u2019s exactly what will set you up for success!",
+    "candidate": "This is a meaningful life decision that goes well beyond what the provided financial passages can fully address, so I want to be transparent about the limits of my guidance here. The passages I have focus on HSAs, HDHPs, and Archer MSAs \u2014 not on state stipend programs, caregiver benefit eligibility, or the specifics of your non-profit's program structure. I cannot confirm from these passages whether your state would offer health or retirement benefits alongside a tax-free stipend, so you should contact your state's Medicaid or disability services agency directly for that answer. Regarding health coverage, if you enroll through your wife's employer plan, you may want to explore whether that plan qualifies as a High-Deductible Health Plan (HDHP), which could allow you to open a Health Savings Account (HSA) to offset some of the premium burden [4]. Keep in mind that the variable hours and income unpredictability you described at the factory are real financial risks, and trading them for a stipend-based role carries its own risks \u2014 particularly around benefits gaps. The lack of employer-sponsored retirement contributions is a significant tradeoff that these passages do not address, and you should consult a financial planner for that piece. The childcare savings and personal fulfillment factors you mentioned are genuine and valid considerations, but this decision warrants professional advice from both a financial advisor and potentially an employment attorney familiar with your state's caregiver program rules.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3173474073410034
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.31808847188949585
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3259187936782837
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.33356183767318726
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.34238654375076294
+      }
+    ],
+    "latency_sec": 8.55,
+    "embed_cosine": 0.8766582012176514,
+    "judge": {
+      "factuality": 3,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "The candidate is overly deferential and hedge-heavy, misses key points like ACA/Medicaid eligibility, self-employment taxes, and retirement account options, but the HSA/HDHP mention and referrals to state agencies are somewhat useful.",
+      "mean": 2.6666666666666665
+    },
+    "n_citations": 1,
+    "citation_coverage": 0.2
+  },
+  {
+    "id": "ins-r-006",
+    "dataset": "reddit_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Package sent to wrong home. Signed and taken by stranger.\n\n \n\nI have been expecting my new office chair, a Herman Miller Embody ($1600.00 after taxes). this morning, I received a text from fed-ex letting my know that my package was delivered and signed for by none-other than myself. The package never arrived at my home, and I never signed for a damn thing.\n\nI paid for the package with my checking account, but the charge is still pending. Should I reach out to my bank and put the charge on hold until I receive the package in acceptable condition? I'm not really sure how to protect myself here.\n\nThanks!\n\n# Edit 1: I've already reached out to FedEx and started a trace on the package.\n\n# Edit 2: The person who received my package found me on facebook and has volunteered to bring it to me. I proposed that I come get it myself, but they said it probably wouldn't fit in my car (camry). All is well.",
+    "reference": "**Response:**  \n\n*\"Phew! What a rollercoaster\u2014I\u2019m so glad this had a happy ending! It\u2019s incredibly frustrating when a delivery goes sideways (especially for something as pricey as your Embody chair), but how kind of the recipient to track you down and make things right.  \n\nSince the charge is still pending, it\u2019ll likely drop off automatically once the transaction clears\u2014just keep an eye on your account for the next day or two to confirm. If the charge does post *after* you\u2019ve received the chair in good condition, you can reach out to the retailer or your bank to clarify. But for now, no need to intervene!  \n\nYou handled this perfectly by starting the FedEx trace\u2014pro tip for future high-value deliveries: some retailers let you require a signature or add delivery instructions to avoid mix-ups.  \n\nNow, go enjoy that well-deserved upgrade to your workspace! \ud83c\udf89\"*  \n\n---  \n**Why this works:**  \n- **Validates emotions** upfront (frustration \u2192 relief).  \n- **Reassures** about the pending charge without overcomplicating.  \n- **Praises proactive steps** (FedEx trace) and adds a light future tip.  \n- **Closes warmly**, matching the user\u2019s relieved tone.",
+    "candidate": "I appreciate you sharing your situation, but I have to be straightforward with you: the provided passages are exclusively from IRS Publication 969, which covers Health Savings Accounts (HSAs) and other tax-favored health plans. None of the passages contain information relevant to your package delivery dispute, consumer protection steps, or banking holds. Therefore, I cannot responsibly cite any of them to answer your question without fabricating connections that don't exist.\n\nWhat I can say generally \u2014 outside of the provided sources \u2014 is that contacting your bank to dispute or place a hold on a pending charge is often a reasonable protective step in situations like this, and reaching out to FedEx (which you've already done) is the right first move. It's great news that the situation resolved itself with your neighbor volunteering to return the package! Since the charge is still pending and the package is being returned, you may want to monitor whether the charge clears normally before taking further action with your bank.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.32253122329711914
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3472353219985962
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.35857903957366943
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.37270796298980713
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3740057945251465
+      }
+    ],
+    "latency_sec": 5.76,
+    "embed_cosine": 0.8037813901901245,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate awkwardly explains it lacks source documents (irrelevant meta-commentary) but still provides basically sound advice about monitoring the pending charge and noting the resolved situation, though it misses the helpful future-delivery tips and warm tone of the reference.",
+      "mean": 3.0
+    },
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ins-r-007",
+    "dataset": "reddit_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Be Honest: Is Permanent Life Insurance as a 22-year-old Worth It?\n\nI feel like this may be a common topic in this sub but I would like honest realistic and unfiltered advice.\n\nI am a new 22-year-old college graduate. My current full-time job has me making 80k a year. My parents have a family friend who just started giving me financial advice and he wants me to start a permanent life insurance plan but I want a second opinion on things. \n\nIs this the right move to be making early in my career? Should I focus on other investments? Are there better ways to save?\n\nTo be completely honest, I'm pretty pessimistic about life (the world is probably going to end sometime soon) and I don't plan on having a family or benefactor who would receive the money after my death. Beyond the death benefit are there any other positives to starting a permanent life insurance plan this early?\n\nI don't know what other details I should add but I am open to answering any questions.",
+    "reference": "Here\u2019s my honest, unfiltered take: **Permanent life insurance (PLI) is almost certainly not worth it for you right now**. Let me break down why\u2014and what you *should* focus on instead.  \n\n### **Why PLI Doesn\u2019t Make Sense for You**  \n1. **You don\u2019t need the death benefit**. PLI is designed to provide lifelong coverage and leave money to beneficiaries. Since you don\u2019t have dependents (and don\u2019t plan to), this is like paying for a service you\u2019ll never use.  \n2. **The cash value is a bad investment**. PLI policies build savings over time, but the returns are *terrible* compared to other options (like index funds or even a high-yield savings account). Fees and commissions eat up a lot of the growth.  \n3. **It\u2019s expensive**. Premiums for PLI can be 10\u201320x higher than term life insurance. At 22, that\u2019s money you could be using to build wealth or pay down debt.  \n\n### **What You Should Do Instead**  \n1. **Build a financial safety net**:  \n   - Save 3\u20136 months\u2019 expenses in an emergency fund (high-yield savings account).  \n   - Max out your employer\u2019s 401(k) match\u2014it\u2019s free money.  \n2. **Invest for growth**:  \n   - Open a Roth IRA and contribute regularly. At your age, tax-free compounding is *gold*.  \n   - If you have extra cash, low-cost index funds (like S&P 500 ETFs) are far better than PLI\u2019s cash value.  \n3. **Only consider term life insurance if you *need* coverage**:  \n   - Example: If you co-signed loans with a parent or might have dependents soon, a 20- or 30-year term policy is dirt cheap.  \n\n### **Addressing Your Pessimism**  \nI hear you on the \u201cworld ending\u201d vibe\u2014but even if you\u2019re skeptical about the future, *not* locking yourself into a pricey insurance policy gives you flexibility. If things change (e.g., you do want a family later), you can revisit insurance then. Right now, focus on things with clear upside: growing your savings and avoiding financial anchors like PLI.  \n\n### **Next Steps**  \n- Politely tell the family friend you\u2019re focusing on other priorities (they might get commissions for selling PLI, which is a red flag).  \n- Set up automatic contributions to a Roth IRA and/or 401(k). Even small amounts now will compound massively.  \n\nWant help picking specific funds or accounts? Happy to break it down further. You\u2019re already ahead by questioning this\u2014most people don\u2019t.",
+    "candidate": "I want to be straightforward with you: **the provided passages do not contain information about permanent life insurance**, so I cannot cite sources to support specific claims about it. That said, I can be honest based on general financial knowledge and flag an important concern.\n\nThe fact that a \"family friend\" is pushing permanent life insurance on a 22-year-old with no dependents and no stated need for a death benefit is a significant red flag \u2014 this person likely earns a substantial commission on such a sale. By your own description \u2014 no planned family, no beneficiary \u2014 the core purpose of life insurance (replacing income for dependents) does not apply to your situation. The \"investment component\" of permanent life insurance (whole life, universal life, etc.) typically comes with high fees and lower returns compared to simply investing in a low-cost index fund through a 401(k) or Roth IRA.\n\nAt 22 earning $80k, your highest-leverage moves are likely maximizing tax-advantaged accounts first. The passages do mention Health Savings Accounts as a tax-favored option worth exploring if you have a qualifying high-deductible health plan [2]. **I'd strongly recommend consulting a fee-only fiduciary financial advisor** \u2014 someone who charges you directly and has no commission incentive \u2014 rather than relying on advice from someone selling you a product.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3037816286087036
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.30442070960998535
+      },
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.31593918800354004
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.3190265893936157
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3202444314956665
+      }
+    ],
+    "latency_sec": 8.25,
+    "embed_cosine": 0.8568217158317566,
+    "judge": {
+      "factuality": 3,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "Correctly flags the commission red flag and poor investment returns, but omits key actionable steps (Roth IRA, 401k match, emergency fund) and the odd disclaimer about 'passages not containing information' undermines the response while the HSA reference feels out of place.",
+      "mean": 2.6666666666666665
+    },
+    "n_citations": 1,
+    "citation_coverage": 0.2
+  },
+  {
+    "id": "ins-r-008",
+    "dataset": "reddit_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Is it a good idea to buy an Appliances/Electronics Warranty *OR* save that $50 into an emergency repair bucket\n\nFor fairly new appliances (2-3 years old), is it a better idea to bear the risk and save the $50 into an emergency repair bucket **OR** let a company like American HomeShield bear the risk and pay them $50 to cover for all appliances, water heater, electronics, tv etc?",
+    "reference": "This is a smart question to consider\u2014both options have their pros and cons, and the best choice depends on your personal financial situation and risk tolerance. Let\u2019s break it down to help you decide:  \n\n### **Option 1: Buy the Warranty**  \n- **Pros:**  \n  - Peace of mind: Covers multiple appliances (like your water heater, TV, etc.) for a predictable cost.  \n  - Useful if you\u2019d struggle to pay for a sudden $500+ repair.  \n- **Cons:**  \n  - Warranties often have exclusions, deductibles, or service delays.  \n  - Over time, paying $50/month adds up ($600/year), and you might not need repairs.  \n  - Newer appliances (2-3 years old) are less likely to fail soon.  \n\n### **Option 2: Save the $50/Month**  \n- **Pros:**  \n  - More flexible: The money stays yours and can cover *any* emergency, not just appliances.  \n  - If your appliances don\u2019t break, you keep the savings (and could earn interest in a high-yield account).  \n  - Builds long-term financial resilience.  \n- **Cons:**  \n  - Requires discipline to actually save the money.  \n  - If a major repair hits early, your fund might not be fully built yet.  \n\n### **What to Consider Next:**  \n1. **Your emergency fund:** Do you already have 3\u20136 months of expenses saved? If not, prioritizing savings might be wiser.  \n2. **Appliance reliability:** Check if any items are still under manufacturer warranties or credit card protections.  \n3. **Risk tolerance:** Would a surprise $1,000 repair stress you out financially? If yes, the warranty could be worth it for now.  \n\nFor newer appliances, many people find skipping the warranty and saving the money works well\u2014but there\u2019s no one-size-fits-all answer. Either way, you\u2019re thinking ahead, which is great!  \n\n**Next step:** Glance at your savings balance and appliance warranties (if any), then decide which approach feels more sustainable for you.",
+    "candidate": "The provided passages are about HSAs, health insurance plan categories, and out-of-pocket maximums \u2014 none of them contain information relevant to appliance/electronics warranties or home warranty services like American Home Shield. I cannot responsibly answer this question using only the provided context without fabricating financial claims.\n\nWhat I can tell you generally from widely available personal finance principles (not from these passages) is that this is a classic **risk retention vs. risk transfer** tradeoff, and the answer depends on factors like the reliability of your specific appliances, your ability to absorb a large unexpected repair bill, and the fine print of the warranty contract (e.g., service fees, exclusions, claim limits). If you'd like a well-cited answer, I'd recommend consulting sources like Consumer Reports, the FTC's guidance on extended warranties, or a dedicated personal finance resource \u2014 none of which are represented in the passages provided here.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.37417155504226685
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.37807977199554443
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.37816691398620605
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.3788262605667114
+      },
+      {
+        "title": "Out-of-pocket maximum / limit",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_out_of_pocket_max",
+        "distance": 0.3802903890609741
+      }
+    ],
+    "latency_sec": 5.89,
+    "embed_cosine": 0.8655382990837097,
+    "judge": {
+      "factuality": 3,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "The candidate correctly identifies the risk-retention vs. risk-transfer framing and notes relevant factors (exclusions, service fees, appliance reliability, ability to absorb costs), but largely refuses to engage substantively and misses most of the reference's key points like the $600/year cost acc",
+      "mean": 2.6666666666666665
+    },
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ins-r-009",
+    "dataset": "reddit_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "Any protection from out-of-network anesthesiologist?\n\nI live in a state with a \"surprise billing\" policy, which is great. It, however, doesn't seem to apply to my insurance, which is Cigna. There is supposed to be some little symbol on my card if it applies, and it doesn't have that. \nI had surgery at an in-network facility right before the end of the year, with an in-network surgeon. My bill is enormous, but at least I only have to pay 20% as I met my annual deductible before the surgery. The anesthesiologist that was used, however, is out-of-network. My insurance company ran the bill through and reduced it by like $800 from what was originally billed, but I evidently owe $1,200 on it, since they are out-of-network. If they were in-network I would only be paying $240. I know it's a super common problem, but I've never dealt with it before. \n\nAdditionally, I need to schedule a second surgery. My insurance plan changed drastically at the start of 2021, and I've had to change networks. Is there any way to realistically avoid being stuck with someone who is out-of-network? It seems like anyone I ask tells me \"I don't deal with that side of it\". Who does then? I'm determined not to deal with this issues again, and fortunately my surgery can probably be held off for a few weeks/months if needed. THANK YOU!!",
+    "reference": "I\u2019m so sorry you\u2019re dealing with this\u2014surprise bills are frustratingly common, and it\u2019s understandable to feel overwhelmed. You\u2019re absolutely right to want to avoid this for your next surgery, and there are steps you can take to protect yourself. Here\u2019s what you need to know and do:\n\n### **For Your Current Bill ($1,200 Anesthesiologist Charge):**\n1. **Check Federal Protections**: Even if your state\u2019s surprise billing law doesn\u2019t apply, the federal **No Surprises Act** (effective January 2022) may help. It bans out-of-network charges for certain services (like anesthesiology) at in-network facilities. Call Cigna and ask:  \n   - *\u201cIs my plan self-funded?\u201d* (Self-funded plans sometimes bypass state laws but must follow federal ones.)  \n   - *\u201cDoes the No Surprises Act cover this claim?\u201d* If yes, they should reprocess the bill at in-network rates.  \n\n2. **Appeal the Charge**:  \n   - File an **internal appeal** with Cigna (instructions should be on your EOB or their website).  \n   - If denied, request an **external review** (your state insurance department can help).  \n\n3. **Negotiate**: Call the anesthesiologist\u2019s billing office and ask:  \n   - *\u201cWhat\u2019s the cash price?\u201d* (Often lower than the billed amount.)  \n   - *\u201cCan you accept what my insurer would pay for an in-network provider?\u201d* ($240 in your case).  \n\n### **For Your Upcoming Surgery (Avoiding Out-of-Network Charges):**  \n1. **Verify Everything in Advance**:  \n   - Contact the hospital\u2019s billing department and ask:  \n     *\u201cCan you confirm in writing that the anesthesiologist assigned to my case will be in-network?\u201d*  \n   - Use Cigna\u2019s online provider directory to cross-check the anesthesiology group at your facility.  \n\n2. **Demand In-Network Care**: If they can\u2019t guarantee an in-network provider, say:  \n   *\u201cI require an in-network anesthesiologist. If none are available, I need a gap exception to treat them as in-network.\u201d* (This forces Cigna to cover it at in-network rates.)  \n\n3. **Consider Switching Plans**: If your new network is too restrictive, see if your employer offers a **PPO plan** (more flexibility with providers) or if you\u2019re eligible for an **HSA** to save pre-tax money for medical costs.  \n\n### **Key Reminder**:  \nThis isn\u2019t your fault\u2014hospitals often contract out-of-network providers without warning patients. By advocating now, you\u2019re already ahead of the game. Keep records of all calls and emails (names/dates/times) in case you need to dispute charges later.  \n\nYou\u2019ve got this! Let me know if you\u2019d help drafting appeal letters or scripts for calls\u2014I\u2019m happy to help further.",
+    "candidate": "Based on the passages provided, I can only partially address your situation. Federal law does provide some protection against surprise billing for emergency services and air ambulance services [4], but your situation with an out-of-network anesthesiologist at an planned/scheduled surgery may fall into a different category that the passages don't fully cover. The passages confirm that out-of-network costs are explicitly excluded from the standard out-of-pocket maximum protections [2], which unfortunately helps explain why you're facing that $1,200 bill separately from your in-network costs.\n\nI want to be straightforward: **the passages provided here are insufficient to fully answer your question** about protections specific to Cigna or your state's surprise billing laws, or about practical strategies for ensuring in-network anesthesiologists for your upcoming surgery. For your second surgery, the general advice I can offer based on common knowledge (not these passages) is to contact the surgical facility's patient services or billing department directly \u2014 they are often better positioned than the surgeon's office to identify which anesthesiologists have privileges at that facility and are in-network. You might also call Cigna directly to request a list of in-network anesthesiologists credentialed at your specific facility. I'd strongly recommend consulting your state insurance commissioner's office for guidance on your surprise billing protections, as they can clarify whether and how those rules apply to your specific plan type.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.2909250259399414
+      },
+      {
+        "title": "Out-of-pocket maximum / limit",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_out_of_pocket_max",
+        "distance": 0.2982814311981201
+      },
+      {
+        "title": "Out-of-pocket maximum / limit",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_out_of_pocket_max",
+        "distance": 0.2994711995124817
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3110196590423584
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3205867409706116
+      }
+    ],
+    "latency_sec": 8.09,
+    "embed_cosine": 0.9374480843544006,
+    "judge": {
+      "factuality": 2,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "The candidate misses the critical No Surprises Act federal protection (effective Jan 2022) that directly applies here, incorrectly implies surprise billing protections only cover emergencies/air ambulance, and fails to mention appeals, negotiation, or gap exceptions, though the practical tips it doe",
+      "mean": 2.3333333333333335
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "ins-r-010",
+    "dataset": "reddit_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "Is a Life Insurance policy employer dependent?\n\nMy husband had a uncomfortable parting from a previous big box employer. They had a decently sized life insurance policy as part of his benefits. Does that policy disintegrate at the time of separation, or do we actually retain some of the value into the amount we payed towards it?",
+    "reference": "Here\u2019s a clear and empathetic response to your question about your husband\u2019s employer-provided life insurance:\n\n**Most employer-sponsored life insurance policies end when employment ends**, especially if it was a term life policy (which is the most common type offered by employers). These policies typically don\u2019t have any cash value or retained benefits after separation\u2014they\u2019re designed to provide coverage only while you\u2019re with the company.  \n\nThat said, there *might* be a few options worth exploring:  \n1. **Conversion rights**: Some group policies allow you to convert the employer\u2019s term life coverage into an individual permanent policy (like whole life insurance) within a set timeframe (often 30\u201360 days after leaving). The downside is that premiums will likely be higher.  \n2. **Portability**: Rarely, employers may let you \"port\" the policy by continuing coverage under your own payment.  \n3. **Check for exceptions**: If the policy was a permanent type (uncommon with employers), there *could* be cash value, but this is unlikely.  \n\n**Next steps I\u2019d recommend**:  \n- Review the policy documents or contact the former employer\u2019s HR to confirm:  \n  - Was it a term or permanent policy?  \n  - Were there any conversion/portability options?  \n- If you need ongoing coverage, consider shopping for an individual term life policy now\u2014this avoids a gap in protection.  \n\nI know employment transitions can be stressful, especially when benefits are unclear. The good news is that individual life insurance is often affordable, and locking in a new policy sooner (while your husband is younger and healthy) can be a smart move. Let me know if you\u2019d like help understanding those options!  \n\n*(Tone: Reassuring, practical, and action-oriented\u2014validates their concern while demystifying the process.)*",
+    "candidate": "I appreciate you reaching out, but I have to be straightforward with you: **the provided passages do not contain information about employer-sponsored life insurance policies**. The passages are exclusively about Health Savings Accounts (HSAs), Health Reimbursement Arrangements (HRAs), Flexible Spending Accounts (FSAs), and High-Deductible Health Plans (HDHPs) from IRS Publication 969. I cannot responsibly answer your life insurance question using only these sources without risking fabricating inaccurate information.\n\nWhat I can tell you is that this is genuinely an important question worth getting a proper answer on, and I'd recommend the following steps:\n\n- **Contact the former employer's HR department directly** to ask about portability or conversion options on the policy\n- **Review the Summary Plan Description (SPD)** that was provided when he enrolled in the benefit\n- **Contact the insurance carrier directly**, as group life policies sometimes have a \"conversion right\" allowing you to convert to an individual policy within a set window after separation\n- **Consult COBRA documentation**, as some benefits have continuation options\n\nThe answer can vary significantly depending on whether the policy was **term vs. whole life**, whether it was **employer-paid or contributory**, and the **specific plan terms**. A licensed insurance broker or your state's Department of Insurance can also provide guidance tailored to your situation.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.28480231761932373
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.28553760051727295
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.2872157096862793
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.28784191608428955
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.2959955930709839
+      }
+    ],
+    "latency_sec": 7.48,
+    "embed_cosine": 0.91148442029953,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 4,
+      "rationale": "The candidate oddly refuses to answer citing irrelevant source passages, but still provides mostly correct and actionable guidance on conversion rights, portability, and next steps, though it omits the key upfront answer that employer group life typically ends at separation.",
+      "mean": 3.6666666666666665
+    },
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ins-r-011",
+    "dataset": "reddit_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "Yet another question on health insurance, PPO vs HDHP+HSA\n\nHi /r/personalfinance,\n\nBelow are the two reasonable choices for health insurance being offered to me, I have only ever had PPO plans because the premiums from my previous job were so low for them but now its a pretty big difference.\n\n&#x200B;\n\n|Plan|PPO|HDHP+HSA|\n|:-|:-|:-|\n|Premium|$112/mo|$16/mo|\n|Deductible|$3000|$6350|\n|Out of Pocket Max|$6000|$6350|\n|HSA Match|N/A|$600|\n\nI have a potential medical issue I am getting checked out; assuming the worst, since both out of pocket maximums are almost the same it would make more sense to choose the HDHP plan, right? My original plan was to dump most of the premium differences into the HSA and use that for the medical costs should they occur. I just want to make sure i'm understanding the differences between the two plans clearly and what to expect should my medical issue turn into a medical emergency.",
+    "reference": "Here\u2019s a clear breakdown to help you decide between the PPO and HDHP+HSA, especially with your potential medical issue in mind:\n\n### **Key Financial Comparison**\n- **Premiums**: HDHP saves you **$96/month** ($1,152/year) vs. the PPO.  \n- **Deductibles**: PPO\u2019s is lower ($3,000 vs. $6,350), but the **HSA match** ($600) and premium savings can offset this.  \n- **Out-of-Pocket Max**: Nearly identical ($6,000 vs. $6,350), so worst-case costs are similar.  \n- **HSA Bonus**: Contributions are tax-deductible, grow tax-free, and withdrawals for medical expenses are untaxed.  \n\n### **Scenario Analysis**\n1. **If your medical issue is minor**:  \n   - The HDHP wins easily\u2014you\u2019ll pay less in premiums and can invest the savings into your HSA for future needs.  \n\n2. **If it\u2019s serious (reaching the out-of-pocket max)**:  \n   - Both plans cap your costs around $6,000\u2013$6,350.  \n   - The HDHP still comes out ahead because:  \n     - You\u2019d have **$1,152 in premium savings** + **$600 HSA match** = $1,752 to help cover the higher deductible.  \n     - Any unused HSA funds roll over indefinitely, acting like a retirement health fund.  \n\n### **Your HSA Strategy is Smart**\nDumping the premium difference into the HSA is a great move. For example:  \n- If you contribute the **$96/month savings**, you\u2019d add $1,152/year + the $600 employer match = $1,752/year tax-advantaged savings.  \n\n### **Next Steps**\n1. **Estimate total annual costs** under both plans:  \n   - *PPO*: $1,344 (premiums) + $6,000 (max OOP) = **$7,344**.  \n   - *HDHP*: $192 (premiums) + $6,350 (max OOP) \u2013 $600 (HSA match) = **$5,942**.  \n   Even in a worst-case year, the HDHP is cheaper.  \n\n2. **Confirm your HSA details**:  \n   - Ensure the $600 match is guaranteed and check investment options.  \n   - If you\u2019re in CA or NJ, note that HSAs aren\u2019t state tax-exempt there.  \n\n### **Final Thought**  \nYou\u2019re right that the HDHP+HSA is likely the better choice. The premium savings and HSA benefits outweigh the PPO\u2019s lower deductible, especially since the worst-case costs are similar. If your medical issue escalates, you\u2019re financially protected under either plan\u2014but the HDHP gives you long-term tax advantages.  \n\nWould you like help modeling specific expected costs (e.g., specialist visits, tests)? That could fine-tune the decision further.",
+    "candidate": "Great question, and you're thinking about this the right way. The core insight is correct: since both plans' out-of-pocket maximums are nearly identical (~$6,000 PPO vs. $6,350 HDHP), your worst-case financial exposure is roughly the same either way. The HDHP saves you $96/month in premiums ($1,152/year), and your employer adds $600 in HSA matching funds, giving you a meaningful head start toward that deductible [4]. Money deposited into the HSA is not taxed if used for qualified medical expenses, and it can also earn interest or dividends, making it an efficient vehicle for covering those costs [1]. To contribute to the HSA, you must be enrolled in a qualifying High Deductible Health Plan and not enrolled in Medicare or claimed as a dependent \u2014 which you appear to satisfy [4]. One important tradeoff to acknowledge: the HDHP deductible ($6,350) is more than double the PPO deductible ($3,000), meaning you'll pay more out-of-pocket before insurance kicks in on the HDHP \u2014 so if your medical issue results in moderate (not catastrophic) expenses, the PPO could actually cost less total. However, your strategy of depositing the premium savings into the HSA directly offsets that gap, and importantly, HSA funds roll over year after year, so unused money isn't lost [4]. Overall, your reasoning is sound \u2014 the HDHP+HSA combination is likely the stronger financial choice, especially if you're disciplined about funding the HSA.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.18570291996002197
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.1863870620727539
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.19435632228851318
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.19497376680374146
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.19841599464416504
+      }
+    ],
+    "latency_sec": 8.52,
+    "embed_cosine": 0.9457294940948486,
+    "judge": {
+      "factuality": 5,
+      "completeness": 4,
+      "advice_quality": 5,
+      "rationale": "Accurate financials, correctly flags the moderate-expense scenario where PPO could win, and the HSA eligibility note adds useful nuance, though it lacks the explicit worst-case total cost comparison the reference provides.",
+      "mean": 4.666666666666667
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "ins-r-012",
+    "dataset": "reddit_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "I am being billed for inadequate mental health care NJ\n\nI am being billed almost a thousand dollars for three sessions with a therapist that provided no basic advice, and he made it clear he was just going through the motions and did not care about helping me. I was very discouraged since the start once I got a grasp on his attitude. I cancelled my appointments with him because it was not a good fit. The charges on the bill are listed as \"Other Treatment\" and the bill is coming from a well known healthcare network. I do not have the finances to afford this and I do not believe I owe them for inadequate health services. Is there anything I can do? My insurance also has not covered more than 5% of the cost. Thank you",
+    "reference": "I\u2019m so sorry you\u2019re going through this\u2014it\u2019s incredibly frustrating to pay for care that didn\u2019t meet your needs, especially when finances are tight. You deserve quality support, and it\u2019s completely reasonable to question these charges. Here\u2019s what you can do to address this:  \n\n### **1. Request an Itemized Bill**  \n- Contact the healthcare network\u2019s billing department and ask for a **detailed breakdown** of the \"$1,000 for Other Treatment.\" This helps you:  \n  - Verify the charges (e.g., session length, services billed).  \n  - Spot errors or vague billing (e.g., if the therapist misreported the type of care).  \n\n*Example script:*  \n*\"I\u2019m calling to request an itemized bill for my recent therapy sessions. I need a line-by-line explanation of the charges labeled \u2018Other Treatment.\u2019 Can you send this to me in writing?\"*  \n\n### **2. Appeal the Insurance Coverage**  \n- Call your insurance company and:  \n  - Ask **why only 5% was covered** (e.g., was the provider out-of-network? Was pre-authorization missing?).  \n  - File a **formal appeal** if the denial seems unfair. Stress that the care was inadequate (some insurers may reduce your responsibility if services weren\u2019t properly delivered).  \n\n### **3. Negotiate with the Provider**  \n- Explain your situation to the billing department:  \n  - **Financial hardship**: Ask if they offer reduced fees or payment plans. Many networks have policies for this.  \n  - **Service dissatisfaction**: Calmly share that the therapist\u2019s approach didn\u2019t meet standards (some providers may waive fees to avoid complaints).  \n\n*Tip:* Put requests in writing and keep records.  \n\n### **4. Escalate if Needed**  \n- If the provider refuses to work with you:  \n  - File a complaint with NJ\u2019s [Division of Consumer Affairs](https://www.njconsumeraffairs.gov/) or the [health department](https://www.nj.gov/health/).  \n  - Consult a nonprofit like [NJ Citizen Action](https://njcitizenaction.org/) for advocacy support.  \n\n### **Remember:**  \n- You have rights under the [Fair Debt Collection Practices Act](https://www.ftc.gov/legal-library/browse/statutes/fair-debt-collection-practices-act) if the bill goes to collections.  \n- Don\u2019t pay until you\u2019ve exhausted these steps. Persistence often pays off.  \n\nThis is a lot to navigate, but take it one step at a time. Start with the itemized bill\u2014that\u2019s your strongest tool right now. You\u2019re not powerless here, and I hope you find a resolution soon. Let me know if you\u2019d help drafting a complaint letter or insurance appeal.",
+    "candidate": "I'm sorry you're going through this stressful situation \u2014 unfortunately, the provided passages don't contain specific information about billing disputes, mental health care standards, or patient rights in New Jersey, so I want to be careful not to fabricate guidance. What I can say from the passages is that your out-of-pocket costs depend heavily on your plan category, and under a Bronze plan you could be responsible for roughly 40% of costs, while Silver, Gold, or Platinum plans carry lower cost-sharing [1]. Notably, the out-of-pocket limit does **not** protect you from costs for services your plan doesn't fully cover or from provider charges above the allowed amount [2], which may explain why your insurance covered so little. The vague billing code \"Other Treatment\" is worth questioning, as specific billing codes affect how your insurer processes and covers claims \u2014 you have the right to request an itemized bill and ask your insurer to review whether the claim was coded and processed correctly.\n\nBeyond what the passages cover, I'd strongly recommend taking these additional steps (general guidance, not from the passages): **(1)** File a formal appeal with your insurance company disputing the low coverage amount; **(2)** Contact the **New Jersey Department of Banking and Insurance** (NJDOBI) to file a complaint about inadequate coverage; **(3)** Reach out to the **NJ Office of the Ombudsman** or a patient advocate regarding the quality-of-care billing dispute. You may also be able to negotiate the bill directly with the provider's billing department.",
+    "retrieved": [
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.33588969707489014
+      },
+      {
+        "title": "Out-of-pocket maximum / limit",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_out_of_pocket_max",
+        "distance": 0.34039151668548584
+      },
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.34107542037963867
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.3501799702644348
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.35217511653900146
+      }
+    ],
+    "latency_sec": 9.11,
+    "embed_cosine": 0.8935418725013733,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate gives some useful steps (itemized bill, insurance appeal, NJDOBI complaint) but opens with an odd disclaimer about 'passages' suggesting it was constrained by a retrieval context, includes loosely relevant Bronze/Silver plan cost-sharing stats that aren't clearly applicable, and misses",
+      "mean": 3.0
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  }
+]

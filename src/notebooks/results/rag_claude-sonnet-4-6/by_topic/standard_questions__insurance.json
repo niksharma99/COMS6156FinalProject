@@ -1,0 +1,296 @@
+[
+  {
+    "id": "ins-001",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between an HMO and a PPO health insurance plan?",
+    "reference": "An HMO (Health Maintenance Organization) requires you to choose a primary care physician, get referrals for specialists, and generally limits coverage to in-network providers only. A PPO (Preferred Provider Organization) allows you to see any provider without referrals, including out-of-network providers, but typically has higher premiums and some out-of-network cost-sharing.",
+    "candidate": "The provided passages do not contain information about HMOs (Health Maintenance Organizations) or PPOs (Preferred Provider Organizations). The context is focused on HSAs, HDHPs, FSAs, HRAs, and related tax-favored health plan topics from IRS Publication 969 and HealthCare.gov [1][2][3][4][5].\n\nBecause I cannot find relevant information about HMOs and PPOs in the supplied passages, I am unable to give you a properly sourced answer on this topic, and I won't fabricate details that aren't supported by the provided material. To get accurate information about the differences between HMO and PPO plans, I would recommend visiting **HealthCare.gov** or consulting your insurance provider directly, as they would have authoritative explanations of how each plan type structures its networks, referral requirements, and cost-sharing arrangements.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.27354979515075684
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.28731095790863037
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.3052322268486023
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3147139549255371
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.31724321842193604
+      }
+    ],
+    "latency_sec": 4.28,
+    "embed_cosine": 0.8632001876831055,
+    "judge": {
+      "factuality": 3,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate refuses to answer despite the question being a standard personal-finance topic it should handle, providing no substantive content about HMOs or PPOs, though it correctly redirects to authoritative sources.",
+      "mean": 2.0
+    },
+    "n_citations": 5,
+    "citation_coverage": 1.0
+  },
+  {
+    "id": "ins-002",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "What is the maximum out-of-pocket limit for an individual marketplace health plan in 2025?",
+    "reference": "C",
+    "candidate": "C",
+    "retrieved": [
+      {
+        "title": "Out-of-pocket maximum / limit",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_out_of_pocket_max",
+        "distance": 0.11618196964263916
+      },
+      {
+        "title": "Out-of-pocket maximum / limit",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_out_of_pocket_max",
+        "distance": 0.23394775390625
+      },
+      {
+        "title": "Out-of-pocket maximum / limit",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_out_of_pocket_max",
+        "distance": 0.2583184242248535
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.26192665100097656
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.2653115391731262
+      }
+    ],
+    "latency_sec": 0.86,
+    "mc_correct": true,
+    "mc_picked": "C",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ins-003",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What does term life insurance cover that whole life insurance does not, and vice versa?",
+    "reference": "Term life insurance provides coverage for a specific period (e.g., 10, 20, or 30 years) and pays a death benefit only if the insured dies during that term. It has no cash value component and is significantly cheaper. Whole life insurance provides permanent coverage for the insured's entire life, includes a cash value component that grows over time, and has much higher premiums. Term does not build cash value; whole life does not expire.",
+    "candidate": "The provided passages do not contain information about term life insurance or whole life insurance. The passages are focused on health insurance concepts such as deductibles, Health Savings Accounts (HSAs), and High Deductible Health Plans (HDHPs). I cannot answer your question about the differences between term and whole life insurance based on these sources alone, as fabricating that information would be irresponsible and potentially misleading.\n\nIf you'd like accurate information on life insurance, I'd recommend consulting resources from the Insurance Information Institute (III), your state's department of insurance, or a licensed insurance professional. They can explain the tradeoffs between term and whole life insurance, including coverage duration, cash value accumulation, and premium costs.",
+    "retrieved": [
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.2954169511795044
+      },
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.3106878995895386
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3133942484855652
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.31589585542678833
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.31617796421051025
+      }
+    ],
+    "latency_sec": 3.36,
+    "embed_cosine": 0.8693240880966187,
+    "judge": {
+      "factuality": 1,
+      "completeness": 1,
+      "advice_quality": 2,
+      "rationale": "The candidate refused to answer despite the question being straightforward, citing irrelevant passage constraints, providing no actual information about term vs. whole life insurance.",
+      "mean": 1.3333333333333333
+    },
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ins-004",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Does auto insurance follow the car or the driver?",
+    "reference": "C",
+    "candidate": "The provided passages are entirely about health savings accounts (HSAs), high-deductible health plans (HDHPs), and health insurance deductibles. They contain no information about auto insurance.\n\nI cannot answer this question based on the provided context.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3673701882362366
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3762704133987427
+      },
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.38376158475875854
+      },
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.38802123069763184
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.38848674297332764
+      }
+    ],
+    "latency_sec": 1.73,
+    "mc_correct": false,
+    "mc_picked": null,
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ins-005",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What is the elimination period in a disability insurance policy?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.2990792989730835
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3142293691635132
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3216046690940857
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3269929885864258
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3303515911102295
+      }
+    ],
+    "latency_sec": 0.69,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ins-006",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Is flood damage covered by a standard homeowner's insurance policy?",
+    "reference": "B",
+    "candidate": "The provided passages do not contain any information about homeowner's insurance or flood damage coverage. They focus exclusively on HSAs, MSAs, HDHPs, and related tax-favored health plans.\n\nI cannot answer this question based on the provided context alone, and I will not fabricate an answer.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3438389301300049
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3544905185699463
+      },
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.36034560203552246
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3708474636077881
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3765110373497009
+      }
+    ],
+    "latency_sec": 1.85,
+    "mc_correct": false,
+    "mc_picked": null,
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  }
+]
