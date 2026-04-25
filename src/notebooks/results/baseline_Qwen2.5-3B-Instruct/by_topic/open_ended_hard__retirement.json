@@ -1,0 +1,135 @@
+[
+  {
+    "id": "ret-001",
+    "dataset": "open_ended_hard",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "If an employer offers a 401(k) match, why is contributing enough to get the full match usually considered a very high-priority financial move, even if someone also has low-interest debt?",
+    "reference": "Because the employer match is effectively an immediate, guaranteed return on the contribution that is often much larger than the interest savings from paying off low-interest debt early. For example, a 50% or 100% match creates an instant gain that is difficult to replicate elsewhere. In many cases, contributing enough to capture the full match should come before aggressively repaying low-interest debt, although high-interest debt may still take priority after that threshold.",
+    "candidate": "Contributing enough to get the full 401(k) match is often considered a high-priority financial move because it represents free money from your employer, which significantly boosts your retirement savings without any additional cost to you. Even if someone also has low-interest debt, prioritizing the 401(k) match can be beneficial due to the compounding effect of tax-deferred growth over time. While paying off debt might seem more urgent, the interest on debt can be substantial, potentially eroding the value of future contributions to retirement accounts. Therefore, while managing debt is crucial, maximizing the 401(k) match can provide a strong foundation for long-term financial security by ensuring that your retirement savings grow as efficiently as possible.",
+    "latency_sec": 6.58,
+    "embed_cosine": 0.8721312880516052,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate correctly identifies the 'free money' aspect but misses the key point about the immediate guaranteed return rate (e.g., 50-100% instant gain) being the primary reason it beats low-interest debt payoff, and oddly suggests debt interest 'erodes future contributions' which is confused rea",
+      "mean": 3.0
+    }
+  },
+  {
+    "id": "ret-002",
+    "dataset": "open_ended_hard",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can delaying retirement saving by 10 years have a larger impact than many people expect?",
+    "reference": "Delaying retirement saving reduces the years available for compound growth, which can significantly lower the ending balance even if later contributions are larger. Early dollars have more time to grow and generate returns on prior returns. Because compounding is nonlinear over time, lost early years can be difficult to fully make up later.",
+    "candidate": "Delaying retirement savings for 10 years can have a larger impact on your financial security due to the power of compound interest and the time value of money. Over 10 years, your investments will grow at a faster rate because you'll be compounding returns over a longer period. Additionally, this delay means you'll be missing out on potential employer contributions through payroll deductions, which can significantly increase your retirement savings. However, it's important to consider that delaying retirement also means you'll need to work longer, potentially leading to higher healthcare costs and reduced flexibility in your later years. Therefore, while the initial impact might seem significant, the long-term benefits of delayed savings must be balanced against these potential drawbacks.",
+    "latency_sec": 6.22,
+    "embed_cosine": 0.8573503494262695,
+    "judge": {
+      "factuality": 2,
+      "completeness": 2,
+      "advice_quality": 2,
+      "rationale": "The candidate confusingly states 'your investments will grow at a faster rate because you'll be compounding returns over a longer period' when describing a delay (the opposite is true), misframes the core concept, and introduces tangential points about healthcare costs while missing the key explanat",
+      "mean": 2.0
+    }
+  },
+  {
+    "id": "ret-003",
+    "dataset": "open_ended_hard",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "What is the main difference between choosing traditional retirement contributions and Roth retirement contributions?",
+    "reference": "Traditional contributions generally provide a tax benefit upfront because contributions may reduce taxable income now, while withdrawals in retirement are typically taxed. Roth contributions are made with after-tax money, so there is no upfront deduction, but qualified withdrawals in retirement are generally tax-free. The tradeoff depends on expected future tax rates, current income, and planning preferences.",
+    "candidate": "The main difference between traditional and Roth retirement contributions lies in how they affect your taxes now versus later. With traditional contributions, you pay taxes on the money you contribute now, reducing your taxable income for that year. This can lower your tax bill immediately but means you'll pay taxes on the withdrawals during retirement when your tax bracket might be higher. On the other hand, Roth contributions are made with after-tax dollars, meaning you don't get a tax deduction now, but qualified withdrawals in retirement are tax-free. This strategy allows you to grow your savings tax-free and withdraw it without owing taxes, which can be advantageous if you expect to be in a lower tax bracket during retirement. Both options have their tradeoffs, so the choice depends on your current tax situation and future tax expectations.",
+    "latency_sec": 6.78,
+    "embed_cosine": 0.9253441691398621,
+    "judge": {
+      "factuality": 2,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The candidate reverses the key fact about traditional contributions\u2014stating you 'pay taxes now' and reduce taxable income, which is contradictory and backwards; traditional contributions reduce taxable income now (pre-tax), while Roth uses after-tax dollars, and the bracket comparison is also invert",
+      "mean": 2.6666666666666665
+    }
+  },
+  {
+    "id": "ret-004",
+    "dataset": "open_ended_hard",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why might someone choose not to invest their retirement account too conservatively when retirement is still decades away?",
+    "reference": "If retirement is decades away, being too conservative may limit long-term growth and make it harder for savings to outpace inflation and meet future spending needs. While conservative investments may reduce short-term volatility, a very long time horizon often allows more capacity to tolerate market fluctuations. Asset allocation should reflect both risk tolerance and time horizon, not just fear of temporary losses.",
+    "candidate": "Someone might choose not to invest their retirement account too conservatively even if retirement is still decades away because overly conservative investments often offer lower returns relative to the risk taken. This can lead to insufficient growth over time, potentially resulting in a smaller nest egg upon retirement. Additionally, the longer time horizon allows for more flexibility and the potential for higher returns from equities, which historically have provided better long-term growth compared to bonds or cash equivalents. However, this comes with the tradeoff of higher volatility and the risk that the portfolio could lose value during market downturns. Therefore, a balanced approach, considering both the investor's risk tolerance and the time horizon, is often recommended to maximize retirement savings while maintaining some level of growth potential.",
+    "latency_sec": 6.24,
+    "embed_cosine": 0.9438735246658325,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers growth potential, inflation risk, time horizon flexibility, historical equity outperformance, and tradeoffs of volatility, fully aligning with the reference and adding useful nuance.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "ret-005",
+    "dataset": "open_ended_hard",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A worker says, 'I am young, so I can catch up on retirement savings later.' What is risky about that logic?",
+    "reference": "That logic underestimates the value of early compounding and assumes future income and financial flexibility will make catching up easy. In reality, later years may include competing priorities such as housing, children, debt, or health costs. Starting earlier usually allows smaller contributions to work more effectively than trying to save aggressively only later.",
+    "candidate": "While it's true that younger workers have more time to save for retirement, relying solely on the idea that they can \"catch up\" later carries significant risks. Firstly, the longer an individual waits to start saving, the less time there is for compound interest to work in their favor, potentially leading to a smaller overall retirement fund. Secondly, the cost of living increases over time, which means that the same amount saved today will buy less in the future. Thirdly, health issues or other unforeseen circumstances could arise, impacting the ability to continue working and saving. Lastly, market volatility and potential downturns in the stock market could affect the performance of investment portfolios, making it harder to meet savings goals. Therefore, it's crucial for young workers to establish a solid, early retirement savings plan rather than waiting until they feel ready to start.",
+    "latency_sec": 7.23,
+    "embed_cosine": 0.8581860065460205,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Covers compounding, competing priorities, and unforeseen circumstances well, though the inflation point is slightly off-topic and the response could more directly address the catch-up contribution myth.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "ret-006",
+    "dataset": "open_ended_hard",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why is inflation an important factor when planning for retirement, even if a target dollar amount sounds large today?",
+    "reference": "Inflation reduces the future purchasing power of money, so an amount that seems large today may buy much less decades from now. Retirement planning should consider not just nominal balances but what those balances will support in real spending terms. Ignoring inflation can cause a person to underestimate how much they need to save.",
+    "candidate": "Inflation is crucial when planning for retirement because it erodes the purchasing power of money over time. Even if you plan to retire with a large sum of money, inflation will gradually reduce its value. For instance, if you aim to have $1 million in retirement savings, but annual inflation rates are around 2%, your $1 million will only buy as much as $730,000 does today after 25 years. This means that maintaining a diversified portfolio that can grow at least in line with or slightly above inflation is essential. Additionally, while having a large initial retirement fund is beneficial, it's also important to consider how this fund might be affected by market volatility and potential changes in interest rates, which could impact the returns on your investments. Therefore, balancing between securing a substantial initial retirement fund and ensuring it remains valuable through inflation is key to successful retirement planning.",
+    "latency_sec": 7.74,
+    "embed_cosine": 0.888738751411438,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "The candidate correctly explains purchasing power erosion with a reasonable numerical example and actionable advice, though the $730K figure slightly understates the inflation impact and the response adds some tangential points about market volatility not in the reference.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "ret-007",
+    "dataset": "open_ended_hard",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can taking an early withdrawal from a retirement account have effects beyond just reducing the account balance today?",
+    "reference": "An early withdrawal can reduce future compounding by removing money that would otherwise have stayed invested for many years. Depending on the account type and circumstances, it may also trigger taxes and penalties. The long-term cost can therefore be much larger than the amount withdrawn because of lost growth and possible tax consequences.",
+    "candidate": "Taking an early withdrawal from a retirement account can have significant long-term financial effects beyond just reducing the account balance today. Firstly, it incurs a penalty, typically 10% of the withdrawn amount, which is added to the account balance, potentially increasing the overall tax liability. Secondly, it reduces the principal amount available for future growth, which could lead to lower returns over time due to compounding. Additionally, it may affect eligibility for certain retirement benefits or tax credits that depend on maintaining sufficient retirement savings. Lastly, it can impact your ability to save consistently in the future, as you might feel less inclined to save if you've already accessed funds. These factors highlight the importance of carefully considering the consequences before making such withdrawals.",
+    "latency_sec": 6.28,
+    "embed_cosine": 0.9124019742012024,
+    "judge": {
+      "factuality": 3,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "The candidate correctly identifies lost compounding and taxes but contains a factual error stating the 10% penalty is 'added to the account balance' rather than deducted from the withdrawal or owed at tax time; other points about benefit eligibility and savings motivation are reasonable but speculat",
+      "mean": 3.6666666666666665
+    }
+  }
+]

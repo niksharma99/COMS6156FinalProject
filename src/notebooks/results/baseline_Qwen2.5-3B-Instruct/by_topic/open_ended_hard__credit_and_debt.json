@@ -1,0 +1,135 @@
+[
+  {
+    "id": "cd-001",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can carrying a balance on a credit card to 'build credit' be bad advice?",
+    "reference": "Carrying a balance is not necessary to build credit and usually causes the borrower to pay unnecessary interest. Credit scores benefit from on-time payments and low utilization, not from paying interest. A person can build credit by using a card lightly and paying the full statement balance on time each month. The misconception comes from confusing credit usage with interest-bearing revolving debt.",
+    "candidate": "Carrying a balance on a credit card primarily to build credit can be considered bad advice because it often leads to high-interest debt accumulation. While paying off the entire balance each month is ideal for building good credit, simply keeping a balance can result in interest charges that eat into your financial resources. This strategy also increases your credit utilization ratio, which can negatively impact your credit score. Instead, consider using your credit card for small purchases you would make anyway, paying off the balance in full each month, and only using it when necessary to avoid unnecessary debt. This approach allows you to build a strong credit history without risking financial strain.",
+    "latency_sec": 5.45,
+    "embed_cosine": 0.9165468215942383,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 5,
+      "rationale": "Correctly identifies unnecessary interest and utilization concerns, gives sound actionable advice, though slightly conflates high utilization as the main problem rather than clarifying that carrying any balance at all is unnecessary for credit building.",
+      "mean": 4.333333333333333
+    }
+  },
+  {
+    "id": "cd-002",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A borrower has two loan options: a 3-year loan with a higher monthly payment and less total interest, or a 6-year loan with a lower monthly payment and much more total interest. What factors should determine which option is better?",
+    "reference": "The better option depends on cash flow stability, emergency savings, competing financial priorities, and total borrowing cost. The shorter loan is usually better mathematically because it reduces total interest paid, but the higher payment could create budget stress and increase default risk if income is tight. The longer loan improves monthly flexibility but costs more overall. The best choice balances affordability with minimizing long-term interest expense.",
+    "candidate": "When deciding between the two loan options, several factors should be considered to determine which is better for the borrower. The 3-year loan with a higher monthly payment but less total interest might be preferable if the borrower can afford the increased monthly cost and wants to pay off the debt sooner. On the other hand, the 6-year loan with a lower monthly payment but significantly more total interest could be more suitable if the borrower needs to maintain their current financial stability and cannot afford the higher monthly payments. Additionally, the borrower's overall financial situation, including their ability to save for emergencies or invest, should be taken into account. If the borrower has other high-interest debts or investments that offer higher returns, they might prefer to allocate more funds towards those to minimize long-term costs. Lastly, the borrower's risk tolerance and willingness to incur higher interest over time versus paying more upfront should also be considered.",
+    "latency_sec": 7.79,
+    "embed_cosine": 0.8920567035675049,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Covers the main tradeoffs well including cash flow, total interest, and opportunity cost of competing investments, though lacks explicit mention of emergency savings and default risk.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "cd-003",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can making only the minimum payment on a high-APR credit card balance be especially costly over time?",
+    "reference": "Making only the minimum payment causes much of each payment to go toward interest rather than principal, especially at high APRs. This stretches repayment over many years and can result in paying far more in total interest than the original amount borrowed. Minimum payments preserve account standing but are a very slow and expensive way to eliminate debt.",
+    "candidate": "Making only the minimum payment on a high-APR credit card can be especially costly over time due to several factors. Firstly, the minimum payment is typically a small fraction of the total balance, meaning that a significant portion of each payment goes towards interest rather than reducing the principal debt. Secondly, with a high APR, even a small balance incurs substantial interest charges. Over time, this compounding effect leads to a rapid increase in the total amount paid, far exceeding the original balance. Additionally, this approach delays the payoff of the debt, potentially leading to a longer period of accumulating interest and possibly late fees. While it's important to manage your finances responsibly, this strategy often represents a tradeoff between immediate affordability and long-term financial health.",
+    "latency_sec": 6.49,
+    "embed_cosine": 0.8772296905517578,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 4,
+      "rationale": "The candidate accurately explains interest compounding, slow principal reduction, and long repayment timelines, covering all reference points with added nuance about tradeoffs.",
+      "mean": 4.666666666666667
+    }
+  },
+  {
+    "id": "cd-004",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A borrower consolidates several credit card balances into a personal loan with a lower interest rate. Why might this still fail to improve their financial situation?",
+    "reference": "Debt consolidation can reduce interest costs and simplify payments, but it does not fix overspending or cash flow problems by itself. If the borrower continues using the credit cards after consolidation, they may end up with both the new loan and new card balances. Consolidation is most helpful when paired with behavior change, spending control, and a realistic repayment plan.",
+    "candidate": "Consolidating multiple credit card balances into a personal loan with a lower interest rate can potentially reduce monthly payments and lower the overall interest paid over time, which is beneficial. However, this consolidation may not always improve a borrower's financial situation if they continue to use credit cards or spend more than they can afford to pay off each month. Additionally, there could be fees associated with the new loan that offset the benefits of the lower interest rate. Furthermore, if the borrower's income remains unchanged, the reduced monthly payments might lead to increased spending elsewhere, negating the savings from the lower interest rate. Lastly, if the borrower has high credit utilization rates, consolidating balances might not significantly impact their credit score unless they also work on reducing their debt levels and improving their credit utilization ratio.",
+    "latency_sec": 6.78,
+    "embed_cosine": 0.8422009348869324,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Candidate correctly identifies the core issue of continued card usage and adds valid points about fees and spending behavior, though the credit score discussion is somewhat tangential to the core financial situation question.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "cd-005",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "If someone closes an old credit card they no longer use, why could that sometimes lower their credit score rather than improve it?",
+    "reference": "Closing an old credit card can reduce total available credit and may raise the person's credit utilization ratio if balances remain on other cards. It can also reduce the benefit of having longstanding credit accounts on the report over time. While closing a card can be reasonable in some situations, it does not automatically help a credit score and can sometimes hurt it.",
+    "candidate": "Closing an old credit card can sometimes lower your credit score because it reduces the average age of your credit history, which is a factor in calculating your credit score. Additionally, closing a card reduces the total amount of available credit you have, which can slightly increase your credit utilization ratio (the percentage of available credit you're using). This higher utilization rate, even if only marginally, can negatively impact your score. However, if the card had high interest rates or fees, closing it might actually improve your financial health by reducing unnecessary charges. Therefore, it's important to weigh the benefits against potential drawbacks before closing any unused credit cards.",
+    "latency_sec": 5.51,
+    "embed_cosine": 0.9602949619293213,
+    "judge": {
+      "factuality": 4,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Covers both key mechanisms (utilization and credit age) accurately and adds practical nuance about fees/interest, though 'average age' framing is slightly imprecise compared to 'longstanding accounts' benefit.",
+      "mean": 4.666666666666667
+    }
+  },
+  {
+    "id": "cd-006",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "What is the difference between being 'prequalified' for a loan and being actually approved for that loan?",
+    "reference": "Prequalification is usually a preliminary estimate based on limited or self-reported information and does not guarantee final approval. Actual approval occurs after the lender reviews credit, income, debts, documentation, and other underwriting criteria. A borrower who is prequalified may still be denied or offered different terms after full review.",
+    "candidate": "Being prequalified for a loan means a lender has assessed your financial situation based on the information you provided and determined a maximum loan amount you could potentially qualify for. This process is typically faster and less detailed than the actual loan approval process. On the other hand, being approved for a loan signifies that you have met all the lender's requirements and have been granted a loan with specific terms and conditions. The main tradeoff is that while prequalification can help you understand your borrowing power and budget accordingly, it doesn't guarantee you'll be able to secure the loan if you decide to apply. Approval, however, confirms that you've met all necessary criteria and can proceed with the loan application.",
+    "latency_sec": 5.95,
+    "embed_cosine": 0.8901772499084473,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "The candidate accurately distinguishes prequalification from approval and notes it doesn't guarantee the loan, though it slightly understates that prequalification is often based on self-reported/unverified info and omits mention of possible different terms post-review.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "cd-007",
+    "dataset": "open_ended_hard",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can a 0% APR promotional credit card offer still be risky for someone trying to get out of debt?",
+    "reference": "A 0% APR offer can reduce interest temporarily, but it is risky if the borrower treats the lower rate as permission to carry debt longer or fails to pay the balance before the promotional period ends. Some offers also involve transfer fees, and unpaid balances may later accrue high interest. The strategy works best when paired with a realistic plan to eliminate the balance before the promotion expires.",
+    "candidate": "While a 0% APR promotional credit card might seem ideal for consolidating high-interest debts, it comes with several risks and tradeoffs that could make it risky for someone trying to get out of debt. Firstly, the promotional period is typically short, usually ranging from 6 to 18 months, after which the interest rate reverts to its regular, often higher rate. This means that if the individual doesn't pay off the balance before the end of the promotional period, they will incur substantial interest charges, potentially making their debt situation worse. Secondly, carrying a balance during this promotional period can lead to a habit of relying on high-interest credit, which can be difficult to break once established. Lastly, the temptation to use the card for new purchases can divert funds away from paying down existing debt, further complicating the debt repayment process. Therefore, while a 0% APR offer can be a useful tool, it should be used cautiously and strategically as part of a broader financial plan.",
+    "latency_sec": 8.64,
+    "embed_cosine": 0.886792778968811,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 4,
+      "rationale": "Candidate covers the key risks (rate reversion, behavioral traps, new spending) but omits balance transfer fees and doesn't emphasize the need for a concrete payoff plan before expiry as clearly as the reference.",
+      "mean": 3.6666666666666665
+    }
+  }
+]

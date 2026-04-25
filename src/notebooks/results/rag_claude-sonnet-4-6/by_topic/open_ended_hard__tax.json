@@ -1,0 +1,373 @@
+[
+  {
+    "id": "tax-001",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why is the statement 'If I move into a higher tax bracket, all my income gets taxed at that higher rate' incorrect?",
+    "reference": "Because the U.S. federal income tax system is marginal, not flat by bracket. Only the portion of income that falls within the higher bracket is taxed at that higher rate; lower portions are still taxed at the lower rates that apply to those brackets. Moving into a higher bracket does not retroactively increase the tax rate on all income.",
+    "candidate": "This statement reflects a very common misconception about how the U.S. progressive tax system works. In reality, the higher tax rate only applies to the portion of income that falls *within* that higher bracket, not to every dollar you earned. Each bracket acts like a \"bucket\" that fills up at its corresponding rate, and only income above a bracket's threshold spills into the next bucket at the higher rate. For example, if you earn just enough to cross into a higher bracket, only the dollars exceeding that threshold are taxed at the new, higher rate \u2014 all the income below that threshold continues to be taxed at the lower rates that applied before. This means crossing a bracket boundary will never result in your take-home pay actually *decreasing*, because your overall effective (average) tax rate remains lower than your marginal rate. Understanding the difference between your **marginal rate** (the rate on your last dollar of income) and your **effective rate** (your total tax divided by total income) is essential for sound financial planning. The passages provided don't directly address tax brackets, so this explanation draws on well-established general knowledge of the U.S. tax code structure.",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.237152099609375
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.25072336196899414
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.25667983293533325
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2619625926017761
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.26287639141082764
+      }
+    ],
+    "latency_sec": 6.47,
+    "embed_cosine": 0.8860510587692261,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately explains marginal taxation with a helpful bucket analogy, correctly distinguishes marginal vs. effective rates, and explicitly addresses the take-home pay concern, fully covering and extending the reference answer without errors.",
+      "mean": 5.0
+    },
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "tax-002",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "What is the difference between a tax deduction and a tax credit, and why is that distinction important?",
+    "reference": "A tax deduction reduces taxable income, while a tax credit directly reduces the amount of tax owed. Because a credit lowers tax liability dollar for dollar, it is often more valuable than a deduction of the same nominal amount. The distinction matters because two tax benefits with the same face value can produce very different actual savings.",
+    "candidate": "A tax deduction reduces the amount of your income that is subject to tax, while a tax credit directly reduces the tax you owe dollar-for-dollar [1][3]. This distinction is important because a credit is generally more valuable: a deduction's benefit depends on your marginal tax rate (so a $1,000 deduction saves you only a fraction of that amount), whereas a $1,000 credit reduces your tax bill by the full $1,000. Some credits are **refundable**, meaning if the credit exceeds your tax liability, the excess is paid back to you as a refund \u2014 for example, 40% of the American Opportunity Credit is refundable [1]. Other credits are **nonrefundable**, meaning they can reduce your tax to zero but any excess is simply lost \u2014 the Lifetime Learning Credit works this way [3]. Because of these differences, it's worth comparing available credits and deductions carefully, as sometimes a combination of both can yield the lowest overall tax liability [4]. Understanding whether a credit is refundable or nonrefundable is especially critical for lower-income taxpayers, who may owe little or no tax and would benefit most from refundable credits.",
+    "retrieved": [
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.2397099733352661
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.23975872993469238
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.25275182723999023
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.2826102375984192
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.28345000743865967
+      }
+    ],
+    "latency_sec": 6.78,
+    "embed_cosine": 0.9104055762290955,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Candidate accurately covers all reference points and adds valuable nuance on refundable vs. nonrefundable credits with correct examples, without any misinformation.",
+      "mean": 5.0
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "tax-003",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why does receiving a tax refund not necessarily mean someone 'came out ahead' financially?",
+    "reference": "A tax refund often means too much tax was withheld during the year, so the person is receiving their own money back rather than earning extra money. While a refund can feel positive, it may indicate the person provided the government with an interest-free loan. The true question is overall tax liability and cash flow management, not refund size alone.",
+    "candidate": "Receiving a tax refund simply means you overpaid your taxes throughout the year \u2014 the government is returning your own money, not giving you a bonus or windfall. By having too much withheld from each paycheck, you effectively gave the government an interest-free loan for months, missing out on the opportunity to invest or pay down debt with those funds in the meantime. A more financially optimal approach is to adjust your withholding so your tax liability is closer to what you actually owe, keeping more money working for you throughout the year. Additionally, some refunds can actually create new tax obligations: for example, a state or local income tax refund may need to be included as income in the following year if you previously deducted that tax [5]. Similarly, if you claimed an education tax credit and later receive a refund of the qualified expenses that generated it, you may have to repay some or all of that credit \u2014 meaning your original \"refund\" was effectively reversed [1]. The tradeoff to tighter withholding, of course, is the discipline required to save or invest those extra dollars rather than spend them, which is why some people prefer the forced savings aspect of a refund despite its financial inefficiency. Ultimately, a refund reflects a timing and cash-flow issue rather than a true financial gain.",
+    "retrieved": [
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.2308095097541809
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.25551217794418335
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.26777756214141846
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2699218988418579
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2702028155326843
+      }
+    ],
+    "latency_sec": 7.64,
+    "embed_cosine": 0.8805572986602783,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate accurately covers the interest-free loan concept, opportunity cost, optimal withholding adjustment, and even adds nuanced points about refund taxation and the behavioral tradeoff of forced savings.",
+      "mean": 5.0
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "tax-004",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can a larger paycheck after reducing tax withholding be misleading if someone does not adjust their expectations for tax season?",
+    "reference": "Reducing withholding increases take-home pay during the year, but it does not reduce the actual tax owed unless underlying tax liability changes. If the person spends the extra cash without planning, they may end up with a smaller refund or even a tax bill when they file. Higher current paychecks and final tax liability are related but not the same thing.",
+    "candidate": "When you reduce your tax withholding, your employer takes less money out of each paycheck, making your take-home pay appear larger \u2014 but this does not reduce your actual tax liability for the year. The total taxes you owe are determined by your income, deductions, and credits, not by how much was withheld throughout the year [2]. If too little is withheld over the course of the year, you may face a tax bill at filing time, and if the shortfall is large enough, you could also owe an underpayment penalty [3]. Many people mentally \"spend into\" the larger paycheck, treating it as a raise rather than as a deferral of a tax obligation, which can leave them unprepared for what they owe in April. This is why financial guidance recommends periodically rechecking your withholding whenever your personal or financial situation changes, so that your withholding stays aligned with your expected tax liability [2]. The key takeaway is that withholding is simply a prepayment mechanism \u2014 it smooths out tax payments across the year, but does not change what you ultimately owe. Treating a withholding reduction as extra income, rather than as a shift in *when* you pay taxes, is what makes the larger paycheck potentially misleading.",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2871130704879761
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.28809571266174316
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2926073670387268
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2992064952850342
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2998037338256836
+      }
+    ],
+    "latency_sec": 6.92,
+    "embed_cosine": 0.9080171585083008,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately explains the withholding-vs-liability distinction, adds the useful detail about underpayment penalties, and frames the psychological pitfall clearly and actionably.",
+      "mean": 5.0
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "tax-005",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A worker earns additional side income and assumes it will be taxed exactly the same way as wages withheld through payroll. What nuance are they missing?",
+    "reference": "Side income may still be part of overall taxable income, but it often does not have taxes automatically withheld the same way wages do. Depending on the type of income, the person may need to plan for taxes separately and may also face additional considerations such as self-employment tax. The key nuance is that how income is earned affects how taxes are paid and reported, even if it contributes to total taxable income.",
+    "candidate": "The worker is overlooking several important distinctions between side (self-employment) income and traditional W-2 wages. With payroll wages, the employer automatically withholds federal income tax, Social Security, and Medicare (FICA) taxes and remits them on the employee's behalf \u2014 side income has none of this automatic withholding. For self-employment income, the worker is responsible for paying **both** the employee and employer portions of FICA taxes (known as the self-employment tax), which is a significant additional burden not present in standard wage withholding. Because no withholding occurs on side income, the worker may also need to make **quarterly estimated tax payments** to avoid underpayment penalties \u2014 a concept echoed in the guidance noting that those without sufficient withholding may be liable for estimated tax and potential penalties [5]. Additionally, self-employment income may be reported on Schedule C and can be offset by legitimate business deductions, which is a flexibility not available to standard wages [2]. The overall tax treatment, filing obligations, and self-funding of payroll taxes make side income meaningfully more complex than simply earning additional wages with employer withholding.",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.24927246570587158
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.26321113109588623
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.26661598682403564
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.268235981464386
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.27322614192962646
+      }
+    ],
+    "latency_sec": 6.44,
+    "embed_cosine": 0.8446511030197144,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key nuances\u2014self-employment tax (both portions), lack of automatic withholding, quarterly estimated payments, Schedule C reporting, and business deductions\u2014going beyond the reference while remaining factually correct.",
+      "mean": 5.0
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "tax-006",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can selling an investment for a gain trigger a tax consequence even if the money is immediately reinvested into another investment?",
+    "reference": "Selling an investment for a gain can create a taxable event because the gain is realized at the time of sale. Reinvesting the proceeds into another investment does not erase the fact that the original asset was sold at a profit. The tax consequence depends on account type, holding period, and applicable rules, but immediate reinvestment alone does not generally avoid realizing the gain.",
+    "candidate": "When you sell an investment at a profit, the IRS treats that sale as a **realization event** \u2014 meaning the gain becomes taxable income in the year of the sale, regardless of what you do with the proceeds afterward. The tax code generally taxes the difference between your selling price and your original cost basis (what you paid for the asset), and that liability is triggered at the moment of sale, not at the moment of spending. [5] This is why simply moving money from one investment into another doesn't defer or eliminate the tax owed \u2014 the reinvestment is treated as a completely separate transaction. If the asset was held for more than a year, the gain typically qualifies for the lower long-term capital gains rate; if held for less than a year, it's taxed as ordinary income. [5] This is a key distinction from tax-advantaged accounts like IRAs or 401(k)s, where gains can be reinvested without triggering immediate taxes because the account structure provides a legal deferral mechanism. Acknowledging the tradeoff: selling and reinvesting in a taxable account can still make sense if the new investment's expected return justifies the tax cost, but investors should factor in that tax drag when comparing options. Planning strategies like tax-loss harvesting or using tax-advantaged accounts can help manage this consequence.",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.23563456535339355
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.23625445365905762
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2402440309524536
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.24195176362991333
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2441617250442505
+      }
+    ],
+    "latency_sec": 7.32,
+    "embed_cosine": 0.9189328551292419,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately explains realization events, cost basis, holding period distinctions, and tax-advantaged account exceptions, while also offering practical planning strategies and nuanced tradeoff framing.",
+      "mean": 5.0
+    },
+    "n_citations": 1,
+    "citation_coverage": 0.2
+  },
+  {
+    "id": "tax-007",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why is the phrase 'tax write-off' often used too loosely in everyday conversation?",
+    "reference": "People often use 'tax write-off' to mean any expense that lowers taxes, but not every expense is deductible, and even deductible expenses do not usually make something free. A deduction lowers taxable income rather than reimbursing the full cost. Using the phrase too loosely can create the mistaken impression that spending money automatically produces equivalent tax savings.",
+    "candidate": "The phrase \"tax write-off\" is often used too loosely because many people conflate a **deduction** with a **credit**, treating them as if they produce the same dollar-for-dollar reduction in taxes owed. In reality, a deduction only reduces your *taxable income*, meaning the actual tax savings depend on your marginal tax bracket \u2014 so a deduction's benefit varies significantly from person to person. People also sometimes assume that any business or personal expense labeled a \"write-off\" automatically qualifies under IRS rules, when in fact the IRS has specific requirements about what income is taxable or excludable and what expenses are legitimately deductible [1]. There's further confusion because the term gets applied to very different tax mechanisms \u2014 depreciation, charitable contributions, business expense deductions, and education benefits [3] are all loosely called \"write-offs,\" yet they operate under distinct rules and limitations. Additionally, some people mistakenly believe a write-off means an expense is *free*, when in truth you still spend the money; you simply reduce the portion of income on which you're taxed. This imprecision can lead to poor financial decisions, such as making unnecessary purchases under the assumption that the tax benefit offsets most of the cost. Clear financial literacy requires distinguishing between the *type* of tax benefit, its *eligibility requirements*, and its *actual impact* on your specific tax situation.",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.3020060062408447
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.3258702754974365
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.3265436291694641
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.32698673009872437
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.3333839178085327
+      }
+    ],
+    "latency_sec": 8.71,
+    "embed_cosine": 0.9502967596054077,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate accurately covers all key points from the reference\u2014deductions vs. credits, income reduction vs. full reimbursement, the 'not free' misconception\u2014and adds valuable nuance about marginal rates and varied mechanisms without introducing misinformation.",
+      "mean": 5.0
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  }
+]

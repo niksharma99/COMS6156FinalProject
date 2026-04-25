@@ -1,0 +1,104 @@
+[
+  {
+    "id": "bud-001",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the 50/30/20 budgeting rule?",
+    "reference": "The 50/30/20 rule suggests allocating your after-tax income as follows: 50% to needs (housing, groceries, utilities, insurance, minimum debt payments), 30% to wants (dining out, entertainment, hobbies, subscriptions), and 20% to savings and extra debt repayment (emergency fund, retirement contributions, paying down debt beyond minimums).",
+    "candidate": "The 50/30/20 budgeting rule is a guideline that helps individuals allocate their income into three categories: 50% for necessities (such as housing, food, transportation), 30% for discretionary spending (like entertainment, dining out), and 20% for savings and debt repayment. This approach aims to ensure that essential expenses are covered first, leaving room for non-essential but enjoyable activities while also building financial security. While this rule provides a simple framework, it may not suit everyone's unique financial situation, such as those with high student loan or mortgage payments who might need to adjust the percentages to meet their specific needs.",
+    "latency_sec": 5.81,
+    "embed_cosine": 0.8625031113624573,
+    "judge": {
+      "factuality": 5,
+      "completeness": 4,
+      "advice_quality": 5,
+      "rationale": "Accurate breakdown of all three categories with good examples, and appropriately notes the rule's limitations for individual circumstances, though slightly less detailed on savings subcategories than the reference.",
+      "mean": 4.666666666666667
+    }
+  },
+  {
+    "id": "bud-002",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "How many months of expenses should an emergency fund cover?",
+    "reference": "B",
+    "candidate": "B",
+    "latency_sec": 0.09,
+    "mc_correct": true,
+    "mc_picked": "B"
+  },
+  {
+    "id": "bud-003",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between a need and a want in the context of budgeting?",
+    "reference": "A need is an essential expense required for basic living and obligations: housing, utilities, groceries, transportation to work, insurance, and minimum debt payments. A want is a non-essential expense that improves quality of life but isn't required for survival or fulfilling obligations: dining out, streaming services, vacations, upgrades beyond basic needs. The distinction can be subjective at the margins (e.g., is a gym membership a need or want?).",
+    "candidate": "In the context of budgeting, distinguishing between needs and wants is crucial for effective financial management. Needs are fundamental requirements that are essential for basic survival and health, such as food, shelter, clothing, and healthcare. Wants, on the other hand, are items or services that enhance quality of life but are not strictly necessary, like luxury vacations, designer clothing, or premium entertainment subscriptions.\n\nTradeoffs often arise when resources are limited. For example, if you have a fixed monthly income, choosing to allocate more funds towards meeting your needs (like rent and utilities) means less money will be available for discretionary wants. Prioritizing needs ensures that basic necessities are covered, while managing wants allows for flexibility in spending based on priorities and circumstances.",
+    "latency_sec": 6.42,
+    "embed_cosine": 0.8896552324295044,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Accurate and well-framed but misses the key nuance that the distinction is subjective at the margins, and doesn't mention debt payments or insurance as needs.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "bud-004",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "Should you prioritize paying off high-interest debt or building an emergency fund first?",
+    "reference": "Most financial advisors recommend a balanced approach: first build a small starter emergency fund ($1,000-$2,000) to avoid going further into debt for unexpected expenses, then aggressively pay down high-interest debt (especially credit cards above 15-20% APR), then build the full 3-6 month emergency fund. The mathematical answer favors debt payoff (guaranteed 'return' equal to the interest rate), but having zero emergency savings creates risk of more debt.",
+    "candidate": "When deciding between paying off high-interest debt and building an emergency fund, it's important to consider both the immediate financial health and long-term goals. High-interest debt can be costly, potentially leading to significant interest payments over time if not managed. Therefore, prioritizing debt repayment might be advisable to reduce financial stress and save money on interest. However, having an emergency fund is crucial for unexpected expenses without derailing your financial stability. Ideally, you should aim to build a small emergency fund (typically about 3-6 months' worth of living expenses) before aggressively tackling high-interest debts. This way, you maintain some financial flexibility while still making progress on your debt. Balancing these priorities requires assessing your current financial situation, setting clear goals, and creating a plan that allows for gradual improvements in both areas.",
+    "latency_sec": 6.93,
+    "embed_cosine": 0.8735620379447937,
+    "judge": {
+      "factuality": 2,
+      "completeness": 2,
+      "advice_quality": 3,
+      "rationale": "The candidate reverses the recommended order (build full 3-6 month fund first vs. the standard starter fund \u2192 debt paydown \u2192 full fund sequence) and omits the key 'starter emergency fund' concept that distinguishes the balanced approach.",
+      "mean": 2.3333333333333335
+    }
+  },
+  {
+    "id": "bud-005",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "What is the debt avalanche method vs. the debt snowball method?",
+    "reference": "The debt avalanche method prioritizes paying off debts with the highest interest rate first (while making minimum payments on others), minimizing total interest paid. The debt snowball method prioritizes paying off the smallest balance first to build psychological momentum through quick wins. Mathematically, the avalanche method saves more money, but research suggests the snowball method can be more effective behaviorally because the early wins increase motivation to continue.",
+    "candidate": "The debt avalanche method and the debt snowball method are two popular strategies for paying off debt, each with its own approach and potential tradeoffs.\n\nThe debt avalanche method prioritizes paying off debts with the highest interest rates first. This strategy aims to save money on interest payments over time by aggressively tackling high-interest debts. The downside is that it may take longer to pay off all debts compared to the snowball method, as you're not immediately seeing progress from the smallest debts.\n\nOn the other hand, the debt snowball method focuses on paying off debts from smallest to largest balance, regardless of interest rate. This can provide quick wins and psychological satisfaction, motivating you to continue making payments. However, this method might lead to higher overall interest costs because you're not addressing the debts with the highest interest rates first.\n\nBoth methods require discipline and commitment to consistently make minimum payments on all debts while applying extra funds to the debt with the highest interest rate or smallest balance, depending on your preference. Ultimately, the choice between these methods depends on your personal financial situation and motivational style.",
+    "latency_sec": 9.23,
+    "embed_cosine": 0.9633135199546814,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate accurately describes both methods, correctly identifies the tradeoffs (interest savings vs. psychological motivation), and appropriately frames the choice as dependent on personal situation and motivation style.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "bud-006",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What percentage of your gross income is generally recommended as a maximum for housing costs (rent or mortgage)?",
+    "reference": "B",
+    "candidate": "B",
+    "latency_sec": 0.11,
+    "mc_correct": true,
+    "mc_picked": "B"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "crd-001",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "Does checking your own credit score lower it?",
+    "reference": "B",
+    "candidate": "B",
+    "latency_sec": 0.09,
+    "mc_correct": true,
+    "mc_picked": "B"
+  },
+  {
+    "id": "crd-002",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "How long does a Chapter 7 bankruptcy stay on your credit report?",
+    "reference": "C",
+    "candidate": "D",
+    "latency_sec": 0.09,
+    "mc_correct": false,
+    "mc_picked": "D"
+  },
+  {
+    "id": "crd-003",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "Which factor has the largest impact on your FICO credit score?",
+    "reference": "B",
+    "candidate": "B",
+    "latency_sec": 0.09,
+    "mc_correct": true,
+    "mc_picked": "B"
+  },
+  {
+    "id": "crd-004",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "If you only make minimum payments on a $5,000 credit card balance at 22% APR, approximately how long will it take to pay off and how much total interest will you pay?",
+    "reference": "C",
+    "candidate": "C",
+    "latency_sec": 0.09,
+    "mc_correct": true,
+    "mc_picked": "C"
+  },
+  {
+    "id": "crd-005",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "Can a debt collector sue you for a debt that is past the statute of limitations?",
+    "reference": "B",
+    "candidate": "B",
+    "latency_sec": 0.09,
+    "mc_correct": true,
+    "mc_picked": "B"
+  },
+  {
+    "id": "crd-006",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between a hard inquiry and a soft inquiry on your credit report?",
+    "reference": "A hard inquiry occurs when a lender checks your credit as part of a lending decision (e.g., applying for a mortgage, credit card, or auto loan). Hard inquiries can temporarily lower your score by a few points and remain on your report for 2 years. A soft inquiry occurs when you check your own credit, when a lender pre-approves you, or for background checks. Soft inquiries do not affect your credit score at all.",
+    "candidate": "A hard inquiry on your credit report occurs when you apply for new credit or a loan, such as a mortgage, auto loan, or credit card. This type of inquiry is visible to all creditors and can slightly lower your credit score by a few points due to the increased activity on your report. On the other hand, a soft inquiry happens when you check your own credit report or when an existing creditor checks your report for routine purposes like issuing a credit limit increase or checking if you're eligible for a pre-approved offer. Soft inquiries do not affect your credit score and are not visible to lenders. The main tradeoff is that while soft inquiries don't impact your credit score, they can provide you with valuable information about your financial standing, which might help you make better decisions about your finances.",
+    "latency_sec": 6.88,
+    "embed_cosine": 0.9662325382232666,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Accurate and well-structured with good examples, though the 2-year duration on hard inquiries is omitted and the final 'tradeoff' framing is slightly awkward but not misleading.",
+      "mean": 4.0
+    }
+  }
+]

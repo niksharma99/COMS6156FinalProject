@@ -1,0 +1,373 @@
+[
+  {
+    "id": "ins-001",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "When choosing between a low-deductible/high-premium health plan and a high-deductible/low-premium plan, what variables should a person consider besides just the monthly premium?",
+    "reference": "They should consider the deductible, out-of-pocket maximum, expected medical usage, prescription costs, provider network, eligibility for an HSA, employer contributions, and their ability to absorb unexpected medical bills. A lower premium plan is not necessarily cheaper overall if healthcare usage is moderate to high. The choice depends on expected annual healthcare spending and risk tolerance for large upfront costs.",
+    "candidate": "When choosing between a low-deductible/high-premium plan and a high-deductible/low-premium plan, one of the most important variables is how frequently you expect to use medical services, since someone with chronic conditions or planned procedures will likely reach their deductible quickly and benefit more from a lower-deductible plan. [1] Plans with lower monthly premiums generally carry higher deductibles, meaning your out-of-pocket exposure when you actually need care is greater, so you must weigh the premium savings against potential cost spikes. [1] Your share of costs goes well beyond the deductible itself \u2014 copayments, coinsurance, and the plan's overall cost-sharing split all affect what you pay, which is why broader plan tiers (Bronze through Platinum) are defined by these combined factors, not premium alone. [3] If you qualify for income-based extra savings and enroll in a Silver plan, your effective deductible and cost-sharing can drop significantly, making that plan more competitive than its base tier suggests. [2] High-deductible health plans (HDHPs) come with an important potential offset: eligibility to contribute to a Health Savings Account (HSA), which lets you save pre-tax dollars to cover qualified medical expenses \u2014 a meaningful long-term financial advantage. [4] You should also consider your emergency fund and cash-flow situation, since an HDHP only makes sense if you can actually afford to pay the deductible out of pocket without financial hardship. Finally, factor in network coverage, the plan's out-of-pocket maximum, and whether your preferred doctors and prescriptions are covered, as these can dramatically affect total annual costs beyond what the premium alone reveals.",
+    "retrieved": [
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.21904319524765015
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.22958320379257202
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.2436230182647705
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.25423693656921387
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.2586396336555481
+      }
+    ],
+    "latency_sec": 11.57,
+    "embed_cosine": 0.8865877389907837,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer thoroughly covers all key variables from the reference (deductible, OOP max, HSA eligibility, expected usage, network, cash flow/risk tolerance) and adds nuanced detail about cost-sharing tiers and Silver plan subsidies without any factual errors.",
+      "mean": 5.0
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "ins-002",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can choosing the cheapest possible insurance policy sometimes be financially dangerous even if it lowers monthly costs?",
+    "reference": "The cheapest policy may have high deductibles, low coverage limits, major exclusions, narrow provider networks, or large out-of-pocket exposure. That can leave the policyholder underinsured when a serious event occurs. Insurance should be evaluated not only by cost but also by the quality and adequacy of protection relative to plausible risks.",
+    "candidate": "Choosing the cheapest policy \u2014 typically a Bronze or Catastrophic plan \u2014 means you pay a significantly higher share of costs when you actually receive care, with estimates suggesting you cover around 40% of covered-service costs yourself in a Bronze plan [4]. These plans also generally carry high deductibles, meaning you must spend a substantial amount out-of-pocket before the insurance begins sharing costs [1][4]. If you face a serious illness, accident, or unexpected hospitalization, those high deductibles and cost-sharing obligations can quickly translate into thousands of dollars in bills that a lower-premium plan would have absorbed. This creates a hidden financial risk: the monthly savings on premiums can be completely wiped out \u2014 and then some \u2014 by a single significant medical event. Additionally, if your income qualifies you for cost-sharing reductions, enrolling in a Silver plan rather than a cheaper Bronze plan could actually result in lower out-of-pocket costs despite the higher premium, making the \"cheaper\" choice counterproductive [2][4]. The financially safer approach is to honestly estimate your expected healthcare usage and compare total potential costs \u2014 premiums *plus* worst-case out-of-pocket spending \u2014 across plan tiers rather than focusing solely on the monthly premium.",
+    "retrieved": [
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.3093756437301636
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.34112972021102905
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.34660840034484863
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.3513193726539612
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.36453062295913696
+      }
+    ],
+    "latency_sec": 7.95,
+    "embed_cosine": 0.8016074299812317,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 5,
+      "rationale": "The candidate is accurate and actionable but narrowly focused on health insurance plan tiers (ACA Bronze/Silver), missing the broader reference points about exclusions, coverage limits, and narrow provider networks that apply to insurance generally.",
+      "mean": 4.0
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "ins-003",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "What is the practical difference between a deductible and an out-of-pocket maximum in health insurance?",
+    "reference": "The deductible is the amount a person usually must pay for covered services before the insurance plan begins paying according to its terms, though some services may be exempt. The out-of-pocket maximum is the maximum amount the person pays during the plan year for covered in-network services before the plan covers 100% of additional covered costs. The deductible is one threshold within the cost-sharing structure, while the out-of-pocket maximum is the cap on total covered in-network spending.",
+    "candidate": "A **deductible** is the amount you must pay out of your own pocket for covered services *before* your insurance plan begins sharing costs with you [1]. Once you've met your deductible, your plan typically starts covering a portion of costs \u2014 though you may still owe copayments or coinsurance on each service [1]. The **out-of-pocket maximum**, by contrast, is the absolute ceiling on what you can be required to pay for covered services in a given plan year [1]. After reaching that maximum \u2014 through the combined total of your deductible, copayments, and coinsurance \u2014 your insurer covers 100% of covered in-network costs for the rest of the year [1]. Importantly, premiums do *not* count toward either threshold; they are a separate, ongoing cost [4]. The practical tradeoff is that plans with lower deductibles and out-of-pocket maximums tend to have higher monthly premiums, while high-deductible health plans (HDHPs) shift more initial cost to you but often carry lower premiums and unlock eligibility for a Health Savings Account (HSA) [5]. Understanding both figures together is essential for estimating your true worst-case annual medical costs.",
+    "retrieved": [
+      {
+        "title": "Out-of-pocket maximum / limit",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_out_of_pocket_max",
+        "distance": 0.1862531304359436
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.21814429759979248
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.21892213821411133
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.22142207622528076
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.24532389640808105
+      }
+    ],
+    "latency_sec": 7.07,
+    "embed_cosine": 0.904533326625824,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately explains both concepts, correctly notes that premiums don't count toward either threshold, covers the deductible-to-OOP-max progression, and adds useful practical context about HDHPs and HSAs without introducing any misinformation.",
+      "mean": 5.0
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "ins-004",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "If a healthy person rarely goes to the doctor, does that automatically mean a high-deductible health plan is the best choice?",
+    "reference": "Not automatically. A high-deductible plan may be attractive for someone with low expected healthcare usage, especially if premiums are much lower and the plan allows HSA contributions. But the person should still consider worst-case risk, prescription needs, provider networks, employer contributions, and whether they could comfortably handle the deductible if something unexpected happens.",
+    "candidate": "While HDHPs typically come with lower monthly premiums, making them appealing for healthy individuals who rarely need care, \"rarely going to the doctor\" alone doesn't automatically make an HDHP the best choice [5]. A key tradeoff is that if an unexpected illness or injury occurs, you'll face a higher out-of-pocket burden before coverage kicks in [3]. One major advantage of HDHPs is that they make you eligible to open a Health Savings Account (HSA), which offers a triple tax benefit \u2014 contributions are tax-deductible, growth is tax-free, and withdrawals for qualified medical expenses are tax-free \u2014 and funds roll over year to year, unlike Flexible Spending Accounts. Importantly, HDHPs must still cover preventive care (such as annual physicals, immunizations, and screening services) with no deductible required, so a healthy person who only needs routine care can access those benefits regardless [1]. However, if your employer offers a rich subsidy on a lower-deductible plan, or if you have dependents with unpredictable health needs, the math may favor a more comprehensive plan [5]. You should also consider whether you have enough savings to cover the high deductible in a worst-case scenario before committing to this type of plan. Ultimately, the best choice depends on your full financial picture, risk tolerance, and employer contributions \u2014 not just your current health status.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.2903267741203308
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.2963378429412842
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.2997570037841797
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.30693769454956055
+      },
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.3115043044090271
+      }
+    ],
+    "latency_sec": 7.81,
+    "embed_cosine": 0.8412530422210693,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key considerations from the reference\u2014premium tradeoffs, HSA benefits, worst-case risk, employer contributions, dependents, and savings cushion\u2014with no misinformation and actionable framing.",
+      "mean": 5.0
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "ins-005",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why might a renter still need renters insurance even if the landlord has insurance on the building?",
+    "reference": "A landlord's insurance generally covers the building structure, not the tenant's personal belongings or the tenant's liability exposure. Renters insurance can help cover losses from events like theft, fire, or certain other covered perils, and it may also provide liability protection if someone is injured in the rented space. Without renters insurance, the tenant may need to replace possessions out of pocket.",
+    "candidate": "The provided passages don't cover renters insurance, but this is a well-established personal-finance topic I can address from general knowledge.\n\nA landlord's insurance policy covers the physical building structure itself, but it does not extend to a tenant's personal belongings inside the unit. If a fire, theft, or water damage destroys your furniture, electronics, clothing, or other possessions, the landlord's policy would offer you no compensation whatsoever. Renters insurance fills this critical gap by covering your personal property against a range of covered perils. Additionally, renters insurance typically includes **liability protection**, meaning if a guest is injured in your apartment and sues you, your policy can help cover legal costs and settlements \u2014 something the landlord's building policy would not do for you. Most renters insurance policies also include **loss of use** coverage, which helps pay for temporary housing if your unit becomes uninhabitable due to a covered event. Given that renters insurance is generally one of the more affordable insurance products available, the cost-to-protection ratio makes it a prudent choice for most renters. The key takeaway is that the landlord's insurance and renters insurance protect fundamentally different things, and one does not substitute for the other.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.38361048698425293
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.39540255069732666
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3966989517211914
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.39779025316238403
+      },
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.4012479782104492
+      }
+    ],
+    "latency_sec": 8.26,
+    "embed_cosine": 0.9168405532836914,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all reference points (personal property, liability, structural vs. contents distinction) and adds relevant correct details like loss-of-use coverage and cost-effectiveness without any misinformation.",
+      "mean": 5.0
+    },
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ins-006",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can an insurance policy with a low premium but a low coverage limit be a poor match for high-severity risks?",
+    "reference": "If the potential loss is very large, a low coverage limit may leave the policyholder responsible for substantial costs above the insurer's payout. In that case, the low premium buys only partial protection against a catastrophic risk. For high-severity exposures, adequacy of coverage may matter more than minimizing the premium.",
+    "candidate": "A low-premium policy typically comes with high deductibles and lower plan cost-sharing, meaning you bear a much larger share of expenses when you actually need care [1][5]. For routine or minor health events this tradeoff may be acceptable, but high-severity risks \u2014 such as a serious illness, major surgery, or extended hospitalization \u2014 can generate catastrophic bills that quickly exceed a low coverage limit, leaving you personally responsible for the remainder. The fundamental purpose of insurance is to transfer the financial risk of large, unpredictable losses; a coverage limit that is too low defeats this purpose precisely when the protection matters most. Additionally, because Bronze-tier plans (which carry the lowest premiums) generally require you to pay around 40% of covered costs [5], a high-severity claim could still result in enormous out-of-pocket exposure even before hitting any coverage ceiling. This mismatch between premium savings and actual risk exposure is a classic tradeoff in insurance design: optimizing for low monthly cost works well only if your expected claims remain modest [1]. For someone facing elevated health or liability risks, a higher-premium plan with richer coverage and lower cost-sharing is often the more financially sound choice, since the savings on premiums are unlikely to offset a single large uncovered loss.",
+    "retrieved": [
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.2854156494140625
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.31511443853378296
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.32931989431381226
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.33083343505859375
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.33093398809432983
+      }
+    ],
+    "latency_sec": 8.24,
+    "embed_cosine": 0.8802019357681274,
+    "judge": {
+      "factuality": 4,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate correctly explains the core mismatch between low coverage limits and high-severity risks, covers the key concept thoroughly, and gives actionable guidance, though the Bronze-plan 40% cost-sharing detail is specific to health insurance and slightly narrows the broader principle the refe",
+      "mean": 4.666666666666667
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "ins-007",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A person says, 'I never file claims, so insurance is a waste of money.' What is incomplete about that reasoning?",
+    "reference": "Insurance is primarily designed to protect against low-frequency but potentially devastating losses, not to guarantee that every policyholder gets back more than they pay in premiums. The fact that someone does not file claims may reflect that the insured event did not occur, not that the coverage lacked value. Insurance is best viewed as protection against financial ruin or major disruption rather than a product meant to produce a regular payout.",
+    "candidate": "This reasoning overlooks the fundamental purpose of insurance, which is to protect against **low-probability, high-severity events** rather than routine expenses. A person who rarely files claims may simply be healthy and fortunate so far, but a single major medical event, accident, or hospitalization could result in catastrophic out-of-pocket costs that dwarf years of premium payments. Insurance is essentially a risk-transfer mechanism \u2014 you trade predictable, manageable premium costs for protection against unpredictable, potentially devastating losses. Additionally, many health plans cover **certain preventive services at no cost even before the deductible is met**, meaning there may be direct value being received even without a formal claim [1]. The reasoning also ignores that plans with lower premiums tend to carry higher deductibles, so choosing no insurance to save on premiums could leave someone extremely exposed in a bad year [4]. Finally, the absence of past claims is not a reliable predictor of future ones \u2014 health, circumstances, and risk exposure can change suddenly and without warning.",
+    "retrieved": [
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.37529492378234863
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3793973922729492
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3826759457588196
+      },
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.38741976022720337
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3882981538772583
+      }
+    ],
+    "latency_sec": 6.33,
+    "embed_cosine": 0.8902937173843384,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate accurately captures the core reasoning flaw, covers risk-transfer mechanics, low-probability/high-severity framing, and adds relevant nuances about preventive care and premium-deductible tradeoffs without any misinformation.",
+      "mean": 5.0
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  }
+]

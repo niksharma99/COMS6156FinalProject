@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+src/knowledge_base/vector_store/
+src/notebooks/results/
+.ipynb_checkpoints/

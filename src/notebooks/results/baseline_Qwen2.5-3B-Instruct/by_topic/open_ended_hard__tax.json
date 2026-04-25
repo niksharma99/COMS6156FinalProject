@@ -1,0 +1,135 @@
+[
+  {
+    "id": "tax-001",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why is the statement 'If I move into a higher tax bracket, all my income gets taxed at that higher rate' incorrect?",
+    "reference": "Because the U.S. federal income tax system is marginal, not flat by bracket. Only the portion of income that falls within the higher bracket is taxed at that higher rate; lower portions are still taxed at the lower rates that apply to those brackets. Moving into a higher bracket does not retroactively increase the tax rate on all income.",
+    "candidate": "The statement 'If I move into a higher tax bracket, all my income gets taxed at that higher rate' is incorrect because it oversimplifies the progressive nature of most tax systems. In reality, individuals typically pay different rates on different portions of their income within a higher tax bracket. For example, in the United States, the federal income tax system uses graduated brackets, meaning that each additional dollar earned above a certain threshold is taxed at a progressively higher rate. However, within these brackets, there can be deductions, credits, and other adjustments that reduce the taxable income. Additionally, some types of income may be taxed at lower rates or not at all, depending on the specifics of the tax code and individual circumstances. Therefore, while moving into a higher tax bracket does mean more of your income will be subject to higher rates, not all of it necessarily falls into this category.",
+    "latency_sec": 7.64,
+    "embed_cosine": 0.902786374092102,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "The candidate correctly explains marginal taxation but muddies the core point with tangential mentions of deductions and credits, slightly diluting the clarity of the marginal bracket explanation.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "tax-002",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "What is the difference between a tax deduction and a tax credit, and why is that distinction important?",
+    "reference": "A tax deduction reduces taxable income, while a tax credit directly reduces the amount of tax owed. Because a credit lowers tax liability dollar for dollar, it is often more valuable than a deduction of the same nominal amount. The distinction matters because two tax benefits with the same face value can produce very different actual savings.",
+    "candidate": "A tax deduction reduces your taxable income by lowering the amount of money subject to taxes, while a tax credit directly reduces the amount of tax you owe. For example, if you itemize deductions, you might claim mortgage interest or charitable donations, which lower your taxable income. A tax credit, on the other hand, can be applied directly against the total tax owed, meaning it could reduce your tax bill dollar-for-dollar. The distinction is important because some credits, like the Child Tax Credit, can provide more significant savings for taxpayers with children compared to deductions, which may not offer the same dollar-for-dollar reduction. Additionally, certain deductions have limits based on income level, whereas credits are available regardless of income, making them potentially more beneficial for low-income individuals.",
+    "latency_sec": 6.61,
+    "embed_cosine": 0.9390329122543335,
+    "judge": {
+      "factuality": 4,
+      "completeness": 5,
+      "advice_quality": 4,
+      "rationale": "Accurately explains the core distinction with good examples, though the claim that credits are 'available regardless of income' is an overgeneralization since many credits also phase out with income.",
+      "mean": 4.333333333333333
+    }
+  },
+  {
+    "id": "tax-003",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why does receiving a tax refund not necessarily mean someone 'came out ahead' financially?",
+    "reference": "A tax refund often means too much tax was withheld during the year, so the person is receiving their own money back rather than earning extra money. While a refund can feel positive, it may indicate the person provided the government with an interest-free loan. The true question is overall tax liability and cash flow management, not refund size alone.",
+    "candidate": "Receiving a tax refund doesn't always indicate that someone is financially ahead because the refund can be seen as an advance payment on taxes owed to the government. This means that if you receive a refund, it's essentially money that was taken from your paycheck throughout the year without interest or additional benefits. However, this refund could have been invested or used for other financial goals, such as building an emergency fund or paying off debt at potentially higher interest rates. Therefore, while a refund might seem like extra cash, it doesn't provide the same return on investment as savings or investments. Additionally, if the refund is substantial, it might prompt unnecessary spending rather than prudent saving, which could lead to future financial challenges.",
+    "latency_sec": 6.17,
+    "embed_cosine": 0.8663655519485474,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "Correctly identifies the interest-free loan concept and opportunity cost, though slightly imprecise calling it an 'advance payment on taxes owed' rather than overwithholding of your own money.",
+      "mean": 4.0
+    }
+  },
+  {
+    "id": "tax-004",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can a larger paycheck after reducing tax withholding be misleading if someone does not adjust their expectations for tax season?",
+    "reference": "Reducing withholding increases take-home pay during the year, but it does not reduce the actual tax owed unless underlying tax liability changes. If the person spends the extra cash without planning, they may end up with a smaller refund or even a tax bill when they file. Higher current paychecks and final tax liability are related but not the same thing.",
+    "candidate": "A larger paycheck after reducing tax withholding can be misleading because it doesn't account for the fact that you're essentially saving money that would have been paid to the government during the year. This means your actual take-home pay is lower than what you might expect from a higher gross pay. However, this adjustment is typically made at the end of the year when you file your taxes, allowing you to receive a refund or offset any overpayment with a future tax bill. The tradeoff here is that while you may feel like you're getting more money upfront, you're actually saving money throughout the year, which could lead to missed opportunities for investing or spending on immediate needs.",
+    "latency_sec": 5.84,
+    "embed_cosine": 0.9059048295021057,
+    "judge": {
+      "factuality": 2,
+      "completeness": 2,
+      "advice_quality": 2,
+      "rationale": "The candidate answer confuses and contradicts itself\u2014claiming the paycheck is 'lower than expected' and that you're 'saving money' when in fact reducing withholding increases take-home pay but creates a potential tax bill, missing the core risk the question asks about.",
+      "mean": 2.0
+    }
+  },
+  {
+    "id": "tax-005",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A worker earns additional side income and assumes it will be taxed exactly the same way as wages withheld through payroll. What nuance are they missing?",
+    "reference": "Side income may still be part of overall taxable income, but it often does not have taxes automatically withheld the same way wages do. Depending on the type of income, the person may need to plan for taxes separately and may also face additional considerations such as self-employment tax. The key nuance is that how income is earned affects how taxes are paid and reported, even if it contributes to total taxable income.",
+    "candidate": "While it's common for individuals to assume that side income will be taxed similarly to wages withheld through payroll, there are several nuances they might be missing. Firstly, the tax rates and brackets for side income can differ from those applied to regular employment. Secondly, deductions and credits available for side income may not be the same as those for wages. Thirdly, some types of side income, such as capital gains or business income, are subject to different tax rules and may have their own tax rates and schedules. Lastly, self-employment taxes, which include Social Security and Medicare taxes, apply to side income but are not withheld at source like wage taxes. These differences can significantly impact the net amount of money received after taxes, so it's important for individuals to understand these distinctions before assuming their tax treatment will remain consistent.",
+    "latency_sec": 7.04,
+    "embed_cosine": 0.8988761901855469,
+    "judge": {
+      "factuality": 3,
+      "completeness": 4,
+      "advice_quality": 3,
+      "rationale": "The candidate correctly identifies self-employment tax and lack of withholding but introduces some inaccuracies (side income is generally taxed at the same marginal rates as wages, not 'different rates/brackets'), and the advice lacks actionable guidance on estimated quarterly payments.",
+      "mean": 3.3333333333333335
+    }
+  },
+  {
+    "id": "tax-006",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can selling an investment for a gain trigger a tax consequence even if the money is immediately reinvested into another investment?",
+    "reference": "Selling an investment for a gain can create a taxable event because the gain is realized at the time of sale. Reinvesting the proceeds into another investment does not erase the fact that the original asset was sold at a profit. The tax consequence depends on account type, holding period, and applicable rules, but immediate reinvestment alone does not generally avoid realizing the gain.",
+    "candidate": "Selling an investment for a gain triggers a tax consequence because the capital gains tax is levied on the profit realized from the sale, not on the reinvestment itself. Even if you immediately reinvest the proceeds from the sale, the IRS considers the entire amount as income for that year, including the capital gains. This means you must report this income and pay taxes on it, which could affect your overall financial situation by reducing your taxable income or increasing your tax liability. The tradeoff here is that while reinvesting allows you to potentially grow your wealth, it also means you'll have to account for the tax implications of the capital gains, which might require additional savings or adjustments to your budget.",
+    "latency_sec": 6.1,
+    "embed_cosine": 0.9172941446304321,
+    "judge": {
+      "factuality": 3,
+      "completeness": 3,
+      "advice_quality": 3,
+      "rationale": "The core concept is correct but the answer contains a confusing error ('reducing your taxable income') and incorrectly implies the entire sale proceeds are income rather than just the gain; it misses key nuances like holding period, account type, and wash-sale rules.",
+      "mean": 3.0
+    }
+  },
+  {
+    "id": "tax-007",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why is the phrase 'tax write-off' often used too loosely in everyday conversation?",
+    "reference": "People often use 'tax write-off' to mean any expense that lowers taxes, but not every expense is deductible, and even deductible expenses do not usually make something free. A deduction lowers taxable income rather than reimbursing the full cost. Using the phrase too loosely can create the mistaken impression that spending money automatically produces equivalent tax savings.",
+    "candidate": "The phrase 'tax write-off' is often used too loosely in everyday conversation because it can be misunderstood to mean any expense that reduces tax liability without considering the specific rules and limitations set by tax laws. Tax write-offs, or deductions, are limited to certain expenses that are considered necessary for business operations or personal financial management as per IRS guidelines. This includes things like mortgage interest, charitable donations, and business-related expenses. The looseness in its usage can lead to confusion and potentially non-compliance with tax regulations, as not all expenses qualify as write-offs. Additionally, there are tradeoffs involved; while some expenses may reduce taxable income, others might not be deductible at all, or they might have higher thresholds before becoming deductible. Therefore, it's crucial to understand the specifics of what qualifies as a tax write-off to avoid oversimplification and potential legal issues.",
+    "latency_sec": 7.5,
+    "embed_cosine": 0.9333338737487793,
+    "judge": {
+      "factuality": 4,
+      "completeness": 3,
+      "advice_quality": 4,
+      "rationale": "The candidate correctly notes not all expenses qualify and mentions thresholds, but misses the key conceptual point that a deduction reduces taxable income rather than reimbursing the full cost, leading people to think spending money is 'free.'",
+      "mean": 3.6666666666666665
+    }
+  }
+]

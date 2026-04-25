@@ -1,0 +1,2048 @@
+[
+  {
+    "id": "bud-001",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the 50/30/20 budgeting rule?",
+    "reference": "The 50/30/20 rule suggests allocating your after-tax income as follows: 50% to needs (housing, groceries, utilities, insurance, minimum debt payments), 30% to wants (dining out, entertainment, hobbies, subscriptions), and 20% to savings and extra debt repayment (emergency fund, retirement contributions, paying down debt beyond minimums).",
+    "candidate": "The 50/30/20 rule is a popular budgeting framework that divides your after-tax income into three broad categories: needs, wants, and savings or debt repayment. Roughly half of your income is allocated to essential needs like housing, groceries, utilities, and transportation. About 30% goes toward wants \u2014 discretionary spending like dining out, entertainment, and hobbies. The remaining 20% is directed toward savings, investments, and paying down debt beyond minimum payments. This rule is a useful starting point, though it involves tradeoffs: those with very high or very low incomes may find the percentages don't fit their circumstances well, and high-cost-of-living areas can make the \"needs\" category difficult to cap. Once you understand your cash flow and bill timing, you can adjust these percentages to better match your situation [2]. Windfalls like tax refunds are also a great opportunity to give your savings category a one-time boost [1].",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3329176902770996
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3351020812988281
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.33853816986083984
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.35013246536254883
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.35027897357940674
+      }
+    ],
+    "latency_sec": 5.65,
+    "embed_cosine": 0.9238731265068054,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Candidate accurately covers all three categories with correct examples, notes important caveats about income levels and cost of living, and offers actionable personalization advice without any misinformation.",
+      "mean": 5.0
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "bud-002",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "How many months of expenses should an emergency fund cover?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.20615124702453613
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.20709818601608276
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2344803810119629
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2423906922340393
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2608182430267334
+      }
+    ],
+    "latency_sec": 1.02,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "bud-003",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between a need and a want in the context of budgeting?",
+    "reference": "A need is an essential expense required for basic living and obligations: housing, utilities, groceries, transportation to work, insurance, and minimum debt payments. A want is a non-essential expense that improves quality of life but isn't required for survival or fulfilling obligations: dining out, streaming services, vacations, upgrades beyond basic needs. The distinction can be subjective at the margins (e.g., is a gym membership a need or want?).",
+    "candidate": "In budgeting, a **need** is an essential expense required for basic living and financial stability \u2014 such as housing, utilities, food, transportation to work, and minimum debt payments. A **want**, by contrast, is a discretionary expense that improves your lifestyle but isn't strictly necessary, like dining out, streaming subscriptions, or luxury clothing. The classic framework for distinguishing the two is the **50/30/20 rule**, which suggests allocating roughly half your income to needs, a portion to wants, and the remainder to savings and debt repayment. In practice, the line can blur \u2014 for example, a car might be a need for someone in a rural area but a want for someone with robust public transit access. Keeping this distinction in mind helps you identify opportunities to redirect spending toward priorities like an emergency fund, which protects you from relying on credit cards or loans during financial shocks [1][3]. Tracking the timing of your income and expenses is one practical way to surface these trade-offs and find room to adjust [5]. Ultimately, the goal isn't to eliminate wants entirely, but to make conscious choices that align your spending with your values and financial goals.",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.35565489530563354
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3561427593231201
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.35614752769470215
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3867305517196655
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.39327937364578247
+      }
+    ],
+    "latency_sec": 7.48,
+    "embed_cosine": 0.9005112648010254,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate accurately covers the need/want distinction, acknowledges the subjective margin with a good example, correctly references the 50/30/20 framework, and provides actionable, well-framed guidance without misconceptions.",
+      "mean": 5.0
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "bud-004",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "Should you prioritize paying off high-interest debt or building an emergency fund first?",
+    "reference": "Most financial advisors recommend a balanced approach: first build a small starter emergency fund ($1,000-$2,000) to avoid going further into debt for unexpected expenses, then aggressively pay down high-interest debt (especially credit cards above 15-20% APR), then build the full 3-6 month emergency fund. The mathematical answer favors debt payoff (guaranteed 'return' equal to the interest rate), but having zero emergency savings creates risk of more debt.",
+    "candidate": "This is a genuine tradeoff in personal finance with thoughtful arguments on both sides. A common middle-ground recommendation is to first build a *small* starter emergency fund (often cited as a few hundred to one thousand dollars) before aggressively attacking high-interest debt, so that an unexpected expense doesn't force you straight back into borrowing. The CFPB emphasizes that without an emergency fund, you risk relying on credit cards or loans to cover financial shocks, which can cause a \"one-time emergency expense to grow significantly larger than your original bill because of interest and fees\" [3] \u2014 essentially deepening the debt problem you're trying to solve. Once you have that modest cushion, redirecting extra cash toward high-interest debt (such as credit card balances) typically makes strong mathematical sense, since the interest you're paying likely exceeds what any savings account earns. After the high-interest debt is cleared, you can then focus on building your emergency fund up to a fuller target \u2014 commonly three to six months of essential expenses \u2014 in a safe and accessible account [2]. The right balance ultimately depends on your income stability, the interest rate on your debt, and your personal risk tolerance. The key insight from the CFPB is that *having some* emergency savings, even a small amount, helps you avoid a cycle where emergencies continually push you deeper into debt [3][4].",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.23631811141967773
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.24824047088623047
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2504464387893677
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.25988954305648804
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.2662571668624878
+      }
+    ],
+    "latency_sec": 8.18,
+    "embed_cosine": 0.8850404024124146,
+    "judge": {
+      "factuality": 4,
+      "completeness": 4,
+      "advice_quality": 5,
+      "rationale": "Candidate covers the core balanced approach well but suggests a smaller starter fund (a few hundred to $1,000) versus the reference's $1,000-$2,000, and omits the specific APR threshold (15-20%) for prioritizing debt payoff, though the overall framework and reasoning are accurate and actionable.",
+      "mean": 4.333333333333333
+    },
+    "n_citations": 3,
+    "citation_coverage": 0.6
+  },
+  {
+    "id": "bud-005",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "What is the debt avalanche method vs. the debt snowball method?",
+    "reference": "The debt avalanche method prioritizes paying off debts with the highest interest rate first (while making minimum payments on others), minimizing total interest paid. The debt snowball method prioritizes paying off the smallest balance first to build psychological momentum through quick wins. Mathematically, the avalanche method saves more money, but research suggests the snowball method can be more effective behaviorally because the early wins increase motivation to continue.",
+    "candidate": "The **debt avalanche** and **debt snowball** are two popular strategies for paying down multiple debts, and they differ primarily in the order you tackle balances. With the **debt avalanche**, you make minimum payments on all debts and direct any extra money toward the debt with the **highest interest rate** first; once that's paid off, you roll that payment toward the next highest-rate debt. This approach minimizes the total interest you pay over time, making it mathematically optimal. The **debt snowball**, by contrast, has you focus extra payments on the **smallest balance** first, regardless of interest rate, giving you quicker \"wins\" that can boost motivation and momentum. Once a small debt is eliminated, you roll its payment into the next smallest balance, creating a snowball effect. The tradeoff is that the snowball method may cost you more in interest overall, but research suggests the psychological reinforcement of eliminating accounts can help some people stay on track. Whichever method you choose, avoiding new high-interest debt while paying down existing balances is key \u2014 as carrying debt can significantly amplify the original cost of any expense [1][4].",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.38807016611099243
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3941161632537842
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3954477906227112
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3970104455947876
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.40293991565704346
+      }
+    ],
+    "latency_sec": 7.74,
+    "embed_cosine": 0.9334863424301147,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Candidate answer accurately covers both methods, correctly identifies the mathematical vs. behavioral tradeoff, and adds actionable advice without introducing any misinformation.",
+      "mean": 5.0
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "bud-006",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What percentage of your gross income is generally recommended as a maximum for housing costs (rent or mortgage)?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.3942517638206482
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.4099540710449219
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.4159333109855652
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.42392224073410034
+      },
+      {
+        "title": "An essential guide to building an emergency fund",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_emergency_fund_guide",
+        "distance": 0.4259824752807617
+      }
+    ],
+    "latency_sec": 0.9,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "crd-001",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "Does checking your own credit score lower it?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.2834341526031494
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.30824100971221924
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3365374207496643
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.35568058490753174
+      },
+      {
+        "title": "What is a debt-to-income ratio?",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_debt_to_income_ratio",
+        "distance": 0.385026216506958
+      }
+    ],
+    "latency_sec": 1.05,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "crd-002",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "How long does a Chapter 7 bankruptcy stay on your credit report?",
+    "reference": "C",
+    "candidate": "C",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3530591130256653
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.35442137718200684
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3736764192581177
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3798922300338745
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3894520401954651
+      }
+    ],
+    "latency_sec": 1.31,
+    "mc_correct": true,
+    "mc_picked": "C",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "crd-003",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "Which factor has the largest impact on your FICO credit score?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.29037392139434814
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3149513006210327
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.35752058029174805
+      },
+      {
+        "title": "What is a debt-to-income ratio?",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_debt_to_income_ratio",
+        "distance": 0.3872145414352417
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.4099413752555847
+      }
+    ],
+    "latency_sec": 0.75,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "crd-004",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "If you only make minimum payments on a $5,000 credit card balance at 22% APR, approximately how long will it take to pay off and how much total interest will you pay?",
+    "reference": "C",
+    "candidate": "C",
+    "retrieved": [
+      {
+        "title": "What is a debt-to-income ratio?",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_debt_to_income_ratio",
+        "distance": 0.35912346839904785
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.4124847650527954
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.42061370611190796
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.43329983949661255
+      },
+      {
+        "title": "What is a debt-to-income ratio?",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_debt_to_income_ratio",
+        "distance": 0.4505169987678528
+      }
+    ],
+    "latency_sec": 1.01,
+    "mc_correct": true,
+    "mc_picked": "C",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "crd-005",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "Can a debt collector sue you for a debt that is past the statute of limitations?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.38415777683258057
+      },
+      {
+        "title": "Owning a home: mortgage basics",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_mortgage_basics",
+        "distance": 0.43331849575042725
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.4335458278656006
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.44049763679504395
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.45493507385253906
+      }
+    ],
+    "latency_sec": 0.76,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "crd-006",
+    "dataset": "standard_questions",
+    "topic": "credit_and_debt",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between a hard inquiry and a soft inquiry on your credit report?",
+    "reference": "A hard inquiry occurs when a lender checks your credit as part of a lending decision (e.g., applying for a mortgage, credit card, or auto loan). Hard inquiries can temporarily lower your score by a few points and remain on your report for 2 years. A soft inquiry occurs when you check your own credit, when a lender pre-approves you, or for background checks. Soft inquiries do not affect your credit score at all.",
+    "candidate": "Hard inquiries occur when a lender or creditor pulls your credit report as part of a formal application for credit, such as applying for a mortgage, auto loan, or credit card. Soft inquiries, by contrast, happen when you check your own credit, when a company pre-screens you for a promotional offer, or when an employer conducts a background check. The key practical difference is that hard inquiries can temporarily lower your credit score, while soft inquiries have no impact on your score whatsoever. It's worth noting that the CFPB confirms that simply requesting your own credit reports will not hurt your credit score [2]. Multiple hard inquiries within a short window for the same type of loan (such as mortgage rate shopping) are often treated as a single inquiry by scoring models, which softens the impact. Hard inquiries typically remain visible on your credit report for two years, though their effect on your score generally fades after a few months. Being mindful of how often you formally apply for new credit is a useful habit, since a cluster of hard inquiries can signal financial stress to potential lenders.",
+    "retrieved": [
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3202109932899475
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.32910680770874023
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3383510112762451
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.3599510192871094
+      },
+      {
+        "title": "Credit reports and scores",
+        "publisher": "CFPB",
+        "source_slug": "cfpb_credit_reports_and_scores",
+        "distance": 0.36626166105270386
+      }
+    ],
+    "latency_sec": 5.74,
+    "embed_cosine": 0.9692369103431702,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key points from the reference, adds useful nuance about rate-shopping treatment and score impact duration, and provides actionable guidance without any misinformation.",
+      "mean": 5.0
+    },
+    "n_citations": 1,
+    "citation_coverage": 0.2
+  },
+  {
+    "id": "ins-001",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between an HMO and a PPO health insurance plan?",
+    "reference": "An HMO (Health Maintenance Organization) requires you to choose a primary care physician, get referrals for specialists, and generally limits coverage to in-network providers only. A PPO (Preferred Provider Organization) allows you to see any provider without referrals, including out-of-network providers, but typically has higher premiums and some out-of-network cost-sharing.",
+    "candidate": "HMOs (Health Maintenance Organizations) and PPOs (Preferred Provider Organizations) are two of the most common types of health insurance plan structures, each with distinct tradeoffs. With an HMO, you are generally required to choose a primary care physician (PCP) who acts as a gatekeeper and provides referrals to specialists, and coverage is typically limited to in-network providers except in emergencies. PPOs offer more flexibility, allowing you to see specialists and out-of-network providers without a referral, though you'll usually pay less when staying within the plan's network. In exchange for its flexibility restrictions, an HMO typically comes with lower premiums and out-of-pocket costs, making it a popular choice for those who want predictable, lower-cost coverage and don't mind the referral process. A PPO tends to have higher premiums and potentially higher out-of-pocket costs, but is often preferred by people who want to manage their own care or have specific out-of-network providers they wish to see. Neither plan type is inherently superior \u2014 the right choice depends on your health needs, how often you seek specialist care, and your budget priorities. Note that the passages provided focus on HSAs, FSAs, and HDHPs and do not directly address HMO vs. PPO specifics, so this answer is drawn from general personal-finance knowledge.",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.27354979515075684
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.28731095790863037
+      },
+      {
+        "title": "Health plan categories (Bronze/Silver/Gold/Platinum)",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_plan_categories",
+        "distance": 0.3052322268486023
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3147139549255371
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.31724321842193604
+      }
+    ],
+    "latency_sec": 6.76,
+    "embed_cosine": 0.9314361214637756,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key distinctions (PCP/gatekeeper requirement, referrals, network restrictions, premium differences) and adds useful context about when each plan type is preferable, with appropriate nuance about tradeoffs.",
+      "mean": 5.0
+    },
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ins-002",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "What is the maximum out-of-pocket limit for an individual marketplace health plan in 2025?",
+    "reference": "C",
+    "candidate": "C",
+    "retrieved": [
+      {
+        "title": "Out-of-pocket maximum / limit",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_out_of_pocket_max",
+        "distance": 0.11618196964263916
+      },
+      {
+        "title": "Out-of-pocket maximum / limit",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_out_of_pocket_max",
+        "distance": 0.23394775390625
+      },
+      {
+        "title": "Out-of-pocket maximum / limit",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_out_of_pocket_max",
+        "distance": 0.2583184242248535
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.26192665100097656
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.2653115391731262
+      }
+    ],
+    "latency_sec": 0.88,
+    "mc_correct": true,
+    "mc_picked": "C",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ins-003",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What does term life insurance cover that whole life insurance does not, and vice versa?",
+    "reference": "Term life insurance provides coverage for a specific period (e.g., 10, 20, or 30 years) and pays a death benefit only if the insured dies during that term. It has no cash value component and is significantly cheaper. Whole life insurance provides permanent coverage for the insured's entire life, includes a cash value component that grows over time, and has much higher premiums. Term does not build cash value; whole life does not expire.",
+    "candidate": "The provided passages don't cover life insurance, so I'll draw on general personal-finance knowledge here. Term life insurance provides pure death-benefit protection for a specific period (e.g., 10, 20, or 30 years), meaning it pays out only if the insured dies within that term \u2014 it does not build any cash value. Whole life insurance, by contrast, covers the insured for their entire lifetime as long as premiums are paid, and it includes a cash-value component that grows on a tax-deferred basis and can be borrowed against or surrendered. The tradeoff is cost: term policies are generally much less expensive for the same death benefit, making them attractive for income replacement during working years or while carrying a mortgage. Whole life's cash-value feature doubles as a savings/investment vehicle, but critics note that the returns are often modest compared to investing the premium difference separately \u2014 a concept sometimes called \"buy term and invest the rest.\" Neither product is universally superior; the right choice depends on your budget, how long you need coverage, and whether the forced savings and lifetime guarantee of whole life align with your goals.",
+    "retrieved": [
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.2954169511795044
+      },
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.3106878995895386
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3133942484855652
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.31589585542678833
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.31617796421051025
+      }
+    ],
+    "latency_sec": 6.94,
+    "embed_cosine": 0.9496684670448303,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Candidate answer accurately covers all reference points and adds valuable nuance including tax-deferred growth, borrowing against cash value, cost comparison, and the 'buy term and invest the rest' tradeoff without any misinformation.",
+      "mean": 5.0
+    },
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ins-004",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Does auto insurance follow the car or the driver?",
+    "reference": "C",
+    "candidate": "C",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3673701882362366
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3762704133987427
+      },
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.38376158475875854
+      },
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.38802123069763184
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.38848674297332764
+      }
+    ],
+    "latency_sec": 0.69,
+    "mc_correct": true,
+    "mc_picked": "C",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ins-005",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What is the elimination period in a disability insurance policy?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.2990792989730835
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3142293691635132
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3216046690940857
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3269929885864258
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3303515911102295
+      }
+    ],
+    "latency_sec": 0.78,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ins-006",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Is flood damage covered by a standard homeowner's insurance policy?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3438389301300049
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3544905185699463
+      },
+      {
+        "title": "Deductible",
+        "publisher": "HealthCare.gov",
+        "source_slug": "hcgov_deductible",
+        "distance": 0.36034560203552246
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3708474636077881
+      },
+      {
+        "title": "Pub 969: HSAs and Other Tax-Favored Health Plans",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_969_hsa_fsa",
+        "distance": 0.3765110373497009
+      }
+    ],
+    "latency_sec": 0.64,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "inv-001",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is dollar-cost averaging?",
+    "reference": "Dollar-cost averaging is an investment strategy where you invest a fixed dollar amount at regular intervals (e.g., monthly) regardless of the asset's price. When prices are low, you buy more shares; when prices are high, you buy fewer. This reduces the impact of short-term volatility on your average cost per share over time.",
+    "candidate": "Dollar-cost averaging (DCA) is an investment strategy where you invest a fixed dollar amount into a particular asset (such as a stock or mutual fund) at regular intervals, regardless of the asset's price. When prices are low, your fixed contribution buys more shares, and when prices are high, it buys fewer shares, resulting in a lower average cost per share over time compared to investing a lump sum at a potentially unfavorable moment. This approach helps reduce the emotional temptation to \"time the market,\" since contributions happen automatically on a set schedule. A common real-world example is contributing a set amount to a 401(k) or IRA each pay period. One key tradeoff is that in a consistently rising market, lump-sum investing has historically outperformed DCA on average, since more money is put to work sooner. However, DCA can significantly reduce risk for investors who are anxious about volatility or who simply don't have a large lump sum available to invest all at once. The passages provided do not cover this topic, so this answer is based on general personal-finance knowledge.",
+    "retrieved": [
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3276745080947876
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3338867425918579
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.34923166036605835
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.35382771492004395
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.35433804988861084
+      }
+    ],
+    "latency_sec": 5.84,
+    "embed_cosine": 0.8612627387046814,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all reference points and adds valuable nuance including the lump-sum vs DCA tradeoff, emotional benefits, and practical examples without introducing any misinformation.",
+      "mean": 5.0
+    },
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "inv-002",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "When interest rates rise, what generally happens to the price of existing bonds?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.24244540929794312
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.24362891912460327
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2513575553894043
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2533193826675415
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2567763328552246
+      }
+    ],
+    "latency_sec": 0.99,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "inv-003",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between an ETF and a mutual fund?",
+    "reference": "Both ETFs and mutual funds pool investor money into a diversified portfolio. Key differences: ETFs trade on exchanges throughout the day at market prices like stocks, while mutual funds are priced once daily at NAV after market close. ETFs typically have lower expense ratios and are more tax-efficient due to their creation/redemption mechanism. Mutual funds may have minimum investment requirements; ETFs can be bought one share at a time.",
+    "candidate": "Both mutual funds and ETFs (Exchange-Traded Funds) pool money from many investors to invest in a diversified basket of securities like stocks and bonds, giving individuals access to broad diversification in a single investment [1][2]. The key structural difference is that ETFs trade on a stock exchange throughout the day at market prices, just like individual stocks, whereas traditional mutual funds are priced once per day after the market closes and are bought or sold directly through the fund company. This intraday trading flexibility makes ETFs more liquid for investors who want to react quickly to market movements, though it can also encourage short-term trading behavior, which is a tradeoff worth considering. ETFs are also generally considered more tax-efficient than mutual funds due to their unique \"in-kind\" creation and redemption mechanism, which tends to generate fewer taxable capital gains distributions. In terms of cost, both vehicles can be low-cost when structured as index funds, but ETFs have historically had a slight edge in expense ratios, though this gap has narrowed considerably in recent years. Neither structure guarantees instant diversification on its own \u2014 a narrowly focused ETF or mutual fund covering only one sector may still leave your portfolio concentrated in one area [1].",
+    "retrieved": [
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.19962763786315918
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2320927381515503
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.2531982660293579
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.26207882165908813
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.26638782024383545
+      }
+    ],
+    "latency_sec": 6.92,
+    "embed_cosine": 0.9335580468177795,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Candidate accurately covers all key differences (trading mechanism, tax efficiency, costs, NAV pricing) with added nuance about short-term trading risks and sector concentration, matching and slightly expanding on the reference.",
+      "mean": 5.0
+    },
+    "n_citations": 2,
+    "citation_coverage": 0.4
+  },
+  {
+    "id": "inv-004",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What does SIPC (Securities Investor Protection Corporation) protect against?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.34079980850219727
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3442409038543701
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.34609633684158325
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.3526872396469116
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.35403913259506226
+      }
+    ],
+    "latency_sec": 0.69,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "inv-005",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Is it possible to lose more money than you invest when buying stocks on margin?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2587238550186157
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2608764171600342
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2682965397834778
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.27186405658721924
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.278007447719574
+      }
+    ],
+    "latency_sec": 0.78,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "inv-006",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "If an index fund has an expense ratio of 0.03% and another has 1.00%, how much more would the higher-fee fund cost on a $100,000 investment over 30 years, assuming both return 7% annually before fees?",
+    "reference": "C",
+    "candidate": "C",
+    "retrieved": [
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.24170678853988647
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.25582075119018555
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2797064185142517
+      },
+      {
+        "title": "Index Funds",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_index_funds",
+        "distance": 0.29016977548599243
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.29751014709472656
+      }
+    ],
+    "latency_sec": 0.69,
+    "mc_correct": true,
+    "mc_picked": "C",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "inv-007",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is a target-date fund and how does its asset allocation change over time?",
+    "reference": "A target-date fund is a fund designed for investors planning to retire around a specific year (e.g., a 2050 target-date fund). The fund automatically rebalances its asset allocation over time, becoming more conservative (shifting from stocks to bonds) as the target date approaches. This process is called a 'glide path.'",
+    "candidate": "A target-date fund (also called a lifecycle fund) is a diversified mutual fund designed as a one-stop investment solution for a specific financial goal, most commonly retirement [2]. Investors simply choose a fund whose target date aligns with their intended retirement year \u2014 for example, a fund named \"Retirement Fund 2030\" or \"Target 2045\" \u2014 and the fund's managers handle all decisions about asset allocation, diversification, and rebalancing on the investor's behalf [1][2]. Over time, the fund automatically shifts toward a more conservative mix of investments as it approaches that target date [2]. This reflects the general principle that investors with shorter time horizons typically hold less stock and more bonds and cash equivalents, since they have less time to recover from market downturns [1][3]. The gradual shift from growth-oriented to more conservative assets is often called the fund's \"glide path\" \u2014 a concept rooted in the idea that your time horizon and risk tolerance should drive your asset allocation [4]. A key tradeoff to keep in mind is that while target-date funds offer simplicity and automatic management, they may not perfectly match every individual investor's unique risk tolerance or financial situation [3][4].",
+    "retrieved": [
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.14799565076828003
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.20298689603805542
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2259032130241394
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.2270340919494629
+      },
+      {
+        "title": "Beginner's Guide to Asset Allocation, Diversification, and Rebalancing",
+        "publisher": "SEC Investor.gov",
+        "source_slug": "sec_asset_allocation",
+        "distance": 0.23703324794769287
+      }
+    ],
+    "latency_sec": 6.17,
+    "embed_cosine": 0.9394828081130981,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key concepts from the reference (target year, automatic rebalancing, stocks-to-bonds shift, glide path) and adds valuable nuance about tradeoffs and individual suitability.",
+      "mean": 5.0
+    },
+    "n_citations": 4,
+    "citation_coverage": 0.8
+  },
+  {
+    "id": "inv-008",
+    "dataset": "standard_questions",
+    "topic": "investing",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "What is the wash sale rule?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2050294280052185
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.20542818307876587
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.20840072631835938
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.2103021740913391
+      },
+      {
+        "title": "Pub 550: Investment Income and Expenses",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_550_investment_income",
+        "distance": 0.22363853454589844
+      }
+    ],
+    "latency_sec": 0.65,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ret-001",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What is the maximum 401(k) employee elective deferral limit for 2025 for someone under age 50?",
+    "reference": "D",
+    "candidate": "D",
+    "retrieved": [
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.1572650671005249
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.1734270453453064
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.17535561323165894
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.1790452003479004
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.17943018674850464
+      }
+    ],
+    "latency_sec": 1.09,
+    "mc_correct": true,
+    "mc_picked": "D",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ret-002",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Can a 72-year-old with earned income contribute to a Roth IRA?",
+    "reference": "C",
+    "candidate": "C",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2087119221687317
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2132892608642578
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.23021036386489868
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.2327638864517212
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.23757946491241455
+      }
+    ],
+    "latency_sec": 0.88,
+    "mc_correct": true,
+    "mc_picked": "C",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ret-003",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "Is there an income limit for contributing to a traditional IRA?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.13908684253692627
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.14381670951843262
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.1528846025466919
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.15485000610351562
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.15626251697540283
+      }
+    ],
+    "latency_sec": 1.14,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ret-004",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "At what age must you begin taking Required Minimum Distributions (RMDs) from a traditional 401(k) if you were born in 1960?",
+    "reference": "D",
+    "candidate": "C",
+    "retrieved": [
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.19354665279388428
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.19762027263641357
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.20875906944274902
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.21324598789215088
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.21576929092407227
+      }
+    ],
+    "latency_sec": 1.23,
+    "mc_correct": false,
+    "mc_picked": "C",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ret-005",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between a traditional IRA and a Roth IRA in terms of tax treatment?",
+    "reference": "Traditional IRA contributions may be tax-deductible (reducing taxable income in the contribution year), but withdrawals in retirement are taxed as ordinary income. Roth IRA contributions are made with after-tax dollars (no upfront deduction), but qualified withdrawals in retirement are completely tax-free.",
+    "candidate": "## Traditional IRA vs. Roth IRA: Tax Treatment\n\nThe two account types essentially offer a **mirror image of each other** when it comes to taxes. With a traditional IRA, you may be able to deduct some or all of your contributions depending on your circumstances, providing a potential upfront tax benefit [1][3]. Additionally, amounts in a traditional IRA \u2014 including earnings and gains \u2014 are generally **not taxed until they are distributed**, meaning you pay taxes on the money when you withdraw it in retirement [3]. A Roth IRA, by contrast, is funded with **after-tax dollars**, so there is no upfront deduction; however, qualified distributions from a Roth IRA are **not included in your gross income**, meaning your growth and withdrawals can be entirely tax-free [2]. Another meaningful difference is flexibility: with a Roth IRA, you can leave your money in the account as long as you live without being forced to take distributions [5], whereas traditional IRAs are subject to required minimum distributions (RMDs) under general tax law. The right choice depends on your current vs. expected future tax rate \u2014 if you anticipate being in a higher bracket in retirement, a Roth's tax-free withdrawals may be more advantageous, while a traditional IRA's upfront deduction may benefit those in a higher bracket today. Both account types have no age limit on contributions for tax years after 2019 [4].",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.17295300960540771
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.18875956535339355
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.18908250331878662
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.19116640090942383
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.19248831272125244
+      }
+    ],
+    "latency_sec": 7.27,
+    "embed_cosine": 0.875270426273346,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Candidate accurately covers all key points from the reference and adds correct, well-framed bonus details (RMDs, bracket considerations, contribution age limits) without any misinformation.",
+      "mean": 5.0
+    },
+    "n_citations": 5,
+    "citation_coverage": 1.0
+  },
+  {
+    "id": "ret-006",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Can you contribute to both a traditional IRA and a Roth IRA in the same year?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.1751810908317566
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.1784963607788086
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.19164645671844482
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.1929473876953125
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.19442999362945557
+      }
+    ],
+    "latency_sec": 0.81,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ret-007",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What is the Social Security full retirement age for someone born in 1965?",
+    "reference": "D",
+    "candidate": "D",
+    "retrieved": [
+      {
+        "title": "Retirement Benefits (SSA Pub 05-10035)",
+        "publisher": "SSA",
+        "source_slug": "ssa_retirement_benefits",
+        "distance": 0.1798509955406189
+      },
+      {
+        "title": "Retirement Benefits (SSA Pub 05-10035)",
+        "publisher": "SSA",
+        "source_slug": "ssa_retirement_benefits",
+        "distance": 0.23527657985687256
+      },
+      {
+        "title": "Retirement Benefits (SSA Pub 05-10035)",
+        "publisher": "SSA",
+        "source_slug": "ssa_retirement_benefits",
+        "distance": 0.24073576927185059
+      },
+      {
+        "title": "Retirement Benefits (SSA Pub 05-10035)",
+        "publisher": "SSA",
+        "source_slug": "ssa_retirement_benefits",
+        "distance": 0.27141374349594116
+      },
+      {
+        "title": "Retirement Benefits (SSA Pub 05-10035)",
+        "publisher": "SSA",
+        "source_slug": "ssa_retirement_benefits",
+        "distance": 0.272163987159729
+      }
+    ],
+    "latency_sec": 0.71,
+    "mc_correct": true,
+    "mc_picked": "D",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "ret-008",
+    "dataset": "standard_questions",
+    "topic": "retirement",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "If you withdraw money from a traditional IRA before age 59\u00bd, what is the early withdrawal penalty?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.16445863246917725
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.17256319522857666
+      },
+      {
+        "title": "Pub 590-B: Distributions from IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590b_iras_distributions",
+        "distance": 0.19251418113708496
+      },
+      {
+        "title": "Pub 590-A: Contributions to IRAs",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_590a_iras_contributions",
+        "distance": 0.21558654308319092
+      },
+      {
+        "title": "Pub 560: Retirement Plans for Small Business",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_560_retirement_plans_small_biz",
+        "distance": 0.2158951759338379
+      }
+    ],
+    "latency_sec": 0.76,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "tax-001",
+    "dataset": "standard_questions",
+    "topic": "tax",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Can you deduct student loan interest if you are married filing separately?",
+    "reference": "C",
+    "candidate": "C",
+    "retrieved": [
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.21084094047546387
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.21959692239761353
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.22728610038757324
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.2334129810333252
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.23506659269332886
+      }
+    ],
+    "latency_sec": 0.81,
+    "mc_correct": true,
+    "mc_picked": "C",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "tax-002",
+    "dataset": "standard_questions",
+    "topic": "tax",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "What is the capital gains tax rate for someone in the 32% income tax bracket who sells stock held for 14 months?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2604992389678955
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.26985979080200195
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.28454482555389404
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.28997838497161865
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.29067909717559814
+      }
+    ],
+    "latency_sec": 0.73,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "tax-003",
+    "dataset": "standard_questions",
+    "topic": "tax",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What is the annual gift tax exclusion amount per recipient for 2024?",
+    "reference": "D",
+    "candidate": "D",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2612959146499634
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.27563154697418213
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.29470115900039673
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.29557186365127563
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.29925280809402466
+      }
+    ],
+    "latency_sec": 0.79,
+    "mc_correct": true,
+    "mc_picked": "D",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "tax-004",
+    "dataset": "standard_questions",
+    "topic": "tax",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "Are gifts of money taxable to the recipient?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2578790783882141
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.26593977212905884
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2780623435974121
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2781527638435364
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.27941274642944336
+      }
+    ],
+    "latency_sec": 1.67,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "tax-005",
+    "dataset": "standard_questions",
+    "topic": "tax",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "What is the standard deduction for a single filer in tax year 2024?",
+    "reference": "C",
+    "candidate": "C",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.17745232582092285
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.21834814548492432
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.22000497579574585
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.22431933879852295
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2260533571243286
+      }
+    ],
+    "latency_sec": 0.69,
+    "mc_correct": true,
+    "mc_picked": "C",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "tax-006",
+    "dataset": "standard_questions",
+    "topic": "tax",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "A freelancer earns $80,000 in net self-employment income. Approximately how much will they owe in self-employment tax (Social Security + Medicare)?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.29314756393432617
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.2943151593208313
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.29647332429885864
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.3029276132583618
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.3081396818161011
+      }
+    ],
+    "latency_sec": 0.77,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "tax-007",
+    "dataset": "standard_questions",
+    "topic": "tax",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Can you claim the Earned Income Tax Credit (EITC) if you have no qualifying children?",
+    "reference": "B",
+    "candidate": "B",
+    "retrieved": [
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.2677590847015381
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.27486109733581543
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.27578556537628174
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.2769651412963867
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.27754682302474976
+      }
+    ],
+    "latency_sec": 0.83,
+    "mc_correct": true,
+    "mc_picked": "B",
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  },
+  {
+    "id": "tax-008",
+    "dataset": "standard_questions",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "advanced",
+    "question": "If you work remotely from New York for a company based in California, which state(s) do you owe income tax to?",
+    "reference": "Generally, you owe state income tax to New York (your state of residence and where you physically perform the work). California generally does not tax remote employees who are not physically present in the state. However, New York has a 'convenience of the employer' rule that could create complications if the employer also has a New York presence.",
+    "candidate": "This is a multi-state taxation question that the provided passages don't directly address, so I'll draw on general knowledge. As a remote worker based in New York, you will almost certainly owe New York State (and potentially New York City) income tax on your wages, since New York taxes residents on all income regardless of where the employer is located. California also has a strong claim to tax your income under its **\"source income\"** rules if the work is considered performed for a California-based employer \u2014 though whether California can actually tax you depends on whether you have a tax nexus there. New York has a notable **\"convenience of the employer\"** rule, which taxes nonresidents (and affects residents) based on where work is performed, but since you *are* working physically in New York, your income is clearly New York-sourced. California generally taxes nonresidents only on income *sourced* to California, so if you are truly performing all your work remotely from New York, California's claim may be limited \u2014 but this is a nuanced area and California can be aggressive in asserting tax jurisdiction. You could potentially face double taxation without a tax credit offset, and both states' rules are complex enough that consulting a tax professional familiar with multi-state taxation is strongly recommended. The provided IRS passages do not cover state-specific residency or sourcing rules, so be sure to check guidance directly from the New York and California tax authorities.",
+    "retrieved": [
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.3389715552330017
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.34428632259368896
+      },
+      {
+        "title": "Pub 970: Tax Benefits for Education",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_970_education_tax_benefits",
+        "distance": 0.34998881816864014
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.3522607088088989
+      },
+      {
+        "title": "Pub 525: Taxable and Nontaxable Income",
+        "publisher": "IRS",
+        "source_slug": "irs_pub_525_taxable_nontaxable_income",
+        "distance": 0.3534931540489197
+      }
+    ],
+    "latency_sec": 9.26,
+    "embed_cosine": 0.9361361265182495,
+    "judge": {
+      "factuality": 3,
+      "completeness": 4,
+      "advice_quality": 4,
+      "rationale": "The candidate correctly identifies NY tax liability and mentions the convenience of employer rule, but overstates California's claim\u2014California generally does NOT tax remote workers physically working in NY, yet the answer hedges ambiguously suggesting California may have a strong claim, which could",
+      "mean": 3.6666666666666665
+    },
+    "n_citations": 0,
+    "citation_coverage": 0.0
+  }
+]
