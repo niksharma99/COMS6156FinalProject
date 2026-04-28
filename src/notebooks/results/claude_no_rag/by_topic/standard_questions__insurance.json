@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ins-001",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between an HMO and a PPO health insurance plan?",
+    "reference": "An HMO (Health Maintenance Organization) requires you to choose a primary care physician, get referrals for specialists, and generally limits coverage to in-network providers only. A PPO (Preferred Provider Organization) allows you to see any provider without referrals, including out-of-network providers, but typically has higher premiums and some out-of-network cost-sharing.",
+    "candidate": "An HMO (Health Maintenance Organization) requires you to choose a primary care physician (PCP) who acts as a gatekeeper, meaning you need a referral from that doctor before seeing a specialist. PPOs (Preferred Provider Organizations) give you the freedom to see any doctor or specialist without a referral, including out-of-network providers, though at a higher cost. HMOs generally have lower monthly premiums and out-of-pocket costs, making them more affordable if you're comfortable staying within a defined network. PPOs offer greater flexibility and are often preferable if you have ongoing relationships with specific specialists or live in a rural area where network options are limited. The tradeoff is straightforward: HMOs save you money but restrict your choices, while PPOs provide more freedom but come with higher premiums and more complex cost-sharing structures. If you rarely need medical care and want to minimize costs, an HMO is often the better choice, but if you manage a chronic condition requiring multiple specialists, a PPO's flexibility may be worth the extra expense.",
+    "latency_sec": 5.67,
+    "embed_cosine": 0.9452878832817078,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key distinctions, adds useful context about costs and use-cases, and provides actionable guidance for different health situations without any misinformation.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "ins-002",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "multiple_choice",
+    "difficulty": "advanced",
+    "question": "What is the maximum out-of-pocket limit for an individual marketplace health plan in 2025?",
+    "reference": "C",
+    "candidate": "D",
+    "latency_sec": 2.36,
+    "mc_correct": false,
+    "mc_picked": "D"
+  },
+  {
+    "id": "ins-003",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What does term life insurance cover that whole life insurance does not, and vice versa?",
+    "reference": "Term life insurance provides coverage for a specific period (e.g., 10, 20, or 30 years) and pays a death benefit only if the insured dies during that term. It has no cash value component and is significantly cheaper. Whole life insurance provides permanent coverage for the insured's entire life, includes a cash value component that grows over time, and has much higher premiums. Term does not build cash value; whole life does not expire.",
+    "candidate": "Term life insurance covers a specific period (typically 10, 20, or 30 years), paying a death benefit only if you die within that window \u2014 making it well-suited for temporary needs like income replacement during working years or covering a mortgage. Whole life insurance, by contrast, covers you for your entire lifetime, guaranteeing a death benefit payout as long as premiums are paid, which term insurance does not provide. Whole life also builds a **cash value** component over time that you can borrow against or surrender, something term policies entirely lack. The key tradeoff is cost: whole life premiums can be 5\u201315 times higher than term for the same death benefit, making it harder to afford adequate coverage. Term is often recommended for people who need maximum coverage at minimum cost during high-responsibility years, while whole life may suit those with permanent estate-planning needs or who want a forced savings vehicle. However, critics of whole life note that the cash value growth is typically modest compared to investing the premium difference in a diversified portfolio. Neither is universally superior \u2014 the right choice depends on your financial goals, time horizon, and budget.",
+    "latency_sec": 7.21,
+    "embed_cosine": 0.9465653896331787,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key points from the reference, adds useful context like use cases and cost comparison, and fairly presents tradeoffs without misinformation.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "ins-004",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Does auto insurance follow the car or the driver?",
+    "reference": "C",
+    "candidate": "C",
+    "latency_sec": 1.25,
+    "mc_correct": true,
+    "mc_picked": "C"
+  },
+  {
+    "id": "ins-005",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What is the elimination period in a disability insurance policy?",
+    "reference": "B",
+    "candidate": "B",
+    "latency_sec": 1.17,
+    "mc_correct": true,
+    "mc_picked": "B"
+  },
+  {
+    "id": "ins-006",
+    "dataset": "standard_questions",
+    "topic": "insurance",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "Is flood damage covered by a standard homeowner's insurance policy?",
+    "reference": "B",
+    "candidate": "B",
+    "latency_sec": 0.81,
+    "mc_correct": true,
+    "mc_picked": "B"
+  }
+]

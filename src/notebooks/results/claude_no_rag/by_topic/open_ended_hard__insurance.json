@@ -1,0 +1,135 @@
+[
+  {
+    "id": "ins-001",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "When choosing between a low-deductible/high-premium health plan and a high-deductible/low-premium plan, what variables should a person consider besides just the monthly premium?",
+    "reference": "They should consider the deductible, out-of-pocket maximum, expected medical usage, prescription costs, provider network, eligibility for an HSA, employer contributions, and their ability to absorb unexpected medical bills. A lower premium plan is not necessarily cheaper overall if healthcare usage is moderate to high. The choice depends on expected annual healthcare spending and risk tolerance for large upfront costs.",
+    "candidate": "When comparing these plans, you should first estimate your **expected annual healthcare usage** \u2014 frequent doctor visits, prescriptions, or a planned procedure make a low-deductible plan more cost-effective, while healthy individuals with minimal care needs often save money with a high-deductible plan (HDHP). Consider your **out-of-pocket maximum**, since an HDHP can expose you to thousands of dollars in costs before coverage kicks in fully, which can be financially devastating if you lack an emergency fund. If you qualify for an HDHP, you gain access to a **Health Savings Account (HSA)**, which offers a triple tax advantage \u2014 contributions are pre-tax, growth is tax-free, and withdrawals for medical expenses are tax-free \u2014 making it a powerful long-term savings tool, though it requires discipline to fund consistently. You should also weigh your **financial cushion**: an HDHP only works as a true money-saver if you can actually afford to pay the deductible when care is needed, otherwise you might delay necessary treatment or go into debt. Factor in **network coverage and plan-specific benefits**, since low-deductible plans are sometimes PPOs with broader networks while HDHPs may have more restrictions. Finally, consider **income stability and risk tolerance** \u2014 someone with unpredictable income may prefer the certainty of lower surprise bills even at a higher monthly cost, while a financially stable, healthy person may rationally accept more risk for lower premiums.",
+    "latency_sec": 9.04,
+    "embed_cosine": 0.8732483386993408,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Candidate covers all reference points (deductible, OOP max, HSA, expected usage, financial cushion, network, risk tolerance) with accurate details and actionable nuance.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "ins-002",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can choosing the cheapest possible insurance policy sometimes be financially dangerous even if it lowers monthly costs?",
+    "reference": "The cheapest policy may have high deductibles, low coverage limits, major exclusions, narrow provider networks, or large out-of-pocket exposure. That can leave the policyholder underinsured when a serious event occurs. Insurance should be evaluated not only by cost but also by the quality and adequacy of protection relative to plausible risks.",
+    "candidate": "Choosing the cheapest insurance policy often means accepting a high deductible, meaning you pay thousands of dollars out-of-pocket before coverage kicks in \u2014 a serious problem if a major event occurs before you've saved that buffer. Low-premium plans also frequently come with lower coverage limits, which can leave you personally liable for costs that exceed those caps, such as a serious car accident or a catastrophic medical procedure. In health insurance specifically, bare-bones plans may exclude key services like mental health care, specialist visits, or prescription drugs, forcing you to pay full price for things you assumed were covered. The tradeoff is essentially transferring financial risk from your monthly budget to your emergency savings \u2014 a reasonable choice only if your savings are robust enough to absorb a worst-case scenario. Many people underestimate how devastating a single uncovered event can be: a house fire, a liability lawsuit, or a prolonged hospital stay can produce bills that dwarf years of premium savings. The cheapest policy can also come from a less financially stable insurer, raising the risk that claims are delayed, disputed, or underpaid when you need them most. In short, low premiums reduce predictable costs but can dramatically increase your exposure to unpredictable, catastrophic ones.",
+    "latency_sec": 7.62,
+    "embed_cosine": 0.8678668737411499,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer thoroughly covers all reference points\u2014high deductibles, low coverage limits, exclusions, out-of-pocket exposure\u2014and adds valuable nuances like insurer financial stability and the risk-transfer framing, with no misinformation.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "ins-003",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "What is the practical difference between a deductible and an out-of-pocket maximum in health insurance?",
+    "reference": "The deductible is the amount a person usually must pay for covered services before the insurance plan begins paying according to its terms, though some services may be exempt. The out-of-pocket maximum is the maximum amount the person pays during the plan year for covered in-network services before the plan covers 100% of additional covered costs. The deductible is one threshold within the cost-sharing structure, while the out-of-pocket maximum is the cap on total covered in-network spending.",
+    "candidate": "A **deductible** is the amount you must pay entirely out of your own pocket before your insurance begins sharing costs \u2014 for example, if your deductible is $1,500, you pay the first $1,500 of covered medical expenses yourself. After meeting the deductible, insurance kicks in and you typically pay a **coinsurance** percentage (say, 20%) or a fixed **copay** per service, while insurance covers the rest. The **out-of-pocket maximum** is the hard ceiling on what you'll pay in a given year \u2014 once you hit it, insurance covers 100% of covered expenses for the remainder of the year. The deductible counts *toward* your out-of-pocket maximum, so they work together as a progression: deductible first, then shared costs, then full coverage. The key tradeoff is that plans with lower deductibles and out-of-pocket maximums tend to have higher monthly premiums, while high-deductible health plans (HDHPs) save you money on premiums but expose you to greater financial risk if you have a serious illness or injury. One practical nuance is that not all costs count toward both figures \u2014 some plans have separate deductibles for prescriptions or out-of-network care, so you should read your plan's Summary of Benefits carefully. For healthy people with low expected medical use, a high deductible may be cost-effective, but for those with chronic conditions, a lower out-of-pocket maximum often provides meaningful financial protection.",
+    "latency_sec": 8.89,
+    "embed_cosine": 0.8929070234298706,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately explains both concepts, their relationship, and adds valuable nuance about coinsurance, HDHPs, premium tradeoffs, and plan-specific variations without any misinformation.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "ins-004",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "If a healthy person rarely goes to the doctor, does that automatically mean a high-deductible health plan is the best choice?",
+    "reference": "Not automatically. A high-deductible plan may be attractive for someone with low expected healthcare usage, especially if premiums are much lower and the plan allows HSA contributions. But the person should still consider worst-case risk, prescription needs, provider networks, employer contributions, and whether they could comfortably handle the deductible if something unexpected happens.",
+    "candidate": "Not automatically\u2014while HDHPs often have lower premiums that can save money for light healthcare users, the calculus depends on several factors beyond just doctor visit frequency. A major tradeoff is that HDHPs expose you to significantly higher out-of-pocket costs if an unexpected illness, injury, or emergency occurs, and \"healthy\" people can face sudden expensive events like a broken bone, appendicitis, or a new diagnosis. On the positive side, HDHPs paired with an HSA (Health Savings Account) offer a triple tax advantage\u2014contributions, growth, and qualified withdrawals are all tax-free\u2014which can be a powerful wealth-building tool if you can afford to fund it. However, if your employer offers a low-deductible plan with strong subsidies, the premium savings from an HDHP might be smaller than they appear, making the math less compelling. You should compare the total worst-case out-of-pocket exposure of each plan, not just the premiums, since a serious health event could cost you thousands more under an HDHP. Your financial cushion also matters: if you don't have savings to cover the deductible comfortably, an HDHP could create real financial hardship even for a generally healthy person. In short, HDHPs are *often* a good fit for healthy individuals, but only when paired with adequate emergency savings and a realistic assessment of catastrophic risk.",
+    "latency_sec": 8.97,
+    "embed_cosine": 0.849204957485199,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer thoroughly covers all key reference points\u2014worst-case risk, HSA benefits, employer contributions, premium comparison, and financial cushion\u2014with accurate details and well-framed tradeoffs.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "ins-005",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why might a renter still need renters insurance even if the landlord has insurance on the building?",
+    "reference": "A landlord's insurance generally covers the building structure, not the tenant's personal belongings or the tenant's liability exposure. Renters insurance can help cover losses from events like theft, fire, or certain other covered perils, and it may also provide liability protection if someone is injured in the rented space. Without renters insurance, the tenant may need to replace possessions out of pocket.",
+    "candidate": "A landlord's insurance policy covers the building structure itself\u2014walls, roof, and fixtures\u2014but it does not cover a tenant's personal belongings, such as furniture, electronics, or clothing, if they are damaged or stolen. Renters insurance fills that gap by protecting your possessions against covered perils like fire, theft, or water damage. It also typically includes **liability coverage**, which protects you if a guest is injured in your unit and decides to sue you\u2014a cost the landlord's policy would not cover on your behalf. Additionally, renters insurance often provides **loss-of-use coverage**, paying for temporary housing if your unit becomes uninhabitable due to a covered event. The main tradeoff is the monthly premium cost, which is usually modest ($15\u2013$30/month) relative to the protection offered, though policies vary in deductibles and coverage limits, so cheaper plans may leave gaps. Some landlords actually require renters insurance as a lease condition, making it non-optional regardless of your personal risk tolerance. Ultimately, skipping renters insurance is a gamble that your belongings and liability exposure are low enough to absorb out of pocket\u2014a risk most renters underestimate.",
+    "latency_sec": 10.76,
+    "embed_cosine": 0.9218453168869019,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all reference points and adds valuable details like loss-of-use coverage, typical premium ranges, and lease requirements without any misinformation.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "ins-006",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can an insurance policy with a low premium but a low coverage limit be a poor match for high-severity risks?",
+    "reference": "If the potential loss is very large, a low coverage limit may leave the policyholder responsible for substantial costs above the insurer's payout. In that case, the low premium buys only partial protection against a catastrophic risk. For high-severity exposures, adequacy of coverage may matter more than minimizing the premium.",
+    "candidate": "A low coverage limit means the policy stops paying once losses exceed that cap, leaving you personally responsible for any amount above it\u2014and high-severity risks, by definition, can generate very large losses. For example, a liability policy with a $100,000 limit may seem affordable, but a single serious auto accident or lawsuit could easily produce $500,000 in damages, leaving you exposed to $400,000 out of pocket. The core purpose of insurance is to transfer catastrophic, hard-to-absorb losses away from you, so a policy that saves you money on premiums but fails at that transfer function defeats the primary reason to insure at all. The tradeoff here is real: a higher-premium policy with adequate limits costs more month-to-month but protects your assets, income, and financial stability in the scenarios that matter most. Conversely, the low-premium policy may work reasonably well for low-severity, high-frequency risks where losses are predictable and manageable out of pocket. The danger is conflating \"affordable premium\" with \"adequate protection\"\u2014they are entirely separate dimensions of a policy's value. For high-severity exposures like umbrella liability, major medical events, or large property losses, coverage depth is almost always the more critical variable to optimize.",
+    "latency_sec": 8.66,
+    "embed_cosine": 0.900836169719696,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately captures all key reference points, adds concrete numerical examples, correctly distinguishes severity vs. frequency, and frames the premium-vs-coverage tradeoff with actionable, nuanced advice.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "ins-007",
+    "dataset": "open_ended_hard",
+    "topic": "insurance",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A person says, 'I never file claims, so insurance is a waste of money.' What is incomplete about that reasoning?",
+    "reference": "Insurance is primarily designed to protect against low-frequency but potentially devastating losses, not to guarantee that every policyholder gets back more than they pay in premiums. The fact that someone does not file claims may reflect that the insured event did not occur, not that the coverage lacked value. Insurance is best viewed as protection against financial ruin or major disruption rather than a product meant to produce a regular payout.",
+    "candidate": "This reasoning confuses the *purpose* of insurance with its *outcome*. Insurance is designed to protect against low-probability but catastrophically high-cost events \u2014 a house fire, a serious car accident, a major medical diagnosis \u2014 not to be a service you use routinely. The fact that you haven't filed claims is actually evidence the system is working as intended, similar to how you wouldn't call a fire extinguisher a waste because your house never burned down. There's also a survivorship bias problem: people who *did* face a major loss without coverage often suffered financial ruin, but their stories are less visible than the \"I never needed it\" narrative. The real tradeoff is between paying manageable, predictable premiums versus accepting the risk of an unpredictable, potentially devastating loss that could wipe out savings or create lasting debt. That said, the reasoning isn't entirely without merit \u2014 over-insuring low-value items or carrying redundant coverage *can* genuinely waste money, so calibrating coverage to actual risk exposure is worthwhile. The key distinction is between insuring *recoverable* losses yourself versus transferring *unrecoverable* risks to an insurer.",
+    "latency_sec": 7.75,
+    "embed_cosine": 0.8836447596549988,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate fully covers the reference's core point about low-frequency catastrophic protection, adds valuable nuance (survivorship bias, fire extinguisher analogy, over-insurance caveat), and frames actionable guidance on calibrating coverage\u2014no misinformation present.",
+      "mean": 5.0
+    }
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "tax-001",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why is the statement 'If I move into a higher tax bracket, all my income gets taxed at that higher rate' incorrect?",
+    "reference": "Because the U.S. federal income tax system is marginal, not flat by bracket. Only the portion of income that falls within the higher bracket is taxed at that higher rate; lower portions are still taxed at the lower rates that apply to those brackets. Moving into a higher bracket does not retroactively increase the tax rate on all income.",
+    "candidate": "This statement reflects a common misconception about how **progressive tax systems** work. In reality, only the income *above* each bracket threshold is taxed at the higher rate \u2014 the income below that threshold continues to be taxed at the lower rates. For example, if the 22% bracket begins at $44,725 (for a single filer in 2023), only the dollars you earn *above* that amount are taxed at 22%; the income below it is still taxed at 10% and 12% respectively. This means your **effective (average) tax rate** is always lower than your **marginal tax rate**, which is the rate applied to your last dollar earned. The practical tradeoff worth understanding here is that while earning more money and crossing into a higher bracket does increase your tax burden *on the additional income*, it never makes you worse off overall \u2014 you always take home more after-tax income than before the raise. Confusion about this myth sometimes causes people to irrationally avoid raises, bonuses, or additional income, which is a financially costly mistake. Understanding the distinction between marginal and effective rates helps you make smarter decisions about retirement contributions, deductions, and income timing.",
+    "latency_sec": 6.72,
+    "embed_cosine": 0.8693253993988037,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate accurately explains marginal vs. effective tax rates with a concrete example, covers all reference points, and adds practical, actionable context about avoiding the costly mistake of turning down raises.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "tax-002",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "What is the difference between a tax deduction and a tax credit, and why is that distinction important?",
+    "reference": "A tax deduction reduces taxable income, while a tax credit directly reduces the amount of tax owed. Because a credit lowers tax liability dollar for dollar, it is often more valuable than a deduction of the same nominal amount. The distinction matters because two tax benefits with the same face value can produce very different actual savings.",
+    "candidate": "A **tax deduction** reduces your *taxable income*, while a **tax credit** directly reduces your *tax bill dollar-for-dollar*. For example, a $1,000 deduction saves you $220 if you're in the 22% bracket, but a $1,000 credit saves you the full $1,000 regardless of your bracket. This distinction matters enormously because credits are generally more valuable, especially for lower-income earners who are in smaller brackets and therefore get less benefit from deductions. However, deductions are still meaningful \u2014 large ones like mortgage interest or charitable contributions can move you into a lower bracket entirely, compounding their benefit. A key tradeoff with deductions is that you must often choose between itemizing them or taking the standard deduction, so individual deductions only help if your total itemized deductions exceed the standard amount ($14,600 for single filers in 2024). Credits also come in two flavors \u2014 **refundable** (you get the money back even if it exceeds your tax liability) and **non-refundable** (only reduces your bill to zero) \u2014 which further affects their real-world value. Understanding which type of tax break you're dealing with helps you make smarter decisions about contributions, spending, and filing strategy.",
+    "latency_sec": 6.78,
+    "embed_cosine": 0.9100983738899231,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer is accurate, covers all reference points and adds valuable nuance (refundable vs non-refundable credits, standard vs itemized deduction tradeoff, bracket-shifting effects) with a concrete numeric example.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "tax-003",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why does receiving a tax refund not necessarily mean someone 'came out ahead' financially?",
+    "reference": "A tax refund often means too much tax was withheld during the year, so the person is receiving their own money back rather than earning extra money. While a refund can feel positive, it may indicate the person provided the government with an interest-free loan. The true question is overall tax liability and cash flow management, not refund size alone.",
+    "candidate": "A tax refund simply means you overpaid your taxes throughout the year \u2014 the government is returning money that was always yours to begin with, not giving you a bonus. During the months that money sat with the IRS, you lost the opportunity to invest it, pay down high-interest debt, or keep it in a high-yield savings account earning interest. In effect, you gave the government an interest-free loan, which works in their favor, not yours. The tradeoff is that some people deliberately overwithhold because it enforces a forced savings discipline, and that psychological benefit can be genuinely valuable if you struggle to save otherwise. However, someone who adjusts their withholding accurately and invests the difference each paycheck will almost always end up with more money at year's end. The ideal outcome is actually a refund close to zero \u2014 meaning your withholding matched your liability and your money stayed working for you all year. So while a large refund feels rewarding, it's worth asking what that money could have earned had it stayed in your hands.",
+    "latency_sec": 6.91,
+    "embed_cosine": 0.8939433097839355,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all reference points\u2014overpayment, interest-free loan concept, opportunity cost\u2014while adding nuanced discussion of forced savings psychology and actionable guidance on optimizing withholding.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "tax-004",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can a larger paycheck after reducing tax withholding be misleading if someone does not adjust their expectations for tax season?",
+    "reference": "Reducing withholding increases take-home pay during the year, but it does not reduce the actual tax owed unless underlying tax liability changes. If the person spends the extra cash without planning, they may end up with a smaller refund or even a tax bill when they file. Higher current paychecks and final tax liability are related but not the same thing.",
+    "candidate": "Reducing your tax withholding means you're essentially borrowing money from your future self, because the taxes you owe don't disappear \u2014 they're simply deferred until you file your return. If you spend that extra take-home pay as though it were truly yours to keep, you may face a surprise tax bill in April that strains your budget or forces you into debt. There's also a potential penalty: the IRS can charge an underpayment penalty if you withhold too little throughout the year, typically when you owe more than $1,000 at filing. The tradeoff is real \u2014 having more money in hand month-to-month offers liquidity and the opportunity to invest or pay down debt, but only if you're disciplined enough to set aside the portion that still belongs to the IRS. Many people mentally \"spend\" a larger paycheck in full without reserving for the tax liability, which is the core danger. In contrast, over-withholding acts like a forced savings plan, giving you a refund but sacrificing the use of that money during the year. The ideal approach is to withhold accurately and deliberately invest or save the difference yourself, but this requires both financial discipline and a clear understanding of your actual tax liability.",
+    "latency_sec": 7.78,
+    "embed_cosine": 0.8797345757484436,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate accurately covers the core concept, adds correct detail about underpayment penalties, explains the tradeoff clearly, and gives actionable guidance without any misinformation.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "tax-005",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A worker earns additional side income and assumes it will be taxed exactly the same way as wages withheld through payroll. What nuance are they missing?",
+    "reference": "Side income may still be part of overall taxable income, but it often does not have taxes automatically withheld the same way wages do. Depending on the type of income, the person may need to plan for taxes separately and may also face additional considerations such as self-employment tax. The key nuance is that how income is earned affects how taxes are paid and reported, even if it contributes to total taxable income.",
+    "candidate": "The worker is missing several important distinctions. First, side income (self-employment income) is subject to **self-employment tax** \u2014 currently 15.3% on net earnings up to the Social Security wage base \u2014 which covers both the employer and employee portions of Social Security and Medicare; wage earners only pay the employee half (7.65%) because their employer covers the rest. Second, no taxes are automatically withheld from side income, so the worker may owe **quarterly estimated payments** to the IRS (and often to their state), and failing to make these can trigger underpayment penalties even if they settle up at year-end. On the more favorable side, self-employed individuals can deduct the **employer-equivalent half of the SE tax** from their gross income, and they may be able to deduct legitimate business expenses, potentially lowering their taxable net profit below their gross side earnings. There is also the **QBI (Qualified Business Income) deduction** under current law, which may allow a deduction of up to 20% of qualified self-employment income, a benefit wage earners don't receive. The tradeoff is that tracking expenses and making estimated payments adds administrative burden, but ignoring these nuances can lead to an unpleasant surprise at tax time \u2014 both a larger-than-expected tax bill and possible penalties.",
+    "latency_sec": 8.18,
+    "embed_cosine": 0.8499231934547424,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key nuances\u2014SE tax, lack of withholding, estimated payments, deductions, and QBI\u2014going well beyond the reference while remaining factually sound and highly actionable.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "tax-006",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can selling an investment for a gain trigger a tax consequence even if the money is immediately reinvested into another investment?",
+    "reference": "Selling an investment for a gain can create a taxable event because the gain is realized at the time of sale. Reinvesting the proceeds into another investment does not erase the fact that the original asset was sold at a profit. The tax consequence depends on account type, holding period, and applicable rules, but immediate reinvestment alone does not generally avoid realizing the gain.",
+    "candidate": "When you sell an investment at a profit, the IRS treats that sale as a **realization event**, meaning the gain is considered \"realized\" and becomes taxable income in that tax year, regardless of what you do with the proceeds afterward. The tax code does not recognize your intent to reinvest \u2014 only the act of selling matters. Depending on how long you held the asset, the gain is taxed as either **ordinary income** (short-term, held under one year) or at the lower **long-term capital gains rate** (held over one year, typically 0%, 15%, or 20% for most taxpayers). This creates a meaningful tradeoff: selling a poorly performing or overly concentrated position to rebalance your portfolio may improve your risk profile, but it also triggers a tax bill that reduces the capital you have available to reinvest. One notable exception is the **1031 exchange**, which allows real estate investors to defer capital gains by rolling proceeds into a \"like-kind\" property under strict rules. Another tradeoff worth noting is that holding an appreciated asset indefinitely to avoid taxes (sometimes called a \"lock-in effect\") can lead to poor diversification or suboptimal allocation just to avoid a tax bill. Strategic tools like **tax-loss harvesting** \u2014 selling losing positions to offset gains \u2014 can help manage this burden without abandoning a reinvestment strategy.",
+    "latency_sec": 8.01,
+    "embed_cosine": 0.9044979810714722,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate accurately explains realization events, short/long-term rates, and adds well-framed nuance on 1031 exchanges, lock-in effect, and tax-loss harvesting without any misinformation.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "tax-007",
+    "dataset": "open_ended_hard",
+    "topic": "tax",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why is the phrase 'tax write-off' often used too loosely in everyday conversation?",
+    "reference": "People often use 'tax write-off' to mean any expense that lowers taxes, but not every expense is deductible, and even deductible expenses do not usually make something free. A deduction lowers taxable income rather than reimbursing the full cost. Using the phrase too loosely can create the mistaken impression that spending money automatically produces equivalent tax savings.",
+    "candidate": "The phrase \"tax write-off\" is commonly misused because people treat it as if deducting an expense means the expense is essentially **free**, when in reality a deduction only reduces your *taxable income*, not your tax bill dollar-for-dollar. For example, if you're in a 22% tax bracket and write off a $1,000 expense, you save $220 in taxes \u2014 but you still spent $780 out of pocket. Many people conflate a deduction with a tax *credit*, which actually reduces your tax bill dollar-for-dollar and is genuinely more valuable. There's also a common misunderstanding that any business-related purchase automatically qualifies, when the IRS requires expenses to be \"ordinary and necessary\" for your specific trade \u2014 meaning tradeoffs exist between aggressively claiming deductions and the risk of an audit. Self-employed individuals benefit most from write-offs since they can deduct a broader range of expenses, while W-2 employees lost most of their miscellaneous itemized deductions after the 2017 Tax Cuts and Jobs Act. The casual use of the phrase can lead people to make poor spending decisions, justifying unnecessary purchases under the false belief that the government is essentially subsidizing the full cost.",
+    "latency_sec": 6.55,
+    "embed_cosine": 0.949959397315979,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately explains the deduction vs. credit distinction, gives a concrete numerical example, covers the TCJA impact, and correctly warns against poor spending decisions driven by misunderstanding write-offs.",
+      "mean": 5.0
+    }
+  }
+]

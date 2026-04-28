@@ -1,0 +1,104 @@
+[
+  {
+    "id": "bud-001",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the 50/30/20 budgeting rule?",
+    "reference": "The 50/30/20 rule suggests allocating your after-tax income as follows: 50% to needs (housing, groceries, utilities, insurance, minimum debt payments), 30% to wants (dining out, entertainment, hobbies, subscriptions), and 20% to savings and extra debt repayment (emergency fund, retirement contributions, paying down debt beyond minimums).",
+    "candidate": "The 50/30/20 rule is a budgeting framework popularized by Senator Elizabeth Warren in her book *All Your Worth*, which suggests dividing your **after-tax income** into three categories: **50% for needs**, **30% for wants**, and **20% for savings and debt repayment**. Needs include essentials like rent, groceries, utilities, and minimum debt payments, while wants cover discretionary spending like dining out, entertainment, and subscriptions. The 20% savings category should ideally prioritize an emergency fund, retirement contributions, and paying down high-interest debt beyond minimums. The rule's biggest strength is its simplicity \u2014 it's easy to remember and requires minimal tracking compared to detailed line-item budgets. However, a significant tradeoff is that it can be unrealistic for people in high cost-of-living areas, where housing alone may consume 50% or more of income, leaving little room for other needs. It also may be too lenient for those with aggressive savings goals or too restrictive for those carrying heavy debt, who might benefit from redirecting the \"wants\" percentage toward repayment. Think of it as a useful starting framework rather than a rigid rule \u2014 adjusting the percentages to fit your personal circumstances will often yield better results.",
+    "latency_sec": 7.47,
+    "embed_cosine": 0.9019554257392883,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Candidate answer is accurate, covers all reference points, adds useful authorship context, and thoughtfully discusses tradeoffs and limitations without misconceptions.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "bud-002",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "multiple_choice",
+    "difficulty": "basic",
+    "question": "How many months of expenses should an emergency fund cover?",
+    "reference": "B",
+    "candidate": "B",
+    "latency_sec": 1.25,
+    "mc_correct": true,
+    "mc_picked": "B"
+  },
+  {
+    "id": "bud-003",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "basic",
+    "question": "What is the difference between a need and a want in the context of budgeting?",
+    "reference": "A need is an essential expense required for basic living and obligations: housing, utilities, groceries, transportation to work, insurance, and minimum debt payments. A want is a non-essential expense that improves quality of life but isn't required for survival or fulfilling obligations: dining out, streaming services, vacations, upgrades beyond basic needs. The distinction can be subjective at the margins (e.g., is a gym membership a need or want?).",
+    "candidate": "In budgeting, a **need** is something essential for basic survival and functioning \u2014 such as housing, food, utilities, transportation to work, and basic clothing \u2014 while a **want** is something that improves comfort or enjoyment but isn't strictly necessary, like streaming subscriptions, dining out, or brand-name goods. The tricky part is that the boundary between the two is often blurry and highly personal; for example, a car might be a need for someone in a rural area but a want for someone with robust public transit access. Many budgeting frameworks, like the popular 50/30/20 rule, suggest allocating roughly 50% of after-tax income to needs, 30% to wants, and 20% to savings, though these proportions involve real tradeoffs depending on your income level and cost of living. Classifying something as a \"need\" too loosely is one of the most common ways people inadvertently overspend, since it removes the psychological pressure to evaluate whether a purchase is truly justified. On the other hand, being too strict about wants can lead to an unsustainable budget that feels punishing, making it harder to stick to long-term. The honest exercise of distinguishing needs from wants forces you to align your spending with your actual priorities, which is ultimately the core purpose of budgeting.",
+    "latency_sec": 7.38,
+    "embed_cosine": 0.8847712874412537,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Candidate fully covers the reference points, adds useful nuance (50/30/20 rule, rural vs urban car example, psychological tradeoffs), and is accurate throughout.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "bud-004",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "Should you prioritize paying off high-interest debt or building an emergency fund first?",
+    "reference": "Most financial advisors recommend a balanced approach: first build a small starter emergency fund ($1,000-$2,000) to avoid going further into debt for unexpected expenses, then aggressively pay down high-interest debt (especially credit cards above 15-20% APR), then build the full 3-6 month emergency fund. The mathematical answer favors debt payoff (guaranteed 'return' equal to the interest rate), but having zero emergency savings creates risk of more debt.",
+    "candidate": "This is one of personal finance's most genuine tradeoffs, and the honest answer is: **do both simultaneously, but in the right proportion**. A common approach is to build a small starter emergency fund of $1,000\u2013$2,000 first, then aggressively attack high-interest debt (typically anything above 6\u20137%, especially credit cards at 20%+), then build a fuller 3\u20136 month emergency fund afterward. The mathematical case favors paying off high-interest debt first, since a 22% APR card costs far more than most emergency fund savings accounts will earn. However, the risk of *not* having an emergency fund is that any unexpected expense\u2014a car repair, medical bill\u2014forces you right back into debt, potentially undoing your progress. Many financial advisors recommend splitting contributions (e.g., 70% toward debt, 30% toward savings) during this phase as a behavioral hedge against that cycle. Your specific situation matters too: job stability, whether you have family who could help in a crisis, and whether your debt is variable-rate (which could rise) all influence the right balance. There's no universally perfect answer, but avoiding the extremes\u2014either ignoring debt entirely or having zero cash cushion\u2014is the most important principle.",
+    "latency_sec": 7.87,
+    "embed_cosine": 0.9249709248542786,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Candidate answer aligns well with reference on all key points (starter fund, aggressive debt payoff, full fund later) and adds valuable nuance on situational factors without introducing misinformation.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "bud-005",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "open_ended",
+    "difficulty": "intermediate",
+    "question": "What is the debt avalanche method vs. the debt snowball method?",
+    "reference": "The debt avalanche method prioritizes paying off debts with the highest interest rate first (while making minimum payments on others), minimizing total interest paid. The debt snowball method prioritizes paying off the smallest balance first to build psychological momentum through quick wins. Mathematically, the avalanche method saves more money, but research suggests the snowball method can be more effective behaviorally because the early wins increase motivation to continue.",
+    "candidate": "Both methods are systematic approaches to paying off multiple debts, but they differ in prioritization. The **debt avalanche** method has you make minimum payments on all debts and direct any extra money toward the debt with the **highest interest rate** first; once that's paid off, you roll that payment to the next highest-rate debt. The **debt snowball** method, popularized by Dave Ramsey, instead targets the **smallest balance** first, regardless of interest rate, rolling each freed-up payment toward the next smallest debt. The avalanche method is mathematically superior \u2014 you'll pay less interest overall and typically get out of debt faster \u2014 but it can feel slow if your highest-rate debt also has a large balance, which may hurt motivation. The snowball method produces quicker \"wins\" by eliminating individual debts sooner, which research suggests helps some people stay on track behaviorally, even though it costs more in interest over time. The best choice depends on your personality: if you're disciplined and motivated by numbers, choose avalanche; if you need emotional momentum to stay committed, snowball may keep you in the game longer. Either method beats making only minimum payments or paying debts randomly.",
+    "latency_sec": 6.88,
+    "embed_cosine": 0.9510679841041565,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "Candidate answer is accurate, thorough, and adds useful practical nuance (Dave Ramsey attribution, personality-based guidance, comparison to minimum payments) without any misinformation.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "bud-006",
+    "dataset": "standard_questions",
+    "topic": "budgeting",
+    "type": "multiple_choice",
+    "difficulty": "intermediate",
+    "question": "What percentage of your gross income is generally recommended as a maximum for housing costs (rent or mortgage)?",
+    "reference": "B",
+    "candidate": "B",
+    "latency_sec": 1.05,
+    "mc_correct": true,
+    "mc_picked": "B"
+  }
+]

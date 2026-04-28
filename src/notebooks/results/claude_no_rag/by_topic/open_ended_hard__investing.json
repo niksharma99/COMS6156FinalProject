@@ -1,0 +1,135 @@
+[
+  {
+    "id": "inv-001",
+    "dataset": "open_ended_hard",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why is it misleading to compare the return of an index fund to the return of a savings account without discussing risk and time horizon?",
+    "reference": "An index fund and a savings account serve different purposes. Savings accounts are designed for capital preservation and short-term liquidity, while index funds are designed for long-term growth and can lose value in the short run. Comparing returns alone ignores volatility, principal risk, and whether the money may be needed soon. The appropriate choice depends on the goal, time horizon, and risk tolerance.",
+    "candidate": "Comparing index fund returns to savings account returns without context is misleading because the two instruments carry fundamentally different risk profiles \u2014 an index fund can lose 30-50% of its value in a market downturn, while an FDIC-insured savings account principal is guaranteed up to $250,000. The higher historical average return of index funds (roughly 7-10% annually for broad U.S. equity indexes after inflation) is compensation for accepting that volatility and uncertainty, not a free lunch. Time horizon is critical because a person who needs money in 1-3 years could be forced to sell index fund shares at a significant loss, whereas a savings account delivers its modest yield reliably regardless of when you withdraw. Sequence-of-returns risk means that even a long-term investor who retires during a market crash can be severely harmed, while the savings account holder faces no such timing penalty. Liquidity needs also matter: savings accounts offer immediate, penalty-free access, while selling index funds during a downturn to cover an emergency locks in real losses. Inflation erodes the purchasing power of savings account yields \u2014 especially when rates are low \u2014 but that doesn't make index funds the right choice for every goal, since stomach for volatility and financial stability are prerequisites. A fair comparison must weigh what you're giving up on each side: certainty and liquidity versus long-run growth potential and short-term unpredictability.",
+    "latency_sec": 9.4,
+    "embed_cosine": 0.8930080533027649,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key points from the reference\u2014risk profiles, time horizon, liquidity, and goal-dependence\u2014while adding well-explained nuances like sequence-of-returns risk and inflation erosion without introducing any misinformation.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "inv-002",
+    "dataset": "open_ended_hard",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "An investor says, 'This stock is down 40%, so it is definitely a bargain now.' What is wrong with that reasoning?",
+    "reference": "A lower price alone does not make a stock undervalued. The drop may reflect real deterioration in the company's earnings, business outlook, balance sheet, or industry conditions. A stock can fall 40% and still be overvalued, or it can continue falling further. Proper evaluation requires fundamentals, valuation, and risk analysis rather than assuming a price decline guarantees a bargain.",
+    "candidate": "This reasoning commits what's often called the **\"anchoring bias\"** \u2014 the investor is anchoring to a previous price as if it were the stock's true or fair value, but a past price is not the same as intrinsic value. A stock down 40% may still be overpriced if it was significantly overvalued to begin with, or if the underlying business has fundamentally deteriorated. The price decline itself could be *signaling* serious problems \u2014 falling earnings, rising debt, loss of competitive advantage, or even fraud \u2014 rather than a temporary mispricing. There is also the risk of a **\"value trap,\"** where a stock looks cheap by price history but continues declining for years because the business model is broken. The tradeoff is real: sometimes stocks do fall due to irrational panic and *are* genuine bargains, so dismissing every price drop is also wrong. The key discipline is to evaluate the stock's **current intrinsic value** \u2014 based on cash flows, earnings power, and competitive position \u2014 and compare that to the current price, completely independent of what it used to trade for. In short, price history alone tells you nothing about whether a stock is cheap; only valuation relative to fundamentals can answer that question.",
+    "latency_sec": 7.58,
+    "embed_cosine": 0.8740729093551636,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer correctly identifies anchoring bias, value traps, and the need for fundamental valuation, covering all reference points with added nuance and no misinformation.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "inv-003",
+    "dataset": "open_ended_hard",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can trying to 'wait for the perfect time to invest' be counterproductive for a long-term investor?",
+    "reference": "Trying to identify the perfect market entry point is difficult and often leads investors to stay uninvested for too long, missing time in the market and potential compounding. For a long-term investor, consistently investing over time can reduce the pressure of market timing and help build discipline. Waiting for certainty can become a costly form of inaction.",
+    "candidate": "Waiting for the \"perfect\" entry point often means sitting in cash, which typically earns far less than long-term market returns \u2014 historically, the S&P 500 has averaged roughly 7-10% annually after inflation, so every month on the sidelines has a real opportunity cost. Research, including a well-known Schwab study, consistently shows that even investors who bought at market peaks significantly outperformed those who never invested at all, highlighting that *time in* the market generally beats *timing* the market. The tradeoff is real: yes, investing just before a crash feels painful, but markets have historically recovered and gone on to new highs, rewarding patient holders. There's also a psychological trap called \"analysis paralysis,\" where waiting for more certainty only produces more uncertainty, since new risks (geopolitical events, economic data, elections) perpetually emerge. Dollar-cost averaging \u2014 investing fixed amounts at regular intervals regardless of price \u2014 is one practical middle ground that removes the pressure of perfect timing while still building exposure systematically. The honest tradeoff is that this strategy means sometimes buying at temporary highs, but it also means you never miss a significant rally while waiting on the sidelines. For most long-term investors, the cost of waiting almost always exceeds the cost of imperfect timing.",
+    "latency_sec": 8.32,
+    "embed_cosine": 0.8703799843788147,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers opportunity cost, time-in-market vs. timing, analysis paralysis, and offers DCA as a practical solution, fully matching and expanding on the reference with no misinformation.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "inv-004",
+    "dataset": "open_ended_hard",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can diversification reduce risk without guaranteeing that an investor will avoid losses?",
+    "reference": "Diversification reduces exposure to any one company, asset, or sector, which can lower unsystematic risk. But diversified portfolios are still exposed to broad market risk, economic downturns, interest rate changes, and other systemic factors. Diversification helps manage risk; it does not eliminate it.",
+    "candidate": "Diversification reduces risk by spreading investments across assets that don't move in perfect lockstep, so a loss in one holding can be partially offset by stability or gains in another. This works because unsystematic risk\u2014the kind tied to a specific company or sector\u2014can be largely eliminated by holding enough uncorrelated assets. However, systematic risk, such as a broad market downturn, recession, or financial crisis, affects nearly all asset classes simultaneously, meaning diversification offers little protection when correlations spike toward 1.0 during market panics\u2014precisely when you need protection most. There's also a tradeoff: wider diversification tends to cap your upside, since strong performers are diluted by average or weaker ones, so you're trading the chance of outsized gains for smoother, more moderate returns. Additionally, diversifying across asset classes like bonds, real estate, or commodities introduces its own complexities\u2014currency risk, liquidity risk, or higher fees\u2014that can erode returns in ways that aren't immediately obvious. In short, diversification is a tool for managing the *distribution* of possible outcomes, not a shield against loss itself.",
+    "latency_sec": 7.16,
+    "embed_cosine": 0.9136919975280762,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers unsystematic vs. systematic risk, explains correlation dynamics during crises, and adds nuanced tradeoffs around upside dilution and cross-asset complexities, all consistent with and exceeding the reference.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "inv-005",
+    "dataset": "open_ended_hard",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "A person plans to use money for a house down payment in 18 months. Why might a broad stock index fund be a poor place to keep all of it?",
+    "reference": "An 18-month horizon is relatively short for equities because stock markets can be volatile over that period. If the market declines just before the down payment is needed, the person may have to delay the purchase or sell at a loss. Money needed in the short term is usually better held in lower-volatility, more liquid vehicles appropriate for capital preservation.",
+    "candidate": "A broad stock index fund carries significant short-term volatility risk, meaning the market could drop 20\u201340% or more right when you need the money, as happened in early 2020 or during 2008\u20132009. Unlike a long-term investor who can wait out a downturn, someone with an 18-month horizon has no recovery runway if the market falls sharply near their purchase date. This creates **sequence-of-withdrawals risk**: even if the market eventually recovers, you may be forced to sell at a loss to meet your closing deadline. The tradeoff is real\u2014stocks *could* gain 15\u201320% over 18 months, meaningfully boosting your down payment, but that upside doesn't justify gambling with funds tied to a specific, near-term obligation. Better alternatives for this timeframe include high-yield savings accounts, money market funds, or short-term Treasury bills or CDs, which offer modest but predictable returns with capital preservation. You'd be giving up potential growth, but you'd also be avoiding the scenario where a market correction forces you to either delay buying or put less money down, potentially triggering PMI or a worse loan rate.",
+    "latency_sec": 9.29,
+    "embed_cosine": 0.871907651424408,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate accurately explains volatility risk, loss-of-recovery-runway, and forced selling, while correctly naming suitable alternatives and articulating the real tradeoff between growth potential and capital preservation.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "inv-006",
+    "dataset": "open_ended_hard",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "Why can chasing the best-performing fund from the past year be a weak investment strategy?",
+    "reference": "Past short-term outperformance does not guarantee future outperformance, and recent winners may have benefited from conditions that do not persist. Chasing performance can cause investors to buy after prices have already run up and sell after underperformance, which harms long-term returns. A sound strategy should focus on goals, diversification, costs, and appropriate asset allocation rather than recent rankings alone.",
+    "candidate": "Chasing last year's top-performing fund is often a weak strategy because strong returns in one period frequently reflect temporary market conditions, sector tailwinds, or concentrated bets rather than repeatable skill. This phenomenon is well-documented: studies by S&P Dow Jones Indices (the SPIVA reports) consistently show that most top-quartile funds fail to maintain that ranking over the following one-to-five year periods. By the time you invest, the conditions that drove those gains \u2014 say, a surge in energy stocks or a tech rally \u2014 may already be fading or fully priced in, leaving you exposed at the peak. There is also a timing cost: you may sell a diversified, steady fund to buy the hot one, potentially triggering capital gains taxes and transaction costs in the process. The tradeoff is real, however \u2014 occasionally a fund's outperformance does reflect genuine manager skill or a structural advantage, so dismissing past performance entirely isn't wise either. A more balanced approach is to evaluate consistency of returns across multiple market cycles, risk-adjusted metrics like the Sharpe ratio, and expense ratios, rather than relying on a single year's headline number.",
+    "latency_sec": 7.53,
+    "embed_cosine": 0.8687487840652466,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately cites SPIVA research, explains the mechanism of mean reversion, covers buy-high timing risk, mentions tax costs, and appropriately nuances that some outperformance can reflect skill, while redirecting toward multi-cycle consistency, risk-adjusted metrics, and costs.",
+      "mean": 5.0
+    }
+  },
+  {
+    "id": "inv-007",
+    "dataset": "open_ended_hard",
+    "topic": "investing",
+    "type": "open_ended",
+    "difficulty": "hard",
+    "question": "What is the main tradeoff between holding individual stocks and holding a low-cost broad-market index fund?",
+    "reference": "Holding individual stocks offers the possibility of outperforming the market but comes with greater company-specific risk, more research demands, and a higher chance of underperforming. A low-cost broad-market index fund provides diversification, simplicity, and market-level returns with lower fees and less unsystematic risk. The tradeoff is concentrated upside potential versus diversified, lower-maintenance exposure.",
+    "candidate": "The main tradeoff is between **potential outperformance and diversification versus simplicity and risk reduction**. Individual stocks offer the possibility of beating the market if you pick well, but they expose you to **concentration risk** \u2014 a single company can collapse (think Enron or Lehman Brothers), wiping out a large portion of your investment. A low-cost broad-market index fund, like one tracking the S&P 500 or total market, spreads risk across hundreds or thousands of companies, so no single failure is catastrophic. However, index funds guarantee you'll never *beat* the market \u2014 you'll always match it minus a small expense ratio, whereas a skilled (or lucky) stock picker could theoretically do better. Research consistently shows that the **vast majority of active stock pickers, including professionals, underperform broad index funds over long time horizons** after accounting for fees and taxes. Individual stocks also require significant time, research, and emotional discipline to manage well, while index funds are largely \"set it and forget it.\" For most everyday investors, the lower cost, simplicity, and built-in diversification of index funds make them the more reliable long-term choice.",
+    "latency_sec": 7.28,
+    "embed_cosine": 0.9062420129776001,
+    "judge": {
+      "factuality": 5,
+      "completeness": 5,
+      "advice_quality": 5,
+      "rationale": "The candidate answer accurately covers all key tradeoffs\u2014concentration risk, diversification, cost, research burden, and empirical underperformance of active picking\u2014with concrete examples and sound framing for everyday investors.",
+      "mean": 5.0
+    }
+  }
+]
