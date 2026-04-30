@@ -13,6 +13,7 @@ FinVerify is a hybrid RAG + LLM-as-judge framework for evaluating personal-finan
 | [`src/knowledge_base/`](src/knowledge_base/) | Ingest script + Chroma vector store builder for the authoritative source corpus | [`src/knowledge_base/README.md`](src/knowledge_base/README.md) |
 | [`src/eval/`](src/eval/) | Shared eval helpers (stratified sampler, MC grader, cosine, Claude judge) | [`src/eval/README.md`](src/eval/README.md) |
 | [`src/demo/`](src/demo/) | Vite + React demo site that visualizes architecture, dataset, comparison, and live metrics from the latest eval run | [`src/demo/README.md`](src/demo/README.md) |
+| [`milestones/`](milestones/) | Submitted milestone PDFs: project proposal, progress report, and final report | [`milestones/README.md`](milestones/README.md) |
 | [`src/README.md`](src/README.md) | Source-tree map + cross-references | — |
 
 Each subfolder has its own README explaining what's inside, how to set it up, and how to run it. **Start with [`src/notebooks/README.md`](src/notebooks/README.md) to replicate the evaluation.** Additional links and writeup material will be added here later.
